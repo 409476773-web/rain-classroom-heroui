@@ -1,0 +1,6 @@
+
+> heroui@3.2.6 local:catalog:check /Users/wenchengkai/CodexFile/hero ui-改造
+> node scripts/rain/inventory.mjs --check && node scripts/rain/catalog.mjs --check
+
+Inventory artifacts match current source. Runtime and visual acceptance are not checked.
+组件目录核对通过：87 个源码模块。

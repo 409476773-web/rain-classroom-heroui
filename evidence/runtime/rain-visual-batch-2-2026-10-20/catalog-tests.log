@@ -1,0 +1,19 @@
+✔ keeps every source module while avoiding invalid root import advice for helpers (12.801041ms)
+✔ keeps support modules distinct from the component names they re-export (0.1415ms)
+✔ marks English fallback honestly and strips the explicit English route prefix (0.279208ms)
+✔ uses an actual composition story for a shared part without inventing a story ID (0.145ms)
+✔ only links examples from the chosen document and preserves their actual source paths (0.485584ms)
+✔ only offers examples that use the related module before limiting the selection (0.267959ms)
+✔ prefers the explicit local Menu review without changing the built inventory (0.44025ms)
+✔ links the in-progress year picker to the local calendar composition (0.109542ms)
+✔ rejects a local preview with missing file evidence (0.229417ms)
+✔ rejects a local preview with missing export evidence (0.120708ms)
+✔ rejects a local preview with missing reference evidence (0.068208ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 91.12125

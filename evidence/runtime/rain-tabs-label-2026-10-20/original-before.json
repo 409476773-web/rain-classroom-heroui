@@ -1,0 +1,141 @@
+{
+  "tabs": [
+    {
+      "name": "课堂练习作答与逐题批改记录",
+      "styles": {
+        "borderRadius": "24px",
+        "boxShadow": "none",
+        "color": "oklch(0.2103 0.0059 285.89)",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "height": "32px",
+        "lineHeight": "20px",
+        "paddingBottom": "0px",
+        "paddingLeft": "16px",
+        "paddingRight": "16px",
+        "paddingTop": "0px",
+        "width": "274px"
+      }
+    },
+    {
+      "name": "按知识点汇总的学习情况与反馈",
+      "styles": {
+        "borderRadius": "24px",
+        "boxShadow": "none",
+        "color": "oklch(0.5517 0.0138 285.94)",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "height": "32px",
+        "lineHeight": "20px",
+        "paddingBottom": "0px",
+        "paddingLeft": "16px",
+        "paddingRight": "16px",
+        "paddingTop": "0px",
+        "width": "274px"
+      }
+    },
+    {
+      "name": "已归档练习与历史成绩（禁用）",
+      "styles": {
+        "borderRadius": "24px",
+        "boxShadow": "none",
+        "color": "oklch(0.5517 0.0138 285.94)",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "height": "32px",
+        "lineHeight": "20px",
+        "paddingBottom": "0px",
+        "paddingLeft": "16px",
+        "paddingRight": "16px",
+        "paddingTop": "0px",
+        "width": "274px"
+      }
+    },
+    {
+      "name": "需要优先关注的疑难问题整理",
+      "styles": {
+        "borderRadius": "24px",
+        "boxShadow": "none",
+        "color": "oklch(0.5517 0.0138 285.94)",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "height": "32px",
+        "lineHeight": "20px",
+        "paddingBottom": "0px",
+        "paddingLeft": "16px",
+        "paddingRight": "16px",
+        "paddingTop": "0px",
+        "width": "274px"
+      }
+    },
+    {
+      "name": "课堂练习作答与逐题批改记录",
+      "styles": {
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "color": "lab(8.34178 0.607349 -2.12998)",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "height": "32px",
+        "lineHeight": "20px",
+        "paddingBottom": "0px",
+        "paddingLeft": "16px",
+        "paddingRight": "16px",
+        "paddingTop": "0px",
+        "width": "221px"
+      }
+    },
+    {
+      "name": "按知识点汇总的学习情况与反馈",
+      "styles": {
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "color": "oklch(0.5517 0.0138 285.94)",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "height": "32px",
+        "lineHeight": "20px",
+        "paddingBottom": "0px",
+        "paddingLeft": "16px",
+        "paddingRight": "16px",
+        "paddingTop": "0px",
+        "width": "221px"
+      }
+    },
+    {
+      "name": "已归档练习与历史成绩（禁用）",
+      "styles": {
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "color": "oklch(0.5517 0.0138 285.94)",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "height": "32px",
+        "lineHeight": "20px",
+        "paddingBottom": "0px",
+        "paddingLeft": "16px",
+        "paddingRight": "16px",
+        "paddingTop": "0px",
+        "width": "221px"
+      }
+    },
+    {
+      "name": "需要优先关注的疑难问题整理",
+      "styles": {
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "color": "oklch(0.5517 0.0138 285.94)",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "height": "32px",
+        "lineHeight": "20px",
+        "paddingBottom": "0px",
+        "paddingLeft": "16px",
+        "paddingRight": "16px",
+        "paddingTop": "0px",
+        "width": "221px"
+      }
+    }
+  ],
+  "theme": null
+}

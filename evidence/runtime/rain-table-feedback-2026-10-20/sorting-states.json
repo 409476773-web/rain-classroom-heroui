@@ -1,0 +1,44 @@
+{
+  "rest": {
+    "bodyOrder": [
+      "#7890123",
+      "#9876543",
+      "#1234567",
+      "#4567890"
+    ],
+    "color": "rgb(116, 133, 168)",
+    "focusVisible": null,
+    "focusWithin": false,
+    "hovered": null,
+    "shadow": "none",
+    "sort": "none"
+  },
+  "hover": {
+    "bodyOrder": [
+      "#1234567",
+      "#3456789",
+      "#4567890",
+      "#4586932"
+    ],
+    "color": "rgb(20, 35, 60)",
+    "focusVisible": null,
+    "focusWithin": true,
+    "hovered": "true",
+    "shadow": "none",
+    "sort": "ascending"
+  },
+  "keyboard": {
+    "bodyOrder": [
+      "#1234567",
+      "#3456789",
+      "#4567890",
+      "#4586932"
+    ],
+    "color": "rgb(20, 35, 60)",
+    "focusVisible": null,
+    "focusWithin": false,
+    "hovered": "true",
+    "shadow": "none",
+    "sort": "ascending"
+  }
+}

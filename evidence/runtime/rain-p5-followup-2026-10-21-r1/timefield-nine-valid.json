@@ -1,0 +1,159 @@
+{
+  "active": {
+    "class": "date-input-group__segment",
+    "label": "分钟, ",
+    "role": "spinbutton",
+    "tag": "SPAN"
+  },
+  "nodes": [
+    {
+      "checked": false,
+      "class": "date-input-group date-input-group--primary",
+      "disabled": false,
+      "expanded": null,
+      "focus": "true",
+      "invalid": null,
+      "name": null,
+      "role": "group",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgb(255, 255, 255)",
+        "border": "rgba(20, 35, 60, 0.78)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "6px",
+        "width": "256px"
+      },
+      "tag": "DIV",
+      "text": "⁦9:00⁩",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "date-input-group__input",
+      "disabled": false,
+      "expanded": null,
+      "focus": "true",
+      "invalid": null,
+      "name": null,
+      "role": "group",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "40px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "256px"
+      },
+      "tag": "DIV",
+      "text": "⁦9:00⁩",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "date-input-group__segment",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "小时, ",
+      "role": "spinbutton",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "24px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "6px",
+        "width": "13.6016px"
+      },
+      "tag": "SPAN",
+      "text": "9",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "date-input-group__segment",
+      "disabled": false,
+      "expanded": null,
+      "focus": "true",
+      "invalid": null,
+      "name": "分钟, ",
+      "role": "spinbutton",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgb(234, 242, 255)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(15, 85, 223)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "24px",
+        "opacity": "1",
+        "outline": "rgb(0, 95, 204) none 1px",
+        "radius": "6px",
+        "width": "23.2031px"
+      },
+      "tag": "SPAN",
+      "text": "00",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "auto",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "auto"
+      },
+      "tag": "INPUT",
+      "text": "",
+      "value": "09:00:00"
+    }
+  ],
+  "rain": "light",
+  "text": "9时\nTime\n⁦\n9\n:\n00\n⁩\nEnter a time between 9:00 AM and 5:00 PM",
+  "theme": "light",
+  "url": "http://127.0.0.1:6006/iframe.html?id=components-date-and-time-timefield--with-validation&viewMode=story&globals=heroui-theme%3Arain-light"
+}

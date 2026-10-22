@@ -1,0 +1,18 @@
+Use the local Rain Classroom HeroUI library: HeroUI 3.2.6, pinned commit e385ac202b2cdb94b1bf6fa76d32c31c8259cc5e.
+Project root: /Users/wenchengkai/CodexFile/hero ui-改造/
+Read AGENTS.md, docs/rain/ai/index.md and docs/rain/ai/usage-rules.md first.
+Component: Card
+Public import: import {Card} from "@heroui/react";
+Entry: packages/react/src/components/card/index.ts
+Implementation: packages/react/src/components/card/card.tsx
+Styles: packages/styles/components/card.css
+Compound parts: Card.Root, Card.Header, Card.Title, Card.Description, Card.Content, Card.Footer
+Docs: apps/docs/content/docs/en/react/components/(layout)/card.mdx
+Example: apps/docs/src/demos/en/card/default.tsx
+Example: apps/docs/src/demos/en/card/horizontal.tsx
+Example: apps/docs/src/demos/en/card/variants.tsx
+Story: packages/react/src/components/card/card.stories.tsx → components-layout-card--default
+Single theme entry: packages/rain-theme/index.css. Do not hardcode brand colors, fonts or radii in pages.
+Prefer business compositions and preserve primitive keyboard, focus, error and disabled behavior.
+The classroom grading page is reviewed; preserve its approved behavior. Do not start new heavy tests for this task.
+Confirm the API from these sources before addressing my following business request.

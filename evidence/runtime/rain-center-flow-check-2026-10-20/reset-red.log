@@ -1,0 +1,32 @@
+
+ RUN  v4.1.11 /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs
+
+ ❯ tests/rain-center.test.ts (3 tests | 1 failed) 185ms
+     × clears the previous copy feedback when filters are reset 46ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/rain-center.test.ts > Rain center copy flow > clears the previous copy feedback when filters are reset
+AssertionError: expected 'Card · 已复制，可粘贴到 AI 对话中。' to be '' // Object.is equality
+
+- Expected
++ Received
+
++ Card · 已复制，可粘贴到 AI 对话中。
+
+ ❯ tests/rain-center.test.ts:94:69
+     92|
+     93|     expect(input.value).toBe("");
+     94|     expect(container.querySelector('[role="status"]')?.textContent).to…
+       |                                                                     ^
+     95|     expect(button("复制 AI 上下文")).toBeDefined();
+     96|   });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 2 passed (3)
+   Start at  00:54:53
+   Duration  2.14s (transform 809ms, setup 0ms, import 1.35s, tests 185ms, environment 518ms)
+

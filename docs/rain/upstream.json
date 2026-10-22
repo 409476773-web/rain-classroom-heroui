@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "repository": "https://github.com/heroui-inc/heroui.git",
+  "release": "v3.2.6",
+  "tagObject": "c81df57bcad0ba4ee910cff65676be18c4159a44",
+  "commit": "e385ac202b2cdb94b1bf6fa76d32c31c8259cc5e",
+  "tree": "f29f154cb42fb516263c7b48b5b68e40f31b2140",
+  "sourceFileCount": 3259,
+  "lockfile": {
+    "path": "pnpm-lock.yaml",
+    "sha256": "04358543202bc0165af725fb3752a5b21249667e677a89c0235b1ffc433983d5",
+    "verifiedSha256": "04358543202bc0165af725fb3752a5b21249667e677a89c0235b1ffc433983d5"
+  },
+  "fetchedAt": "2026-10-19T08:47:31.782305+00:00",
+  "history": "Complete fixed-release source tree; upstream Git ancestry is not included in this public snapshot.",
+  "localBranch": "codex/heroui-localization",
+  "scope": "HeroUI React open-source release, including docs, demos, stories, tests and workspace tooling; Pro and Native implementations are separate products.",
+  "licenseObservation": {
+    "rootLicense": "Apache-2.0",
+    "packageMetadata": "MIT",
+    "action": "Original license files and metadata retained; no relicensing inferred."
+  },
+  "status": {
+    "source": "present",
+    "dependencyInstallation": "passed_frozen_lockfile",
+    "libraryBuild": "passed",
+    "docsBuild": "passed",
+    "storybookBuild": "passed",
+    "runtimeVerification": "baseline_passed_with_documented_upstream_exceptions",
+    "rainTheme": "not_started"
+  },
+  "verifiedAt": "2026-10-19T09:14:42.908475+00:00",
+  "environment": {
+    "node": "24.13.0",
+    "pnpm": "10.26.2",
+    "upstreamNvmrc": "22.14.0"
+  },
+  "acceptance": "docs/rain/acceptance.md",
+  "localSourceSnapshot": {
+    "commit": "2a93092d82ba13a6cd2a6c4d4deef084959ba9c6",
+    "tree": "956c4dc6bc9579ec1faa105a1318ea8aa5fbe6e0",
+    "officialTree": "f29f154cb42fb516263c7b48b5b68e40f31b2140",
+    "date": "2026-10-22",
+    "purpose": "Complete official release source snapshot; original workflow files relocated byte-for-byte as documentation references; upstream ancestry is not included.",
+    "workflowRelocations": [
+      {
+        "original": ".github/workflows/QA.yaml",
+        "reference": "docs/upstream-workflows/QA.yaml",
+        "mode": "100644",
+        "blob": "56c5f306bc04fa065a86ede3b6acc2652d03185e"
+      },
+      {
+        "original": ".github/workflows/release.yml",
+        "reference": "docs/upstream-workflows/release.yml",
+        "mode": "100644",
+        "blob": "cdbabe549fa46bac3a7ea562cbd159d854c77644"
+      },
+      {
+        "original": ".github/workflows/trigger-mcp-extraction.yml",
+        "reference": "docs/upstream-workflows/trigger-mcp-extraction.yml",
+        "mode": "100644",
+        "blob": "f469a6a7957272f3650a619044925630cbf76f81"
+      }
+    ]
+  }
+}

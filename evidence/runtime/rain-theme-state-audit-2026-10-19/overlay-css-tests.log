@@ -1,0 +1,12 @@
+✔ overlay containers and four drawer placements change only allowed brand roles (1316.293375ms)
+✔ overlay triggers and close button retain default, hover, keyboard focus, pressed and disabled state behavior (12163.64975ms)
+✔ overlay arrows, status content and backdrop variants inherit the intended colors (617.113917ms)
+✔ overlay entering and exiting states preserve motion and pointer-event rules (1187.218ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 15597.74675

@@ -1,0 +1,58 @@
+{
+  "inputs": [
+    {
+      "placeholder": "you@example.com",
+      "value": ""
+    },
+    {
+      "placeholder": "Enter username",
+      "value": "<redacted>"
+    },
+    {
+      "placeholder": "John Doe",
+      "value": ""
+    },
+    {
+      "placeholder": "john@example.com",
+      "value": ""
+    },
+    {
+      "placeholder": "john@example.com",
+      "value": ""
+    },
+    {
+      "placeholder": "Enter your password",
+      "value": ""
+    },
+    {
+      "placeholder": "Enter your name",
+      "value": ""
+    },
+    {
+      "placeholder": "Enter your name",
+      "value": ""
+    },
+    {
+      "placeholder": null,
+      "value": "basic"
+    },
+    {
+      "placeholder": null,
+      "value": "premium"
+    },
+    {
+      "placeholder": null,
+      "value": "business"
+    },
+    {
+      "placeholder": "Enter your email",
+      "value": ""
+    }
+  ],
+  "missing": [],
+  "previews": 9,
+  "text": "Overview\n\nAll Releases\n\nReleases\n\nv3.2.6\nv3.2.5\nv3.2.4\nv3.2.3\nv3.2.2\nv3.2.1\nv3.2.0\nv3.1.0\nv3.0.5\nv3.0.4\nv3.0.3\nv3.0.2\nIntroducing HeroUI v3\nv3.0.0-rc.1\nv3.0.0-beta.8\nv3.0.0-beta.7\nv3.0.0-beta.6\nv3.0.0-beta.5\nv3.0.0-beta.4\nv3.0.0-beta.3\nv3.0.0-beta.2\nv3.0.0-beta.1\nv3.0.0-alpha.35\nv3.0.0-alpha.34\nv3.0.0-alpha.33\nv3.0.0-alpha.32\nHeroUI\nv3.2.6\nSearch\n⌘\nK\nTheme\n27.7k\nGetting Started\nRain Classroom\nComponents\nBusiness examples\nReleases\nMigration\nWeb\nNative\nv3.0.0-alpha.34\nCopy Markdown\n\nEssentials for building forms with a clean API Form, TextField, RadioGroup, Label, Input, Fieldset and more.\n\nOctober 15, 2025\n\nThis release introduces Form-based components, form field tokens, reorganizes Storybook, and aligns data-slot markers across components.\n\nInstallation\n\nUpdate to the latest version:\n\nnpm\npnpm\nyarn\nbun\nnpm i @heroui/styles@alpha @heroui/react@alpha\n\nUsing AI assistants? Simply prompt \"Hey Cursor, update HeroUI to the latest version\" and your AI assistant will automatically compare versions and apply the necessary changes. Learn more about the HeroUI MCP Server.\n\nWhat's New\nForm-based Components\n\nWe've introduced a comprehensive set of form-based components built on React Aria Components, providing accessible and composable building blocks for creating forms. These components include Description, FieldError, Fieldset, Form, Input, Label, RadioGroup, TextField, and TextArea.\n\nDescription\nEmail\nWe'll never share your email with anyone else.\nimport {Description, Input, Label} from \"@heroui/react\";\nexport function Basic() {\n  return (\n    <div className=\"flex flex-col gap-1\">\nExpand code\nFieldError\nUsername\nUsername must be at least 3 characters\n\"use client\";\nimport {FieldError, Input, Label, TextField} from \"@heroui/react\";\nimport {useState} from \"react\";\nExpand code\nFieldset\nProfile Settings\nUpdate your profile information.\nName\nEmail\nBio\nMinimum 10 characters\nSave changes\nCancel\n\"use client\";\nimport {FloppyDisk} from \"@gravity-ui/icons\";\nimport {\n  Button,\nExpand code\nForm\nEmail\nPassword\nMust be at least 8 characters with 1 uppercase and 1 number\nSubmit\nReset\n\"use client\";\nimport {Check} from \"@gravity-ui/icons\";\nimport {Button, Description, FieldError, Form, Input, Label, TextField} from \"@heroui/react\";\nExpand code\nInput\nimport {Input} from \"@heroui/react\";\nexport function Basic() {\n  return <Input aria-label=\"Name\" className=\"w-64\" placeholder=\"Enter your name\" />;\n}\nExpand code\nLabel\nName\nimport {Input, Label} from \"@heroui/react\";\nexport function Basic() {\n  return (\n    <div className=\"flex flex-col gap-1\">\n      <Label htmlFor=\"name\">Name</Label>\n      <Input className=\"w-64\" id=\"name\" placeholder=\"Enter your name\" type=\"text\" />\n    </div>\n  );\n}\nExpand code\nRadioGroup\nPlan selection\nChoose the plan that suits you best\nBasic Plan\nIncludes 100 messages per month\nPremium Plan\nIncludes 200 messages per month\nBusiness Plan\nUnlimited messages\nimport {Description, Label, Radio, RadioGroup} from \"@heroui/react\";\nexport function Basic() {\n  return (\n    <RadioGroup defaultValue=\"premium\" name=\"plan\">\nExpand code\nTextField\nEmail\nimport {Input, Label, TextField} from \"@heroui/react\";\nexport function Basic() {\n  return (\n    <TextField className=\"w-full max-w-64\" name=\"email\" type=\"email\">\n      <Label>Email</Label>\n      <Input placeholder=\"Enter your email\" />\n    </TextField>\n  );\n}\nExpand code\nTextArea\nimport {TextArea} from \"@heroui/react\";\nexport function Basic() {\n  return (\n    <TextArea\nExpand code\nForm Field Tokens\n\nIntroduced form field tokens --field-* for consistent styling across form components. See Theming for the --field-* variables.\n\nStorybook Organization\n\nReorganized Storybook by category for better navigation and component discovery.\n\nSkeleton Animation Token\n\n🚧 Breaking Changes: Renamed --skeleton-default-animation-type to --skeleton-animation in Skeleton for consistency with other component tokens.\n\nData-Slot Alignment\n\nAligned data-slot markers across components for consistent styling and customization. This standardization makes it easier to target specific component parts with CSS selectors and improves the overall developer experience when customizing component styles.\n\nComponents now use consistent data-slot attributes like:\n\ndata-slot=\"base\" for the root element\ndata-slot=\"label\" for label text\ndata-slot=\"description\" for description text\ndata-slot=\"error\" for error messages\n\nThis allows for predictable CSS targeting across all form components:\n\n.radio {\n  [data-slot=\"label\"] {\n    /* Styles apply to radio labels */\n  }\n}\nDocumentation Improvements\nComponent Documentation\nLink: Added Anatomy, and examples with Icon. Updated Link and Link.Icon props section.\nDescription, FieldError, Fieldset, Form, Input, Label, RadioGroup, TextField, and TextArea: New documentation with usage examples\nMigration Guide\nSkeleton Component Migration\nUpdate animation token:\nReplace --skeleton-default-animation-type with --skeleton-animation\nLinks\nGitHub PR #5780\nDescription Component\nFieldError Component\nFieldset Component\nForm Component\nInput Component\nLabel Component\nRadioGroup Component\nTextField Component\nTextArea Component\nSkeleton Component\nContributors\n\nThanks to everyone who contributed to this release!\n\nv3.0.0-alpha.35\n\nReact Server Components support for compound components, React 19 improvements, and critical bug fixes.\n\nv3.0.0-alpha.33\n\nRAC upgrade, Tabs indicator redesign, Switch size variant, Related showcase\n\nOn this page\nInstallation\nWhat's New\nForm-based Components\nDescription\nFieldError\nFieldset\nForm\nInput\nLabel\nRadioGroup\nTextField\nTextArea\nForm Field Tokens\nStorybook Organization\nSkeleton Animation Token\nData-Slot Alignment\nDocumentation Improvements\nComponent Documentation\nMigration Guide\nSkeleton Component Migration\nLinks\nContributors\nHero Newsletter\nSubscribe",
+  "title": "v3.0.0-alpha.34 | HeroUI",
+  "typography": [],
+  "url": "http://127.0.0.1:3100/en/docs/react/releases/v3-0-0-alpha-34"
+}

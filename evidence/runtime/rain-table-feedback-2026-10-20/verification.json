@@ -1,0 +1,12 @@
+{
+  "focusedBrowserChecks": "passed",
+  "originalLightSnapshot": "unchanged",
+  "extractedGeometry": "unchanged",
+  "coreSources": "unchanged",
+  "themeSourceSha256": "895b8c76986934c510d6a36afcb90302f478d88c173196c8f11cbc2a0a754d4f",
+  "heavyTests": false,
+  "productionBuild": false,
+  "fullStorySweep": false,
+  "repacked": false,
+  "userVisualApproval": false
+}

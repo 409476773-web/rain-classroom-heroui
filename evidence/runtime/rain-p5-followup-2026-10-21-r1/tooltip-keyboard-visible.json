@@ -1,0 +1,32 @@
+[
+  {
+    "activeDescendant": null,
+    "bg": "rgb(255, 255, 255)",
+    "class": "tooltip",
+    "color": "rgb(20, 35, 60)",
+    "disabled": null,
+    "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+    "id": "react-aria9649072292-_r_0_",
+    "opacity": "0.774255",
+    "role": "tooltip",
+    "selected": null,
+    "tag": "DIV",
+    "text": "Tooltip content",
+    "visible": true
+  },
+  {
+    "activeDescendant": null,
+    "bg": "rgba(0, 0, 0, 0)",
+    "class": "",
+    "color": "rgb(20, 35, 60)",
+    "disabled": null,
+    "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+    "id": "",
+    "opacity": "1",
+    "role": null,
+    "selected": null,
+    "tag": "P",
+    "text": "Tooltip content",
+    "visible": true
+  }
+]

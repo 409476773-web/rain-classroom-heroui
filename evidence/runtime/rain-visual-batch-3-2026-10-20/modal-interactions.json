@@ -1,0 +1,17 @@
+{
+  "modalScroll": {
+    "clientHeight": 504,
+    "footerVisible": true,
+    "scrollHeight": 1095,
+    "scrollTop": 590.5
+  },
+  "modalFocusLoop": {
+    "class": "close-button close-button--default modal__close-trigger",
+    "disabled": false,
+    "label": "关闭批改核对对话框"
+  },
+  "modalClosed": {
+    "active": "打开批改核对对话框",
+    "dialogs": 0
+  }
+}

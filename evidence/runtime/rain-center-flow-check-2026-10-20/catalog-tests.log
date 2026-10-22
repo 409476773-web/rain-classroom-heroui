@@ -1,0 +1,14 @@
+✔ keeps every source module while avoiding invalid root import advice for helpers (9.207042ms)
+✔ keeps support modules distinct from the component names they re-export (0.17975ms)
+✔ marks English fallback honestly and strips the explicit English route prefix (0.396375ms)
+✔ uses an actual composition story for a shared part without inventing a story ID (0.196542ms)
+✔ only links examples from the chosen document and preserves their actual source paths (0.510625ms)
+✔ only offers examples that use the related module before limiting the selection (0.2865ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 68.003625

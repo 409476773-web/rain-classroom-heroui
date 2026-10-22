@@ -49,7 +49,7 @@ function useProDiscount() {
   useEffect(() => {
     let cancelled = false;
 
-    if (!PRO_API_URL) return;
+    if (env.NEXT_PUBLIC_LOCAL_PREVIEW || !PRO_API_URL) return;
 
     fetch(`${PRO_API_URL}/api/prices`)
       .then((res) => res.json())

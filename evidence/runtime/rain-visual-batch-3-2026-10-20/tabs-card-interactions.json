@@ -1,0 +1,28 @@
+{
+  "tabsWide": {
+    "active": "需要优先关注的疑难问题整理",
+    "selected": [
+      "需要优先关注的疑难问题整理"
+    ]
+  },
+  "tabsNarrow": {
+    "active": "需要优先关注的疑难问题整理",
+    "disabled": [
+      "已归档练习与历史成绩（禁用）"
+    ],
+    "scrollLeft": 564,
+    "scrollWidth": 884,
+    "selected": "需要优先关注的疑难问题整理",
+    "width": 320
+  },
+  "cardCheck": {
+    "background": "rgb(250, 252, 255)",
+    "bodyText": "建议先说明观察到的现象，再提出可以验证的解释。记录同一时段的到达人数、出餐数量与平均等待时间， 并在方案试行前后保留一致的对照条件。这里的正文不会被省略，按钮只更新当前页的动作次数。",
+    "clientWidth": 320,
+    "disabledButton": "禁用的内部按钮",
+    "radius": "16px",
+    "scrollWidth": 320,
+    "titleHeight": 48,
+    "width": 320
+  }
+}

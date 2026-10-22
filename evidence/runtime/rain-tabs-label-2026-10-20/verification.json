@@ -1,0 +1,20 @@
+{
+  "originalSampleStyles": "unchanged",
+  "browserLabels": "single-line with full native title on actual overflow",
+  "disabledSelection": "preserved",
+  "docsTheme": "rain light",
+  "localCorePatch": [
+    "packages/react/src/components/tabs/tabs.tsx",
+    "packages/styles/src/components/tabs/tabs.styles.ts"
+  ],
+  "tests": {
+    "files": 2,
+    "passed": 10,
+    "newCases": 3
+  },
+  "heavyTests": false,
+  "fullStorySweep": false,
+  "productionBuild": false,
+  "repacked": false,
+  "userVisualApproval": false
+}

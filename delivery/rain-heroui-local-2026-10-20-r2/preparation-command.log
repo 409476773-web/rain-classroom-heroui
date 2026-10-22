@@ -1,0 +1,10 @@
+Starting frozen local patch rain-tabs-title-table-2026-10-20; staging /private/var/folders/2h/mp7rp10x1plgfqrm94_0dcdm0000gn/T/rain-tabs-patch-cZtRZG
+Compiling react / baseline: one Tabs entry and its reachable modules
+Compiling react / patched: one Tabs entry and its reachable modules
+Calibrated React Tabs only: React default binding alias and RAC Tabs named-import order
+Calibrated React Tabs only: React default binding alias and RAC Tabs named-import order
+@heroui/react: baseline calibrated; only expected package files replaced
+Compiling styles / baseline: one Tabs entry and its reachable modules
+Compiling styles / patched: one Tabs entry and its reachable modules
+@heroui/styles: baseline calibrated; only expected package files replaced
+Local patch archives ready: /Users/wenchengkai/CodexFile/hero ui-改造/delivery/rain-heroui-local-2026-10-20-r2

@@ -1,0 +1,20 @@
+
+> heroui@3.2.6 typecheck:react /Users/wenchengkai/CodexFile/hero ui-改造
+> turbo typecheck --filter=@heroui/react
+
+• turbo 2.10.13
+
+   • Packages in scope: @heroui/react
+   • Running typecheck in 1 package
+   • Remote caching disabled
+
+@heroui/react:typecheck: cache miss, executing d8e03e074fd186c7
+@heroui/react:typecheck: 
+@heroui/react:typecheck: > @heroui/react@3.2.6 typecheck /Users/wenchengkai/CodexFile/hero ui-改造/packages/react
+@heroui/react:typecheck: > tsc --noEmit
+@heroui/react:typecheck: 
+
+ Tasks:    1 successful, 1 total
+Cached:    0 cached, 1 total
+  Time:    15.15s 
+

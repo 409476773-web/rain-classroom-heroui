@@ -1,0 +1,19 @@
+{
+  "name": "chromium-install",
+  "command": [
+    "pnpm",
+    "--filter",
+    "@heroui/testing",
+    "exec",
+    "playwright",
+    "install",
+    "chromium"
+  ],
+  "shellDisplay": "pnpm --filter @heroui/testing exec playwright install chromium",
+  "cwd": "/Users/wenchengkai/CodexFile/hero ui-改造",
+  "startedAt": "2026-10-19T08:54:42.211368+00:00",
+  "log": "/Users/wenchengkai/CodexFile/hero ui-改造/evidence/runtime/heroui-baseline-2026-10-19/tests/chromium-install.log",
+  "exitCode": 1,
+  "finishedAt": "2026-10-19T08:55:14.390290+00:00",
+  "durationSeconds": 32.18
+}

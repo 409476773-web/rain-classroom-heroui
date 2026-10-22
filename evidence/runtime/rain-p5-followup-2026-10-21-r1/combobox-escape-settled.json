@@ -1,0 +1,159 @@
+{
+  "active": {
+    "class": "input input--primary",
+    "label": null,
+    "role": "combobox",
+    "tag": "INPUT"
+  },
+  "nodes": [
+    {
+      "checked": false,
+      "class": "label",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "20px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "45.0391px"
+      },
+      "tag": "LABEL",
+      "text": "Animal",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "combo-box__input-group",
+      "disabled": false,
+      "expanded": null,
+      "focus": "true",
+      "invalid": null,
+      "name": null,
+      "role": "group",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "40px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "256px"
+      },
+      "tag": "DIV",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "input input--primary",
+      "disabled": false,
+      "expanded": "false",
+      "focus": "true",
+      "invalid": null,
+      "name": null,
+      "role": "combobox",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgb(255, 255, 255)",
+        "border": "oklab(0.256788 -0.00885402 -0.0509422 / 0.22)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "40px",
+        "opacity": "1",
+        "outline": "rgb(0, 95, 204) none 1px",
+        "radius": "6px",
+        "width": "256px"
+      },
+      "tag": "INPUT",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "combo-box__trigger",
+      "disabled": false,
+      "expanded": "false",
+      "focus": null,
+      "invalid": null,
+      "name": "显示建议",
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(160, 172, 197)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "40px",
+        "opacity": "1",
+        "outline": "rgb(160, 172, 197) none 3px",
+        "radius": "0px",
+        "width": "24px"
+      },
+      "tag": "BUTTON",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "presentation",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(160, 172, 197)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "16px",
+        "opacity": "1",
+        "outline": "rgb(160, 172, 197) none 3px",
+        "radius": "0px",
+        "width": "16px"
+      },
+      "tag": "svg",
+      "text": "",
+      "value": ""
+    }
+  ],
+  "rain": "light",
+  "text": "Dog\n有 6 个选项可用。\nAnimal",
+  "theme": "light",
+  "url": "http://127.0.0.1:6006/iframe.html?id=components-pickers-combobox--with-disabled-options&viewMode=story&globals=heroui-theme%3Arain-light"
+}

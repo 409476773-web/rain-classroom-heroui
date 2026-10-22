@@ -1,0 +1,112 @@
+[local:preview] 使用已有 apps/docs/.env.local，未覆盖。
+[local:preview] 模式：local preview（强制开启），APP_ENV=development。
+[local:preview] Docs 启动地址：http://127.0.0.1:3100/docs/react
+[local:preview] 中文文档：http://127.0.0.1:3100/cn/docs/react
+[local:preview] Storybook 启动地址：http://127.0.0.1:6006/
+[local:preview] 等待下方服务就绪提示；按 Ctrl+C 同时退出。
+
+> @heroui/docs@0.0.0 predev /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs
+> node scripts/build-skills.mjs && node scripts/build-theme-presets.mjs
+
+Building skill tarballs...
+Source: /Users/wenchengkai/CodexFile/hero ui-改造/skills
+Output: /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/public/skills
+
+✓ Built heroui-react.tar.gz (11.1KB)
+✓ Built heroui-native.tar.gz (10.5KB)
+✓ Built heroui-migration.tar.gz (7.6KB)
+
+✓ All skill tarballs built successfully
+✓ Generated 10 theme presets → /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/styles/theme-presets.css
+
+> @heroui/docs@0.0.0 dev /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs
+> next dev --hostname 127.0.0.1 --port 3100
+
+
+┌  storybook v10.6.0
+▲ Next.js 16.3.5 (Turbopack)
+- Local:         http://127.0.0.1:3100
+- Network:       http://127.0.0.1:3100
+- Environments: .env.local
+✓ Ready in 365ms
+✓ Running next.config.ts took 58ms
+[MDX] generated files in 19.13129200000003ms
+[MDX] started dev server
+Warning: total number of custom routes exceeds 1000, this can reduce performance. Route counts:
+headers: 17
+rewrites: 2
+redirects: 1107
+See more info: https://nextjs.org/docs/messages/max-custom-routes-reached
+│
+●  Starting...
+- Experiments (use with caution):
+  · optimizePackageImports
+
+│  Vite Re-optimizing dependencies because lockfile has changed
+│ [38;2;255;71;133m╭[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m╮[39m
+│ [38;2;255;71;133m│[39m   Storybook ready!                                 [38;2;255;71;133m│[39m
+│ [38;2;255;71;133m│[39m                                                    [38;2;255;71;133m│[39m
+│ [38;2;255;71;133m│[39m   - Local:                http://localhost:6006/   [38;2;255;71;133m│[39m
+│ [38;2;255;71;133m│[39m   - On your network:      http://127.0.0.1:6006/   [38;2;255;71;133m│[39m
+│ [38;2;255;71;133m│[39m                                                    [38;2;255;71;133m│[39m
+│ [38;2;255;71;133m╰[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m╯[39m
+│
+●  828 ms for manager and 268 ms for preview
+⨯ ./apps/docs/src/app/global.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app/global.css:1:1: Can't resolve '@rain-classroom/heroui-theme' in '/Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app'
+    [at Input.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (/Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/@tailwindcss+postcss@4.3.3/node_modules/@tailwindcss/postcss/dist/index.js:10:7013)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/apps/docs/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./apps/docs/src/app/global.css [Client Component Browser]
+    ./apps/docs/src/app/[lang]/layout.tsx [Server Component]
+
+
+ GET /cn/docs/react/components/card 500 in 2.2s (next.js: 1997ms, proxy.ts: 133ms, application-code: 54ms)
+⨯ ./apps/docs/src/app/global.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app/global.css:1:1: Can't resolve '@rain-classroom/heroui-theme' in '/Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app'
+    [at Input.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (/Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/@tailwindcss+postcss@4.3.3/node_modules/@tailwindcss/postcss/dist/index.js:10:7013)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/apps/docs/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./apps/docs/src/app/global.css [Client Component Browser]
+    ./apps/docs/src/app/[lang]/layout.tsx [Server Component]
+
+
+ GET /cn/docs/react/components/card 500 in 26ms (next.js: 18ms, proxy.ts: 3ms, application-code: 6ms)
+⨯ ./apps/docs/src/app/global.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app/global.css:1:1: Can't resolve '@rain-classroom/heroui-theme' in '/Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app'
+    [at Input.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (/Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/@tailwindcss+postcss@4.3.3/node_modules/@tailwindcss/postcss/dist/index.js:10:7013)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/apps/docs/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./apps/docs/src/app/global.css [Client Component Browser]
+    ./apps/docs/src/app/[lang]/layout.tsx [Server Component]
+
+
+ GET /cn/docs/react/components/card 500 in 43ms (next.js: 30ms, proxy.ts: 9ms, application-code: 5ms)
+
+[local:preview] 正在关闭本次启动的预览服务…
+[MDX] closing dev server
+[?25h

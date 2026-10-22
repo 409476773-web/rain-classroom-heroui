@@ -1,0 +1,12 @@
+{
+  "activeClass": "select__trigger",
+  "popovers": 0,
+  "trigger": [
+    {
+      "containsActive": true,
+      "expanded": "false",
+      "focusVisible": "true",
+      "text": "第二组"
+    }
+  ]
+}

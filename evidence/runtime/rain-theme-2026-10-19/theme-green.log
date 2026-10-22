@@ -1,0 +1,11 @@
+✔ import is inert in original light and dark; removing the brand restores exact computed styles (1781.966708ms)
+✔ Rain changes brand roles, font identity and container/field radii without changing geometry or motion (666.764167ms)
+✔ body-level overlay inherits Rain colors/radii and native keyboard focus remains usable (213.350291ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2941.2385

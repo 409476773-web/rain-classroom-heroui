@@ -1,0 +1,3 @@
+$ pnpm --filter @heroui/docs exec eslint --max-warnings=0 env.ts src/app/[lang]/(home)/components/demo-showcase.tsx src/app/[lang]/(home)/components/pro-banner.tsx src/app/[lang]/layout.tsx src/app/api/changelog/route.ts src/app/api/newsletter/route.ts src/app/custom-root-provider.tsx src/components/design-theme-selector.tsx src/components/fumadocs/ui/theme-toggle.tsx src/components/highlighted-code.tsx src/components/home-theme-switch.tsx src/components/rain-theme-provider.tsx src/components/search-dialog.tsx src/libs/posthog.ts src/utils/rain-theme.ts tests/local-preview.test.ts tests/rain-theme-provider.test.ts tests/rain-theme.test.ts
+
+Exit code: 0

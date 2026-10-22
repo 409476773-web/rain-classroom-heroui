@@ -1,0 +1,47 @@
+[
+  {
+    "activeDescendant": null,
+    "bg": "rgba(0, 0, 0, 0)",
+    "class": "popover__dialog",
+    "color": "rgb(255, 255, 255)",
+    "disabled": null,
+    "font": "Inter, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "id": "react-aria3631504527-_r_0_",
+    "opacity": "1",
+    "role": "dialog",
+    "selected": null,
+    "tag": "SECTION",
+    "text": "Popover headingThis is the popover content",
+    "visible": true
+  },
+  {
+    "activeDescendant": null,
+    "bg": "rgba(0, 0, 0, 0)",
+    "class": "popover__heading",
+    "color": "rgb(255, 255, 255)",
+    "disabled": null,
+    "font": "Inter, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "id": "react-aria3631504527-_r_p_",
+    "opacity": "1",
+    "role": null,
+    "selected": null,
+    "tag": "H2",
+    "text": "Popover heading",
+    "visible": true
+  },
+  {
+    "activeDescendant": null,
+    "bg": "rgba(0, 0, 0, 0)",
+    "class": "",
+    "color": "rgb(255, 255, 255)",
+    "disabled": null,
+    "font": "Inter, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "id": "",
+    "opacity": "1",
+    "role": null,
+    "selected": null,
+    "tag": "P",
+    "text": "This is the popover content",
+    "visible": true
+  }
+]

@@ -3,13 +3,13 @@ export const THEME_GLOBAL_TYPE_ID = "heroui-theme";
 export const THEME_PARAM_KEY = "heroui-theme";
 export const THEME_EVENT_NAME = "heroui-theme-changed";
 
-export const THEME_VALUES = ["light", "dark"] as const;
+export const THEME_VALUES = ["light", "dark", "rain-light"] as const;
 export type ThemeKey = (typeof THEME_VALUES)[number];
 
 export const DEFAULT_THEME: ThemeKey = THEME_VALUES[0];
 
 export interface ThemeOption {
-  value: string;
+  value: ThemeKey;
   title: string;
   description?: string;
 }
@@ -17,13 +17,18 @@ export interface ThemeOption {
 export const THEME_OPTIONS: ThemeOption[] = [
   {
     value: THEME_VALUES[0],
-    title: "Light",
-    description: "Light theme",
+    title: "HeroUI Light",
+    description: "Original HeroUI light theme",
   },
   {
     value: THEME_VALUES[1],
-    title: "Dark",
-    description: "Dark theme",
+    title: "HeroUI Dark",
+    description: "Original HeroUI dark theme",
+  },
+  {
+    value: "rain-light",
+    title: "雨课堂 Light",
+    description: "Rain Classroom light theme",
   },
 ];
 

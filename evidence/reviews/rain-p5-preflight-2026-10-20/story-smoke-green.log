@@ -1,0 +1,16 @@
+▶ story smoke preflight protects history without starting a scan
+  ✔ requires an explicit output and validates every argument (1.03875ms)
+  ✔ rejects existing empty directories, files and symlinks without modifying them (3.442125ms)
+  ✔ reserves a new directory once and writes reports exclusively (1.751917ms)
+  ✔ records actual limited source hashes and labels inventory as recorded input (29.569458ms)
+  ✔ rejects malformed or empty indexes instead of passing zero stories (0.199625ms)
+  ✔ help and plan return before network, Playwright or output creation (152.321083ms)
+✔ story smoke preflight protects history without starting a scan (193.550167ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 239.781625

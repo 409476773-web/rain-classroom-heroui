@@ -1,0 +1,12 @@
+$ pnpm --filter @heroui/docs exec vitest run
+
+ RUN  v4.1.11 /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs
+
+
+ Test Files  5 passed (5)
+      Tests  50 passed (50)
+   Start at  17:43:43
+   Duration  4.67s (transform 2.81s, setup 0ms, import 4.90s, tests 319ms, environment 930ms)
+
+
+Exit code: 0

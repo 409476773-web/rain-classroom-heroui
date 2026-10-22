@@ -1,0 +1,1 @@
+Command: pnpm --filter @heroui/testing exec playwright install --only-shell chromium

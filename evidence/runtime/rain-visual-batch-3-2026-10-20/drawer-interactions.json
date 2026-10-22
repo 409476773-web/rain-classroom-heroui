@@ -1,0 +1,17 @@
+{
+  "drawerScrolled": {
+    "background": "rgb(255, 255, 255)",
+    "pageOverflow": 0,
+    "radius": "0px",
+    "scrollTop": 530.5,
+    "width": 384
+  },
+  "drawerFocusLoop": {
+    "class": "close-button close-button--default drawer__close-trigger",
+    "label": "关闭评分参考抽屉"
+  },
+  "drawerClosed": {
+    "active": "打开评分参考抽屉",
+    "dialogs": 0
+  }
+}

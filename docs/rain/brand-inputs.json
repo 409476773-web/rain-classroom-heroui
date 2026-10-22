@@ -1,0 +1,514 @@
+{
+  "schemaVersion": 1,
+  "documentType": "rain-brand-input-snapshot",
+  "capturedAt": "2026-10-19T08:43:57.908550+00:00",
+  "status": "inputs-recorded-theme-not-implemented",
+  "scope": {
+    "phase": "P0",
+    "authorization": "用户确认沿用现有雨课堂组件库已确认的品牌色、字体和圆角，重新映射到 HeroUI。",
+    "purpose": "记录旧项目只读来源、当前文件内容摘要与分歧，供原版确认后的 P2 主题映射使用。",
+    "sourceSelection": "优先使用 card-v2 的当前工作树品牌事实，用主目录副本交叉核对；不凭 Git HEAD 或历史文档推定全部当前文件内容。",
+    "implementationGate": "P0/P1 先运行 HeroUI 原版；本记录不实施主题，也不表示用户已确认原版或雨课堂主题视觉。",
+    "excludedInheritance": [
+      "旧 shadcn/自定义组件实现",
+      "组件 DOM 与交互配方",
+      "字号、行高与字重尺度",
+      "密度、组件高度与间距",
+      "阴影、动效与布局",
+      "旧项目治理合同对新项目的自动继承"
+    ],
+    "preservationRule": "颜色、字体身份与回退、圆角以外保留 HeroUI 默认体系；主题映射和任何必要例外另行记录。"
+  },
+  "repositories": [
+    {
+      "id": "card-v2",
+      "absolutePath": "/Users/wenchengkai/CodexFile/雨课堂-shadcn组件库架构/.worktrees/card-v2",
+      "role": "primary",
+      "gitHead": "321e1a0c1b5f9284e0fcb5167fa059d6174b1752",
+      "gitBranch": "codex/card-v2",
+      "hasUncommittedChanges": true,
+      "stateCapturedWithoutModification": true
+    },
+    {
+      "id": "main-copy",
+      "absolutePath": "/Users/wenchengkai/CodexFile/雨课堂-shadcn组件库架构/rain-classroom-vibe-ui-spike",
+      "role": "cross-check",
+      "gitHead": "321e1a0c1b5f9284e0fcb5167fa059d6174b1752",
+      "gitBranch": "main",
+      "hasUncommittedChanges": true,
+      "stateCapturedWithoutModification": true
+    }
+  ],
+  "sourceFiles": [
+    {
+      "id": "card-v2:SPIKE_BRIEF.md",
+      "repositoryId": "card-v2",
+      "relativePath": "SPIKE_BRIEF.md",
+      "absolutePath": "/Users/wenchengkai/CodexFile/雨课堂-shadcn组件库架构/.worktrees/card-v2/SPIKE_BRIEF.md",
+      "sha256": "b1fac2ace9a25be11c106c74fc494191f00934aa81f899fe59e6d73fe3624512",
+      "bytes": 25524,
+      "lineCount": 392,
+      "headContentSha256": "b1fac2ace9a25be11c106c74fc494191f00934aa81f899fe59e6d73fe3624512",
+      "differsFromHead": false,
+      "gitStatus": "",
+      "sourceKind": "maintained-source"
+    },
+    {
+      "id": "card-v2:packages/foundations/src/color-registry.ts",
+      "repositoryId": "card-v2",
+      "relativePath": "packages/foundations/src/color-registry.ts",
+      "absolutePath": "/Users/wenchengkai/CodexFile/雨课堂-shadcn组件库架构/.worktrees/card-v2/packages/foundations/src/color-registry.ts",
+      "sha256": "ec8c8cc3ded78124da9d7a2890323026bc4a092cd87531eee99008c2be7d6a0e",
+      "bytes": 29968,
+      "lineCount": 459,
+      "headContentSha256": "ec8c8cc3ded78124da9d7a2890323026bc4a092cd87531eee99008c2be7d6a0e",
+      "differsFromHead": false,
+      "gitStatus": "",
+      "sourceKind": "maintained-source"
+    },
+    {
+      "id": "card-v2:packages/foundations/src/token-contract.ts",
+      "repositoryId": "card-v2",
+      "relativePath": "packages/foundations/src/token-contract.ts",
+      "absolutePath": "/Users/wenchengkai/CodexFile/雨课堂-shadcn组件库架构/.worktrees/card-v2/packages/foundations/src/token-contract.ts",
+      "sha256": "f2de1f3aeda7f87c8721ab1d20aabd98a2a6e019593c1e4306f8e35e5f6b40bb",
+      "bytes": 12881,
+      "lineCount": 300,
+      "headContentSha256": "81b1a96e82bbc66dd6aaedce8e6c396aa0e48151d3b709b08431147768828321",
+      "differsFromHead": true,
+      "gitStatus": " M packages/foundations/src/token-contract.ts",
+      "sourceKind": "maintained-source"
+    },
+    {
+      "id": "card-v2:packages/foundations/src/typography.css",
+      "repositoryId": "card-v2",
+      "relativePath": "packages/foundations/src/typography.css",
+      "absolutePath": "/Users/wenchengkai/CodexFile/雨课堂-shadcn组件库架构/.worktrees/card-v2/packages/foundations/src/typography.css",
+      "sha256": "2e0a734237131e6f361c6f11cef4223b216179a7e0a81b9c75d61df05112d4cd",
+      "bytes": 2877,
+      "lineCount": 89,
+      "headContentSha256": "6812638dd5a3688a4da4c876b577a9e293fa4a23cb80119bcc727d1e50bc32e2",
+      "differsFromHead": true,
+      "gitStatus": " M packages/foundations/src/typography.css",
+      "sourceKind": "mixed-css-with-generated-sections"
+    },
+    {
+      "id": "card-v2:packages/foundations/src/typography-contract.ts",
+      "repositoryId": "card-v2",
+      "relativePath": "packages/foundations/src/typography-contract.ts",
+      "absolutePath": "/Users/wenchengkai/CodexFile/雨课堂-shadcn组件库架构/.worktrees/card-v2/packages/foundations/src/typography-contract.ts",
+      "sha256": "2e84c45453c31e6efcaf0636c66f9fd0c21177c722bfab6020cf1c356cd0ae8a",
+      "bytes": 11727,
+      "lineCount": 171,
+      "headContentSha256": "494b1c63ae5837b3589a89641d4b9c5bd73d3d71421a7576bc6078af5a426a37",
+      "differsFromHead": true,
+      "gitStatus": " M packages/foundations/src/typography-contract.ts",
+      "sourceKind": "maintained-source"
+    },
+    {
+      "id": "card-v2:packages/foundations/src/tokens.css",
+      "repositoryId": "card-v2",
+      "relativePath": "packages/foundations/src/tokens.css",
+      "absolutePath": "/Users/wenchengkai/CodexFile/雨课堂-shadcn组件库架构/.worktrees/card-v2/packages/foundations/src/tokens.css",
+      "sha256": "aaac07083c6ea0b3861437a2778ff6322e0f1a9e4bfbac80baf00da36425d640",
+      "bytes": 83210,
+      "lineCount": 1428,
+      "headContentSha256": "a7416c4dba16eab094f9c9e70e4fde5fbbb43bfd26bbba267bb030032346799a",
+      "differsFromHead": true,
+      "gitStatus": " M packages/foundations/src/tokens.css",
+      "sourceKind": "mixed-css-with-generated-sections"
+    },
+    {
+      "id": "card-v2:docs/ai/token-selection.md",
+      "repositoryId": "card-v2",
+      "relativePath": "docs/ai/token-selection.md",
+      "absolutePath": "/Users/wenchengkai/CodexFile/雨课堂-shadcn组件库架构/.worktrees/card-v2/docs/ai/token-selection.md",
+      "sha256": "5c24fdac2c04700cb0c337d5ecd4f725516ef6831f6f4fd1dfaab4df5de76bcb",
+      "bytes": 17213,
+      "lineCount": 137,
+      "headContentSha256": "0a49f133dbbd74fedb59809be0d3d6bbf81a26750d4b868598e3e10c3ad22c74",
+      "differsFromHead": true,
+      "gitStatus": " M docs/ai/token-selection.md",
+      "sourceKind": "maintained-source"
+    },
+    {
+      "id": "card-v2:docs/audits/2026-09-06-foundations-color-mapping.md",
+      "repositoryId": "card-v2",
+      "relativePath": "docs/audits/2026-09-06-foundations-color-mapping.md",
+      "absolutePath": "/Users/wenchengkai/CodexFile/雨课堂-shadcn组件库架构/.worktrees/card-v2/docs/audits/2026-09-06-foundations-color-mapping.md",
+      "sha256": "d4a5aafec870a8f9e5a4480a91d18bf18a3aebd1ac8a8e162061e7fb096eb305",
+      "bytes": 19409,
+      "lineCount": 118,
+      "headContentSha256": "d4a5aafec870a8f9e5a4480a91d18bf18a3aebd1ac8a8e162061e7fb096eb305",
+      "differsFromHead": false,
+      "gitStatus": "",
+      "sourceKind": "historical-audit-with-explicit-current-and-historical-sections"
+    },
+    {
+      "id": "main-copy:packages/foundations/src/color-registry.ts",
+      "repositoryId": "main-copy",
+      "relativePath": "packages/foundations/src/color-registry.ts",
+      "absolutePath": "/Users/wenchengkai/CodexFile/雨课堂-shadcn组件库架构/rain-classroom-vibe-ui-spike/packages/foundations/src/color-registry.ts",
+      "sha256": "ec8c8cc3ded78124da9d7a2890323026bc4a092cd87531eee99008c2be7d6a0e",
+      "bytes": 29968,
+      "lineCount": 459,
+      "headContentSha256": "ec8c8cc3ded78124da9d7a2890323026bc4a092cd87531eee99008c2be7d6a0e",
+      "differsFromHead": false,
+      "gitStatus": "",
+      "sourceKind": "maintained-source"
+    },
+    {
+      "id": "main-copy:packages/foundations/src/token-contract.ts",
+      "repositoryId": "main-copy",
+      "relativePath": "packages/foundations/src/token-contract.ts",
+      "absolutePath": "/Users/wenchengkai/CodexFile/雨课堂-shadcn组件库架构/rain-classroom-vibe-ui-spike/packages/foundations/src/token-contract.ts",
+      "sha256": "81b1a96e82bbc66dd6aaedce8e6c396aa0e48151d3b709b08431147768828321",
+      "bytes": 12394,
+      "lineCount": 292,
+      "headContentSha256": "81b1a96e82bbc66dd6aaedce8e6c396aa0e48151d3b709b08431147768828321",
+      "differsFromHead": false,
+      "gitStatus": "",
+      "sourceKind": "maintained-source"
+    },
+    {
+      "id": "main-copy:packages/foundations/src/typography.css",
+      "repositoryId": "main-copy",
+      "relativePath": "packages/foundations/src/typography.css",
+      "absolutePath": "/Users/wenchengkai/CodexFile/雨课堂-shadcn组件库架构/rain-classroom-vibe-ui-spike/packages/foundations/src/typography.css",
+      "sha256": "6812638dd5a3688a4da4c876b577a9e293fa4a23cb80119bcc727d1e50bc32e2",
+      "bytes": 2877,
+      "lineCount": 89,
+      "headContentSha256": "6812638dd5a3688a4da4c876b577a9e293fa4a23cb80119bcc727d1e50bc32e2",
+      "differsFromHead": false,
+      "gitStatus": "",
+      "sourceKind": "mixed-css-with-generated-sections"
+    },
+    {
+      "id": "main-copy:packages/foundations/src/typography-contract.ts",
+      "repositoryId": "main-copy",
+      "relativePath": "packages/foundations/src/typography-contract.ts",
+      "absolutePath": "/Users/wenchengkai/CodexFile/雨课堂-shadcn组件库架构/rain-classroom-vibe-ui-spike/packages/foundations/src/typography-contract.ts",
+      "sha256": "494b1c63ae5837b3589a89641d4b9c5bd73d3d71421a7576bc6078af5a426a37",
+      "bytes": 11191,
+      "lineCount": 164,
+      "headContentSha256": "494b1c63ae5837b3589a89641d4b9c5bd73d3d71421a7576bc6078af5a426a37",
+      "differsFromHead": false,
+      "gitStatus": "",
+      "sourceKind": "maintained-source"
+    }
+  ],
+  "contentSnapshotPolicy": {
+    "algorithm": "SHA-256",
+    "hashInput": "文件完整原始字节；sha256 为实际工作树内容，headContentSha256 为相同文件在该仓库 Git HEAD 中的内容。",
+    "sourceFilesModifiedByThisTask": false,
+    "fullSourceContentsEmbedded": false,
+    "reproducibilityLimit": "路径与摘要能够辨认输入，但不是旧工作树的完整归档。differsFromHead=true 的文件不能仅凭 Git HEAD 复原；消费前应校验摘要，发生漂移时重新核对并更新快照。"
+  },
+  "confirmedBrandFacts": {
+    "primaryBlue": {
+      "value": "#1561F8",
+      "use": "品牌主蓝与主操作填充输入；不自动兼任所有品牌文字、焦点、选中或状态颜色。",
+      "references": [
+        {
+          "sourceFileId": "card-v2:SPIKE_BRIEF.md",
+          "lineStart": 59,
+          "lineEnd": 63
+        },
+        {
+          "sourceFileId": "card-v2:packages/foundations/src/color-registry.ts",
+          "lineStart": 184
+        },
+        {
+          "sourceFileId": "card-v2:packages/foundations/src/color-registry.ts",
+          "lineStart": 193
+        }
+      ]
+    },
+    "typography": {
+      "uiFamily": [
+        "PingFang SC",
+        "Microsoft YaHei",
+        "ui-sans-serif",
+        "sans-serif"
+      ],
+      "readingFamily": [
+        "PingFang SC",
+        "Microsoft YaHei",
+        "ui-sans-serif",
+        "sans-serif"
+      ],
+      "keyDataFamily": [
+        "LINE Seed JP App_OTF",
+        "SF Pro Rounded",
+        "ui-rounded",
+        "sans-serif"
+      ],
+      "keyDataScope": "仅供明确关键数据中的数字与附着的西文符号（%、.、,、:、/、K）；中文单位、标签、正文继续用 UI/阅读字体。",
+      "fontBinaryStatus": "旧包未随包分发字体文件；本次仅确认字体身份、用途与回退，不声称取得字体二进制文件。",
+      "systemInstalledFonts": "not-checked",
+      "lineSeedLicenseOrRedistributionRights": "not-verified",
+      "references": [
+        {
+          "sourceFileId": "card-v2:packages/foundations/src/typography.css",
+          "lineStart": 1,
+          "lineEnd": 8
+        },
+        {
+          "sourceFileId": "card-v2:SPIKE_BRIEF.md",
+          "lineStart": 65,
+          "lineEnd": 70
+        },
+        {
+          "sourceFileId": "card-v2:docs/ai/token-selection.md",
+          "lineStart": 114
+        }
+      ]
+    },
+    "radius": {
+      "unit": "px",
+      "steps": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        16
+      ],
+      "full": 9999,
+      "crossCheck": "card-v2 和主目录副本的 radiusTokens 值相同。",
+      "mappingStatus": "pending-P2-role-mapping",
+      "mappingBoundary": "档位已确认；HeroUI 控件、卡片、浮层和容器采用哪个档位尚未定稿，圆形/胶囊保留其用途。",
+      "references": [
+        {
+          "sourceFileId": "card-v2:packages/foundations/src/token-contract.ts",
+          "lineStart": 147,
+          "lineEnd": 155
+        },
+        {
+          "sourceFileId": "main-copy:packages/foundations/src/token-contract.ts",
+          "lineStart": 139,
+          "lineEnd": 147
+        }
+      ]
+    }
+  },
+  "colorMappingInputs": {
+    "sourceOfColorValues": "card-v2:packages/foundations/src/color-registry.ts",
+    "sourceOfExistingSemanticAliases": "card-v2:packages/foundations/src/token-contract.ts",
+    "generatedCssCrossCheck": "card-v2:packages/foundations/src/tokens.css",
+    "currentLightFacts": [
+      {
+        "id": "Fill/Brand/Solid/2",
+        "value": "#1561F8",
+        "role": "brand-action-fill",
+        "reference": {
+          "sourceFileId": "card-v2:packages/foundations/src/color-registry.ts",
+          "lineStart": 193
+        }
+      },
+      {
+        "id": "Text/Brand/1",
+        "value": "#0F55DF",
+        "role": "brand-text",
+        "reference": {
+          "sourceFileId": "card-v2:packages/foundations/src/color-registry.ts",
+          "lineStart": 184
+        }
+      },
+      {
+        "id": "Border/Brand/1",
+        "value": "#3D7BFF",
+        "role": "brand-border-and-current-focus-alias-target",
+        "reference": {
+          "sourceFileId": "card-v2:packages/foundations/src/color-registry.ts",
+          "lineStart": 188
+        }
+      },
+      {
+        "id": "Text/Neutral/1",
+        "value": "#142346",
+        "role": "category-primary-text-candidate",
+        "reference": {
+          "sourceFileId": "card-v2:packages/foundations/src/color-registry.ts",
+          "lineStart": 183
+        }
+      },
+      {
+        "id": "legacy:text-primary",
+        "value": "#14233C",
+        "role": "existing-semantic-primary-text",
+        "references": [
+          {
+            "sourceFileId": "card-v2:packages/foundations/src/token-contract.ts",
+            "lineStart": 18
+          },
+          {
+            "sourceFileId": "card-v2:packages/foundations/src/token-contract.ts",
+            "lineStart": 47
+          }
+        ]
+      }
+    ],
+    "requiredRoleReview": [
+      "品牌主操作、on-color 前景与品牌文字",
+      "普通/次要/弱/占位/禁用文字",
+      "页面、卡片、浮层、输入表面",
+      "边框与分隔",
+      "hover、pressed、selected、focus、disabled",
+      "success、warning、danger、info 的前景与承载背景"
+    ],
+    "mappingStatus": "pending-P2",
+    "rule": "按角色、组件部位、状态、父表面重新映射，不能因色值相近或变量同名整份复制旧 CSS，也不能把所有蓝色统一替换为主蓝。",
+    "themeCoverage": "本记录未验证任何 HeroUI 主题；计划先做雨课堂亮色主题，保留原版深色，雨课堂深色另计。",
+    "references": [
+      {
+        "sourceFileId": "card-v2:docs/ai/token-selection.md",
+        "lineStart": 70,
+        "lineEnd": 84
+      },
+      {
+        "sourceFileId": "card-v2:packages/foundations/src/token-contract.ts",
+        "lineStart": 89,
+        "lineEnd": 106
+      }
+    ]
+  },
+  "knownDifferences": [
+    {
+      "id": "typography-scale-divergence",
+      "classification": "confirmed-source-difference-excluded-from-inheritance",
+      "description": "两个目录字体身份相同，但页面标题及关键数据字号/行高不同。",
+      "cardV2": {
+        "headingPage": {
+          "fontSizePx": 16,
+          "lineHeightPx": 24
+        },
+        "keyDataDefault": {
+          "fontSizePx": 28,
+          "lineHeightPx": 36
+        }
+      },
+      "mainCopy": {
+        "headingPage": {
+          "fontSizePx": 24,
+          "lineHeightPx": 32
+        },
+        "keyDataDefault": {
+          "fontSizePx": 36,
+          "lineHeightPx": 42
+        }
+      },
+      "resolution": "只继承字体身份、用途和回退；字号、行高、密度等保留 HeroUI。此项目不裁决或改写旧项目的尺度分歧。",
+      "references": [
+        {
+          "sourceFileId": "card-v2:packages/foundations/src/typography-contract.ts",
+          "lineStart": 42,
+          "lineEnd": 46
+        },
+        {
+          "sourceFileId": "main-copy:packages/foundations/src/typography-contract.ts",
+          "lineStart": 42,
+          "lineEnd": 46
+        }
+      ]
+    },
+    {
+      "id": "mixed-legacy-and-category-colors",
+      "classification": "confirmed-source-difference-needs-P2-mapping",
+      "description": "旧 text-primary=#14233C 与分类 Text/Neutral/1=#142346 并存；品牌填充、品牌文字和焦点边框蓝色是不同角色。旧 Semantic 仅部分引用 Category，历史映射审计中的14项快照不能覆盖当前17项登记。",
+      "resolution": "本阶段保留事实与分歧；P2 映射表逐项记录 HeroUI 目标角色、选用来源及理由，不假定旧语义与分类色已经全量统一。",
+      "references": [
+        {
+          "sourceFileId": "card-v2:packages/foundations/src/token-contract.ts",
+          "lineStart": 43,
+          "lineEnd": 106
+        },
+        {
+          "sourceFileId": "card-v2:packages/foundations/src/color-registry.ts",
+          "lineStart": 183,
+          "lineEnd": 195
+        },
+        {
+          "sourceFileId": "card-v2:docs/ai/token-selection.md",
+          "lineStart": 3,
+          "lineEnd": 11
+        }
+      ]
+    },
+    {
+      "id": "font-binaries-not-bundled",
+      "classification": "known-input-limitation",
+      "description": "字体栈声明不等于字体文件随包可获取；本次未确认目标设备已安装 LINE Seed 或相应字体再分发许可。",
+      "resolution": "第一版沿用字体栈和回退，实际字形与回退差异单独验证；不复制或分发未确认的字体文件。",
+      "reference": {
+        "sourceFileId": "card-v2:docs/ai/token-selection.md",
+        "lineStart": 114
+      }
+    },
+    {
+      "id": "radius-scale-versus-role-mapping",
+      "classification": "P2-mapping-still-required",
+      "description": "4/6/8/10/12/16/full 档位一致，旧 Button 或 Input 使用某档不代表所有 HeroUI 控件都应使用该档。",
+      "resolution": "P2 决定控件、卡片、浮层、容器的映射，保留圆形与胶囊结构；不继承旧组件尺寸或密度。",
+      "references": [
+        {
+          "sourceFileId": "card-v2:packages/foundations/src/token-contract.ts",
+          "lineStart": 147,
+          "lineEnd": 155
+        },
+        {
+          "sourceFileId": "card-v2:packages/foundations/src/tokens.css",
+          "lineStart": 17,
+          "lineEnd": 76
+        }
+      ]
+    },
+    {
+      "id": "dirty-worktree-provenance",
+      "classification": "confirmed-input-provenance-limit",
+      "description": "两个目录 Git HEAD 相同但均存在未提交修改；card-v2 的部分已记录字体和 token 文件与 HEAD 内容不同。",
+      "resolution": "以每个文件 sha256 标识此次工作树输入；Git HEAD 只作辅助版本信息，不宣称当前内容全部来自该提交。"
+    },
+    {
+      "id": "prior-acceptance-does-not-transfer",
+      "classification": "verification-boundary",
+      "description": "旧项目文档仍记录占位文字对比度与部分主题/状态缺口；来源已确认不等于其在 HeroUI 中已经视觉或可访问性验收。",
+      "resolution": "后续在 HeroUI 实际组件、状态与父表面中验证；保留问题记录，不自动继承旧验收结论。",
+      "references": [
+        {
+          "sourceFileId": "card-v2:docs/ai/token-selection.md",
+          "lineStart": 91,
+          "lineEnd": 101
+        },
+        {
+          "sourceFileId": "card-v2:docs/audits/2026-09-06-foundations-color-mapping.md",
+          "lineStart": 33,
+          "lineEnd": 39
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "fontAssetSearch": {
+      "scope": [
+        "/Users/wenchengkai/CodexFile/雨课堂-shadcn组件库架构/.worktrees/card-v2/packages",
+        "/Users/wenchengkai/CodexFile/雨课堂-shadcn组件库架构/.worktrees/card-v2/apps"
+      ],
+      "extensions": [
+        ".woff",
+        ".woff2",
+        ".ttf",
+        ".otf"
+      ],
+      "method": "rg --files --hidden; excludes node_modules and .git; respects ignore rules",
+      "matches": [],
+      "exitCode": 1
+    },
+    "primaryAndMainColorRegistrySameSha256": true,
+    "fontFamiliesMatchAcrossCopies": true,
+    "radiusValuesMatchAcrossCopies": true,
+    "heroUiThemeImplemented": false,
+    "visualAcceptance": "not-performed",
+    "checksMeaning": "本文件记录来源与值的核对，不替代运行时、跨设备、视觉或字体授权验证。"
+  }
+}

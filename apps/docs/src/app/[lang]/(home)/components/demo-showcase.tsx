@@ -18,6 +18,7 @@ import {
   getDerivedColorFormulas,
 } from "@/app/[lang]/themes/utils/generate-theme-colors";
 import {DemoComponents} from "@/components/demo";
+import {useRainTheme} from "@/components/rain-theme-provider";
 import {useDictionary} from "@/hooks/use-dictionary";
 import {cn} from "@/utils/cn";
 import {
@@ -84,6 +85,7 @@ const LOADER_DURATION_MS = 250;
 
 export function DemoShowcase() {
   const dict = useDictionary();
+  const {isRainTheme} = useRainTheme();
   const demo = dict.home.demo;
   const tabLabels = dict.themeBuilder.tabs;
   const [selectedTab, setSelectedTab] = useState("components");
@@ -245,7 +247,11 @@ export function DemoShowcase() {
           <div className="flex items-center gap-1">
             <ColorSwatchPicker size="sm" onChange={setSelectedColor}>
               {colors.map((color) => (
-                <ColorSwatchPicker.Item key={color} color={color}>
+                <ColorSwatchPicker.Item
+                  key={color}
+                  color={color}
+                  isDisabled={isRainTheme ? selectedTab === "components" : false}
+                >
                   <ColorSwatchPicker.Swatch />
                   <ColorSwatchPicker.Indicator />
                 </ColorSwatchPicker.Item>
@@ -272,7 +278,7 @@ export function DemoShowcase() {
       </div>
       <div
         className="flex min-h-[420px] max-w-[1200px] flex-1 flex-col"
-        style={accentVars as CSSProperties}
+        style={isRainTheme ? undefined : (accentVars as CSSProperties)}
       >
         {/* Mobile: always show DemoComponents */}
         <div className="flex w-full justify-center rounded-2xl bg-background py-8 lg:hidden">

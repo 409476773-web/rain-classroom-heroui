@@ -1,0 +1,299 @@
+{
+  "scope": "Current tab retained console entries, limited to latest 100 warnings/errors; not a complete per-entry pageerror instrumentation",
+  "entries": [
+    {
+      "level": "warn",
+      "message": "Calling `setConfig({ enableShortcuts: ... })` is deprecated. Please call `setConfig({ ui: { enableShortcuts: ... } })` instead.",
+      "timestamp": "2026-10-20T14:28:18.237Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "The 'ariaLabel' prop on 'PopoverProvider' will become mandatory in Storybook 11. Provide a concise, accessible label describing the popover's purpose.",
+      "timestamp": "2026-10-20T14:28:18.237Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "Calling `setConfig({ enableShortcuts: ... })` is deprecated. Please call `setConfig({ ui: { enableShortcuts: ... } })` instead.",
+      "timestamp": "2026-10-20T14:30:07.674Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "The 'ariaLabel' prop on 'PopoverProvider' will become mandatory in Storybook 11. Provide a concise, accessible label describing the popover's purpose.",
+      "timestamp": "2026-10-20T14:30:07.688Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "Calling `setConfig({ enableShortcuts: ... })` is deprecated. Please call `setConfig({ ui: { enableShortcuts: ... } })` instead.",
+      "timestamp": "2026-10-20T14:39:44.043Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "The 'ariaLabel' prop on 'PopoverProvider' will become mandatory in Storybook 11. Provide a concise, accessible label describing the popover's purpose.",
+      "timestamp": "2026-10-20T14:39:44.043Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "Calling `setConfig({ enableShortcuts: ... })` is deprecated. Please call `setConfig({ ui: { enableShortcuts: ... } })` instead.",
+      "timestamp": "2026-10-20T14:39:49.497Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "The 'ariaLabel' prop on 'PopoverProvider' will become mandatory in Storybook 11. Provide a concise, accessible label describing the popover's purpose.",
+      "timestamp": "2026-10-20T14:39:49.497Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "Calling `setConfig({ enableShortcuts: ... })` is deprecated. Please call `setConfig({ ui: { enableShortcuts: ... } })` instead.",
+      "timestamp": "2026-10-20T14:40:11.238Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "The 'ariaLabel' prop on 'PopoverProvider' will become mandatory in Storybook 11. Provide a concise, accessible label describing the popover's purpose.",
+      "timestamp": "2026-10-20T14:40:11.238Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "Calling `setConfig({ enableShortcuts: ... })` is deprecated. Please call `setConfig({ ui: { enableShortcuts: ... } })` instead.",
+      "timestamp": "2026-10-20T14:40:28.610Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "The 'ariaLabel' prop on 'PopoverProvider' will become mandatory in Storybook 11. Provide a concise, accessible label describing the popover's purpose.",
+      "timestamp": "2026-10-20T14:40:28.610Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "Calling `setConfig({ enableShortcuts: ... })` is deprecated. Please call `setConfig({ ui: { enableShortcuts: ... } })` instead.",
+      "timestamp": "2026-10-20T14:42:35.114Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "The 'ariaLabel' prop on 'PopoverProvider' will become mandatory in Storybook 11. Provide a concise, accessible label describing the popover's purpose.",
+      "timestamp": "2026-10-20T14:42:35.114Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "Calling `setConfig({ enableShortcuts: ... })` is deprecated. Please call `setConfig({ ui: { enableShortcuts: ... } })` instead.",
+      "timestamp": "2026-10-20T14:51:49.356Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "The 'ariaLabel' prop on 'PopoverProvider' will become mandatory in Storybook 11. Provide a concise, accessible label describing the popover's purpose.",
+      "timestamp": "2026-10-20T14:51:49.358Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "Calling `setConfig({ enableShortcuts: ... })` is deprecated. Please call `setConfig({ ui: { enableShortcuts: ... } })` instead.",
+      "timestamp": "2026-10-20T14:52:24.063Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "The 'ariaLabel' prop on 'PopoverProvider' will become mandatory in Storybook 11. Provide a concise, accessible label describing the popover's purpose.",
+      "timestamp": "2026-10-20T14:52:24.063Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "Calling `setConfig({ enableShortcuts: ... })` is deprecated. Please call `setConfig({ ui: { enableShortcuts: ... } })` instead.",
+      "timestamp": "2026-10-20T14:58:53.825Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "The 'ariaLabel' prop on 'PopoverProvider' will become mandatory in Storybook 11. Provide a concise, accessible label describing the popover's purpose.",
+      "timestamp": "2026-10-20T14:58:53.828Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "Calling `setConfig({ enableShortcuts: ... })` is deprecated. Please call `setConfig({ ui: { enableShortcuts: ... } })` instead.",
+      "timestamp": "2026-10-20T14:59:24.867Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "The 'ariaLabel' prop on 'PopoverProvider' will become mandatory in Storybook 11. Provide a concise, accessible label describing the popover's purpose.",
+      "timestamp": "2026-10-20T14:59:24.867Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "Calling `setConfig({ enableShortcuts: ... })` is deprecated. Please call `setConfig({ ui: { enableShortcuts: ... } })` instead.",
+      "timestamp": "2026-10-20T15:05:42.482Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "Calling `setConfig({ enableShortcuts: ... })` is deprecated. Please call `setConfig({ ui: { enableShortcuts: ... } })` instead.",
+      "timestamp": "2026-10-20T15:06:15.559Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "The 'ariaLabel' prop on 'PopoverProvider' will become mandatory in Storybook 11. Provide a concise, accessible label describing the popover's purpose.",
+      "timestamp": "2026-10-20T15:06:15.559Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "Calling `setConfig({ enableShortcuts: ... })` is deprecated. Please call `setConfig({ ui: { enableShortcuts: ... } })` instead.",
+      "timestamp": "2026-10-20T15:06:34.792Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "The 'ariaLabel' prop on 'PopoverProvider' will become mandatory in Storybook 11. Provide a concise, accessible label describing the popover's purpose.",
+      "timestamp": "2026-10-20T15:06:34.792Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "Calling `setConfig({ enableShortcuts: ... })` is deprecated. Please call `setConfig({ ui: { enableShortcuts: ... } })` instead.",
+      "timestamp": "2026-10-20T15:06:39.881Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "The 'ariaLabel' prop on 'PopoverProvider' will become mandatory in Storybook 11. Provide a concise, accessible label describing the popover's purpose.",
+      "timestamp": "2026-10-20T15:06:39.881Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "Calling `setConfig({ enableShortcuts: ... })` is deprecated. Please call `setConfig({ ui: { enableShortcuts: ... } })` instead.",
+      "timestamp": "2026-10-20T15:06:44.377Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "The 'ariaLabel' prop on 'PopoverProvider' will become mandatory in Storybook 11. Provide a concise, accessible label describing the popover's purpose.",
+      "timestamp": "2026-10-20T15:06:44.377Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "Calling `setConfig({ enableShortcuts: ... })` is deprecated. Please call `setConfig({ ui: { enableShortcuts: ... } })` instead.",
+      "timestamp": "2026-10-20T15:06:49.552Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "The 'ariaLabel' prop on 'PopoverProvider' will become mandatory in Storybook 11. Provide a concise, accessible label describing the popover's purpose.",
+      "timestamp": "2026-10-20T15:06:49.552Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "Calling `setConfig({ enableShortcuts: ... })` is deprecated. Please call `setConfig({ ui: { enableShortcuts: ... } })` instead.",
+      "timestamp": "2026-10-20T15:06:54.601Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "The 'ariaLabel' prop on 'PopoverProvider' will become mandatory in Storybook 11. Provide a concise, accessible label describing the popover's purpose.",
+      "timestamp": "2026-10-20T15:06:54.601Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "Calling `setConfig({ enableShortcuts: ... })` is deprecated. Please call `setConfig({ ui: { enableShortcuts: ... } })` instead.",
+      "timestamp": "2026-10-20T15:06:59.990Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "The 'ariaLabel' prop on 'PopoverProvider' will become mandatory in Storybook 11. Provide a concise, accessible label describing the popover's purpose.",
+      "timestamp": "2026-10-20T15:06:59.990Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "Calling `setConfig({ enableShortcuts: ... })` is deprecated. Please call `setConfig({ ui: { enableShortcuts: ... } })` instead.",
+      "timestamp": "2026-10-20T15:07:04.748Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "The 'ariaLabel' prop on 'PopoverProvider' will become mandatory in Storybook 11. Provide a concise, accessible label describing the popover's purpose.",
+      "timestamp": "2026-10-20T15:07:04.748Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "Calling `setConfig({ enableShortcuts: ... })` is deprecated. Please call `setConfig({ ui: { enableShortcuts: ... } })` instead.",
+      "timestamp": "2026-10-20T15:07:09.523Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "The 'ariaLabel' prop on 'PopoverProvider' will become mandatory in Storybook 11. Provide a concise, accessible label describing the popover's purpose.",
+      "timestamp": "2026-10-20T15:07:09.523Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "Calling `setConfig({ enableShortcuts: ... })` is deprecated. Please call `setConfig({ ui: { enableShortcuts: ... } })` instead.",
+      "timestamp": "2026-10-20T15:10:46.845Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "The 'ariaLabel' prop on 'PopoverProvider' will become mandatory in Storybook 11. Provide a concise, accessible label describing the popover's purpose.",
+      "timestamp": "2026-10-20T15:10:46.847Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "Calling `setConfig({ enableShortcuts: ... })` is deprecated. Please call `setConfig({ ui: { enableShortcuts: ... } })` instead.",
+      "timestamp": "2026-10-20T15:10:58.831Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "The 'ariaLabel' prop on 'PopoverProvider' will become mandatory in Storybook 11. Provide a concise, accessible label describing the popover's purpose.",
+      "timestamp": "2026-10-20T15:10:58.831Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "Calling `setConfig({ enableShortcuts: ... })` is deprecated. Please call `setConfig({ ui: { enableShortcuts: ... } })` instead.",
+      "timestamp": "2026-10-20T15:11:08.441Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "The 'ariaLabel' prop on 'PopoverProvider' will become mandatory in Storybook 11. Provide a concise, accessible label describing the popover's purpose.",
+      "timestamp": "2026-10-20T15:11:08.441Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "Calling `setConfig({ enableShortcuts: ... })` is deprecated. Please call `setConfig({ ui: { enableShortcuts: ... } })` instead.",
+      "timestamp": "2026-10-20T15:13:31.347Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    },
+    {
+      "level": "warn",
+      "message": "The 'ariaLabel' prop on 'PopoverProvider' will become mandatory in Storybook 11. Provide a concise, accessible label describing the popover's purpose.",
+      "timestamp": "2026-10-20T15:13:31.347Z",
+      "url": "http://127.0.0.1:6006/sb-manager/globals-runtime.js"
+    }
+  ]
+}

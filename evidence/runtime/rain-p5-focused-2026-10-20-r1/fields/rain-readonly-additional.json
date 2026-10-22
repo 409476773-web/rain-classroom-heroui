@@ -1,0 +1,38 @@
+[
+  {
+    "name": "反馈只读内容",
+    "before": {
+      "readOnly": true,
+      "value": "这是一条只读反馈。"
+    },
+    "key": "x",
+    "after": {
+      "readOnly": true,
+      "value": "这是一条只读反馈。"
+    }
+  },
+  {
+    "name": "学生搜索只读内容",
+    "before": {
+      "readOnly": true,
+      "value": "林同学"
+    },
+    "key": "x",
+    "after": {
+      "readOnly": true,
+      "value": "林同学"
+    }
+  },
+  {
+    "name": "分数只读内容",
+    "before": {
+      "readOnly": true,
+      "value": "18.5"
+    },
+    "key": "ArrowUp",
+    "after": {
+      "readOnly": true,
+      "value": "18.5"
+    }
+  }
+]

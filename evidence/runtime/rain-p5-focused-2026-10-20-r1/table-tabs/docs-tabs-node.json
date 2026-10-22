@@ -1,0 +1,33 @@
+{
+  "labels": [
+    {
+      "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+      "maxInlineSize": "196px",
+      "overflow": "hidden",
+      "text": "概览",
+      "textOverflow": "ellipsis",
+      "title": null,
+      "whiteSpace": "nowrap"
+    },
+    {
+      "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+      "maxInlineSize": "196px",
+      "overflow": "hidden",
+      "text": "分析",
+      "textOverflow": "ellipsis",
+      "title": null,
+      "whiteSpace": "nowrap"
+    },
+    {
+      "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+      "maxInlineSize": "196px",
+      "overflow": "hidden",
+      "text": "报告",
+      "textOverflow": "ellipsis",
+      "title": null,
+      "whiteSpace": "nowrap"
+    }
+  ],
+  "rootRain": "light",
+  "url": "http://127.0.0.1:3100/cn/docs/react/components/tabs"
+}

@@ -1,0 +1,15 @@
+{
+  "docs": {
+    "url": "http://127.0.0.1:3100/cn/docs/react/components/card",
+    "status": 200
+  },
+  "storybook": {
+    "url": "http://127.0.0.1:6006/index.json",
+    "status": 200,
+    "stories": 586
+  },
+  "mode": "local:preview development launcher",
+  "lockfileSha256": "04358543202bc0165af725fb3752a5b21249667e677a89c0235b1ffc433983d5",
+  "head": "e385ac202b2cdb94b1bf6fa76d32c31c8259cc5e",
+  "upstreamPackageSourceDiff": []
+}

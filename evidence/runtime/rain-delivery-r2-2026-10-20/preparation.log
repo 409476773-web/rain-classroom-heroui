@@ -1,0 +1,85 @@
+AssertionError [ERR_ASSERTION]: Single-entry baseline differs from the verified archive: components/tabs/tabs.js
++ actual - expected
+
++ '22723ab54ed1bedb0b365cd2fe64f01f9d8327121e25b051b24e67a0adec36f6'
+- '418e528e12f98236b8290019f708b4e4bec1b465e3681a6298986c4a7f6be472'
+
+    at main (file:///Users/wenchengkai/CodexFile/hero%20ui-%E6%94%B9%E9%80%A0/scripts/rain/compile-local-patch.mjs:420:12) {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: '22723ab54ed1bedb0b365cd2fe64f01f9d8327121e25b051b24e67a0adec36f6',
+  expected: '418e528e12f98236b8290019f708b4e4bec1b465e3681a6298986c4a7f6be472',
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+node:internal/errors:985
+  const err = new Error(message);
+              ^
+
+Error: Command failed: /Users/wenchengkai/.nvm/versions/node/v24.13.0/bin/node /Users/wenchengkai/CodexFile/hero ui-改造/scripts/rain/compile-local-patch.mjs /Users/wenchengkai/CodexFile/hero ui-改造/delivery/rain-heroui-local-2026-10-20-r2
+AssertionError [ERR_ASSERTION]: Single-entry baseline differs from the verified archive: components/tabs/tabs.js
++ actual - expected
+
++ '22723ab54ed1bedb0b365cd2fe64f01f9d8327121e25b051b24e67a0adec36f6'
+- '418e528e12f98236b8290019f708b4e4bec1b465e3681a6298986c4a7f6be472'
+
+    at main (file:///Users/wenchengkai/CodexFile/hero%20ui-%E6%94%B9%E9%80%A0/scripts/rain/compile-local-patch.mjs:420:12) {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: '22723ab54ed1bedb0b365cd2fe64f01f9d8327121e25b051b24e67a0adec36f6',
+  expected: '418e528e12f98236b8290019f708b4e4bec1b465e3681a6298986c4a7f6be472',
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+    at genericNodeError (node:internal/errors:985:15)
+    at wrappedFn (node:internal/errors:539:14)
+    at checkExecSyncError (node:child_process:925:11)
+    at execFileSync (node:child_process:961:15)
+    at file:///Users/wenchengkai/CodexFile/hero%20ui-%E6%94%B9%E9%80%A0/scripts/rain/prepare-delivery.mjs:39:21
+    at ModuleJob.run (node:internal/modules/esm/module_job:413:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:660:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+  status: 1,
+  signal: null,
+  output: [
+    null,
+    'Starting frozen local patch rain-tabs-title-table-2026-10-20; staging /var/folders/2h/mp7rp10x1plgfqrm94_0dcdm0000gn/T/rain-tabs-patch-ju7BHk\n' +
+      'Compiling react / baseline: one Tabs entry and its reachable modules\n' +
+      'Compiling react / patched: one Tabs entry and its reachable modules\n',
+    'AssertionError [ERR_ASSERTION]: Single-entry baseline differs from the verified archive: components/tabs/tabs.js\n' +
+      '+ actual - expected\n' +
+      '\n' +
+      "+ '22723ab54ed1bedb0b365cd2fe64f01f9d8327121e25b051b24e67a0adec36f6'\n" +
+      "- '418e528e12f98236b8290019f708b4e4bec1b465e3681a6298986c4a7f6be472'\n" +
+      '\n' +
+      '    at main (file:///Users/wenchengkai/CodexFile/hero%20ui-%E6%94%B9%E9%80%A0/scripts/rain/compile-local-patch.mjs:420:12) {\n' +
+      '  generatedMessage: false,\n' +
+      "  code: 'ERR_ASSERTION',\n" +
+      "  actual: '22723ab54ed1bedb0b365cd2fe64f01f9d8327121e25b051b24e67a0adec36f6',\n" +
+      "  expected: '418e528e12f98236b8290019f708b4e4bec1b465e3681a6298986c4a7f6be472',\n" +
+      "  operator: 'strictEqual',\n" +
+      "  diff: 'simple'\n" +
+      '}\n'
+  ],
+  pid: 78331,
+  stdout: 'Starting frozen local patch rain-tabs-title-table-2026-10-20; staging /var/folders/2h/mp7rp10x1plgfqrm94_0dcdm0000gn/T/rain-tabs-patch-ju7BHk\n' +
+    'Compiling react / baseline: one Tabs entry and its reachable modules\n' +
+    'Compiling react / patched: one Tabs entry and its reachable modules\n',
+  stderr: 'AssertionError [ERR_ASSERTION]: Single-entry baseline differs from the verified archive: components/tabs/tabs.js\n' +
+    '+ actual - expected\n' +
+    '\n' +
+    "+ '22723ab54ed1bedb0b365cd2fe64f01f9d8327121e25b051b24e67a0adec36f6'\n" +
+    "- '418e528e12f98236b8290019f708b4e4bec1b465e3681a6298986c4a7f6be472'\n" +
+    '\n' +
+    '    at main (file:///Users/wenchengkai/CodexFile/hero%20ui-%E6%94%B9%E9%80%A0/scripts/rain/compile-local-patch.mjs:420:12) {\n' +
+    '  generatedMessage: false,\n' +
+    "  code: 'ERR_ASSERTION',\n" +
+    "  actual: '22723ab54ed1bedb0b365cd2fe64f01f9d8327121e25b051b24e67a0adec36f6',\n" +
+    "  expected: '418e528e12f98236b8290019f708b4e4bec1b465e3681a6298986c4a7f6be472',\n" +
+    "  operator: 'strictEqual',\n" +
+    "  diff: 'simple'\n" +
+    '}\n'
+}
+
+Node.js v24.13.0

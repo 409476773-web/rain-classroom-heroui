@@ -1,0 +1,5 @@
+
+> heroui@3.2.6 local:inventory:check /Users/wenchengkai/CodexFile/hero ui-改造
+> node scripts/rain/inventory.mjs --check
+
+Inventory artifacts match current source. Runtime and visual acceptance are not checked.

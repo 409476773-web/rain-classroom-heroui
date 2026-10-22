@@ -1,0 +1,10 @@
+{
+  "sourceModules": 87,
+  "publicModules": 85,
+  "filePointers": 955,
+  "examplePointers": 454,
+  "relatedExamplePointers": 32,
+  "allFilesExist": true,
+  "allRelatedExamplesUseTheirModule": true,
+  "allPreviewIdsExistInCurrentIndex": true
+}

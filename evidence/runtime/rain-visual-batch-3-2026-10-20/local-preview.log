@@ -1,0 +1,670 @@
+
+> heroui@3.2.6 local:preview /Users/wenchengkai/CodexFile/hero ui-改造
+> node scripts/rain/preview.mjs
+
+[local:preview] 使用已有 apps/docs/.env.local，未覆盖。
+[local:preview] 模式：local preview（强制开启），APP_ENV=development。
+[local:preview] Docs 启动地址：http://127.0.0.1:3100/docs/react
+[local:preview] 中文文档：http://127.0.0.1:3100/cn/docs/react
+[local:preview] 雨课堂组件中心：http://127.0.0.1:3100/cn/docs/react/rain
+[local:preview] Storybook 启动地址：http://127.0.0.1:6006/
+[local:preview] 等待下方服务就绪提示；按 Ctrl+C 同时退出。
+
+> @heroui/docs@0.0.0 predev /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs
+> node scripts/build-skills.mjs && node scripts/build-theme-presets.mjs
+
+Building skill tarballs...
+Source: /Users/wenchengkai/CodexFile/hero ui-改造/skills
+Output: /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/public/skills
+
+✓ Built heroui-react.tar.gz (11.1KB)
+✓ Built heroui-native.tar.gz (10.5KB)
+✓ Built heroui-migration.tar.gz (7.6KB)
+
+✓ All skill tarballs built successfully
+✓ Generated 10 theme presets → /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/styles/theme-presets.css
+
+> @heroui/docs@0.0.0 dev /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs
+> next dev --hostname 127.0.0.1 --port 3100
+
+
+┌  storybook v10.6.0
+▲ Next.js 16.3.5 (Turbopack)
+- Local:         http://127.0.0.1:3100
+- Network:       http://127.0.0.1:3100
+- Environments: .env.local
+✓ Ready in 394ms
+✓ Running next.config.ts took 50ms
+Warning: total number of custom routes exceeds 1000, this can reduce performance. Route counts:
+headers: 17
+rewrites: 2
+redirects: 1107
+See more info: https://nextjs.org/docs/messages/max-custom-routes-reached
+│
+●  Starting...
+[MDX] generated files in 329.50583399999994ms
+[MDX] started dev server
+│ [38;2;255;71;133m╭[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m╮[39m
+│ [38;2;255;71;133m│[39m   Storybook ready!                                 [38;2;255;71;133m│[39m
+│ [38;2;255;71;133m│[39m                                                    [38;2;255;71;133m│[39m
+│ [38;2;255;71;133m│[39m   - Local:                http://localhost:6006/   [38;2;255;71;133m│[39m
+│ [38;2;255;71;133m│[39m   - On your network:      http://127.0.0.1:6006/   [38;2;255;71;133m│[39m
+│ [38;2;255;71;133m│[39m                                                    [38;2;255;71;133m│[39m
+│ [38;2;255;71;133m╰[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m╯[39m
+│
+●  1.23 s for manager and 286 ms for preview
+- Experiments (use with caution):
+  · optimizePackageImports
+
+○ Compiling /[lang]/docs/[[...slug]] ...
+[browser] Image with src "/_next/static/media/default.01h6-m33xneyc.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/sky.19tf97908ki3o.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/lavender.36n_i04b28e_u.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/mint.37bqf7u8dhc2m.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/netflix.0k9fsp6r1su36.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/black.24rh4iaxmw5ft.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/spotify.0j2lokvek79ru.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/coinbase.444cu95rte3ow.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/airbnb.1ho6v-efq2b37.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/discord.2t_v_b206_2ym.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/rabbit.0dvbf20fhrdyd.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] <Pressable> child must be focusable. Please ensure the tabIndex prop is passed through.
+[browser] <Pressable> child must be focusable. Please ensure the tabIndex prop is passed through.
+Image with src "/_next/static/media/default.01h6-m33xneyc.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+Image with src "/_next/static/media/sky.19tf97908ki3o.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+Image with src "/_next/static/media/lavender.36n_i04b28e_u.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+Image with src "/_next/static/media/mint.37bqf7u8dhc2m.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+Image with src "/_next/static/media/netflix.0k9fsp6r1su36.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+Image with src "/_next/static/media/black.24rh4iaxmw5ft.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+Image with src "/_next/static/media/spotify.0j2lokvek79ru.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+Image with src "/_next/static/media/coinbase.444cu95rte3ow.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+Image with src "/_next/static/media/airbnb.1ho6v-efq2b37.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+Image with src "/_next/static/media/discord.2t_v_b206_2ym.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+Image with src "/_next/static/media/rabbit.0dvbf20fhrdyd.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+ GET /cn/docs/react/rain 200 in 24.8s (next.js: 11.1s, proxy.ts: 159ms, generate-params: 8.6s, application-code: 4.9s)
+ GET /cn/docs/react/components/date-picker 200 in 24.9s (next.js: 11.1s, proxy.ts: 130ms, generate-params: 8.5s, application-code: 5.2s)
+│  Vite hmr update
+│  /@id/__x00__virtual:/@storybook/builder-vite/vite-app.js,
+│  /.storybook/globals.css
+ GET /cn/docs/react/rain 200 in 769ms (next.js: 252ms, proxy.ts: 5ms, generate-params: 0.0ms, application-code: 512ms)
+(node:68724) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 drain listeners added to [Gzip]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+ GET /cn/docs/react/components/date-picker 200 in 814ms (next.js: 86ms, proxy.ts: 7ms, generate-params: 3ms, application-code: 717ms)
+✓ Compiled in 293ms
+(node:68724) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 drain listeners added to [Gzip]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+ GET /cn/docs/react/components/date-picker 200 in 601ms (next.js: 54ms, proxy.ts: 3ms, generate-params: 0.0ms, application-code: 543ms)
+ GET /cn/docs/react/rain 200 in 198ms (next.js: 26ms, proxy.ts: 5ms, generate-params: 4ms, application-code: 163ms)
+ GET /cn/docs/react/rain 200 in 351ms (next.js: 16ms, proxy.ts: 3ms, generate-params: 1.9ms, application-code: 331ms)
+[browser] Image with src "/_next/static/media/default.01h6-m33xneyc.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/sky.19tf97908ki3o.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/lavender.36n_i04b28e_u.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/mint.37bqf7u8dhc2m.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/netflix.0k9fsp6r1su36.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/black.24rh4iaxmw5ft.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/spotify.0j2lokvek79ru.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/coinbase.444cu95rte3ow.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/airbnb.1ho6v-efq2b37.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/discord.2t_v_b206_2ym.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/rabbit.0dvbf20fhrdyd.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+│  Vite hmr update
+│  /@id/__x00__virtual:/@storybook/builder-vite/vite-app.js,
+│  /.storybook/globals.css
+✓ Compiled in 278ms
+ GET /cn/docs/react/rain 200 in 175ms (next.js: 22ms, proxy.ts: 5ms, generate-params: 0.0ms, application-code: 149ms)
+(node:68724) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 drain listeners added to [Gzip]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+ GET /cn/docs/react/components/date-picker 200 in 1005ms (next.js: 114ms, proxy.ts: 4ms, generate-params: 3ms, application-code: 884ms)
+[browser] Image with src "/_next/static/media/default.01h6-m33xneyc.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/sky.19tf97908ki3o.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/lavender.36n_i04b28e_u.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/mint.37bqf7u8dhc2m.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/netflix.0k9fsp6r1su36.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/black.24rh4iaxmw5ft.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/spotify.0j2lokvek79ru.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/coinbase.444cu95rte3ow.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/airbnb.1ho6v-efq2b37.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/discord.2t_v_b206_2ym.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/rabbit.0dvbf20fhrdyd.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] <Pressable> child must be focusable. Please ensure the tabIndex prop is passed through.
+[browser] <Pressable> child must be focusable. Please ensure the tabIndex prop is passed through.
+│  Vite hmr update /.storybook/globals.css
+ GET /cn/docs/react/components/table 200 in 4.7s (next.js: 712ms, proxy.ts: 6ms, generate-params: 7ms, application-code: 4.0s)
+[browser] Image with src "/_next/static/media/default.01h6-m33xneyc.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/sky.19tf97908ki3o.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/lavender.36n_i04b28e_u.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/mint.37bqf7u8dhc2m.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/netflix.0k9fsp6r1su36.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/black.24rh4iaxmw5ft.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/spotify.0j2lokvek79ru.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/coinbase.444cu95rte3ow.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/airbnb.1ho6v-efq2b37.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/discord.2t_v_b206_2ym.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/rabbit.0dvbf20fhrdyd.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+│  Vite hmr update /.storybook/globals.css
+│  Vite hmr update /.storybook/globals.css,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/tabs/tabs.tsx
+│  Vite hmr update
+│  /@id/__x00__virtual:/@storybook/builder-vite/vite-app.js,
+│  /.storybook/components/colors-demo/color-controls.tsx,
+│  /.storybook/components/colors-demo/component-showcase.tsx,
+│  /.storybook/components/colors-demo/preview-column.tsx,
+│  /.storybook/stories/demos/allow-notifications-demo.tsx,
+│  /.storybook/stories/demos/alert-demo.tsx,
+│  /.storybook/stories/demos/buttons-demo.tsx,
+│  /.storybook/stories/demos/avatar-group-demo.tsx,
+│  /.storybook/stories/demos/alert-dialog-demo.tsx,
+│  /.storybook/stories/demos/list-box-demo.tsx,
+│  /.storybook/stories/demos/input-otp-demo.tsx,
+│  /.storybook/stories/demos/slider-demo.tsx,
+│  /.storybook/stories/demos/select-demo.tsx,
+│  /.storybook/stories/demos/subtle-cards-demo.tsx,
+│  /.storybook/stories/demos/login-demo.tsx,
+│  /.storybook/stories/demos/textfield-demo.tsx,
+│  /.storybook/stories/demos/ui-components-demo.tsx,
+│  /.storybook/stories/demos/x-profile-demo.tsx,
+│  /.storybook/stories/demos/tabs-1-demo.tsx,
+│  /.storybook/stories/demos/tabs-2-demo.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/toast/toast.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/button/button.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/accordion/accordion.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/spinner/spinner.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/avatar-group/avatar-group.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/input/input.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/input-group/input-group.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/textarea/textarea.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/search-field/search-field.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/drawer/drawer.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/tag/tag.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/alert-dialog/alert-dialog.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/modal/modal.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/autocomplete/autocomplete.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/card/card.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/date-range-picker/date-range-picker.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/color-picker/color-picker.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/combo-box/combo-box.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/popover/popover.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/date-picker/date-picker.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/select/select.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/dropdown/dropdown.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/alert/alert.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/breadcrumbs/breadcrumbs.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/toggle-button/toggle-button.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/tabs/tabs.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/button-group/button-group.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/toolbar/toolbar.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/close-button/close-button.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/toggle-button-group/toggle-button-group.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/list-box/list-box.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/menu/menu.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/pagination/pagination.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/list-box-item/list-box-item.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/menu-item/menu-item.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/badge/badge.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/avatar/avatar.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/checkbox/checkbox.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/time-field/time-field.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/color-swatch/color-swatch.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/color-swatch-picker/color-swatch-picker.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/checkbox-group/checkbox-group.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/tooltip/tooltip.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/typography/typography.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/color-field/color-field.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/textfield/textfield.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/kbd/kbd.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/field-error/field-error.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/chip/chip.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/progress-circle/progress-circle.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/tag-group/tag-group.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/fieldset/fieldset.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/input-otp/input-otp.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/switch/switch.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/radio-group/radio-group.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/color-area/color-area.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/progress-bar/progress-bar.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/meter/meter.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/disclosure/disclosure.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/radio/radio.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/range-calendar/range-calendar.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/link/link.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/color-slider/color-slider.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/slider/slider.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/calendar/calendar.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/number-field/number-field.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/calendar-year-picker/calendar-year-picker.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/date-field/date-field.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/disclosure-group/disclosure-group.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/table/table.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/color-input-group/color-input-group.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/date-input-group/date-input-group.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/label/label.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/description/description.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/list-box-section/list-box-section.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/surface/surface.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/skeleton/skeleton.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/error-message/error-message.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/separator/separator.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/empty-state/empty-state.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/switch-group/switch-group.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/header/header.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/scroll-shadow/scroll-shadow.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/menu-section/menu-section.tsx
+│  Vite hmr update /.storybook/globals.css
+│  Vite hmr invalidate /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/combo-box/combo-box.tsx Could
+│  not Fast Refresh ("ComboBoxContext" export is incompatible). Learn
+│  more at
+│  ]8;;https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exportshttps://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports]8;;
+│  Vite hmr update
+│  /@id/__x00__virtual:/@storybook/builder-vite/vite-app.js,
+│  /.storybook/components/colors-demo/color-controls.tsx,
+│  /.storybook/components/colors-demo/component-showcase.tsx,
+│  /.storybook/components/colors-demo/preview-column.tsx,
+│  /.storybook/stories/demos/allow-notifications-demo.tsx,
+│  /.storybook/stories/demos/alert-demo.tsx,
+│  /.storybook/stories/demos/buttons-demo.tsx,
+│  /.storybook/stories/demos/avatar-group-demo.tsx,
+│  /.storybook/stories/demos/alert-dialog-demo.tsx,
+│  /.storybook/stories/demos/list-box-demo.tsx,
+│  /.storybook/stories/demos/input-otp-demo.tsx,
+│  /.storybook/stories/demos/slider-demo.tsx,
+│  /.storybook/stories/demos/select-demo.tsx,
+│  /.storybook/stories/demos/subtle-cards-demo.tsx,
+│  /.storybook/stories/demos/login-demo.tsx,
+│  /.storybook/stories/demos/textfield-demo.tsx,
+│  /.storybook/stories/demos/ui-components-demo.tsx,
+│  /.storybook/stories/demos/x-profile-demo.tsx,
+│  /.storybook/stories/demos/tabs-1-demo.tsx,
+│  /.storybook/stories/demos/tabs-2-demo.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/input/input.tsx
+│  Vite hmr invalidate /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/button-group/button-group.tsx
+│  Could not Fast Refresh ("ButtonGroupContext" export is incompatible).
+│  Learn more at
+│  ]8;;https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exportshttps://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports]8;;
+│  Vite hmr update
+│  /@id/__x00__virtual:/@storybook/builder-vite/vite-app.js,
+│  /.storybook/components/colors-demo/color-controls.tsx,
+│  /.storybook/components/colors-demo/component-showcase.tsx,
+│  /.storybook/components/colors-demo/preview-column.tsx,
+│  /.storybook/stories/demos/allow-notifications-demo.tsx,
+│  /.storybook/stories/demos/alert-demo.tsx,
+│  /.storybook/stories/demos/buttons-demo.tsx,
+│  /.storybook/stories/demos/avatar-group-demo.tsx,
+│  /.storybook/stories/demos/alert-dialog-demo.tsx,
+│  /.storybook/stories/demos/list-box-demo.tsx,
+│  /.storybook/stories/demos/input-otp-demo.tsx,
+│  /.storybook/stories/demos/slider-demo.tsx,
+│  /.storybook/stories/demos/select-demo.tsx,
+│  /.storybook/stories/demos/subtle-cards-demo.tsx,
+│  /.storybook/stories/demos/login-demo.tsx,
+│  /.storybook/stories/demos/textfield-demo.tsx,
+│  /.storybook/stories/demos/ui-components-demo.tsx,
+│  /.storybook/stories/demos/x-profile-demo.tsx,
+│  /.storybook/stories/demos/tabs-1-demo.tsx,
+│  /.storybook/stories/demos/tabs-2-demo.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/toast/toast.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/button/button.tsx
+│  Vite hmr invalidate /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/toggle-button-group/toggle-button-group.tsx
+│  Could not Fast Refresh ("ToggleButtonGroupContext" export is
+│  incompatible). Learn more at
+│  ]8;;https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exportshttps://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports]8;;
+│  Vite hmr update
+│  /@id/__x00__virtual:/@storybook/builder-vite/vite-app.js,
+│  /.storybook/components/colors-demo/color-controls.tsx,
+│  /.storybook/components/colors-demo/component-showcase.tsx,
+│  /.storybook/components/colors-demo/preview-column.tsx,
+│  /.storybook/stories/demos/allow-notifications-demo.tsx,
+│  /.storybook/stories/demos/alert-demo.tsx,
+│  /.storybook/stories/demos/buttons-demo.tsx,
+│  /.storybook/stories/demos/avatar-group-demo.tsx,
+│  /.storybook/stories/demos/alert-dialog-demo.tsx,
+│  /.storybook/stories/demos/list-box-demo.tsx,
+│  /.storybook/stories/demos/input-otp-demo.tsx,
+│  /.storybook/stories/demos/slider-demo.tsx,
+│  /.storybook/stories/demos/select-demo.tsx,
+│  /.storybook/stories/demos/subtle-cards-demo.tsx,
+│  /.storybook/stories/demos/login-demo.tsx,
+│  /.storybook/stories/demos/textfield-demo.tsx,
+│  /.storybook/stories/demos/ui-components-demo.tsx,
+│  /.storybook/stories/demos/x-profile-demo.tsx,
+│  /.storybook/stories/demos/tabs-1-demo.tsx,
+│  /.storybook/stories/demos/tabs-2-demo.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/toggle-button/toggle-button.tsx
+│  Vite hmr invalidate /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/checkbox-group/checkbox-group.tsx
+│  Could not Fast Refresh ("CheckboxGroupContext" export is
+│  incompatible). Learn more at
+│  ]8;;https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exportshttps://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports]8;;
+│  Vite hmr update
+│  /@id/__x00__virtual:/@storybook/builder-vite/vite-app.js,
+│  /.storybook/components/colors-demo/color-controls.tsx,
+│  /.storybook/components/colors-demo/component-showcase.tsx,
+│  /.storybook/components/colors-demo/preview-column.tsx,
+│  /.storybook/stories/demos/allow-notifications-demo.tsx,
+│  /.storybook/stories/demos/alert-demo.tsx,
+│  /.storybook/stories/demos/buttons-demo.tsx,
+│  /.storybook/stories/demos/avatar-group-demo.tsx,
+│  /.storybook/stories/demos/alert-dialog-demo.tsx,
+│  /.storybook/stories/demos/list-box-demo.tsx,
+│  /.storybook/stories/demos/input-otp-demo.tsx,
+│  /.storybook/stories/demos/slider-demo.tsx,
+│  /.storybook/stories/demos/select-demo.tsx,
+│  /.storybook/stories/demos/subtle-cards-demo.tsx,
+│  /.storybook/stories/demos/login-demo.tsx,
+│  /.storybook/stories/demos/textfield-demo.tsx,
+│  /.storybook/stories/demos/ui-components-demo.tsx,
+│  /.storybook/stories/demos/x-profile-demo.tsx,
+│  /.storybook/stories/demos/tabs-1-demo.tsx,
+│  /.storybook/stories/demos/tabs-2-demo.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/checkbox/checkbox.tsx
+│  Vite hmr invalidate /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/textfield/textfield.tsx Could
+│  not Fast Refresh ("TextFieldContext" export is incompatible). Learn
+│  more at
+│  ]8;;https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exportshttps://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports]8;;
+│  Vite hmr update
+│  /@id/__x00__virtual:/@storybook/builder-vite/vite-app.js,
+│  /.storybook/components/colors-demo/color-controls.tsx,
+│  /.storybook/components/colors-demo/component-showcase.tsx,
+│  /.storybook/components/colors-demo/preview-column.tsx,
+│  /.storybook/stories/demos/allow-notifications-demo.tsx,
+│  /.storybook/stories/demos/alert-demo.tsx,
+│  /.storybook/stories/demos/buttons-demo.tsx,
+│  /.storybook/stories/demos/avatar-group-demo.tsx,
+│  /.storybook/stories/demos/alert-dialog-demo.tsx,
+│  /.storybook/stories/demos/list-box-demo.tsx,
+│  /.storybook/stories/demos/input-otp-demo.tsx,
+│  /.storybook/stories/demos/slider-demo.tsx,
+│  /.storybook/stories/demos/select-demo.tsx,
+│  /.storybook/stories/demos/subtle-cards-demo.tsx,
+│  /.storybook/stories/demos/login-demo.tsx,
+│  /.storybook/stories/demos/textfield-demo.tsx,
+│  /.storybook/stories/demos/ui-components-demo.tsx,
+│  /.storybook/stories/demos/x-profile-demo.tsx,
+│  /.storybook/stories/demos/tabs-1-demo.tsx,
+│  /.storybook/stories/demos/tabs-2-demo.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/input-group/input-group.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/textarea/textarea.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/input/input.tsx
+│  Vite hmr invalidate /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/tag-group/tag-group.tsx Could
+│  not Fast Refresh ("TagGroupContext" export is incompatible). Learn
+│  more at
+│  ]8;;https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exportshttps://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports]8;;
+│  Vite hmr update
+│  /@id/__x00__virtual:/@storybook/builder-vite/vite-app.js,
+│  /.storybook/components/colors-demo/color-controls.tsx,
+│  /.storybook/components/colors-demo/component-showcase.tsx,
+│  /.storybook/components/colors-demo/preview-column.tsx,
+│  /.storybook/stories/demos/allow-notifications-demo.tsx,
+│  /.storybook/stories/demos/alert-demo.tsx,
+│  /.storybook/stories/demos/buttons-demo.tsx,
+│  /.storybook/stories/demos/avatar-group-demo.tsx,
+│  /.storybook/stories/demos/alert-dialog-demo.tsx,
+│  /.storybook/stories/demos/list-box-demo.tsx,
+│  /.storybook/stories/demos/input-otp-demo.tsx,
+│  /.storybook/stories/demos/slider-demo.tsx,
+│  /.storybook/stories/demos/select-demo.tsx,
+│  /.storybook/stories/demos/subtle-cards-demo.tsx,
+│  /.storybook/stories/demos/login-demo.tsx,
+│  /.storybook/stories/demos/textfield-demo.tsx,
+│  /.storybook/stories/demos/ui-components-demo.tsx,
+│  /.storybook/stories/demos/x-profile-demo.tsx,
+│  /.storybook/stories/demos/tabs-1-demo.tsx,
+│  /.storybook/stories/demos/tabs-2-demo.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/tag/tag.tsx
+│  Vite hmr invalidate /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/surface/surface.tsx Could not
+│  Fast Refresh ("SurfaceContext" export is incompatible). Learn more at
+│  ]8;;https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exportshttps://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports]8;;
+│  Vite hmr update
+│  /@id/__x00__virtual:/@storybook/builder-vite/vite-app.js,
+│  /.storybook/components/colors-demo/color-controls.tsx,
+│  /.storybook/components/colors-demo/component-showcase.tsx,
+│  /.storybook/components/colors-demo/preview-column.tsx,
+│  /.storybook/stories/demos/allow-notifications-demo.tsx,
+│  /.storybook/stories/demos/alert-demo.tsx,
+│  /.storybook/stories/demos/buttons-demo.tsx,
+│  /.storybook/stories/demos/avatar-group-demo.tsx,
+│  /.storybook/stories/demos/alert-dialog-demo.tsx,
+│  /.storybook/stories/demos/list-box-demo.tsx,
+│  /.storybook/stories/demos/input-otp-demo.tsx,
+│  /.storybook/stories/demos/slider-demo.tsx,
+│  /.storybook/stories/demos/select-demo.tsx,
+│  /.storybook/stories/demos/subtle-cards-demo.tsx,
+│  /.storybook/stories/demos/login-demo.tsx,
+│  /.storybook/stories/demos/textfield-demo.tsx,
+│  /.storybook/stories/demos/ui-components-demo.tsx,
+│  /.storybook/stories/demos/x-profile-demo.tsx,
+│  /.storybook/stories/demos/tabs-1-demo.tsx,
+│  /.storybook/stories/demos/tabs-2-demo.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/accordion/accordion.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/autocomplete/autocomplete.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/card/card.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/date-range-picker/date-range-picker.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/color-picker/color-picker.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/combo-box/combo-box.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/drawer/drawer.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/popover/popover.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/date-picker/date-picker.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/select/select.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/dropdown/dropdown.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/alert/alert.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/modal/modal.tsx
+│  Vite hmr invalidate /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/combo-box/combo-box.tsx Could
+│  not Fast Refresh ("ComboBoxContext" export is incompatible). Learn
+│  more at
+│  ]8;;https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exportshttps://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports]8;;
+│  Vite hmr update
+│  /@id/__x00__virtual:/@storybook/builder-vite/vite-app.js,
+│  /.storybook/components/colors-demo/color-controls.tsx,
+│  /.storybook/components/colors-demo/component-showcase.tsx,
+│  /.storybook/components/colors-demo/preview-column.tsx,
+│  /.storybook/stories/demos/allow-notifications-demo.tsx,
+│  /.storybook/stories/demos/alert-demo.tsx,
+│  /.storybook/stories/demos/buttons-demo.tsx,
+│  /.storybook/stories/demos/avatar-group-demo.tsx,
+│  /.storybook/stories/demos/alert-dialog-demo.tsx,
+│  /.storybook/stories/demos/list-box-demo.tsx,
+│  /.storybook/stories/demos/input-otp-demo.tsx,
+│  /.storybook/stories/demos/slider-demo.tsx,
+│  /.storybook/stories/demos/select-demo.tsx,
+│  /.storybook/stories/demos/subtle-cards-demo.tsx,
+│  /.storybook/stories/demos/login-demo.tsx,
+│  /.storybook/stories/demos/textfield-demo.tsx,
+│  /.storybook/stories/demos/ui-components-demo.tsx,
+│  /.storybook/stories/demos/x-profile-demo.tsx,
+│  /.storybook/stories/demos/tabs-1-demo.tsx,
+│  /.storybook/stories/demos/tabs-2-demo.tsx,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/input/input.tsx
+│  Vite hmr update /.storybook/globals.css,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/tabs/tabs.tsx
+│  Vite hmr update /.storybook/globals.css,
+│  /@fs/Users/wenchengkai/CodexFile/hero
+│  ui-改造/packages/react/src/components/tabs/tabs.tsx
+│  Vite hmr update
+│  /@id/__x00__virtual:/@storybook/builder-vite/vite-app.js,
+│  /.storybook/globals.css
+[33m[HeroUI][0m ⚠️  Duplicate collection slot "tabs.listContainer". Use a unique, namespaced name (e.g. "tabs.listContainer", "menu.popover").
+ GET /cn/docs/react/components/tabs 200 in 2.7s (next.js: 773ms, proxy.ts: 6ms, generate-params: 29ms, application-code: 1869ms)
+[browser] Image with src "/_next/static/media/default.01h6-m33xneyc.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/sky.19tf97908ki3o.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/lavender.36n_i04b28e_u.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/mint.37bqf7u8dhc2m.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/netflix.0k9fsp6r1su36.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/black.24rh4iaxmw5ft.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/spotify.0j2lokvek79ru.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/coinbase.444cu95rte3ow.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/airbnb.1ho6v-efq2b37.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/discord.2t_v_b206_2ym.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/rabbit.0dvbf20fhrdyd.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+ GET /cn/docs/react/rain/ai 200 in 334ms (next.js: 60ms, proxy.ts: 5ms, generate-params: 2ms, application-code: 267ms)
+[browser] Image with src "/_next/static/media/default.01h6-m33xneyc.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/sky.19tf97908ki3o.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/lavender.36n_i04b28e_u.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/mint.37bqf7u8dhc2m.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/netflix.0k9fsp6r1su36.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/black.24rh4iaxmw5ft.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/spotify.0j2lokvek79ru.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/coinbase.444cu95rte3ow.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/airbnb.1ho6v-efq2b37.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/discord.2t_v_b206_2ym.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/rabbit.0dvbf20fhrdyd.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+│  Vite hmr update /.storybook/globals.css
+ GET /cn/docs/react/components/tabs 200 in 1096ms (next.js: 25ms, proxy.ts: 7ms, generate-params: 5ms, application-code: 1059ms)
+[browser] Image with src "/_next/static/media/default.01h6-m33xneyc.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/sky.19tf97908ki3o.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/lavender.36n_i04b28e_u.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/mint.37bqf7u8dhc2m.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/netflix.0k9fsp6r1su36.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/black.24rh4iaxmw5ft.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/spotify.0j2lokvek79ru.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/coinbase.444cu95rte3ow.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/airbnb.1ho6v-efq2b37.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/discord.2t_v_b206_2ym.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/rabbit.0dvbf20fhrdyd.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+│  Vite hmr update /.storybook/globals.css
+ GET /cn/docs/react/releases/v3-0-0-alpha-34 200 in 1254ms (next.js: 112ms, proxy.ts: 10ms, generate-params: 3ms, application-code: 1130ms)
+[browser] Image with src "/_next/static/media/default.01h6-m33xneyc.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/sky.19tf97908ki3o.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/lavender.36n_i04b28e_u.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/mint.37bqf7u8dhc2m.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/netflix.0k9fsp6r1su36.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/black.24rh4iaxmw5ft.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/spotify.0j2lokvek79ru.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/coinbase.444cu95rte3ow.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/airbnb.1ho6v-efq2b37.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/discord.2t_v_b206_2ym.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/rabbit.0dvbf20fhrdyd.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+ GET /en/docs/react/releases/v3-0-0-alpha-34 200 in 981ms (next.js: 20ms, proxy.ts: 3ms, generate-params: 4ms, application-code: 954ms)
+[browser] Image with src "/_next/static/media/default.01h6-m33xneyc.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/sky.19tf97908ki3o.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/lavender.36n_i04b28e_u.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/mint.37bqf7u8dhc2m.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/netflix.0k9fsp6r1su36.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/black.24rh4iaxmw5ft.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/spotify.0j2lokvek79ru.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/coinbase.444cu95rte3ow.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/airbnb.1ho6v-efq2b37.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/discord.2t_v_b206_2ym.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/rabbit.0dvbf20fhrdyd.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+ GET /cn/docs/react/releases/v3-0-4 200 in 1793ms (next.js: 72ms, proxy.ts: 2ms, generate-params: 1.5ms, application-code: 1718ms)
+ │ GET https://api.github.com/repos/heroui-inc/heroui/pulls/6483 200 in 871ms (cache skip)
+ │ │ Cache skipped reason: (cache-control: no-cache (hard refresh))
+ │ GET https://api.github.com/repos/heroui-inc/heroui/pulls/6483/commits?page=1&per_page=100 200 in 1067ms (cache skip)
+ │ │ Cache skipped reason: (cache-control: no-cache (hard refresh))
+[MDX] closing dev server
+[?25h
+/Users/wenchengkai/CodexFile/hero ui-改造/apps/docs:
+ ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL  @heroui/docs@0.0.0 dev: `next dev --hostname 127.0.0.1 --port 3100`
+Exit status 143

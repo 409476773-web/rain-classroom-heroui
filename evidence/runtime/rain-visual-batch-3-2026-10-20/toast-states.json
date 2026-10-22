@@ -1,0 +1,33 @@
+{
+  "dangerToast": [
+    {
+      "background": "rgb(255, 255, 255)",
+      "clientWidth": 460,
+      "descriptionColor": "rgb(86, 104, 143)",
+      "height": 144,
+      "indicatorColor": "rgb(181, 42, 54)",
+      "radius": "16px",
+      "role": "alertdialog",
+      "scrollWidth": 464,
+      "text": "模拟确认未完成，需要继续核对本次批改记录模拟批改记录暂时无法确认，请先保留当前填写的反馈，再核对学生作答与评分参考。这里只展示长中文错误提示，没有请求接口或发送成绩。关闭本条提示",
+      "variant": "toast toast--bottom-end toast--danger",
+      "width": 460
+    }
+  ],
+  "successToast": [
+    {
+      "background": "rgb(255, 255, 255)",
+      "clientWidth": 460,
+      "descriptionColor": "rgb(86, 104, 143)",
+      "height": 84,
+      "indicatorColor": "oklab(0.40225 -0.0623241 0.00129841)",
+      "radius": "16px",
+      "role": "alertdialog",
+      "scrollWidth": 464,
+      "text": "模拟操作提示已出现本条消息仅用于观察成功色、中文文字和关闭操作，没有保存数据或通知学生。关闭本条提示",
+      "variant": "toast toast--bottom-end toast--success",
+      "width": 460
+    }
+  ],
+  "cleared": true
+}

@@ -1,0 +1,43 @@
+{
+  "active": {
+    "class": "button button--md button--danger",
+    "label": null,
+    "role": null,
+    "tag": "BUTTON"
+  },
+  "nodes": [
+    {
+      "checked": false,
+      "class": "button button--md button--danger",
+      "disabled": false,
+      "expanded": "false",
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgb(181, 42, 54)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(255, 255, 255)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "40px",
+        "opacity": "1",
+        "outline": "rgb(0, 95, 204) none 1px",
+        "radius": "10px",
+        "width": "126.211px"
+      },
+      "tag": "BUTTON",
+      "text": "Delete Project",
+      "value": ""
+    }
+  ],
+  "rain": "light",
+  "text": "Delete Project",
+  "theme": "light",
+  "url": "http://127.0.0.1:6006/iframe.html?id=components-overlays-alertdialog--default&viewMode=story&globals=heroui-theme%3Arain-light"
+}

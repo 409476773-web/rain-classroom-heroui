@@ -1,0 +1,36 @@
+{
+  "selectOpenState": {
+    "active": "第一组",
+    "options": [
+      {
+        "bg": "rgb(234, 242, 255)",
+        "disabled": null,
+        "selected": "true",
+        "text": "第一组"
+      },
+      {
+        "bg": "rgba(0, 0, 0, 0)",
+        "disabled": "true",
+        "selected": "false",
+        "text": "已归档组（禁用）"
+      },
+      {
+        "bg": "rgba(0, 0, 0, 0)",
+        "disabled": null,
+        "selected": "false",
+        "text": "第二组"
+      }
+    ],
+    "theme": "light"
+  },
+  "selectSkipped": "第二组",
+  "selectCommitted": {
+    "active": "第二组",
+    "expanded": null,
+    "popovers": 1
+  },
+  "selectEsc": {
+    "active": "第二组",
+    "expanded": null
+  }
+}

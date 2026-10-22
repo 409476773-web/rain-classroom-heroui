@@ -1,4 +1,5 @@
 @import "../styles/globals.css";
+@import "@rain-classroom/heroui-theme";
 
 :root {
   font-synthesis: none;
@@ -22,6 +23,16 @@
 
 html,
 body {
+  font-family: var(--font-sans);
+}
+
+/* Bare text and body portals need the Rain foreground as their inherited color. */
+:root[data-rain-theme="light"] body {
+  color: var(--foreground);
+}
+
+/* The preview head hardcodes Inter on this host, blocking Rain inheritance. */
+:root[data-rain-theme="light"] #storybook-root {
   font-family: var(--font-sans);
 }
 

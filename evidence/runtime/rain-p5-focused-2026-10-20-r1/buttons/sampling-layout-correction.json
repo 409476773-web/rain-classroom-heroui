@@ -1,0 +1,9 @@
+{
+  "reason": "Some earlier pointer drag origins touched Storybook sidebar splitter; raw samples retained, final comparison uses restored sidebar and fixed viewport",
+  "initialAccessibilityValue": 300,
+  "restoredValue": "300",
+  "viewport": {
+    "width": 1280,
+    "height": 960
+  }
+}

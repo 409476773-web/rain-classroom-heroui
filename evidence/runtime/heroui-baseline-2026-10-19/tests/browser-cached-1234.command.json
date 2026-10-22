@@ -1,0 +1,40 @@
+{
+  "name": "browser-cached-1234",
+  "classification": "supplemental-nonmatching-browser",
+  "actualBrowserVersion": "Google Chrome for Testing 151.0.7922.34",
+  "actualPlaywrightRevision": "1234",
+  "expectedBrowserVersion": "153.0.8010.12",
+  "expectedPlaywrightRevision": "1243",
+  "command": [
+    "pnpm",
+    "--filter",
+    "@heroui/react",
+    "exec",
+    "vitest",
+    "run",
+    "--config",
+    "/Users/wenchengkai/CodexFile/hero ui-改造/evidence/runtime/heroui-baseline-2026-10-19/tests/cached-browser.config.mts",
+    "--project",
+    "react-browser",
+    "--maxWorkers=1",
+    "--browser.fileParallelism=false",
+    "--reporter=default",
+    "--reporter=json",
+    "--outputFile=/Users/wenchengkai/CodexFile/hero ui-改造/evidence/runtime/heroui-baseline-2026-10-19/tests/browser-cached-1234.json"
+  ],
+  "shellDisplay": "pnpm --filter @heroui/react exec vitest run --config '/Users/wenchengkai/CodexFile/hero ui-改造/evidence/runtime/heroui-baseline-2026-10-19/tests/cached-browser.config.mts' --project react-browser --maxWorkers=1 --browser.fileParallelism=false --reporter=default --reporter=json '--outputFile=/Users/wenchengkai/CodexFile/hero ui-改造/evidence/runtime/heroui-baseline-2026-10-19/tests/browser-cached-1234.json'",
+  "cwd": "/Users/wenchengkai/CodexFile/hero ui-改造",
+  "startedAt": "2026-10-19T09:00:01.737072+00:00",
+  "log": "/Users/wenchengkai/CodexFile/hero ui-改造/evidence/runtime/heroui-baseline-2026-10-19/tests/browser-cached-1234.log",
+  "exitCode": 0,
+  "finishedAt": "2026-10-19T09:00:09.543186+00:00",
+  "durationSeconds": 7.81,
+  "vitestSummary": {
+    "numTotalTests": 47,
+    "numPassedTests": 47,
+    "numFailedTests": 0,
+    "numPendingTests": 0,
+    "success": true
+  },
+  "resultFiles": 12
+}

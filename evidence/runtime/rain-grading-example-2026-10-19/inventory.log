@@ -1,0 +1,41 @@
+{
+  "generated": [
+    "docs/rain/inventory.json",
+    "docs/rain/exceptions.md"
+  ],
+  "summary": {
+    "allStoryFiles": 73,
+    "builtStories": 587,
+    "builtStorybookEntries": 660,
+    "componentStoryFiles": 68,
+    "locales": {
+      "en": {
+        "allReactDocs": 177,
+        "componentDocs": 73,
+        "demoTsxFiles": 683,
+        "registeredDemos": 681
+      },
+      "zh": {
+        "allReactDocs": 177,
+        "componentDocs": 73,
+        "demoTsxFiles": 687,
+        "registeredDemos": 681
+      }
+    },
+    "publicComponentBarrelModules": 85,
+    "referenceIssues": 4,
+    "registeredLoaderWrappers": 4,
+    "sourceModules": 87,
+    "staticStoryExports": 588,
+    "unregisteredDemoFiles": 4
+  },
+  "verification": {
+    "builtPackageExports": "not_checked",
+    "builtStorybookIndex": "mismatch",
+    "humanVisualAcceptance": "not_checked",
+    "interaction": "not_run",
+    "inventory": "static-analysis-completed",
+    "rainTheme": "not_checked",
+    "runtime": "not_run"
+  }
+}

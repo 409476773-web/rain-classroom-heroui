@@ -1,0 +1,57 @@
+{
+  "config": {
+    "base": "http://127.0.0.1:6006",
+    "concurrency": 1,
+    "help": false,
+    "output": "/Users/wenchengkai/CodexFile/hero ui-改造/evidence/runtime/rain-p5-future-run",
+    "plan": true
+  },
+  "source": {
+    "actualSha256": {
+      "packages/rain-theme/index.css": "2349702bace822f597b8954e6dc312f7a70a69ed7b65e5c2cee25e672c3e69c6",
+      "pnpm-lock.yaml": "1ea1be22f0b2304dc81d10f8f4bdb2562f9a4444b77c5cb68928305c69dac815",
+      "packages/react/src/components/tabs/tabs.tsx": "57f77ccefe0fb3af69d8d00c48b9518f5f268d07599b1f687c27dc090a1b7eb5",
+      "packages/styles/src/components/tabs/tabs.styles.ts": "5e5297e111e4260f0b7c71ad47a3bee65b439c4e72e181458e26720475b4a010"
+    },
+    "inventory": {
+      "declaredInputFiles": 2672,
+      "declaredInputSha256": "f1f13f6a91c723a12b3c1aa0cf64df8d8432e133a41cc41c268bce10af3fb7cf",
+      "declaredLockfileSha256": "1ea1be22f0b2304dc81d10f8f4bdb2562f9a4444b77c5cb68928305c69dac815",
+      "kind": "recorded_input_summary_not_new_freeze",
+      "sha256": "1999b77ad1f64e02adb98cb74e92e2324b42e96fb389c855206a501607b5f8b3",
+      "summary": {
+        "allStoryFiles": 80,
+        "builtStories": 587,
+        "builtStorybookEntries": 660,
+        "componentStoryFiles": 68,
+        "locales": {
+          "en": {
+            "allReactDocs": 179,
+            "componentDocs": 73,
+            "demoTsxFiles": 683,
+            "registeredDemos": 681
+          },
+          "zh": {
+            "allReactDocs": 179,
+            "componentDocs": 73,
+            "demoTsxFiles": 687,
+            "registeredDemos": 681
+          }
+        },
+        "publicComponentBarrelModules": 85,
+        "referenceIssues": 12,
+        "registeredLoaderWrappers": 4,
+        "sourceModules": 87,
+        "staticStoryExports": 596,
+        "unregisteredDemoFiles": 4
+      },
+      "upstreamCommit": "e385ac202b2cdb94b1bf6fa76d32c31c8259cc5e"
+    },
+    "versions": {
+      "@heroui/react": "3.2.6",
+      "@heroui/styles": "3.2.6",
+      "@rain-classroom/heroui-theme": "0.1.2"
+    }
+  },
+  "status": "not_run"
+}

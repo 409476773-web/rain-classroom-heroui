@@ -1,0 +1,18 @@
+使用本地雨课堂 HeroUI 库：HeroUI 3.2.6，固定提交 e385ac202b2cdb94b1bf6fa76d32c31c8259cc5e。
+项目根目录：/Users/wenchengkai/CodexFile/hero ui-改造/
+先读取 AGENTS.md、docs/rain/ai/index.md 与 docs/rain/ai/usage-rules.md。
+本次组件：SwitchGroup
+公开导入：import {SwitchGroup} from "@heroui/react";
+组件入口：packages/react/src/components/switch-group/index.ts
+组件实现：packages/react/src/components/switch-group/switch-group.tsx
+样式：packages/styles/components/switch-group.css
+可用组合部件：SwitchGroup.Root
+文档：apps/docs/content/docs/cn/react/components/(controls)/switch.mdx（组合引用）
+示例：apps/docs/src/demos/cn/switch/form.tsx
+示例：apps/docs/src/demos/cn/switch/group.tsx
+示例：apps/docs/src/demos/cn/switch/group-horizontal.tsx
+Story: packages/react/src/components/switch-group/switch-group.stories.tsx → components-controls-switchgroup--default
+主题唯一入口：packages/rain-theme/index.css；页面不硬编码品牌色、字体或圆角。
+优先在业务层组合，保持基础组件的键盘、焦点、错误与禁用机制。
+课堂练习批改页已审核，改造时保留其已确认行为；本轮暂不运行新重测试。
+请先根据以上资料确认 API，再处理我随后描述的业务需求。

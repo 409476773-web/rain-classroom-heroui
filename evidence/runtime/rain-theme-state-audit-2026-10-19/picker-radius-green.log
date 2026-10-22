@@ -1,0 +1,15 @@
+✔ picker theme import leaves original light and dark computed styles unchanged (1052.150292ms)
+✔ Rain date-picker panel uses 16px without changing nested circles or pills (136.447625ms)
+✔ Rain date-range-picker panel uses 16px without changing nested circles or pills (132.190875ms)
+✔ Rain color-picker panel uses 16px without changing nested circles or pills (133.298875ms)
+✔ import is inert in original light and dark; removing the brand restores exact computed styles (1735.326875ms)
+✔ Rain changes brand roles, font identity and container/field radii without changing geometry or motion (580.145167ms)
+✔ body-level overlay inherits Rain colors/radii and native keyboard focus remains usable (233.137959ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2864.524667

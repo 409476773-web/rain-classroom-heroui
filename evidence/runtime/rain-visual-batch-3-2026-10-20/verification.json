@@ -1,0 +1,64 @@
+{
+  "diffWhitespace": {
+    "exitCode": 0,
+    "output": ""
+  },
+  "coreSourcesUnchanged": {
+    "exitCode": 0,
+    "output": ""
+  },
+  "archiveSha256": "packages/heroui-styles-3.2.6.tgz: OK\npackages/heroui-react-3.2.6.tgz: OK\npackages/rain-classroom-heroui-theme-0.1.1.tgz: OK\n",
+  "themeCssSha256": "3a681c04190cecbd82e8a096645d004438ab8e58ac109a3fc79f270432b0483d",
+  "lockfileSha256": "1ea1be22f0b2304dc81d10f8f4bdb2562f9a4444b77c5cb68928305c69dac815",
+  "upstreamLicenseByteEqual": true,
+  "focusedLogs": [
+    "catalog-tests.log",
+    "scripts-lint.log",
+    "stories-lint.log",
+    "storybook-typecheck.log",
+    "docs-typecheck.log",
+    "catalog-check.log",
+    "layout-semantic-lint.log",
+    "layout-semantic-typecheck.log"
+  ],
+  "scope": {
+    "heavyTests": false,
+    "fullStorySweep": false,
+    "productionBuild": false,
+    "newUserVisualApproval": false,
+    "newNetworkInstall": false
+  },
+  "inventorySummary": {
+    "allStoryFiles": 80,
+    "builtStories": 587,
+    "builtStorybookEntries": 660,
+    "componentStoryFiles": 68,
+    "locales": {
+      "en": {
+        "allReactDocs": 179,
+        "componentDocs": 73,
+        "demoTsxFiles": 683,
+        "registeredDemos": 681
+      },
+      "zh": {
+        "allReactDocs": 179,
+        "componentDocs": 73,
+        "demoTsxFiles": 687,
+        "registeredDemos": 681
+      }
+    },
+    "publicComponentBarrelModules": 85,
+    "referenceIssues": 12,
+    "registeredLoaderWrappers": 4,
+    "sourceModules": 87,
+    "staticStoryExports": 596,
+    "unregisteredDemoFiles": 4
+  },
+  "layoutA11yObservation": {
+    "violations": 0,
+    "inconclusive": 1,
+    "remaining": "Tabs selected item background overlapped; automatic color contrast undecided",
+    "semanticFix": "Named Card samples now use role=article",
+    "evidence": "layouts-a11y-after.txt"
+  }
+}

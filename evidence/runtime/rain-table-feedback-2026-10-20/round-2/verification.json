@@ -1,0 +1,14 @@
+{
+  "checkedNodes": 54,
+  "backgroundChanges": 6,
+  "newColor": "#EBEFFF",
+  "brandSource": [
+    "Background/Neutral/4",
+    "Fill/Neutral/Solid/4"
+  ],
+  "otherExtractedStyles": "unchanged",
+  "overflow": 0,
+  "heavyTests": false,
+  "productionBuild": false,
+  "repacked": false
+}

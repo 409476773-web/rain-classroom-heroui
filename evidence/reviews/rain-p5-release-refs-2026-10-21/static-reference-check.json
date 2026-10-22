@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-21",
+  "scope": "P5-I06 three specified release documents only",
+  "registry_reference_count": 19,
+  "documents": [
+    {
+      "document": "apps/docs/content/docs/en/react/releases/v3-0-0-alpha-34.mdx",
+      "sha256_after": "1cb18defdfc8bf10b1d5c2323a8ab7da4f2d99dce4212110d4d91ec336f1308a",
+      "refs": [
+        {
+          "id": "description-basic",
+          "file": "apps/docs/src/demos/en/description/basic.tsx",
+          "export": "Basic"
+        },
+        {
+          "id": "field-error-basic",
+          "file": "apps/docs/src/demos/en/field-error/basic.tsx",
+          "export": "Basic"
+        },
+        {
+          "id": "fieldset-basic",
+          "file": "apps/docs/src/demos/en/fieldset/basic.tsx",
+          "export": "Basic"
+        },
+        {
+          "id": "form-basic",
+          "file": "apps/docs/src/demos/en/form/basic.tsx",
+          "export": "Basic"
+        },
+        {
+          "id": "input-basic",
+          "file": "apps/docs/src/demos/en/input/basic.tsx",
+          "export": "Basic"
+        },
+        {
+          "id": "label-basic",
+          "file": "apps/docs/src/demos/en/label/basic.tsx",
+          "export": "Basic"
+        },
+        {
+          "id": "radio-group-basic",
+          "file": "apps/docs/src/demos/en/radio-group/basic.tsx",
+          "export": "Basic"
+        },
+        {
+          "id": "textfield-basic",
+          "file": "apps/docs/src/demos/en/textfield/basic.tsx",
+          "export": "Basic"
+        },
+        {
+          "id": "textarea-basic",
+          "file": "apps/docs/src/demos/en/textarea/basic.tsx",
+          "export": "Basic"
+        }
+      ],
+      "status": "static_registered_source_exports_present"
+    },
+    {
+      "document": "apps/docs/content/docs/cn/react/releases/v3-0-0-alpha-34.mdx",
+      "sha256_after": "0b9738c9e6ab68fdbcccf713a771723d2744a501820a9f2ecd91db91e4aeea92",
+      "refs": [
+        {
+          "id": "description-basic",
+          "file": "apps/docs/src/demos/cn/description/basic.tsx",
+          "export": "Basic"
+        },
+        {
+          "id": "field-error-basic",
+          "file": "apps/docs/src/demos/cn/field-error/basic.tsx",
+          "export": "Basic"
+        },
+        {
+          "id": "fieldset-basic",
+          "file": "apps/docs/src/demos/cn/fieldset/basic.tsx",
+          "export": "Basic"
+        },
+        {
+          "id": "form-basic",
+          "file": "apps/docs/src/demos/cn/form/basic.tsx",
+          "export": "Basic"
+        },
+        {
+          "id": "input-basic",
+          "file": "apps/docs/src/demos/cn/input/basic.tsx",
+          "export": "Basic"
+        },
+        {
+          "id": "label-basic",
+          "file": "apps/docs/src/demos/cn/label/basic.tsx",
+          "export": "Basic"
+        },
+        {
+          "id": "radio-group-basic",
+          "file": "apps/docs/src/demos/cn/radio-group/basic.tsx",
+          "export": "Basic"
+        },
+        {
+          "id": "textfield-basic",
+          "file": "apps/docs/src/demos/cn/textfield/basic.tsx",
+          "export": "Basic"
+        },
+        {
+          "id": "textarea-basic",
+          "file": "apps/docs/src/demos/cn/textarea/basic.tsx",
+          "export": "Basic"
+        }
+      ],
+      "status": "static_registered_source_exports_present"
+    },
+    {
+      "document": "apps/docs/content/docs/cn/react/releases/v3-0-4.mdx",
+      "sha256_after": "59c2c6e94853b1002a3a36051a1afb6780dbd8ba136ebfdc53d13153a35ff08b",
+      "refs": [
+        {
+          "id": "typography-typography-scale",
+          "file": "apps/docs/src/demos/cn/typography/typography-scale.tsx",
+          "export": "TypographyScale"
+        }
+      ],
+      "status": "static_registered_source_exports_present"
+    }
+  ],
+  "runtime_status": "not_run_delegated_to_parent",
+  "no_new_demo_or_registry_mapping": true,
+  "checks": [
+    "19 ComponentPreview IDs registered in matching-language registry",
+    "Each loader source file exists and exports named component",
+    "Old three missing IDs absent from target documents",
+    "Chinese 3.0.4 Typography API matches English counterpart and public compound export"
+  ]
+}

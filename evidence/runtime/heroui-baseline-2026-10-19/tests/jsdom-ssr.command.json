@@ -1,0 +1,36 @@
+{
+  "name": "jsdom-ssr",
+  "command": [
+    "pnpm",
+    "--filter",
+    "@heroui/react",
+    "exec",
+    "vitest",
+    "run",
+    "--project",
+    "react-jsdom",
+    "--maxWorkers=1",
+    "--reporter=default",
+    "--reporter=json",
+    "--outputFile=/Users/wenchengkai/CodexFile/hero ui-改造/evidence/runtime/heroui-baseline-2026-10-19/tests/jsdom-ssr.json"
+  ],
+  "shellDisplay": "pnpm --filter @heroui/react exec vitest run --project react-jsdom --maxWorkers=1 --reporter=default --reporter=json '--outputFile=/Users/wenchengkai/CodexFile/hero ui-改造/evidence/runtime/heroui-baseline-2026-10-19/tests/jsdom-ssr.json'",
+  "cwd": "/Users/wenchengkai/CodexFile/hero ui-改造",
+  "startedAt": "2026-10-19T08:54:42.211055+00:00",
+  "log": "/Users/wenchengkai/CodexFile/hero ui-改造/evidence/runtime/heroui-baseline-2026-10-19/tests/jsdom-ssr.log",
+  "exitCode": 0,
+  "finishedAt": "2026-10-19T08:57:01.853691+00:00",
+  "durationSeconds": 139.64,
+  "vitestSummary": {
+    "numTotalTestSuites": 256,
+    "numPassedTestSuites": 256,
+    "numFailedTestSuites": 0,
+    "numPendingTestSuites": 0,
+    "numTotalTests": 624,
+    "numPassedTests": 624,
+    "numFailedTests": 0,
+    "numPendingTests": 0,
+    "success": true
+  },
+  "resultFiles": 113
+}

@@ -1,15 +1,12 @@
+import type {ThemeKey} from "../addons/theme/constants";
 import type {Preview} from "@storybook/react";
 
 import {DocsContainer as StorybookDocsContainer} from "@storybook/addon-docs/blocks";
 import React, {useEffect, useMemo, useState} from "react";
 import {addons} from "storybook/preview-api";
 
-import {
-  DEFAULT_THEME,
-  THEME_EVENT_NAME,
-  THEME_GLOBAL_TYPE_ID,
-  ensureThemeKey,
-} from "../addons/theme/constants";
+import {THEME_EVENT_NAME, THEME_GLOBAL_TYPE_ID, ensureThemeKey} from "../addons/theme/constants";
+import {applyPreviewTheme, getBaseTheme} from "../addons/theme/preview-theme";
 import {themes} from "../styles/theme";
 
 /**
@@ -26,7 +23,12 @@ export const DocsContainer: NonNullable<Preview["parameters"]>["docs"]["containe
     [context?.globals],
   );
 
-  const [themeKey, setThemeKey] = useState<string>(initialTheme);
+  const [themeKey, setThemeKey] = useState<ThemeKey>(initialTheme);
+
+  // MDX-only docs pages also need a themed root, even when no story decorator runs.
+  useEffect(() => {
+    applyPreviewTheme(document.documentElement, themeKey);
+  }, [themeKey]);
 
   // Sync state when globals change (e.g. via toolbar)
   useEffect(() => {
@@ -54,7 +56,7 @@ export const DocsContainer: NonNullable<Preview["parameters"]>["docs"]["containe
     };
   }, []);
 
-  const selectedTheme = themes[themeKey as keyof typeof themes] || themes[DEFAULT_THEME];
+  const selectedTheme = themes[getBaseTheme(themeKey)];
 
   return (
     <StorybookDocsContainer context={context} theme={selectedTheme}>

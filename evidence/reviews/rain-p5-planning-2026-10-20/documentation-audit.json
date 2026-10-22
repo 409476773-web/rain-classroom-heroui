@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-10-20T13:44:21.149Z",
+  "activity": "Documentation integrity and source/artifact identity audit only",
+  "newComponentTestsRun": false,
+  "newBrowserRuns": false,
+  "newProductionBuildsRun": false,
+  "moduleRows": 87,
+  "gateRows": 12,
+  "issueRows": 13,
+  "checkedLocalLinks": 196,
+  "brokenLocalLinks": [],
+  "sourceTreesUnchanged": true,
+  "metadataAndDeliveryRecordsUnchanged": true,
+  "r2ArchiveHashesMatchRecorded": true,
+  "r2SourceIdentitiesMatchRecorded": true,
+  "inventoryUnchanged": true,
+  "documents": {
+    "docs/plans/2026-10-20-rain-p5-final-acceptance.md": "e4a161d041b7774475e0384272765c9d99e709ec81a6639f55d32953f4cbbcc9",
+    "docs/rain/p5-component-matrix.md": "53b45d2b6be085e0832382e39ec2b1a7c8ed9aca82223a977bb4a47f0474b44d",
+    "docs/rain/p5-open-issues.md": "e4a5e8d3fc1377ba62940165b01acff30e119e238860ffe97d93b38b2735693d",
+    "docs/rain/README.md": "3ef41ad22d3b5cc78cad3abe05902881aa2b480aec0b052dd5dbb03f60a79b11",
+    "docs/rain/ai/index.md": "86c9404ac3a6b401d47cc2188f4a7066c87d1832f2ea3b178834de09ede947b7",
+    "docs/rain/component-center.md": "c8a067210839615836bdb5aa9fa54d0258b2cc7aed5d3928b8307c102d446253",
+    "docs/rain/visual-review-batch-3-2026-10-20.md": "37858f46437936818d7fa8a1632235df9a9d62b8806acc0cb0634cc96aa0ef70",
+    "docs/rain/state-audit.md": "2cfacf18fff676ff89b8c20b4c96b09002338f9f430313f7ce1b8dc6ac023c0c",
+    "docs/plans/2026-10-19-heroui-localization-rain-theme.md": "92e909498cb9fe72a0bc6ea446e70b90c84e72250722ba69672301b070b3d67f"
+  },
+  "formatCheckLog": "format-check.log"
+}

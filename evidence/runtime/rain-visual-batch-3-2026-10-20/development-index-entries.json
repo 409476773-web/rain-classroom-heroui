@@ -1,0 +1,47 @@
+[
+  {
+    "type": "story",
+    "subtype": "story",
+    "id": "components-theme-state-review--layouts",
+    "name": "表格、标签页与卡片",
+    "title": "Components/Theme/State Review",
+    "importPath": "./.storybook/stories/rain-state-review-layouts.stories.tsx",
+    "tags": [
+      "dev",
+      "test",
+      "manifest",
+      "autodocs"
+    ],
+    "exportName": "Layouts"
+  },
+  {
+    "type": "story",
+    "subtype": "story",
+    "id": "components-theme-state-review--overlays",
+    "name": "浮层与长中文",
+    "title": "Components/Theme/State Review",
+    "importPath": "./.storybook/stories/rain-state-review-overlays.stories.tsx",
+    "tags": [
+      "dev",
+      "test",
+      "manifest",
+      "autodocs"
+    ],
+    "exportName": "Overlays"
+  },
+  {
+    "type": "story",
+    "subtype": "story",
+    "id": "components-theme-state-review--error-messages",
+    "name": "错误提示状态",
+    "title": "Components/Theme/State Review",
+    "importPath": "./.storybook/stories/rain-state-review-overlays.stories.tsx",
+    "tags": [
+      "dev",
+      "test",
+      "manifest",
+      "autodocs"
+    ],
+    "exportName": "ErrorMessages"
+  }
+]

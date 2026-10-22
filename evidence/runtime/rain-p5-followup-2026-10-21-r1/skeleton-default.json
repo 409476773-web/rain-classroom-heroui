@@ -1,0 +1,71 @@
+{
+  "nodes": [
+    {
+      "animation": "none",
+      "bg": "oklab(0.96163 -0.00345561 -0.0108071 / 0.7)",
+      "busy": null,
+      "class": "skeleton skeleton--shimmer h-24 rounded-xl",
+      "color": "rgb(20, 35, 60)",
+      "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+      "max": null,
+      "min": null,
+      "name": null,
+      "now": null,
+      "opacity": "1",
+      "role": null,
+      "stroke": "none",
+      "text": ""
+    },
+    {
+      "animation": "none",
+      "bg": "oklab(0.96163 -0.00345561 -0.0108071 / 0.7)",
+      "busy": null,
+      "class": "skeleton skeleton--shimmer h-3 w-3/5 rounded-lg",
+      "color": "rgb(20, 35, 60)",
+      "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+      "max": null,
+      "min": null,
+      "name": null,
+      "now": null,
+      "opacity": "1",
+      "role": null,
+      "stroke": "none",
+      "text": ""
+    },
+    {
+      "animation": "none",
+      "bg": "oklab(0.96163 -0.00345561 -0.0108071 / 0.7)",
+      "busy": null,
+      "class": "skeleton skeleton--shimmer h-3 w-4/5 rounded-lg",
+      "color": "rgb(20, 35, 60)",
+      "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+      "max": null,
+      "min": null,
+      "name": null,
+      "now": null,
+      "opacity": "1",
+      "role": null,
+      "stroke": "none",
+      "text": ""
+    },
+    {
+      "animation": "none",
+      "bg": "oklab(0.96163 -0.00345561 -0.0108071 / 0.7)",
+      "busy": null,
+      "class": "skeleton skeleton--shimmer h-3 w-2/5 rounded-lg",
+      "color": "rgb(20, 35, 60)",
+      "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+      "max": null,
+      "min": null,
+      "name": null,
+      "now": null,
+      "opacity": "1",
+      "role": null,
+      "stroke": "none",
+      "text": ""
+    }
+  ],
+  "rain": "light",
+  "text": "",
+  "url": "http://127.0.0.1:6006/iframe.html?id=components-feedback-skeleton--default&viewMode=story&globals=heroui-theme%3Arain-light"
+}

@@ -1,0 +1,282 @@
+[
+  {
+    "ancestors": [
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "tag": "TH"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "tag": "TR"
+      },
+      {
+        "background": "rgb(235, 239, 255)",
+        "opacity": "1",
+        "tag": "THEAD"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "tag": "TABLE"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "tag": "DIV"
+      }
+    ],
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(116, 133, 168)",
+    "fontSize": "12px",
+    "fontWeight": "500",
+    "opacity": "1",
+    "text": ""
+  },
+  {
+    "ancestors": [
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "tag": "TH"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "tag": "TR"
+      },
+      {
+        "background": "rgb(235, 239, 255)",
+        "opacity": "1",
+        "tag": "THEAD"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "tag": "TABLE"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "tag": "DIV"
+      }
+    ],
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(116, 133, 168)",
+    "fontSize": "12px",
+    "fontWeight": "500",
+    "opacity": "1",
+    "text": "学生示例"
+  },
+  {
+    "ancestors": [
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "tag": "TH"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "tag": "TR"
+      },
+      {
+        "background": "rgb(235, 239, 255)",
+        "opacity": "1",
+        "tag": "THEAD"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "tag": "TABLE"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "tag": "DIV"
+      }
+    ],
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(116, 133, 168)",
+    "fontSize": "12px",
+    "fontWeight": "500",
+    "opacity": "1",
+    "text": "长中文作答片段"
+  },
+  {
+    "ancestors": [
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "tag": "TH"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "tag": "TR"
+      },
+      {
+        "background": "rgb(235, 239, 255)",
+        "opacity": "1",
+        "tag": "THEAD"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "tag": "TABLE"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "tag": "DIV"
+      }
+    ],
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(116, 133, 168)",
+    "fontSize": "12px",
+    "fontWeight": "500",
+    "opacity": "1",
+    "text": "待确认的反馈内容"
+  },
+  {
+    "ancestors": [
+      {
+        "background": "rgb(235, 239, 255)",
+        "opacity": "1",
+        "tag": "TH"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "tag": "TR"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "tag": "THEAD"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "tag": "TABLE"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "tag": "DIV"
+      }
+    ],
+    "bg": "rgb(235, 239, 255)",
+    "color": "rgb(116, 133, 168)",
+    "fontSize": "12px",
+    "fontWeight": "500",
+    "opacity": "1",
+    "text": ""
+  },
+  {
+    "ancestors": [
+      {
+        "background": "rgb(235, 239, 255)",
+        "opacity": "1",
+        "tag": "TH"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "tag": "TR"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "tag": "THEAD"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "tag": "TABLE"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "tag": "DIV"
+      }
+    ],
+    "bg": "rgb(235, 239, 255)",
+    "color": "rgb(116, 133, 168)",
+    "fontSize": "12px",
+    "fontWeight": "500",
+    "opacity": "1",
+    "text": "学生示例"
+  },
+  {
+    "ancestors": [
+      {
+        "background": "rgb(235, 239, 255)",
+        "opacity": "1",
+        "tag": "TH"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "tag": "TR"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "tag": "THEAD"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "tag": "TABLE"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "tag": "DIV"
+      }
+    ],
+    "bg": "rgb(235, 239, 255)",
+    "color": "rgb(116, 133, 168)",
+    "fontSize": "12px",
+    "fontWeight": "500",
+    "opacity": "1",
+    "text": "长中文作答片段"
+  },
+  {
+    "ancestors": [
+      {
+        "background": "rgb(235, 239, 255)",
+        "opacity": "1",
+        "tag": "TH"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "tag": "TR"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "tag": "THEAD"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "tag": "TABLE"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "tag": "DIV"
+      }
+    ],
+    "bg": "rgb(235, 239, 255)",
+    "color": "rgb(116, 133, 168)",
+    "fontSize": "12px",
+    "fontWeight": "500",
+    "opacity": "1",
+    "text": "待确认的反馈内容"
+  }
+]

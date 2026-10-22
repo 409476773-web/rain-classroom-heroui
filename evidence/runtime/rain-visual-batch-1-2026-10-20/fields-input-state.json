@@ -1,0 +1,73 @@
+{
+  "active": "学生搜索只读内容",
+  "affixes": [
+    {
+      "color": "rgb(160, 172, 197)",
+      "text": "$"
+    },
+    {
+      "color": "rgb(160, 172, 197)",
+      "text": "USD"
+    },
+    {
+      "color": "rgb(160, 172, 197)",
+      "text": "$"
+    },
+    {
+      "color": "rgb(160, 172, 197)",
+      "text": "USD"
+    },
+    {
+      "color": "rgb(160, 172, 197)",
+      "text": "https://"
+    },
+    {
+      "color": "rgb(160, 172, 197)",
+      "text": ".com"
+    }
+  ],
+  "errorText": [
+    {
+      "display": "block",
+      "text": "请输入练习名称后再提交。"
+    },
+    {
+      "display": "block",
+      "text": "请填写反馈说明。"
+    },
+    {
+      "display": "block",
+      "text": "请输入有效的学生姓名。"
+    },
+    {
+      "display": "block",
+      "text": "请填写 0–20 分之间的分数。"
+    },
+    {
+      "display": "block",
+      "text": "请选择批改分组。"
+    }
+  ],
+  "fields": [
+    {
+      "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.04) 0px 2px 4px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px, rgba(0, 0, 0, 0.06) 0px 0px 1px 0px",
+      "color": "rgb(20, 35, 60)",
+      "value": "林同学"
+    },
+    {
+      "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(255, 255, 255, 0.973) 0px 0px 0px 0px, rgba(61, 123, 255, 0.973) 0px 0px 0px 1.94491px, rgba(0, 0, 0, 0.04) 0px 2px 4px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px, rgba(0, 0, 0, 0.06) 0px 0px 1px 0px",
+      "color": "rgb(20, 35, 60)",
+      "value": "林同学"
+    },
+    {
+      "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.04) 0px 2px 4px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px, rgba(0, 0, 0, 0.06) 0px 0px 1px 0px",
+      "color": "rgb(20, 35, 60)",
+      "value": "18.5"
+    },
+    {
+      "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.04) 0px 2px 4px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px, rgba(0, 0, 0, 0.06) 0px 0px 1px 0px",
+      "color": "rgb(20, 35, 60)",
+      "value": "18.5"
+    }
+  ]
+}

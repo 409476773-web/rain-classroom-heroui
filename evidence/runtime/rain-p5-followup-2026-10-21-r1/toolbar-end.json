@@ -1,0 +1,420 @@
+{
+  "active": {
+    "class": "toggle-button toggle-button--icon-only toggle-button--md toggle-button--default",
+    "label": "Italic",
+    "role": null,
+    "tag": "BUTTON"
+  },
+  "nodes": [
+    {
+      "checked": false,
+      "class": "toolbar toolbar--horizontal",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "Text formatting",
+      "role": "toolbar",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "40px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "217px"
+      },
+      "tag": "DIV",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "toggle-button-group toggle-button-group--horizontal",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "Text style",
+      "role": "group",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "40px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "120px"
+      },
+      "tag": "DIV",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "toggle-button toggle-button--icon-only toggle-button--md toggle-button--default",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "Bold",
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": "true"
+      },
+      "style": {
+        "background": "oklab(0.959221 -0.00329853 -0.0182633)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(15, 85, 223)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "40px",
+        "opacity": "1",
+        "outline": "rgb(15, 85, 223) none 3px",
+        "radius": "10px 0px 0px 10px",
+        "width": "40px"
+      },
+      "tag": "BUTTON",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "iconify iconify--gravity-ui",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "img",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(15, 85, 223)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "20px",
+        "opacity": "1",
+        "outline": "rgb(15, 85, 223) none 3px",
+        "radius": "0px",
+        "width": "20px"
+      },
+      "tag": "svg",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "toggle-button toggle-button--icon-only toggle-button--md toggle-button--default",
+      "disabled": false,
+      "expanded": null,
+      "focus": "true",
+      "invalid": null,
+      "name": "Italic",
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": "true"
+      },
+      "style": {
+        "background": "oklab(0.96163 -0.00345561 -0.0108071)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(15, 85, 223)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "40px",
+        "opacity": "1",
+        "outline": "rgb(0, 95, 204) none 1px",
+        "radius": "0px",
+        "width": "40px"
+      },
+      "tag": "BUTTON",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "iconify iconify--gravity-ui",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "img",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(15, 85, 223)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "20px",
+        "opacity": "1",
+        "outline": "rgb(15, 85, 223) none 3px",
+        "radius": "0px",
+        "width": "20px"
+      },
+      "tag": "svg",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "toggle-button toggle-button--icon-only toggle-button--md toggle-button--default",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "Underline",
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgb(237, 243, 250)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "40px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px 10px 10px 0px",
+        "width": "40px"
+      },
+      "tag": "BUTTON",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "iconify iconify--gravity-ui",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "img",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "20px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "20px"
+      },
+      "tag": "svg",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "separator separator--vertical separator--default",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "separator",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(16, 63, 183, 0.16)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "20px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "4px",
+        "width": "1px"
+      },
+      "tag": "DIV",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "button-group button-group--horizontal",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "group",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "40px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "80px"
+      },
+      "tag": "DIV",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "button button--icon-only button--md button--secondary",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "Copy",
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgb(237, 243, 250)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(15, 85, 223)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "40px",
+        "opacity": "1",
+        "outline": "rgb(15, 85, 223) none 3px",
+        "radius": "10px 0px 0px 10px",
+        "width": "40px"
+      },
+      "tag": "BUTTON",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "iconify iconify--gravity-ui",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "img",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(15, 85, 223)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "20px",
+        "opacity": "1",
+        "outline": "rgb(15, 85, 223) none 3px",
+        "radius": "0px",
+        "width": "20px"
+      },
+      "tag": "svg",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "button button--icon-only button--md button--secondary",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "Cut",
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgb(237, 243, 250)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(15, 85, 223)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "40px",
+        "opacity": "1",
+        "outline": "rgb(15, 85, 223) none 3px",
+        "radius": "0px 10px 10px 0px",
+        "width": "40px"
+      },
+      "tag": "BUTTON",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "iconify iconify--gravity-ui",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "img",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(15, 85, 223)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "20px",
+        "opacity": "1",
+        "outline": "rgb(15, 85, 223) none 3px",
+        "radius": "0px",
+        "width": "20px"
+      },
+      "tag": "svg",
+      "text": "",
+      "value": ""
+    }
+  ],
+  "rain": "light",
+  "text": "",
+  "theme": "light",
+  "url": "http://127.0.0.1:6006/iframe.html?id=components-layout-toolbar--default&viewMode=story&globals=heroui-theme%3Arain-light"
+}

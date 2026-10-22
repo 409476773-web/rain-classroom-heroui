@@ -1,0 +1,27 @@
+Supplemental only: cached Chromium 151, upstream requires Chromium 153.
+Command: pnpm --filter @heroui/react exec vitest run --config '/Users/wenchengkai/CodexFile/hero ui-改造/evidence/runtime/heroui-baseline-2026-10-19/tests/cached-browser.config.mts' --project react-browser --maxWorkers=1 --browser.fileParallelism=false --reporter=default --reporter=json '--outputFile=/Users/wenchengkai/CodexFile/hero ui-改造/evidence/runtime/heroui-baseline-2026-10-19/tests/browser-cached-1234.json'
+
+
+ RUN  v4.1.11 /Users/wenchengkai/CodexFile/hero ui-改造/packages/react
+
+ ✓ |react-browser (chromium)| tests/components/scroll-shadow/scroll-shadow.browser.test.tsx (17 tests) 564ms
+ ✓ |react-browser (chromium)| tests/components/select/select.browser.test.tsx (8 tests) 1391ms
+       ✓ supports selecting with the mouse without ringing the trigger  353ms
+ ✓ |react-browser (chromium)| tests/components/dropdown/dropdown.browser.test.tsx (3 tests) 789ms
+       ✓ keeps a popover opened inside a Modal clickable above that Modal  361ms
+ ✓ |react-browser (chromium)| tests/components/accordion/accordion.browser.test.tsx (5 tests) 264ms
+ ✓ |react-browser (chromium)| tests/components/tag/tag.browser.test.tsx (5 tests) 50ms
+ ✓ |react-browser (chromium)| tests/components/autocomplete/autocomplete.browser.test.tsx (1 test) 89ms
+ ✓ |react-browser (chromium)| tests/components/modal/modal.browser.test.tsx (2 tests) 123ms
+ ✓ |react-browser (chromium)| tests/components/alert-dialog/alert-dialog.browser.test.tsx (2 tests) 95ms
+ ✓ |react-browser (chromium)| tests/components/toast/toast.browser.test.tsx (1 test) 66ms
+ ✓ |react-browser (chromium)| tests/components/drawer/drawer.browser.test.tsx (1 test) 52ms
+ ✓ |react-browser (chromium)| tests/components/popover/popover.browser.test.tsx (1 test) 55ms
+ ✓ |react-browser (chromium)| tests/components/tooltip/tooltip.browser.test.tsx (1 test) 18ms
+
+ Test Files  12 passed (12)
+      Tests  47 passed (47)
+   Start at  17:00:02
+   Duration  7.08s (transform 0ms, setup 106ms, import 1.65s, tests 3.56s, environment 0ms)
+
+JSON report written to /Users/wenchengkai/CodexFile/hero ui-改造/evidence/runtime/heroui-baseline-2026-10-19/tests/browser-cached-1234.json

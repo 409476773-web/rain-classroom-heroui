@@ -1,0 +1,146 @@
+[
+  {
+    "color": "rgb(160, 172, 197)",
+    "disabled": false,
+    "foreground": "rgb(20, 35, 60)",
+    "invalid": null,
+    "name": "review-text-empty",
+    "placeholder": "请输入练习名称"
+  },
+  {
+    "color": "rgb(160, 172, 197)",
+    "disabled": false,
+    "foreground": "rgb(20, 35, 60)",
+    "invalid": null,
+    "name": "review-text-filled",
+    "placeholder": "请输入练习名称"
+  },
+  {
+    "color": "rgb(160, 172, 197)",
+    "disabled": true,
+    "foreground": "rgb(20, 35, 60)",
+    "invalid": null,
+    "name": "review-text-disabled",
+    "placeholder": "请输入练习名称"
+  },
+  {
+    "color": "rgb(160, 172, 197)",
+    "disabled": false,
+    "foreground": "rgb(20, 35, 60)",
+    "invalid": "true",
+    "name": "review-text-invalid",
+    "placeholder": "请输入练习名称"
+  },
+  {
+    "color": "rgb(160, 172, 197)",
+    "disabled": false,
+    "foreground": "rgb(20, 35, 60)",
+    "invalid": null,
+    "name": "review-feedback-empty",
+    "placeholder": "指出做得好的地方，以及下一步可以改进什么。"
+  },
+  {
+    "color": "rgb(160, 172, 197)",
+    "disabled": false,
+    "foreground": "rgb(20, 35, 60)",
+    "invalid": "true",
+    "name": "review-feedback-invalid",
+    "placeholder": "请输入反馈"
+  },
+  {
+    "color": "oklab(0.256788 -0.00885402 -0.0509422 / 0.5)",
+    "disabled": false,
+    "foreground": "rgb(20, 35, 60)",
+    "invalid": null,
+    "name": "review-search-default",
+    "placeholder": "搜索学生姓名"
+  },
+  {
+    "color": "oklab(0.256788 -0.00885402 -0.0509422 / 0.5)",
+    "disabled": false,
+    "foreground": "rgb(20, 35, 60)",
+    "invalid": null,
+    "name": "review-search-secondary",
+    "placeholder": "搜索学生姓名"
+  },
+  {
+    "color": "oklab(0.256788 -0.00885402 -0.0509422 / 0.5)",
+    "disabled": true,
+    "foreground": "rgb(20, 35, 60)",
+    "invalid": null,
+    "name": "review-search-disabled",
+    "placeholder": "搜索学生姓名"
+  },
+  {
+    "color": "oklab(0.256788 -0.00885402 -0.0509422 / 0.5)",
+    "disabled": false,
+    "foreground": "rgb(20, 35, 60)",
+    "invalid": "true",
+    "name": "review-search-invalid",
+    "placeholder": "搜索学生姓名"
+  },
+  {
+    "color": "oklab(0.256788 -0.00885402 -0.0509422 / 0.5)",
+    "disabled": false,
+    "foreground": "rgb(20, 35, 60)",
+    "invalid": null,
+    "name": "review-search-readonly",
+    "placeholder": "搜索学生姓名"
+  },
+  {
+    "color": "oklab(0.256788 -0.00885402 -0.0509422 / 0.5)",
+    "disabled": false,
+    "foreground": "rgb(20, 35, 60)",
+    "invalid": null,
+    "name": null,
+    "placeholder": "请输入分数"
+  },
+  {
+    "color": "oklab(0.256788 -0.00885402 -0.0509422 / 0.5)",
+    "disabled": false,
+    "foreground": "rgb(20, 35, 60)",
+    "invalid": null,
+    "name": null,
+    "placeholder": "请输入分数"
+  },
+  {
+    "color": "oklab(0.256788 -0.00885402 -0.0509422 / 0.5)",
+    "disabled": true,
+    "foreground": "rgb(20, 35, 60)",
+    "invalid": null,
+    "name": null,
+    "placeholder": "请输入分数"
+  },
+  {
+    "color": "oklab(0.256788 -0.00885402 -0.0509422 / 0.5)",
+    "disabled": false,
+    "foreground": "rgb(20, 35, 60)",
+    "invalid": "true",
+    "name": null,
+    "placeholder": "请输入分数"
+  },
+  {
+    "color": "oklab(0.256788 -0.00885402 -0.0509422 / 0.5)",
+    "disabled": false,
+    "foreground": "rgb(20, 35, 60)",
+    "invalid": null,
+    "name": null,
+    "placeholder": "请输入分数"
+  },
+  {
+    "color": "rgb(160, 172, 197)",
+    "disabled": false,
+    "foreground": "rgb(20, 35, 60)",
+    "invalid": null,
+    "name": "review-currency-empty",
+    "placeholder": "请输入金额"
+  },
+  {
+    "color": "rgb(160, 172, 197)",
+    "disabled": false,
+    "foreground": "rgb(20, 35, 60)",
+    "invalid": null,
+    "name": "review-website-filled",
+    "placeholder": "请输入域名"
+  }
+]

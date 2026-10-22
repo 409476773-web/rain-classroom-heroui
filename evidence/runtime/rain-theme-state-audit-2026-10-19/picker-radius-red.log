@@ -1,0 +1,65 @@
+✔ picker theme import leaves original light and dark computed styles unchanged (826.227583ms)
+✖ Rain date-picker panel uses 16px without changing nested circles or pills (123.847333ms)
+✖ Rain date-range-picker panel uses 16px without changing nested circles or pills (143.095917ms)
+✖ Rain color-picker panel uses 16px without changing nested circles or pills (136.900083ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 1
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1593.763833
+
+✖ failing tests:
+
+test at scripts/rain/picker-radius.test.mjs:111:3
+✖ Rain date-picker panel uses 16px without changing nested circles or pills (123.847333ms)
+  AssertionError [ERR_ASSERTION]: date-picker panel radius
+  
+  '20px' !== '16px'
+  
+      at TestContext.<anonymous> (file:///Users/wenchengkai/CodexFile/hero%20ui-%E6%94%B9%E9%80%A0/scripts/rain/picker-radius.test.mjs:125:14)
+      at async Test.run (node:internal/test_runner/test:1113:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: '20px',
+    expected: '16px',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at scripts/rain/picker-radius.test.mjs:111:3
+✖ Rain date-range-picker panel uses 16px without changing nested circles or pills (143.095917ms)
+  AssertionError [ERR_ASSERTION]: date-range-picker panel radius
+  
+  '20px' !== '16px'
+  
+      at TestContext.<anonymous> (file:///Users/wenchengkai/CodexFile/hero%20ui-%E6%94%B9%E9%80%A0/scripts/rain/picker-radius.test.mjs:125:14)
+      at async Test.run (node:internal/test_runner/test:1113:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: '20px',
+    expected: '16px',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at scripts/rain/picker-radius.test.mjs:111:3
+✖ Rain color-picker panel uses 16px without changing nested circles or pills (136.900083ms)
+  AssertionError [ERR_ASSERTION]: color-picker panel radius
+  
+  '20px' !== '16px'
+  
+      at TestContext.<anonymous> (file:///Users/wenchengkai/CodexFile/hero%20ui-%E6%94%B9%E9%80%A0/scripts/rain/picker-radius.test.mjs:125:14)
+      at async Test.run (node:internal/test_runner/test:1113:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: '20px',
+    expected: '16px',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

@@ -1,0 +1,41 @@
+
+/Users/wenchengkai/CodexFile/hero ui-改造/scripts/rain/inventory.mjs
+   308:5  warning  Expected object keys to be in ascending order. 'demoIds' should be before 'file'                                sort-keys
+   308:5  warning  Expected object keys to be in ascending order. 'demoIds' should be before 'file'                                sort-keys-fix/sort-keys-fix
+   482:7  warning  Expected object keys to be in ascending order. 'coverage' should be before 'exports'                            sort-keys
+   482:7  warning  Expected object keys to be in ascending order. 'coverage' should be before 'exports'                            sort-keys-fix/sort-keys-fix
+   824:5  warning  Expected object keys to be in ascending order. 'demos' should be before 'freshnessCheck'                        sort-keys
+   824:5  warning  Expected object keys to be in ascending order. 'demos' should be before 'freshnessCheck'                        sort-keys-fix/sort-keys-fix
+   826:5  warning  Expected object keys to be in ascending order. 'builtStorybook' should be before 'generatedBy'                  sort-keys
+   826:5  warning  Expected object keys to be in ascending order. 'builtStorybook' should be before 'generatedBy'                  sort-keys-fix/sort-keys-fix
+   830:7  warning  Expected object keys to be in ascending order. 'componentBarrel' should be before 'rootEntry'                   sort-keys
+   830:7  warning  Expected object keys to be in ascending order. 'componentBarrel' should be before 'rootEntry'                   sort-keys-fix/sort-keys-fix
+   835:9  warning  Expected object keys to be in ascending order. 'note' should be before 'status'                                 sort-keys
+   835:9  warning  Expected object keys to be in ascending order. 'note' should be before 'status'                                 sort-keys-fix/sort-keys-fix
+   838:5  warning  Expected object keys to be in ascending order. 'issues' should be before 'publicApi'                            sort-keys
+   838:5  warning  Expected object keys to be in ascending order. 'issues' should be before 'publicApi'                            sort-keys-fix/sort-keys-fix
+   840:5  warning  Expected object keys to be in ascending order. 'modules' should be before 'regeneration'                        sort-keys
+   840:5  warning  Expected object keys to be in ascending order. 'modules' should be before 'regeneration'                        sort-keys-fix/sort-keys-fix
+   848:7  warning  Expected object keys to be in ascending order. 'allStoryFiles' should be before 'publicComponentBarrelModules'  sort-keys
+   848:7  warning  Expected object keys to be in ascending order. 'allStoryFiles' should be before 'publicComponentBarrelModules'  sort-keys-fix/sort-keys-fix
+   850:7  warning  Expected object keys to be in ascending order. 'builtStorybookEntries' should be before 'sourceModules'         sort-keys
+   850:7  warning  Expected object keys to be in ascending order. 'builtStorybookEntries' should be before 'sourceModules'         sort-keys-fix/sort-keys-fix
+   851:7  warning  Expected object keys to be in ascending order. 'builtStories' should be before 'builtStorybookEntries'          sort-keys
+   851:7  warning  Expected object keys to be in ascending order. 'builtStories' should be before 'builtStorybookEntries'          sort-keys-fix/sort-keys-fix
+   853:7  warning  Expected object keys to be in ascending order. 'locales' should be before 'staticStoryExports'                  sort-keys
+   853:7  warning  Expected object keys to be in ascending order. 'locales' should be before 'staticStoryExports'                  sort-keys-fix/sort-keys-fix
+   864:7  warning  Expected object keys to be in ascending order. 'inputFiles' should be before 'packageVersion'                   sort-keys
+   864:7  warning  Expected object keys to be in ascending order. 'inputFiles' should be before 'packageVersion'                   sort-keys-fix/sort-keys-fix
+   873:7  warning  Expected object keys to be in ascending order. 'interaction' should be before 'inventory'                       sort-keys
+   873:7  warning  Expected object keys to be in ascending order. 'interaction' should be before 'inventory'                       sort-keys-fix/sort-keys-fix
+   874:7  warning  Expected object keys to be in ascending order. 'humanVisualAcceptance' should be before 'interaction'           sort-keys
+   874:7  warning  Expected object keys to be in ascending order. 'humanVisualAcceptance' should be before 'interaction'           sort-keys-fix/sort-keys-fix
+   876:7  warning  Expected object keys to be in ascending order. 'rainTheme' should be before 'runtime'                           sort-keys
+   876:7  warning  Expected object keys to be in ascending order. 'rainTheme' should be before 'runtime'                           sort-keys-fix/sort-keys-fix
+   992:7  warning  Unexpected console statement                                                                                    no-console
+   995:7  warning  Unexpected console statement                                                                                    no-console
+  1003:5  warning  Unexpected console statement                                                                                    no-console
+
+✖ 35 problems (0 errors, 35 warnings)
+  0 errors and 16 warnings potentially fixable with the `--fix` option.
+

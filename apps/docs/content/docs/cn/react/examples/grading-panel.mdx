@@ -1,0 +1,48 @@
+---
+title: 批改面板 · 业务组合
+description: 用 HeroUI 原版表单、列表、卡片和浮层，组合一个可操作的雨课堂批改示例。
+full: true
+---
+
+import { GradingPanel } from "@/components/rain-examples/grading-panel/grading-panel";
+
+在顶部主题菜单选择「雨课堂」，也可以随时切回 HeroUI 原版对照。示例使用虚构数据，不发布成绩、不通知学生，刷新后重置。
+
+<div className="not-prose">
+  <GradingPanel />
+</div>
+
+## 试一遍完整流程
+
+1. 在左侧搜索或筛选学生，切换作答。本页已填写的草稿会保留。
+2. 阅读题目、作答与「评分参考」，填写 0–20 分的得分和评语；也可以插入常用评语。
+3. 点击「提交批改」。空白、超出分值范围或不符合 0.5 分精度的得分会显示错误；评语必填。
+4. 在浮层确认学生、得分和反馈。「返回修改」保留草稿，确认后才更新批改进度。
+5. 默认切换下一份待批改作答；已提交结果可回看。筛选「待批改」并处理完所有作答后显示完成空状态。
+
+## 组件如何组合
+
+| 业务区域 | HeroUI 组件 | 本示例负责的内容 |
+| --- | --- | --- |
+| 作答列表 | Card、TextField、Select、ListBox、Avatar | 查询、筛选、当前学生 |
+| 题目与作答 | Card、Chip、Typography、Separator | 题目、作答和批改状态 |
+| 批改表单 | Form、TextField、Input、TextArea、Checkbox、FieldError | 分数／评语校验、每位学生的草稿 |
+| 参考与确认 | Popover、Modal、Button | 评分参考、评语短语、确认后提交 |
+| 进度与结果 | ProgressBar、Alert | 已提交计数、操作反馈 |
+
+仅组合布局与业务状态属于示例。颜色、字体和圆角由统一雨课堂主题提供；组件本身的焦点、禁用、阴影、尺寸与交互机制保持 HeroUI 原版。三栏根据示例容器宽度排列，窄容器会变为两栏或单栏。
+
+## 源码与改造边界
+
+文档站和 [Storybook 批改工作台](http://127.0.0.1:6006/?path=/story/components-business-grading-panel--workspace&globals=heroui-theme:rain-light) 共用以下源码，不复制两套实现：
+
+```text
+apps/docs/src/components/rain-examples/grading-panel/
+├── grading-panel.tsx          # HeroUI 组件组合与局部交互
+├── grading-panel.model.ts     # 虚构数据、草稿、校验、提交状态
+└── grading-panel.styles.ts    # 仅控制业务排版与响应式布局
+```
+
+要改评语规则、评分精度或草稿行为，修改 model 与对应轻量测试；要重组卡片与表单，修改组合文件和布局。不要为这个示例复制或更改基础组件源码。
+
+真实接入时需要另行实现服务端保存、权限、提交失败／重试与并发处理。当前示例仅在内存保留数据，不能作为已连接真实成绩服务的界面。

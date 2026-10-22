@@ -1,0 +1,20 @@
+
+> heroui@3.2.6 typecheck:docs /Users/wenchengkai/CodexFile/hero ui-改造
+> dotenv -- turbo typecheck --filter=@heroui/docs
+
+• turbo 2.10.13
+
+   • Packages in scope: @heroui/docs
+   • Running typecheck in 1 package
+   • Remote caching disabled
+
+@heroui/docs:typecheck: cache miss, executing 1d95101e7f0d04d9
+@heroui/docs:typecheck: 
+@heroui/docs:typecheck: > @heroui/docs@0.0.0 typecheck /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs
+@heroui/docs:typecheck: > tsc --noEmit
+@heroui/docs:typecheck: 
+
+ Tasks:    1 successful, 1 total
+Cached:    0 cached, 1 total
+  Time:    5.28s 
+

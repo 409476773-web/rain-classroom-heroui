@@ -1,0 +1,27 @@
+✖ story smoke preflight protects history without starting a scan (0.805208ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 47.107875
+
+✖ failing tests:
+
+test at scripts/rain/story-smoke-options.test.mjs:15:1
+✖ story smoke preflight protects history without starting a scan (0.805208ms)
+  AssertionError [ERR_ASSERTION]: The safe preflight helper has not been implemented
+      at TestContext.<anonymous> (file:///Users/wenchengkai/CodexFile/hero%20ui-%E6%94%B9%E9%80%A0/scripts/rain/story-smoke-options.test.mjs:17:10)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.start (node:internal/test_runner/test:1003:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:358:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

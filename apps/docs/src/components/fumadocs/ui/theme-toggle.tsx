@@ -28,7 +28,7 @@ export function ThemeToggle({
 }: ComponentProps<"div"> & {
   mode?: "light-dark" | "light-dark-system";
 }) {
-  const {resolvedTheme, setTheme, theme} = useTheme();
+  const {forcedTheme, resolvedTheme, setTheme, theme} = useTheme();
   const mounted = useIsMounted();
 
   const container = cn(
@@ -37,13 +37,14 @@ export function ThemeToggle({
   );
 
   if (mode === "light-dark") {
-    const value = mounted ? resolvedTheme : null;
+    const value = mounted ? (forcedTheme ?? resolvedTheme) : null;
 
     return (
       <button
         aria-label="Toggle Theme"
         className={container}
         data-theme-toggle=""
+        disabled={Boolean(forcedTheme)}
         onClick={() => setTheme(value === "light" ? "dark" : "light")}
       >
         {full.map(([key, Icon]) => {
@@ -61,7 +62,7 @@ export function ThemeToggle({
     );
   }
 
-  const value = mounted ? theme : null;
+  const value = mounted ? (forcedTheme ?? theme) : null;
 
   return (
     <div className={container} data-theme-toggle="" {...props}>
@@ -70,6 +71,7 @@ export function ThemeToggle({
           key={key}
           aria-label={key}
           className={cn(itemVariants({active: value === key}))}
+          disabled={Boolean(forcedTheme)}
           onClick={() => setTheme(key)}
         >
           <Icon className="size-full" fill="currentColor" />

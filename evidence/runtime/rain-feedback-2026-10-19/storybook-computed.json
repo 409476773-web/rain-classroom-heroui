@@ -1,0 +1,20 @@
+{
+  "avatarRadius": "16px",
+  "buttons": [
+    {
+      "radius": "6px",
+      "text": "评分参考"
+    },
+    {
+      "radius": "6px",
+      "text": "插入评语短语"
+    },
+    {
+      "radius": "6px",
+      "text": "提交批改"
+    }
+  ],
+  "placeholder": "rgb(160, 172, 197)",
+  "selected": "rgb(234, 242, 255)",
+  "theme": "light"
+}

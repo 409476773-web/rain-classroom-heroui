@@ -1,0 +1,3 @@
+$ pnpm --filter @heroui/docs exec tsc --noEmit --incremental false
+
+Exit code: 0

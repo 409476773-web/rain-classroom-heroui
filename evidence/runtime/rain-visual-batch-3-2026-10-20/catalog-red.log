@@ -1,0 +1,45 @@
+✔ keeps every source module while avoiding invalid root import advice for helpers (8.395459ms)
+✔ keeps support modules distinct from the component names they re-export (0.123125ms)
+✔ marks English fallback honestly and strips the explicit English route prefix (0.257042ms)
+✔ uses an actual composition story for a shared part without inventing a story ID (0.1315ms)
+✔ only links examples from the chosen document and preserves their actual source paths (0.424041ms)
+✔ only offers examples that use the related module before limiting the selection (0.241417ms)
+✔ prefers the explicit local Menu review without changing the built inventory (0.194667ms)
+✔ links the in-progress year picker to the local calendar composition (0.09325ms)
+✔ rejects a local preview with missing file evidence (0.225333ms)
+✔ rejects a local preview with missing export evidence (0.192958ms)
+✔ rejects a local preview with missing reference evidence (0.107625ms)
+✖ adds the ErrorMessage review while retaining its own docs and localized title (1.0265ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 11
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 55.314333
+
+✖ failing tests:
+
+test at scripts/rain/catalog.test.mjs:232:1
+✖ adds the ErrorMessage review while retaining its own docs and localized title (1.0265ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + undefined
+  - 'components-theme-state-review--error-messages'
+  
+      at TestContext.<anonymous> (file:///Users/wenchengkai/CodexFile/hero%20ui-%E6%94%B9%E9%80%A0/scripts/rain/catalog.test.mjs:259:10)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: 'components-theme-state-review--error-messages',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

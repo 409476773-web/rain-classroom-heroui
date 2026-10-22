@@ -177,6 +177,9 @@ importers:
 
   apps/docs:
     dependencies:
+      '@rain-classroom/heroui-theme':
+        specifier: workspace:*
+        version: link:../../packages/rain-theme
       '@fumadocs/language':
         specifier: 0.0.1
         version: 0.0.1(7abfacc7e2792498711edb023a4c6570)
@@ -359,6 +362,8 @@ importers:
         specifier: 4.1.11
         version: 4.1.11(@opentelemetry/api@1.9.1)(@types/node@25.0.3)(@vitest/browser-playwright@4.1.11)(@vitest/coverage-v8@4.1.11)(jsdom@30.1.0)(vite@7.3.5(@types/node@25.0.3)(jiti@2.7.0)(lightningcss@1.33.0)(tsx@4.23.13)(yaml@2.9.0))
 
+  packages/rain-theme: {}
+
   packages/react:
     dependencies:
       '@heroui/styles':
@@ -457,6 +462,9 @@ importers:
 
   packages/storybook:
     dependencies:
+      '@rain-classroom/heroui-theme':
+        specifier: workspace:*
+        version: link:../rain-theme
       '@gravity-ui/icons':
         specifier: 2.22.0
         version: 2.22.0(react@19.3.0)
@@ -469,6 +477,9 @@ importers:
       '@iconify/react':
         specifier: 6.0.2
         version: 6.0.2(react@19.3.0)
+      '@internationalized/date':
+        specifier: 3.12.4
+        version: 3.12.4
       apcach:
         specifier: 0.6.4
         version: 0.6.4

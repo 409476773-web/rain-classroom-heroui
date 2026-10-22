@@ -1,0 +1,36 @@
+
+ RUN  v4.1.11 /Users/wenchengkai/CodexFile/hero ui-改造/packages/react
+
+ ❯ |react-jsdom| tests/components/tabs/tabs-label.test.tsx (3 tests | 1 failed) 130ms
+     × supports render props and fragments while preserving indicators and disabled navigation 15ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  |react-jsdom| tests/components/tabs/tabs-label.test.tsx > Tabs label > supports render props and fragments while preserving indicators and disabled navigation
+AssertionError: expected …(2) to have a length of 1 but got 2
+
+- Expected
++ Received
+
+- 1
++ 2
+
+ ❯ tests/components/tabs/tabs-label.test.tsx:125:20
+    123|     const labels = activeTab.querySelectorAll<HTMLSpanElement>('[data-…
+    124|
+    125|     expect(labels).toHaveLength(1);
+       |                    ^
+    126|     const label = getLabel(activeTab);
+    127|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 2 passed (3)
+   Start at  18:39:52
+   Duration  1.68s (transform 416ms, setup 198ms, import 633ms, tests 130ms, environment 601ms)
+
+undefined
+/Users/wenchengkai/CodexFile/hero ui-改造/packages/react:
+ ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL  Command failed with exit code 1: vitest run tests/components/tabs/tabs-label.test.tsx --project react-jsdom

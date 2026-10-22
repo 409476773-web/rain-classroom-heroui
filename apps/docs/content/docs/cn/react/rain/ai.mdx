@@ -1,0 +1,42 @@
+---
+title: AI 使用与改造
+description: 用同版本源码和示例继续进行 vibe design 与 vibe coding。
+---
+
+先在[组件中心](/docs/react/rain)搜索需要的组件，展开「源码与 AI 上下文」，复制其本地源码、文档和示例位置到 AI 对话。一次任务按需读取 1–3 个相关示例即可。
+
+## 给 AI 的固定起点
+
+```text
+先读取 AGENTS.md、docs/rain/ai/index.md、docs/rain/ai/usage-rules.md。
+使用本地固定 HeroUI 3.2.6 与 packages/rain-theme/index.css。
+先查当前版本组件 API 和示例，再按业务需要组合。
+保留原版键盘、焦点、错误、禁用与浮层机制。
+```
+
+完整定位表：`docs/rain/ai/components.md`；结构化目录：`apps/docs/src/generated/rain-catalog.json`。两者均从现有全库清单生成。
+
+独立 [Menu 菜单状态](http://127.0.0.1:6006/?path=/story/components-theme-state-review--menu&globals=heroui-theme:rain-light)和[日历与年份入口](http://127.0.0.1:6006/?path=/story/components-theme-state-review--calendar-navigation&globals=heroui-theme:rain-light)已补充到本地预览，可在顶部切换原版／雨课堂。年份部件仍为上游进行中功能，关闭年份面板后的键盘焦点恢复有已知限制；不要把可预览等同于稳定组件已验收。
+
+本批还补充了[表格、标签页与卡片](http://127.0.0.1:6006/?path=/story/components-theme-state-review--layouts&globals=heroui-theme:rain-light)、[浮层与长中文](http://127.0.0.1:6006/?path=/story/components-theme-state-review--overlays&globals=heroui-theme:rain-light)和[错误提示状态](http://127.0.0.1:6006/?path=/story/components-theme-state-review--error-messages&globals=heroui-theme:rain-light)。当前跨项目私有交付为 `delivery/rain-heroui-local-2026-10-20-r2/`：React／Styles `3.2.6-rain.1`、雨课堂主题 `0.1.2`，源码上游仍为 HeroUI 3.2.6。已生成包含两个本地 Tabs 源码补丁和新表格配色的私有归档，并完成限定消费验证：根／子路径导入、Tabs 标签 SSR 与样式槽、Bundler 示例／负例类型及 CSS 编译通过，包内主题 CSS 与冻结源码 SHA 一致。实际范围读取交付目录 README、manifest、report 及本地 `docs/rain/consumer-verification.md`。
+
+旧 `delivery/rain-heroui-local-2026-10-20/` 的 0.1.1 归档保留为历史冻结交付，不包含本次 Table／Tabs 更新。Tabs 新能力依赖组件 JS、样式语义槽与主题 CSS，不能只替换旧包 CSS。
+
+## 根据目标选择修改位置
+
+| 目标 | 入口 |
+| --- | --- |
+| 业务页面、卡片、面板重组 | 业务组合层；可参考 `apps/docs/src/components/rain-examples/grading-panel/` |
+| 统一品牌色、字体族、圆角 | `packages/rain-theme/index.css` |
+| 需要复用的业务交互 | 先复用现有组合，再抽取真实重复的部分 |
+| 基础组件能力不足 | 阅读对应 `packages/react` 源码，记录最小修改及受影响状态 |
+
+课堂练习批改页已经用户审核，当前按钮圆角为 10px；[打开这个组合示例](/docs/react/examples/grading-panel)。示例使用虚构数据，草稿与模拟提交仅存在于当前页面。
+
+用户本次还限定确认当前表格背景 `#EBEFFF`、表头文字 `#7485A8`，以及普通 Tabs 名称单行、省略和悬停原生全名提示；不包括任意富文本自定义标签、全库所有状态或生产验收。
+
+## 保持当前边界
+
+沿用本仓库固定版本，不混用旧 NextUI/v2 API。主题集中维护，不把品牌数值散写到页面，不为全部组件添加空包装。
+
+当前继续采用轻量检查，暂不运行新的全库重测试或文档／Storybook 生产构建。r2 的私有归档已完成本轮限定消费验证，不是沿用旧交付结果；定向编译仅替换授权的 Tabs 产物并保留共享模块。接入说明、实际消费与浏览器范围见本地 `docs/rain/consumer-verification.md`；本次复用本机既有第三方依赖，结果针对前端 Bundler，不是全新联网安装、全库行为或生产验收。

@@ -1,0 +1,12 @@
+[
+  {
+    "path": "/api/newsletter",
+    "status": 503,
+    "body": "{\"error\":\"Subscriptions are disabled in local preview.\"}"
+  },
+  {
+    "path": "/api/changelog",
+    "status": 503,
+    "body": "{\"error\":\"Subscriptions are disabled in local preview.\"}"
+  }
+]

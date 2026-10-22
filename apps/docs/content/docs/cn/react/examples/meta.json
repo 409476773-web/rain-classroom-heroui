@@ -1,0 +1,5 @@
+{
+  "title": "业务组合",
+  "root": true,
+  "pages": ["grading-panel"]
+}

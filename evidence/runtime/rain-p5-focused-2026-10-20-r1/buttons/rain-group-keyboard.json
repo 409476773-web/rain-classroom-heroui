@@ -1,0 +1,182 @@
+[
+  {
+    "group": "md 连接切换按钮",
+    "active": {
+      "attrs": {
+        "aria-checked": "true",
+        "data-focus-visible": "true",
+        "data-focused": "true",
+        "data-rac": "",
+        "data-react-aria-pressable": "true",
+        "data-selected": "true",
+        "data-slot": "toggle-button"
+      },
+      "clientWidth": 74,
+      "cls": "toggle-button toggle-button--md toggle-button--default",
+      "name": "第三项",
+      "placeholder": null,
+      "rect": {
+        "height": 40,
+        "width": 74,
+        "x": 188,
+        "y": 298
+      },
+      "scrollWidth": 74,
+      "style": {
+        "backgroundColor": "oklab(0.96163 -0.00345561 -0.0108071)",
+        "borderBottomLeftRadius": "0px",
+        "borderBottomRightRadius": "10px",
+        "borderBottomWidth": "0px",
+        "borderTopLeftRadius": "0px",
+        "borderTopRightRadius": "10px",
+        "borderTopWidth": "0px",
+        "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(242, 244, 255, 0.443) 0px 0px 0px 0px inset, rgba(61, 123, 255, 0.443) 0px 0px 0px 0.884338px inset, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+        "color": "rgb(15, 85, 223)",
+        "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "gap": "8px",
+        "height": "40px",
+        "lineHeight": "20px",
+        "opacity": "1",
+        "outline": "rgb(0, 95, 204) none 1px",
+        "outlineOffset": "0px",
+        "overflow": "visible",
+        "paddingBottom": "0px",
+        "paddingLeft": "16px",
+        "paddingRight": "16px",
+        "paddingTop": "0px",
+        "pointerEvents": "auto",
+        "textOverflow": "clip",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionDuration": "0.25s, 0.1s, 0.1s",
+        "whiteSpace": "nowrap"
+      },
+      "tag": "BUTTON",
+      "value": ""
+    },
+    "selected": [
+      "第三项"
+    ]
+  },
+  {
+    "group": "纵向连接切换按钮",
+    "active": {
+      "attrs": {
+        "aria-checked": "true",
+        "data-focus-visible": "true",
+        "data-focused": "true",
+        "data-rac": "",
+        "data-react-aria-pressable": "true",
+        "data-selected": "true",
+        "data-slot": "toggle-button"
+      },
+      "clientWidth": 74,
+      "cls": "toggle-button toggle-button--md toggle-button--default",
+      "name": "第三项",
+      "placeholder": null,
+      "rect": {
+        "height": 40,
+        "width": 74,
+        "x": 40,
+        "y": 372
+      },
+      "scrollWidth": 74,
+      "style": {
+        "backgroundColor": "oklab(0.944917 -0.00353092 -0.0139558)",
+        "borderBottomLeftRadius": "10px",
+        "borderBottomRightRadius": "10px",
+        "borderBottomWidth": "0px",
+        "borderTopLeftRadius": "0px",
+        "borderTopRightRadius": "0px",
+        "borderTopWidth": "0px",
+        "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(242, 244, 255, 0.576) 0px 0px 0px 0px inset, rgba(61, 123, 255, 0.576) 0px 0px 0px 1.15515px inset, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+        "color": "rgb(15, 85, 223)",
+        "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "gap": "8px",
+        "height": "40px",
+        "lineHeight": "20px",
+        "opacity": "1",
+        "outline": "rgb(0, 95, 204) none 1px",
+        "outlineOffset": "0px",
+        "overflow": "visible",
+        "paddingBottom": "0px",
+        "paddingLeft": "16px",
+        "paddingRight": "16px",
+        "paddingTop": "0px",
+        "pointerEvents": "auto",
+        "textOverflow": "clip",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionDuration": "0.25s, 0.1s, 0.1s",
+        "whiteSpace": "nowrap"
+      },
+      "tag": "BUTTON",
+      "value": ""
+    },
+    "selected": [
+      "第三项"
+    ]
+  },
+  {
+    "group": "从右向左连接切换按钮",
+    "active": {
+      "attrs": {
+        "aria-checked": "true",
+        "data-focus-visible": "true",
+        "data-focused": "true",
+        "data-rac": "",
+        "data-react-aria-pressable": "true",
+        "data-selected": "true",
+        "data-slot": "toggle-button"
+      },
+      "clientWidth": 74,
+      "cls": "toggle-button toggle-button--md toggle-button--default",
+      "name": "第三项",
+      "placeholder": null,
+      "rect": {
+        "height": 40,
+        "width": 74,
+        "x": 126,
+        "y": 332
+      },
+      "scrollWidth": 74,
+      "style": {
+        "backgroundColor": "oklab(0.96163 -0.00345561 -0.0108071)",
+        "borderBottomLeftRadius": "10px",
+        "borderBottomRightRadius": "0px",
+        "borderBottomWidth": "0px",
+        "borderTopLeftRadius": "10px",
+        "borderTopRightRadius": "0px",
+        "borderTopWidth": "0px",
+        "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(242, 244, 255, 0.57) 0px 0px 0px 0px inset, rgba(61, 123, 255, 0.57) 0px 0px 0px 1.13473px inset, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+        "color": "rgb(15, 85, 223)",
+        "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "gap": "8px",
+        "height": "40px",
+        "lineHeight": "20px",
+        "opacity": "1",
+        "outline": "rgb(0, 95, 204) none 1px",
+        "outlineOffset": "0px",
+        "overflow": "visible",
+        "paddingBottom": "0px",
+        "paddingLeft": "16px",
+        "paddingRight": "16px",
+        "paddingTop": "0px",
+        "pointerEvents": "auto",
+        "textOverflow": "clip",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionDuration": "0.25s, 0.1s, 0.1s",
+        "whiteSpace": "nowrap"
+      },
+      "tag": "BUTTON",
+      "value": ""
+    },
+    "selected": [
+      "第三项"
+    ]
+  }
+]

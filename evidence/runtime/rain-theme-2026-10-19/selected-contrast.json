@@ -1,0 +1,53 @@
+{
+  "scope": "Selected static foreground/solid-background color pairs only; not a full component/state accessibility audit",
+  "pairs": [
+    {
+      "role": "primary",
+      "colors": [
+        "#1561f8",
+        "#ffffff"
+      ],
+      "ratio": 5.125
+    },
+    {
+      "role": "brand-text",
+      "colors": [
+        "#0f55df",
+        "#ffffff"
+      ],
+      "ratio": 6.203
+    },
+    {
+      "role": "muted/placeholder",
+      "colors": [
+        "#56688f",
+        "#ffffff"
+      ],
+      "ratio": 5.567
+    },
+    {
+      "role": "success",
+      "colors": [
+        "#18794e",
+        "#ffffff"
+      ],
+      "ratio": 5.407
+    },
+    {
+      "role": "warning",
+      "colors": [
+        "#a55b00",
+        "#ffffff"
+      ],
+      "ratio": 5.127
+    },
+    {
+      "role": "danger",
+      "colors": [
+        "#b52a36",
+        "#ffffff"
+      ],
+      "ratio": 6.27
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "active": "2026年",
+  "popover": {
+    "background": "rgb(255, 255, 255)",
+    "radius": "16px"
+  },
+  "selectedBg": "rgb(21, 97, 248)",
+  "selectedYear": "2026",
+  "theme": "light",
+  "yearOpen": "true"
+}

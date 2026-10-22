@@ -1,0 +1,51 @@
+[
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 0, 0)",
+    "outline": "none",
+    "selected": null,
+    "year": "2024"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 0, 0)",
+    "outline": "none",
+    "selected": null,
+    "year": "2025"
+  },
+  {
+    "background": "rgb(21, 97, 248)",
+    "color": "rgb(255, 255, 255)",
+    "outline": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(242, 244, 255) 0px 0px 0px 2px, rgb(61, 123, 255) 0px 0px 0px 4px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+    "selected": "true",
+    "year": "2026"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 0, 0)",
+    "outline": "none",
+    "selected": null,
+    "year": "2027"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 0, 0)",
+    "outline": "none",
+    "selected": null,
+    "year": "2028"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 0, 0)",
+    "outline": "none",
+    "selected": null,
+    "year": "2029"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 0, 0)",
+    "outline": "none",
+    "selected": null,
+    "year": "2030"
+  }
+]

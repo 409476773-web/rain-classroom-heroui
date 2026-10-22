@@ -1,0 +1,420 @@
+{
+  "active": {
+    "class": "input-otp__input",
+    "label": null,
+    "role": null,
+    "tag": "INPUT"
+  },
+  "nodes": [
+    {
+      "checked": false,
+      "class": "label",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "20px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "280px"
+      },
+      "tag": "LABEL",
+      "text": "Verify account",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "input-otp__slot",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgb(255, 255, 255)",
+        "border": "rgba(0, 0, 0, 0)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "40px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "6px",
+        "width": "37.6641px"
+      },
+      "tag": "DIV",
+      "text": "1",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "input-otp__slot-value",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "24px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "7.11719px"
+      },
+      "tag": "DIV",
+      "text": "1",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "input-otp__slot",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgb(255, 255, 255)",
+        "border": "rgba(0, 0, 0, 0)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "40px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "6px",
+        "width": "37.6719px"
+      },
+      "tag": "DIV",
+      "text": "1",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "input-otp__slot-value",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "24px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "7.11719px"
+      },
+      "tag": "DIV",
+      "text": "1",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "input-otp__slot",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgb(255, 255, 255)",
+        "border": "rgba(0, 0, 0, 0)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "40px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "6px",
+        "width": "37.6641px"
+      },
+      "tag": "DIV",
+      "text": "1",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "input-otp__slot-value",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "24px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "7.11719px"
+      },
+      "tag": "DIV",
+      "text": "1",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "input-otp__slot",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgb(255, 255, 255)",
+        "border": "rgba(0, 0, 0, 0)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "40px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "6px",
+        "width": "37.6641px"
+      },
+      "tag": "DIV",
+      "text": "1",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "input-otp__slot-value",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "24px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "7.11719px"
+      },
+      "tag": "DIV",
+      "text": "1",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "input-otp__slot",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgb(255, 255, 255)",
+        "border": "rgba(0, 0, 0, 0)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "40px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "6px",
+        "width": "37.6719px"
+      },
+      "tag": "DIV",
+      "text": "1",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "input-otp__slot-value",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "24px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "7.11719px"
+      },
+      "tag": "DIV",
+      "text": "1",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "input-otp__slot",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgb(255, 255, 255)",
+        "border": "rgba(0, 0, 0, 0)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "40px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "6px",
+        "width": "37.6641px"
+      },
+      "tag": "DIV",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "input-otp__input",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(0, 0, 0, 0)",
+        "color": "rgba(0, 0, 0, 0)",
+        "font": "monospace",
+        "height": "40px",
+        "opacity": "1",
+        "outline": "rgba(0, 0, 0, 0) solid 0px",
+        "radius": "0px",
+        "width": "320px"
+      },
+      "tag": "INPUT",
+      "text": "",
+      "value": "<redacted>"
+    },
+    {
+      "checked": false,
+      "class": "button button--md button--primary",
+      "disabled": true,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": "true",
+        "selected": null
+      },
+      "style": {
+        "background": "rgb(15, 82, 220)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(255, 255, 255)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "40px",
+        "opacity": "0.5",
+        "outline": "rgb(255, 255, 255) none 3px",
+        "radius": "10px",
+        "width": "78.625px"
+      },
+      "tag": "BUTTON",
+      "text": "Submit",
+      "value": ""
+    }
+  ],
+  "rain": "light",
+  "text": "Verify account\nHint: The code is 123456\n1\n1\n1\n1\n1\nInvalid code. Please try again.\nSubmit",
+  "theme": "light",
+  "url": "http://127.0.0.1:6006/iframe.html?id=components-forms-inputotp--with-validation&viewMode=story&globals=heroui-theme%3Arain-light"
+}

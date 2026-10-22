@@ -1,0 +1,46 @@
+
+> heroui@3.2.6 local:catalog /Users/wenchengkai/CodexFile/hero ui-改造
+> node scripts/rain/inventory.mjs && node scripts/rain/catalog.mjs
+
+{
+  "generated": [
+    "docs/rain/inventory.json",
+    "docs/rain/exceptions.md"
+  ],
+  "summary": {
+    "allStoryFiles": 80,
+    "builtStories": 587,
+    "builtStorybookEntries": 660,
+    "componentStoryFiles": 68,
+    "locales": {
+      "en": {
+        "allReactDocs": 179,
+        "componentDocs": 73,
+        "demoTsxFiles": 683,
+        "registeredDemos": 681
+      },
+      "zh": {
+        "allReactDocs": 179,
+        "componentDocs": 73,
+        "demoTsxFiles": 687,
+        "registeredDemos": 681
+      }
+    },
+    "publicComponentBarrelModules": 85,
+    "referenceIssues": 12,
+    "registeredLoaderWrappers": 4,
+    "sourceModules": 87,
+    "staticStoryExports": 596,
+    "unregisteredDemoFiles": 4
+  },
+  "verification": {
+    "builtPackageExports": "not_checked",
+    "builtStorybookIndex": "mismatch",
+    "humanVisualAcceptance": "not_checked",
+    "interaction": "not_run",
+    "inventory": "static-analysis-completed",
+    "rainTheme": "not_checked",
+    "runtime": "not_run"
+  }
+}
+组件目录已生成：87 个源码模块。

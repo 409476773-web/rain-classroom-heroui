@@ -23,6 +23,8 @@ import {usePathname, useRouter} from "next/navigation";
 import {useCallback, useEffect, useMemo, useRef, useState} from "react";
 import {tv} from "tailwind-variants";
 
+import {env} from "~env";
+
 import {useDictionary} from "@/hooks/use-dictionary";
 
 // Default suggested pages for each tag
@@ -63,7 +65,7 @@ function useProSearch(query: string, tag: "web" | "native") {
     (q: string) => {
       abortRef.current?.abort();
 
-      if (!q) {
+      if (env.NEXT_PUBLIC_LOCAL_PREVIEW || !q) {
         setResults([]);
 
         return;

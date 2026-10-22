@@ -1,0 +1,35 @@
+{
+  "errorOpacity": "1",
+  "errorText": "Invalid code. Please try again.",
+  "errorVisibleAttribute": "false",
+  "rain": "light",
+  "rootAriaInvalid": null,
+  "rootInvalid": null,
+  "slots": [
+    {
+      "invalid": null,
+      "text": "1"
+    },
+    {
+      "invalid": null,
+      "text": "1"
+    },
+    {
+      "invalid": null,
+      "text": "1"
+    },
+    {
+      "invalid": null,
+      "text": "1"
+    },
+    {
+      "invalid": null,
+      "text": "1"
+    },
+    {
+      "invalid": null,
+      "text": ""
+    }
+  ],
+  "url": "http://127.0.0.1:6006/iframe.html?id=components-forms-inputotp--with-validation&viewMode=story&globals=heroui-theme%3Arain-light"
+}

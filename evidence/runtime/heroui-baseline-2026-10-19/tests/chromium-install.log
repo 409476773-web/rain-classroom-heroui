@@ -1,0 +1,67 @@
+Command: pnpm --filter @heroui/testing exec playwright install chromium
+Started: 2026-10-19T08:54:42.211368+00:00
+
+Downloading Chrome for Testing 153.0.8010.12 (playwright chromium v1243) from https://cdn.playwright.dev/builds/cft/153.0.8010.12/mac-arm64/chrome-mac-arm64.zip
+Error: Request to https://cdn.playwright.dev/builds/cft/153.0.8010.12/mac-arm64/chrome-mac-arm64.zip timed out after 30000ms
+    at ClientRequest.<anonymous> (/Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/playwright-core@1.63.0/node_modules/playwright-core/lib/coreBundle.js:8793:15)
+    at Object.onceWrapper (node:events:622:28)
+    at ClientRequest.emit (node:events:508:28)
+    at TLSSocket.emitRequestTimeout (node:_http_client:927:9)
+    at Object.onceWrapper (node:events:622:28)
+    at TLSSocket.emit (node:events:520:35)
+    at Socket._onTimeout (node:net:604:8)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7)
+Downloading Chrome for Testing 153.0.8010.12 (playwright chromium v1243) from https://cdn.playwright.dev/builds/cft/153.0.8010.12/mac-arm64/chrome-mac-arm64.zip
+Error: Request to https://cdn.playwright.dev/builds/cft/153.0.8010.12/mac-arm64/chrome-mac-arm64.zip timed out after 30000ms
+    at ClientRequest.<anonymous> (/Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/playwright-core@1.63.0/node_modules/playwright-core/lib/coreBundle.js:8793:15)
+    at Object.onceWrapper (node:events:622:28)
+    at ClientRequest.emit (node:events:508:28)
+    at TLSSocket.emitRequestTimeout (node:_http_client:927:9)
+    at Object.onceWrapper (node:events:622:28)
+    at TLSSocket.emit (node:events:520:35)
+    at Socket._onTimeout (node:net:604:8)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7)
+Downloading Chrome for Testing 153.0.8010.12 (playwright chromium v1243) from https://cdn.playwright.dev/builds/cft/153.0.8010.12/mac-arm64/chrome-mac-arm64.zip
+Error: Request to https://cdn.playwright.dev/builds/cft/153.0.8010.12/mac-arm64/chrome-mac-arm64.zip timed out after 30000ms
+    at ClientRequest.<anonymous> (/Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/playwright-core@1.63.0/node_modules/playwright-core/lib/coreBundle.js:8793:15)
+    at Object.onceWrapper (node:events:622:28)
+    at ClientRequest.emit (node:events:508:28)
+    at TLSSocket.emitRequestTimeout (node:_http_client:927:9)
+    at Object.onceWrapper (node:events:622:28)
+    at TLSSocket.emit (node:events:520:35)
+    at Socket._onTimeout (node:net:604:8)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7)
+Downloading Chrome for Testing 153.0.8010.12 (playwright chromium v1243) from https://cdn.playwright.dev/builds/cft/153.0.8010.12/mac-arm64/chrome-mac-arm64.zip
+Error: Request to https://cdn.playwright.dev/builds/cft/153.0.8010.12/mac-arm64/chrome-mac-arm64.zip timed out after 30000ms
+    at ClientRequest.<anonymous> (/Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/playwright-core@1.63.0/node_modules/playwright-core/lib/coreBundle.js:8793:15)
+    at Object.onceWrapper (node:events:622:28)
+    at ClientRequest.emit (node:events:508:28)
+    at TLSSocket.emitRequestTimeout (node:_http_client:927:9)
+    at Object.onceWrapper (node:events:622:28)
+    at TLSSocket.emit (node:events:520:35)
+    at Socket._onTimeout (node:net:604:8)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7)
+Downloading Chrome for Testing 153.0.8010.12 (playwright chromium v1243) from https://cdn.playwright.dev/builds/cft/153.0.8010.12/mac-arm64/chrome-mac-arm64.zip
+Error: Request to https://cdn.playwright.dev/builds/cft/153.0.8010.12/mac-arm64/chrome-mac-arm64.zip timed out after 30000ms
+    at ClientRequest.<anonymous> (/Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/playwright-core@1.63.0/node_modules/playwright-core/lib/coreBundle.js:8793:15)
+    at Object.onceWrapper (node:events:622:28)
+    at ClientRequest.emit (node:events:508:28)
+    at TLSSocket.emitRequestTimeout (node:_http_client:927:9)
+    at Object.onceWrapper (node:events:622:28)
+    at TLSSocket.emit (node:events:520:35)
+    at Socket._onTimeout (node:net:604:8)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7)
+Failed to install browsers
+Error: Failed to download Chrome for Testing 153.0.8010.12 (playwright chromium v1243), caused by
+Error: Download failure, code=1
+    at ChildProcess.<anonymous> (/Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/playwright-core@1.63.0/node_modules/playwright-core/lib/coreBundle.js:32428:32)
+    at ChildProcess.emit (node:events:508:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+undefined
+/Users/wenchengkai/CodexFile/hero ui-改造/packages/testing:
+ ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL  Command failed with exit code 1: playwright install chromium

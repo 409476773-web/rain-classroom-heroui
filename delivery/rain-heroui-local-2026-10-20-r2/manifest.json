@@ -1,0 +1,51 @@
+{
+  "archives": [
+    {
+      "file": "packages/heroui-styles-3.2.6-rain.1.tgz",
+      "name": "@heroui/styles",
+      "sha256": "057877bc6f650327f018fdcdc02fcc0a343be34a01fab0fb6ab0583c4e6ad4d2",
+      "version": "3.2.6-rain.1"
+    },
+    {
+      "file": "packages/heroui-react-3.2.6-rain.1.tgz",
+      "name": "@heroui/react",
+      "sha256": "838cc882f5e227e01a655332a46b8b0d462c4a9df86eab24bedbf9b8e5357cc4",
+      "version": "3.2.6-rain.1"
+    },
+    {
+      "file": "packages/rain-classroom-heroui-theme-0.1.2.tgz",
+      "name": "@rain-classroom/heroui-theme",
+      "sha256": "5d097da6470587dcab8b4e0fb2c26f026499b2e6b54435009d158924d3243d01",
+      "version": "0.1.2"
+    }
+  ],
+  "createdAt": "2026-10-20T13:06:22.406Z",
+  "dependencyVerification": "Existing local third-party dependencies reused; no clean network installation.",
+  "heroUiCommit": "e385ac202b2cdb94b1bf6fa76d32c31c8259cc5e",
+  "heroUiRelease": "v3.2.6",
+  "localPatch": {
+    "artifactVersions": {
+      "@heroui/styles": "3.2.6-rain.1",
+      "@heroui/react": "3.2.6-rain.1",
+      "@rain-classroom/heroui-theme": "0.1.2"
+    },
+    "provenance": "patch-provenance.json",
+    "provenanceSha256": "6d7c0c76672040e33122063862b1d644b8b53c3babacfb3c81851fe5978a1e09",
+    "sources": [
+      {
+        "file": "packages/react/src/components/tabs/tabs.tsx",
+        "sha256": "57f77ccefe0fb3af69d8d00c48b9518f5f268d07599b1f687c27dc090a1b7eb5",
+        "upstreamSha256": "e3db8ced47e18943ed6ddf38da9155db04ddf4a6a371dc0c65737e957b96de37"
+      },
+      {
+        "file": "packages/styles/src/components/tabs/tabs.styles.ts",
+        "sha256": "5e5297e111e4260f0b7c71ad47a3bee65b439c4e72e181458e26720475b4a010",
+        "upstreamSha256": "c052f62e55843d46b0ee21d5a691d1ec40b7f9afded098f8c9f6cca12a6ceecd"
+      }
+    ]
+  },
+  "lockfileSha256": "1ea1be22f0b2304dc81d10f8f4bdb2562f9a4444b77c5cb68928305c69dac815",
+  "privateLocalDelivery": true,
+  "themeSourceSha256": "2349702bace822f597b8954e6dc312f7a70a69ed7b65e5c2cee25e672c3e69c6",
+  "verification": "report.json"
+}

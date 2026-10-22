@@ -1,0 +1,74 @@
+--- apps/docs/content/docs/en/react/releases/v3-0-0-alpha-34.mdx (before)
++++ apps/docs/content/docs/en/react/releases/v3-0-0-alpha-34.mdx (after)
+@@ -92,7 +92,7 @@
+ #### TextField
+ 
+ <ComponentPreview
+-  name="text-field-basic"
++  name="textfield-basic"
+ />
+ 
+ #### TextArea
+--- apps/docs/content/docs/cn/react/releases/v3-0-0-alpha-34.mdx (before)
++++ apps/docs/content/docs/cn/react/releases/v3-0-0-alpha-34.mdx (after)
+@@ -91,7 +91,7 @@
+ #### TextField
+ 
+ <ComponentPreview
+-  name="text-field-basic"
++  name="textfield-basic"
+ />
+ 
+ #### TextArea
+--- apps/docs/content/docs/cn/react/releases/v3-0-4.mdx (before)
++++ apps/docs/content/docs/cn/react/releases/v3-0-4.mdx (after)
+@@ -1,6 +1,6 @@
+ ---
+ title: v3.0.4
+-description: 全新 Text 组件、文档主题选择器、采用 min() 上限约束的圆角设计令牌、Table 聚焦环重构，以及多项 bug 修复。
++description: 全新 Typography 组件、文档主题选择器、采用 min() 上限约束的圆角设计令牌、Table 聚焦环重构，以及多项 bug 修复。
+ github:
+   pull: 6483
+ ---
+@@ -9,7 +9,7 @@
+   <span className="text-sm text-muted">2026 年 5 月</span>
+ </div>
+ 
+-补丁版本：从 HeroUI Pro 移植的全新 `Text` 复合组件；文档站新增主题选择器，可在不同主题下预览各组件；在约 45 个组件 CSS 文件中将圆角设计令牌改为使用 `min()` 上限约束；重做 Table 的聚焦环；并修复 Checkbox、Autocomplete、Tooltip 与表单字段内边距等问题。
++补丁版本：从 HeroUI Pro 移植的全新 `Typography` 复合组件；文档站新增主题选择器，可在不同主题下预览各组件；在约 45 个组件 CSS 文件中将圆角设计令牌改为使用 `min()` 上限约束；重做 Table 的聚焦环；并修复 Checkbox、Autocomplete、Tooltip 与表单字段内边距等问题。
+ 
+ ## 安装
+ 
+@@ -44,23 +44,23 @@
+ 
+ ## 新增功能
+ 
+-### Text 组件
++### Typography 组件
+ 
+ 用于结构化排版的新复合组件，从 HeroUI Pro 移植 ([#6479](https://github.com/heroui-inc/heroui/pull/6479))。会根据子组件或 `type` prop 自动渲染正确的 HTML 元素——`<h1>` 至 `<h6>`、`<p>` 或 `<code>`。
+ 
+-<ComponentPreview name="text-typography-scale" />
++<ComponentPreview name="typography-typography-scale" />
+ 
+-子组件：`Text.Heading`、`Text.Paragraph`、`Text.Code`、`Text.Prose`。
++子组件：`Typography.Heading`、`Typography.Paragraph`、`Typography.Code`、`Typography.Prose`。
+ 
+-各子组件支持的 prop：`align`、`color`、`weight`、`truncate`。`Text.Heading` 支持 `level`（1–6）。`Text.Paragraph` 支持 `size`（`"base"`、`"sm"`、`"xs"`）。
++各子组件支持的 prop：`align`、`color`、`weight`、`truncate`。`Typography.Heading` 支持 `level`（1–6）。`Typography.Paragraph` 支持 `size`（`"base"`、`"sm"`、`"xs"`）。
+ 
+-使用 `Text.Prose` 包裹混合内容以获得自动的文章体间距：
++使用 `Typography.Prose` 包裹混合内容以获得自动的文章体间距：
+ 
+ ```tsx
+-<Text.Prose>
+-  <Text.Heading level={3}>快速开始</Text.Heading>
+-  <Text.Paragraph>安装依赖包并引入组件。</Text.Paragraph>
+-</Text.Prose>
++<Typography.Prose>
++  <Typography.Heading level={3}>快速开始</Typography.Heading>
++  <Typography.Paragraph>安装依赖包并引入组件。</Typography.Paragraph>
++</Typography.Prose>
+ ```
+ 
+ ### 文档主题选择器

@@ -1,0 +1,57 @@
+{
+  "brandInputHashes": [
+    {
+      "sourceFileId": "card-v2:SPIKE_BRIEF.md",
+      "matches": true
+    },
+    {
+      "sourceFileId": "card-v2:packages/foundations/src/color-registry.ts",
+      "matches": true
+    },
+    {
+      "sourceFileId": "card-v2:packages/foundations/src/token-contract.ts",
+      "matches": true
+    },
+    {
+      "sourceFileId": "card-v2:packages/foundations/src/typography.css",
+      "matches": true
+    },
+    {
+      "sourceFileId": "card-v2:packages/foundations/src/typography-contract.ts",
+      "matches": true
+    },
+    {
+      "sourceFileId": "card-v2:packages/foundations/src/tokens.css",
+      "matches": true
+    },
+    {
+      "sourceFileId": "card-v2:docs/ai/token-selection.md",
+      "matches": true
+    },
+    {
+      "sourceFileId": "card-v2:docs/audits/2026-09-06-foundations-color-mapping.md",
+      "matches": true
+    },
+    {
+      "sourceFileId": "main-copy:packages/foundations/src/color-registry.ts",
+      "matches": true
+    },
+    {
+      "sourceFileId": "main-copy:packages/foundations/src/token-contract.ts",
+      "matches": true
+    },
+    {
+      "sourceFileId": "main-copy:packages/foundations/src/typography.css",
+      "matches": true
+    },
+    {
+      "sourceFileId": "main-copy:packages/foundations/src/typography-contract.ts",
+      "matches": true
+    }
+  ],
+  "upstreamReactStylesDiff": [],
+  "baselineLockSha256": "04358543202bc0165af725fb3752a5b21249667e677a89c0235b1ffc433983d5",
+  "currentLockSha256": "6b4420a6da71d3b2e28437aab8cca6aca21bc81afcfe800800c264a30b456173",
+  "lockPackagesAndSnapshotsUnchanged": true,
+  "change": "Only workspace links to the new CSS-only theme package and its empty importer were added."
+}

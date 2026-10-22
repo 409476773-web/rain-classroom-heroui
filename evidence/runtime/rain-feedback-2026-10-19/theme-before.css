@@ -1,0 +1,84 @@
+/*
+ * Rain Classroom light theme for HeroUI 3.2.6.
+ * Import after @heroui/styles; activate on the preview document's html element.
+ * Source values and role decisions: docs/rain/theme-mapping.md.
+ * Unlayered and root-scoped to win over docs/Storybook's local root defaults.
+ */
+:root[data-rain-theme="light"] {
+  --font-sans: "PingFang SC", "Microsoft YaHei", ui-sans-serif, sans-serif;
+  --rain-font-key-data: "LINE Seed JP App_OTF", "SF Pro Rounded", ui-rounded, sans-serif;
+
+  --background: #f2f4ff;
+  --foreground: #14233c;
+  --surface: #ffffff;
+  --surface-foreground: var(--foreground);
+  --surface-secondary: #fafcff;
+  --surface-secondary-foreground: var(--foreground);
+  --surface-tertiary: #edf3fa;
+  --surface-tertiary-foreground: var(--foreground);
+  --overlay: #ffffff;
+  --overlay-foreground: var(--foreground);
+  --muted: #56688f;
+  --default: #edf3fa;
+  --default-foreground: var(--foreground);
+
+  --accent: #1561f8;
+  --accent-foreground: #ffffff;
+  --accent-hover: #0f52dc;
+  --accent-soft: #eaf2ff;
+  --accent-soft-foreground: #0f55df;
+  --accent-soft-hover: #dce9ff;
+  --focus: #3d7bff;
+  --link: #0f55df;
+
+  --field-background: #ffffff;
+  --field-foreground: var(--foreground);
+  /* Existing text-muted is used for readable placeholders; see the mapping exception. */
+  --field-placeholder: #56688f;
+  --segment: #ffffff;
+  --segment-foreground: var(--foreground);
+  --border: rgb(16 63 183 / 16%);
+  --separator: rgb(16 63 183 / 16%);
+
+  --success: #18794e;
+  --success-foreground: #ffffff;
+  --success-soft: rgb(20 181 101 / 10%);
+  --success-soft-hover: rgb(20 181 101 / 18%);
+  --warning: #a55b00;
+  --warning-foreground: #ffffff;
+  --warning-soft: rgb(247 134 0 / 10%);
+  --warning-soft-hover: rgb(247 134 0 / 18%);
+  --danger: #b52a36;
+  --danger-foreground: #ffffff;
+  --danger-soft: rgb(243 72 72 / 10%);
+  --danger-soft-foreground: #b52a36;
+  --danger-soft-hover: rgb(243 72 72 / 18%);
+  /* Success/warning soft text keeps HeroUI's mix with foreground for contrast
+     on translucent status fills over Rain page and card surfaces. */
+  /* Darken these deep fills on hover to retain their white foreground contrast. */
+  --success-hover: color-mix(in oklab, var(--success) 90%, var(--foreground) 10%);
+  --warning-hover: color-mix(in oklab, var(--warning) 90%, var(--foreground) 10%);
+  --danger-hover: color-mix(in oklab, var(--danger) 90%, var(--foreground) 10%);
+
+  /* Keep the base multiplier: circles and pills also use it in upstream CSS. */
+  --field-radius: 6px;
+  --radius-xl: 8px;
+  --radius-2xl: 12px;
+  --radius-3xl: 16px;
+}
+
+/* These containers use a base-radius calculation instead of a semantic radius token. */
+:root[data-rain-theme="light"]
+  :is(
+    .date-picker__popover,
+    .date-range-picker__popover,
+    .color-picker__popover,
+    .table-root--primary
+  ) {
+  border-radius: min(32px, var(--radius-3xl));
+}
+
+/* Opt in only for key numerals and attached Western symbols, never a whole label. */
+:root[data-rain-theme="light"] [data-rain-key-data] {
+  font-family: var(--rain-font-key-data);
+}

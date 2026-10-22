@@ -1,0 +1,13 @@
+
+> @heroui/docs@0.0.0 test /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs
+> vitest run
+
+
+ RUN  v4.1.11 /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs
+
+
+ Test Files  3 passed (3)
+      Tests  33 passed (33)
+   Start at  16:59:17
+   Duration  3.96s (transform 2.41s, setup 0ms, import 4.00s, tests 225ms, environment 0ms)
+

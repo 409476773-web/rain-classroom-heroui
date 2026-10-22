@@ -1,0 +1,2107 @@
+{
+  "propertiesCompared": [
+    "height",
+    "paddingTop",
+    "paddingRight",
+    "paddingBottom",
+    "paddingLeft",
+    "gap",
+    "fontSize",
+    "lineHeight",
+    "fontWeight",
+    "borderTopWidth",
+    "borderBottomWidth",
+    "opacity",
+    "transitionDuration",
+    "transform"
+  ],
+  "records": [
+    {
+      "id": "components-theme-state-review--buttons",
+      "group": "buttons",
+      "nodes": 79,
+      "originalRestore": [
+        {
+          "mode": "light",
+          "viewportBefore": {
+            "devicePixelRatio": 1,
+            "height": 816,
+            "width": 980
+          },
+          "viewportRestored": {
+            "devicePixelRatio": 1,
+            "height": 816,
+            "width": 980
+          },
+          "differences": []
+        },
+        {
+          "mode": "dark",
+          "viewportBefore": {
+            "devicePixelRatio": 1,
+            "height": 816,
+            "width": 980
+          },
+          "viewportRestored": {
+            "devicePixelRatio": 1,
+            "height": 816,
+            "width": 980
+          },
+          "differences": [
+            {
+              "index": 2,
+              "cls": "toggle-button toggle-button--sm toggle-button--default",
+              "name": "切换按钮",
+              "prop": "backgroundColor",
+              "before": "oklch(0.94 0.001 286.375)",
+              "restored": "oklch(0.274 0.006 286.033)"
+            },
+            {
+              "index": 2,
+              "cls": "toggle-button toggle-button--sm toggle-button--default",
+              "name": "切换按钮",
+              "prop": "color",
+              "before": "rgb(0, 0, 0)",
+              "restored": "rgb(255, 255, 255)"
+            },
+            {
+              "index": 2,
+              "cls": "toggle-button toggle-button--sm toggle-button--default",
+              "name": "切换按钮",
+              "prop": "outline",
+              "before": "rgb(0, 0, 0) none 3px",
+              "restored": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "index": 3,
+              "cls": "toggle-button toggle-button--icon-only toggle-button--sm toggle-button--default",
+              "name": "sm 收藏",
+              "prop": "backgroundColor",
+              "before": "oklch(0.94 0.001 286.375)",
+              "restored": "oklch(0.274 0.006 286.033)"
+            },
+            {
+              "index": 3,
+              "cls": "toggle-button toggle-button--icon-only toggle-button--sm toggle-button--default",
+              "name": "sm 收藏",
+              "prop": "color",
+              "before": "rgb(0, 0, 0)",
+              "restored": "rgb(255, 255, 255)"
+            },
+            {
+              "index": 3,
+              "cls": "toggle-button toggle-button--icon-only toggle-button--sm toggle-button--default",
+              "name": "sm 收藏",
+              "prop": "outline",
+              "before": "rgb(0, 0, 0) none 3px",
+              "restored": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "index": 6,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "切换按钮",
+              "prop": "backgroundColor",
+              "before": "oklch(0.94 0.001 286.375)",
+              "restored": "oklch(0.274 0.006 286.033)"
+            },
+            {
+              "index": 6,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "切换按钮",
+              "prop": "color",
+              "before": "rgb(0, 0, 0)",
+              "restored": "rgb(255, 255, 255)"
+            },
+            {
+              "index": 6,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "切换按钮",
+              "prop": "outline",
+              "before": "rgb(0, 0, 0) none 3px",
+              "restored": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "index": 7,
+              "cls": "toggle-button toggle-button--icon-only toggle-button--md toggle-button--default",
+              "name": "md 收藏",
+              "prop": "backgroundColor",
+              "before": "oklch(0.94 0.001 286.375)",
+              "restored": "oklch(0.274 0.006 286.033)"
+            },
+            {
+              "index": 7,
+              "cls": "toggle-button toggle-button--icon-only toggle-button--md toggle-button--default",
+              "name": "md 收藏",
+              "prop": "color",
+              "before": "rgb(0, 0, 0)",
+              "restored": "rgb(255, 255, 255)"
+            },
+            {
+              "index": 7,
+              "cls": "toggle-button toggle-button--icon-only toggle-button--md toggle-button--default",
+              "name": "md 收藏",
+              "prop": "outline",
+              "before": "rgb(0, 0, 0) none 3px",
+              "restored": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "index": 10,
+              "cls": "toggle-button toggle-button--lg toggle-button--default",
+              "name": "切换按钮",
+              "prop": "backgroundColor",
+              "before": "oklch(0.94 0.001 286.375)",
+              "restored": "oklch(0.274 0.006 286.033)"
+            },
+            {
+              "index": 10,
+              "cls": "toggle-button toggle-button--lg toggle-button--default",
+              "name": "切换按钮",
+              "prop": "color",
+              "before": "rgb(0, 0, 0)",
+              "restored": "rgb(255, 255, 255)"
+            },
+            {
+              "index": 10,
+              "cls": "toggle-button toggle-button--lg toggle-button--default",
+              "name": "切换按钮",
+              "prop": "outline",
+              "before": "rgb(0, 0, 0) none 3px",
+              "restored": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "index": 11,
+              "cls": "toggle-button toggle-button--icon-only toggle-button--lg toggle-button--default",
+              "name": "lg 收藏",
+              "prop": "backgroundColor",
+              "before": "oklch(0.94 0.001 286.375)",
+              "restored": "oklch(0.274 0.006 286.033)"
+            },
+            {
+              "index": 11,
+              "cls": "toggle-button toggle-button--icon-only toggle-button--lg toggle-button--default",
+              "name": "lg 收藏",
+              "prop": "color",
+              "before": "rgb(0, 0, 0)",
+              "restored": "rgb(255, 255, 255)"
+            },
+            {
+              "index": 11,
+              "cls": "toggle-button toggle-button--icon-only toggle-button--lg toggle-button--default",
+              "name": "lg 收藏",
+              "prop": "outline",
+              "before": "rgb(0, 0, 0) none 3px",
+              "restored": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "index": 13,
+              "cls": "button button--md button--secondary",
+              "name": "次要按钮",
+              "prop": "backgroundColor",
+              "before": "oklch(0.94 0.001 286.375)",
+              "restored": "oklch(0.274 0.006 286.033)"
+            },
+            {
+              "index": 13,
+              "cls": "button button--md button--secondary",
+              "name": "次要按钮",
+              "prop": "color",
+              "before": "oklab(0.49737 -0.0375297 -0.132801)",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201)"
+            },
+            {
+              "index": 13,
+              "cls": "button button--md button--secondary",
+              "name": "次要按钮",
+              "prop": "outline",
+              "before": "oklab(0.49737 -0.0375297 -0.132801) none 3px",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201) none 3px"
+            },
+            {
+              "index": 14,
+              "cls": "button button--md button--tertiary",
+              "name": "第三按钮",
+              "prop": "backgroundColor",
+              "before": "oklch(0.94 0.001 286.375)",
+              "restored": "oklch(0.274 0.006 286.033)"
+            },
+            {
+              "index": 14,
+              "cls": "button button--md button--tertiary",
+              "name": "第三按钮",
+              "prop": "color",
+              "before": "rgb(0, 0, 0)",
+              "restored": "rgb(255, 255, 255)"
+            },
+            {
+              "index": 14,
+              "cls": "button button--md button--tertiary",
+              "name": "第三按钮",
+              "prop": "outline",
+              "before": "rgb(0, 0, 0) none 3px",
+              "restored": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "index": 15,
+              "cls": "button button--md button--danger",
+              "name": "危险按钮",
+              "prop": "backgroundColor",
+              "before": "oklch(0.6532 0.2328 25.74)",
+              "restored": "oklch(0.594 0.1967 24.63)"
+            },
+            {
+              "index": 17,
+              "cls": "button button--md button--danger",
+              "name": "禁用危险按钮",
+              "prop": "backgroundColor",
+              "before": "oklch(0.6532 0.2328 25.74)",
+              "restored": "oklch(0.594 0.1967 24.63)"
+            },
+            {
+              "index": 18,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "未选中切换",
+              "prop": "backgroundColor",
+              "before": "oklch(0.94 0.001 286.375)",
+              "restored": "oklch(0.274 0.006 286.033)"
+            },
+            {
+              "index": 18,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "未选中切换",
+              "prop": "color",
+              "before": "rgb(0, 0, 0)",
+              "restored": "rgb(255, 255, 255)"
+            },
+            {
+              "index": 18,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "未选中切换",
+              "prop": "outline",
+              "before": "rgb(0, 0, 0) none 3px",
+              "restored": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "index": 19,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "已选中切换",
+              "prop": "backgroundColor",
+              "before": "oklab(0.6204 -0.0543052 -0.187286 / 0.15)",
+              "restored": "oklab(0.6204 -0.0543052 -0.187286 / 0.12)"
+            },
+            {
+              "index": 19,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "已选中切换",
+              "prop": "color",
+              "before": "oklab(0.49737 -0.0375297 -0.132801)",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201)"
+            },
+            {
+              "index": 19,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "已选中切换",
+              "prop": "outline",
+              "before": "oklab(0.49737 -0.0375297 -0.132801) none 3px",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201) none 3px"
+            },
+            {
+              "index": 20,
+              "cls": "toggle-button toggle-button--md toggle-button--ghost",
+              "name": "已选中透明切换",
+              "prop": "backgroundColor",
+              "before": "oklab(0.6204 -0.0543052 -0.187286 / 0.15)",
+              "restored": "oklab(0.6204 -0.0543052 -0.187286 / 0.12)"
+            },
+            {
+              "index": 20,
+              "cls": "toggle-button toggle-button--md toggle-button--ghost",
+              "name": "已选中透明切换",
+              "prop": "color",
+              "before": "oklab(0.49737 -0.0375297 -0.132801)",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201)"
+            },
+            {
+              "index": 20,
+              "cls": "toggle-button toggle-button--md toggle-button--ghost",
+              "name": "已选中透明切换",
+              "prop": "outline",
+              "before": "oklab(0.49737 -0.0375297 -0.132801) none 3px",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201) none 3px"
+            },
+            {
+              "index": 21,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "禁用切换",
+              "prop": "backgroundColor",
+              "before": "oklch(0.94 0.001 286.375)",
+              "restored": "oklch(0.274 0.006 286.033)"
+            },
+            {
+              "index": 21,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "禁用切换",
+              "prop": "color",
+              "before": "rgb(0, 0, 0)",
+              "restored": "rgb(255, 255, 255)"
+            },
+            {
+              "index": 21,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "禁用切换",
+              "prop": "outline",
+              "before": "rgb(0, 0, 0) none 3px",
+              "restored": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "index": 22,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "已选中且禁用",
+              "prop": "backgroundColor",
+              "before": "oklab(0.6204 -0.0543052 -0.187286 / 0.15)",
+              "restored": "oklab(0.6204 -0.0543052 -0.187286 / 0.12)"
+            },
+            {
+              "index": 22,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "已选中且禁用",
+              "prop": "color",
+              "before": "oklab(0.49737 -0.0375297 -0.132801)",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201)"
+            },
+            {
+              "index": 22,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "已选中且禁用",
+              "prop": "outline",
+              "before": "oklab(0.49737 -0.0375297 -0.132801) none 3px",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201) none 3px"
+            },
+            {
+              "index": 23,
+              "cls": "button-group button-group--horizontal",
+              "name": "sm 横向连接按钮",
+              "prop": "color",
+              "before": "rgb(0, 0, 0)",
+              "restored": "rgb(255, 255, 255)"
+            },
+            {
+              "index": 23,
+              "cls": "button-group button-group--horizontal",
+              "name": "sm 横向连接按钮",
+              "prop": "outline",
+              "before": "rgb(0, 0, 0) none 3px",
+              "restored": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "index": 27,
+              "cls": "button-group button-group--horizontal",
+              "name": "md 横向连接按钮",
+              "prop": "color",
+              "before": "rgb(0, 0, 0)",
+              "restored": "rgb(255, 255, 255)"
+            },
+            {
+              "index": 27,
+              "cls": "button-group button-group--horizontal",
+              "name": "md 横向连接按钮",
+              "prop": "outline",
+              "before": "rgb(0, 0, 0) none 3px",
+              "restored": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "index": 31,
+              "cls": "button-group button-group--horizontal",
+              "name": "lg 横向连接按钮",
+              "prop": "color",
+              "before": "rgb(0, 0, 0)",
+              "restored": "rgb(255, 255, 255)"
+            },
+            {
+              "index": 31,
+              "cls": "button-group button-group--horizontal",
+              "name": "lg 横向连接按钮",
+              "prop": "outline",
+              "before": "rgb(0, 0, 0) none 3px",
+              "restored": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "index": 35,
+              "cls": "button-group button-group--vertical",
+              "name": "纵向连接按钮",
+              "prop": "color",
+              "before": "rgb(0, 0, 0)",
+              "restored": "rgb(255, 255, 255)"
+            },
+            {
+              "index": 35,
+              "cls": "button-group button-group--vertical",
+              "name": "纵向连接按钮",
+              "prop": "outline",
+              "before": "rgb(0, 0, 0) none 3px",
+              "restored": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "index": 36,
+              "cls": "button button--md button--secondary",
+              "name": "第一项",
+              "prop": "backgroundColor",
+              "before": "oklch(0.94 0.001 286.375)",
+              "restored": "oklch(0.274 0.006 286.033)"
+            },
+            {
+              "index": 36,
+              "cls": "button button--md button--secondary",
+              "name": "第一项",
+              "prop": "color",
+              "before": "oklab(0.49737 -0.0375297 -0.132801)",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201)"
+            },
+            {
+              "index": 36,
+              "cls": "button button--md button--secondary",
+              "name": "第一项",
+              "prop": "outline",
+              "before": "oklab(0.49737 -0.0375297 -0.132801) none 3px",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201) none 3px"
+            },
+            {
+              "index": 37,
+              "cls": "button button--md button--secondary",
+              "name": "第二项",
+              "prop": "backgroundColor",
+              "before": "oklch(0.94 0.001 286.375)",
+              "restored": "oklch(0.274 0.006 286.033)"
+            },
+            {
+              "index": 37,
+              "cls": "button button--md button--secondary",
+              "name": "第二项",
+              "prop": "color",
+              "before": "oklab(0.49737 -0.0375297 -0.132801)",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201)"
+            },
+            {
+              "index": 37,
+              "cls": "button button--md button--secondary",
+              "name": "第二项",
+              "prop": "outline",
+              "before": "oklab(0.49737 -0.0375297 -0.132801) none 3px",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201) none 3px"
+            },
+            {
+              "index": 38,
+              "cls": "button button--md button--secondary",
+              "name": "第三项",
+              "prop": "backgroundColor",
+              "before": "oklch(0.94 0.001 286.375)",
+              "restored": "oklch(0.274 0.006 286.033)"
+            },
+            {
+              "index": 38,
+              "cls": "button button--md button--secondary",
+              "name": "第三项",
+              "prop": "color",
+              "before": "oklab(0.49737 -0.0375297 -0.132801)",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201)"
+            },
+            {
+              "index": 38,
+              "cls": "button button--md button--secondary",
+              "name": "第三项",
+              "prop": "outline",
+              "before": "oklab(0.49737 -0.0375297 -0.132801) none 3px",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201) none 3px"
+            },
+            {
+              "index": 39,
+              "cls": "button-group button-group--horizontal",
+              "name": "从右向左连接按钮",
+              "prop": "color",
+              "before": "rgb(0, 0, 0)",
+              "restored": "rgb(255, 255, 255)"
+            },
+            {
+              "index": 39,
+              "cls": "button-group button-group--horizontal",
+              "name": "从右向左连接按钮",
+              "prop": "outline",
+              "before": "rgb(0, 0, 0) none 3px",
+              "restored": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "index": 40,
+              "cls": "button button--md button--secondary",
+              "name": "第一项",
+              "prop": "backgroundColor",
+              "before": "oklch(0.94 0.001 286.375)",
+              "restored": "oklch(0.274 0.006 286.033)"
+            },
+            {
+              "index": 40,
+              "cls": "button button--md button--secondary",
+              "name": "第一项",
+              "prop": "color",
+              "before": "oklab(0.49737 -0.0375297 -0.132801)",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201)"
+            },
+            {
+              "index": 40,
+              "cls": "button button--md button--secondary",
+              "name": "第一项",
+              "prop": "outline",
+              "before": "oklab(0.49737 -0.0375297 -0.132801) none 3px",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201) none 3px"
+            },
+            {
+              "index": 41,
+              "cls": "button button--md button--secondary",
+              "name": "第二项",
+              "prop": "backgroundColor",
+              "before": "oklch(0.94 0.001 286.375)",
+              "restored": "oklch(0.274 0.006 286.033)"
+            },
+            {
+              "index": 41,
+              "cls": "button button--md button--secondary",
+              "name": "第二项",
+              "prop": "color",
+              "before": "oklab(0.49737 -0.0375297 -0.132801)",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201)"
+            },
+            {
+              "index": 41,
+              "cls": "button button--md button--secondary",
+              "name": "第二项",
+              "prop": "outline",
+              "before": "oklab(0.49737 -0.0375297 -0.132801) none 3px",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201) none 3px"
+            },
+            {
+              "index": 42,
+              "cls": "button button--md button--secondary",
+              "name": "第三项",
+              "prop": "backgroundColor",
+              "before": "oklch(0.94 0.001 286.375)",
+              "restored": "oklch(0.274 0.006 286.033)"
+            },
+            {
+              "index": 42,
+              "cls": "button button--md button--secondary",
+              "name": "第三项",
+              "prop": "color",
+              "before": "oklab(0.49737 -0.0375297 -0.132801)",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201)"
+            },
+            {
+              "index": 42,
+              "cls": "button button--md button--secondary",
+              "name": "第三项",
+              "prop": "outline",
+              "before": "oklab(0.49737 -0.0375297 -0.132801) none 3px",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201) none 3px"
+            },
+            {
+              "index": 43,
+              "cls": "button-group button-group--horizontal",
+              "name": "单项按钮组",
+              "prop": "color",
+              "before": "rgb(0, 0, 0)",
+              "restored": "rgb(255, 255, 255)"
+            },
+            {
+              "index": 43,
+              "cls": "button-group button-group--horizontal",
+              "name": "单项按钮组",
+              "prop": "outline",
+              "before": "rgb(0, 0, 0) none 3px",
+              "restored": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "index": 44,
+              "cls": "button button--md button--secondary",
+              "name": "单项按钮",
+              "prop": "backgroundColor",
+              "before": "oklch(0.94 0.001 286.375)",
+              "restored": "oklch(0.274 0.006 286.033)"
+            },
+            {
+              "index": 44,
+              "cls": "button button--md button--secondary",
+              "name": "单项按钮",
+              "prop": "color",
+              "before": "oklab(0.49737 -0.0375297 -0.132801)",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201)"
+            },
+            {
+              "index": 44,
+              "cls": "button button--md button--secondary",
+              "name": "单项按钮",
+              "prop": "outline",
+              "before": "oklab(0.49737 -0.0375297 -0.132801) none 3px",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201) none 3px"
+            },
+            {
+              "index": 45,
+              "cls": "button-group button-group--horizontal",
+              "name": "禁用连接按钮组",
+              "prop": "color",
+              "before": "rgb(0, 0, 0)",
+              "restored": "rgb(255, 255, 255)"
+            },
+            {
+              "index": 45,
+              "cls": "button-group button-group--horizontal",
+              "name": "禁用连接按钮组",
+              "prop": "outline",
+              "before": "rgb(0, 0, 0) none 3px",
+              "restored": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "index": 46,
+              "cls": "button button--md button--secondary",
+              "name": "第一项",
+              "prop": "backgroundColor",
+              "before": "oklch(0.94 0.001 286.375)",
+              "restored": "oklch(0.274 0.006 286.033)"
+            },
+            {
+              "index": 46,
+              "cls": "button button--md button--secondary",
+              "name": "第一项",
+              "prop": "color",
+              "before": "oklab(0.49737 -0.0375297 -0.132801)",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201)"
+            },
+            {
+              "index": 46,
+              "cls": "button button--md button--secondary",
+              "name": "第一项",
+              "prop": "outline",
+              "before": "oklab(0.49737 -0.0375297 -0.132801) none 3px",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201) none 3px"
+            },
+            {
+              "index": 47,
+              "cls": "button button--md button--secondary",
+              "name": "第二项",
+              "prop": "backgroundColor",
+              "before": "oklch(0.94 0.001 286.375)",
+              "restored": "oklch(0.274 0.006 286.033)"
+            },
+            {
+              "index": 47,
+              "cls": "button button--md button--secondary",
+              "name": "第二项",
+              "prop": "color",
+              "before": "oklab(0.49737 -0.0375297 -0.132801)",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201)"
+            },
+            {
+              "index": 47,
+              "cls": "button button--md button--secondary",
+              "name": "第二项",
+              "prop": "outline",
+              "before": "oklab(0.49737 -0.0375297 -0.132801) none 3px",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201) none 3px"
+            },
+            {
+              "index": 48,
+              "cls": "button button--md button--secondary",
+              "name": "第三项",
+              "prop": "backgroundColor",
+              "before": "oklch(0.94 0.001 286.375)",
+              "restored": "oklch(0.274 0.006 286.033)"
+            },
+            {
+              "index": 48,
+              "cls": "button button--md button--secondary",
+              "name": "第三项",
+              "prop": "color",
+              "before": "oklab(0.49737 -0.0375297 -0.132801)",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201)"
+            },
+            {
+              "index": 48,
+              "cls": "button button--md button--secondary",
+              "name": "第三项",
+              "prop": "outline",
+              "before": "oklab(0.49737 -0.0375297 -0.132801) none 3px",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201) none 3px"
+            },
+            {
+              "index": 49,
+              "cls": "toggle-button-group toggle-button-group--horizontal",
+              "name": "sm 连接切换按钮",
+              "prop": "color",
+              "before": "rgb(0, 0, 0)",
+              "restored": "rgb(255, 255, 255)"
+            },
+            {
+              "index": 49,
+              "cls": "toggle-button-group toggle-button-group--horizontal",
+              "name": "sm 连接切换按钮",
+              "prop": "outline",
+              "before": "rgb(0, 0, 0) none 3px",
+              "restored": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "index": 50,
+              "cls": "toggle-button toggle-button--sm toggle-button--default",
+              "name": "第一项",
+              "prop": "backgroundColor",
+              "before": "oklch(0.94 0.001 286.375)",
+              "restored": "oklch(0.274 0.006 286.033)"
+            },
+            {
+              "index": 50,
+              "cls": "toggle-button toggle-button--sm toggle-button--default",
+              "name": "第一项",
+              "prop": "color",
+              "before": "rgb(0, 0, 0)",
+              "restored": "rgb(255, 255, 255)"
+            },
+            {
+              "index": 50,
+              "cls": "toggle-button toggle-button--sm toggle-button--default",
+              "name": "第一项",
+              "prop": "outline",
+              "before": "rgb(0, 0, 0) none 3px",
+              "restored": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "index": 51,
+              "cls": "toggle-button toggle-button--sm toggle-button--default",
+              "name": "第二项",
+              "prop": "backgroundColor",
+              "before": "oklab(0.6204 -0.0543052 -0.187286 / 0.15)",
+              "restored": "oklab(0.6204 -0.0543052 -0.187286 / 0.12)"
+            },
+            {
+              "index": 51,
+              "cls": "toggle-button toggle-button--sm toggle-button--default",
+              "name": "第二项",
+              "prop": "color",
+              "before": "oklab(0.49737 -0.0375297 -0.132801)",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201)"
+            },
+            {
+              "index": 51,
+              "cls": "toggle-button toggle-button--sm toggle-button--default",
+              "name": "第二项",
+              "prop": "outline",
+              "before": "oklab(0.49737 -0.0375297 -0.132801) none 3px",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201) none 3px"
+            },
+            {
+              "index": 52,
+              "cls": "toggle-button toggle-button--sm toggle-button--default",
+              "name": "第三项",
+              "prop": "backgroundColor",
+              "before": "oklch(0.94 0.001 286.375)",
+              "restored": "oklch(0.274 0.006 286.033)"
+            },
+            {
+              "index": 52,
+              "cls": "toggle-button toggle-button--sm toggle-button--default",
+              "name": "第三项",
+              "prop": "color",
+              "before": "rgb(0, 0, 0)",
+              "restored": "rgb(255, 255, 255)"
+            },
+            {
+              "index": 52,
+              "cls": "toggle-button toggle-button--sm toggle-button--default",
+              "name": "第三项",
+              "prop": "outline",
+              "before": "rgb(0, 0, 0) none 3px",
+              "restored": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "index": 53,
+              "cls": "toggle-button-group toggle-button-group--horizontal",
+              "name": "md 连接切换按钮",
+              "prop": "color",
+              "before": "rgb(0, 0, 0)",
+              "restored": "rgb(255, 255, 255)"
+            },
+            {
+              "index": 53,
+              "cls": "toggle-button-group toggle-button-group--horizontal",
+              "name": "md 连接切换按钮",
+              "prop": "outline",
+              "before": "rgb(0, 0, 0) none 3px",
+              "restored": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "index": 54,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第一项",
+              "prop": "backgroundColor",
+              "before": "oklch(0.94 0.001 286.375)",
+              "restored": "oklch(0.274 0.006 286.033)"
+            },
+            {
+              "index": 54,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第一项",
+              "prop": "color",
+              "before": "rgb(0, 0, 0)",
+              "restored": "rgb(255, 255, 255)"
+            },
+            {
+              "index": 54,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第一项",
+              "prop": "outline",
+              "before": "rgb(0, 0, 0) none 3px",
+              "restored": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "index": 55,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第二项",
+              "prop": "backgroundColor",
+              "before": "oklab(0.6204 -0.0543052 -0.187286 / 0.15)",
+              "restored": "oklab(0.6204 -0.0543052 -0.187286 / 0.12)"
+            },
+            {
+              "index": 55,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第二项",
+              "prop": "color",
+              "before": "oklab(0.49737 -0.0375297 -0.132801)",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201)"
+            },
+            {
+              "index": 55,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第二项",
+              "prop": "outline",
+              "before": "oklab(0.49737 -0.0375297 -0.132801) none 3px",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201) none 3px"
+            },
+            {
+              "index": 56,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第三项",
+              "prop": "backgroundColor",
+              "before": "oklch(0.94 0.001 286.375)",
+              "restored": "oklch(0.274 0.006 286.033)"
+            },
+            {
+              "index": 56,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第三项",
+              "prop": "color",
+              "before": "rgb(0, 0, 0)",
+              "restored": "rgb(255, 255, 255)"
+            },
+            {
+              "index": 56,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第三项",
+              "prop": "outline",
+              "before": "rgb(0, 0, 0) none 3px",
+              "restored": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "index": 57,
+              "cls": "toggle-button-group toggle-button-group--horizontal",
+              "name": "lg 连接切换按钮",
+              "prop": "color",
+              "before": "rgb(0, 0, 0)",
+              "restored": "rgb(255, 255, 255)"
+            },
+            {
+              "index": 57,
+              "cls": "toggle-button-group toggle-button-group--horizontal",
+              "name": "lg 连接切换按钮",
+              "prop": "outline",
+              "before": "rgb(0, 0, 0) none 3px",
+              "restored": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "index": 58,
+              "cls": "toggle-button toggle-button--lg toggle-button--default",
+              "name": "第一项",
+              "prop": "backgroundColor",
+              "before": "oklch(0.94 0.001 286.375)",
+              "restored": "oklch(0.274 0.006 286.033)"
+            },
+            {
+              "index": 58,
+              "cls": "toggle-button toggle-button--lg toggle-button--default",
+              "name": "第一项",
+              "prop": "color",
+              "before": "rgb(0, 0, 0)",
+              "restored": "rgb(255, 255, 255)"
+            },
+            {
+              "index": 58,
+              "cls": "toggle-button toggle-button--lg toggle-button--default",
+              "name": "第一项",
+              "prop": "outline",
+              "before": "rgb(0, 0, 0) none 3px",
+              "restored": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "index": 59,
+              "cls": "toggle-button toggle-button--lg toggle-button--default",
+              "name": "第二项",
+              "prop": "backgroundColor",
+              "before": "oklab(0.6204 -0.0543052 -0.187286 / 0.15)",
+              "restored": "oklab(0.6204 -0.0543052 -0.187286 / 0.12)"
+            },
+            {
+              "index": 59,
+              "cls": "toggle-button toggle-button--lg toggle-button--default",
+              "name": "第二项",
+              "prop": "color",
+              "before": "oklab(0.49737 -0.0375297 -0.132801)",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201)"
+            },
+            {
+              "index": 59,
+              "cls": "toggle-button toggle-button--lg toggle-button--default",
+              "name": "第二项",
+              "prop": "outline",
+              "before": "oklab(0.49737 -0.0375297 -0.132801) none 3px",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201) none 3px"
+            },
+            {
+              "index": 60,
+              "cls": "toggle-button toggle-button--lg toggle-button--default",
+              "name": "第三项",
+              "prop": "backgroundColor",
+              "before": "oklch(0.94 0.001 286.375)",
+              "restored": "oklch(0.274 0.006 286.033)"
+            },
+            {
+              "index": 60,
+              "cls": "toggle-button toggle-button--lg toggle-button--default",
+              "name": "第三项",
+              "prop": "color",
+              "before": "rgb(0, 0, 0)",
+              "restored": "rgb(255, 255, 255)"
+            },
+            {
+              "index": 60,
+              "cls": "toggle-button toggle-button--lg toggle-button--default",
+              "name": "第三项",
+              "prop": "outline",
+              "before": "rgb(0, 0, 0) none 3px",
+              "restored": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "index": 61,
+              "cls": "toggle-button-group toggle-button-group--vertical",
+              "name": "纵向连接切换按钮",
+              "prop": "color",
+              "before": "rgb(0, 0, 0)",
+              "restored": "rgb(255, 255, 255)"
+            },
+            {
+              "index": 61,
+              "cls": "toggle-button-group toggle-button-group--vertical",
+              "name": "纵向连接切换按钮",
+              "prop": "outline",
+              "before": "rgb(0, 0, 0) none 3px",
+              "restored": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "index": 62,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第一项",
+              "prop": "backgroundColor",
+              "before": "oklch(0.94 0.001 286.375)",
+              "restored": "oklch(0.274 0.006 286.033)"
+            },
+            {
+              "index": 62,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第一项",
+              "prop": "color",
+              "before": "rgb(0, 0, 0)",
+              "restored": "rgb(255, 255, 255)"
+            },
+            {
+              "index": 62,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第一项",
+              "prop": "outline",
+              "before": "rgb(0, 0, 0) none 3px",
+              "restored": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "index": 63,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第二项",
+              "prop": "backgroundColor",
+              "before": "oklab(0.6204 -0.0543052 -0.187286 / 0.15)",
+              "restored": "oklab(0.6204 -0.0543052 -0.187286 / 0.12)"
+            },
+            {
+              "index": 63,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第二项",
+              "prop": "color",
+              "before": "oklab(0.49737 -0.0375297 -0.132801)",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201)"
+            },
+            {
+              "index": 63,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第二项",
+              "prop": "outline",
+              "before": "oklab(0.49737 -0.0375297 -0.132801) none 3px",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201) none 3px"
+            },
+            {
+              "index": 64,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第三项",
+              "prop": "backgroundColor",
+              "before": "oklch(0.94 0.001 286.375)",
+              "restored": "oklch(0.274 0.006 286.033)"
+            },
+            {
+              "index": 64,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第三项",
+              "prop": "color",
+              "before": "rgb(0, 0, 0)",
+              "restored": "rgb(255, 255, 255)"
+            },
+            {
+              "index": 64,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第三项",
+              "prop": "outline",
+              "before": "rgb(0, 0, 0) none 3px",
+              "restored": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "index": 65,
+              "cls": "toggle-button-group toggle-button-group--horizontal",
+              "name": "从右向左连接切换按钮",
+              "prop": "color",
+              "before": "rgb(0, 0, 0)",
+              "restored": "rgb(255, 255, 255)"
+            },
+            {
+              "index": 65,
+              "cls": "toggle-button-group toggle-button-group--horizontal",
+              "name": "从右向左连接切换按钮",
+              "prop": "outline",
+              "before": "rgb(0, 0, 0) none 3px",
+              "restored": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "index": 66,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第一项",
+              "prop": "backgroundColor",
+              "before": "oklch(0.94 0.001 286.375)",
+              "restored": "oklch(0.274 0.006 286.033)"
+            },
+            {
+              "index": 66,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第一项",
+              "prop": "color",
+              "before": "rgb(0, 0, 0)",
+              "restored": "rgb(255, 255, 255)"
+            },
+            {
+              "index": 66,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第一项",
+              "prop": "outline",
+              "before": "rgb(0, 0, 0) none 3px",
+              "restored": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "index": 67,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第二项",
+              "prop": "backgroundColor",
+              "before": "oklab(0.6204 -0.0543052 -0.187286 / 0.15)",
+              "restored": "oklab(0.6204 -0.0543052 -0.187286 / 0.12)"
+            },
+            {
+              "index": 67,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第二项",
+              "prop": "color",
+              "before": "oklab(0.49737 -0.0375297 -0.132801)",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201)"
+            },
+            {
+              "index": 67,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第二项",
+              "prop": "outline",
+              "before": "oklab(0.49737 -0.0375297 -0.132801) none 3px",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201) none 3px"
+            },
+            {
+              "index": 68,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第三项",
+              "prop": "backgroundColor",
+              "before": "oklch(0.94 0.001 286.375)",
+              "restored": "oklch(0.274 0.006 286.033)"
+            },
+            {
+              "index": 68,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第三项",
+              "prop": "color",
+              "before": "rgb(0, 0, 0)",
+              "restored": "rgb(255, 255, 255)"
+            },
+            {
+              "index": 68,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第三项",
+              "prop": "outline",
+              "before": "rgb(0, 0, 0) none 3px",
+              "restored": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "index": 69,
+              "cls": "toggle-button-group toggle-button-group--detached toggle-button-group--horizontal",
+              "name": "分离切换按钮",
+              "prop": "color",
+              "before": "rgb(0, 0, 0)",
+              "restored": "rgb(255, 255, 255)"
+            },
+            {
+              "index": 69,
+              "cls": "toggle-button-group toggle-button-group--detached toggle-button-group--horizontal",
+              "name": "分离切换按钮",
+              "prop": "outline",
+              "before": "rgb(0, 0, 0) none 3px",
+              "restored": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "index": 70,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第一项",
+              "prop": "backgroundColor",
+              "before": "oklab(0.6204 -0.0543052 -0.187286 / 0.15)",
+              "restored": "oklab(0.6204 -0.0543052 -0.187286 / 0.12)"
+            },
+            {
+              "index": 70,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第一项",
+              "prop": "color",
+              "before": "oklab(0.49737 -0.0375297 -0.132801)",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201)"
+            },
+            {
+              "index": 70,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第一项",
+              "prop": "outline",
+              "before": "oklab(0.49737 -0.0375297 -0.132801) none 3px",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201) none 3px"
+            },
+            {
+              "index": 71,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第二项",
+              "prop": "backgroundColor",
+              "before": "oklch(0.94 0.001 286.375)",
+              "restored": "oklch(0.274 0.006 286.033)"
+            },
+            {
+              "index": 71,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第二项",
+              "prop": "color",
+              "before": "rgb(0, 0, 0)",
+              "restored": "rgb(255, 255, 255)"
+            },
+            {
+              "index": 71,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第二项",
+              "prop": "outline",
+              "before": "rgb(0, 0, 0) none 3px",
+              "restored": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "index": 72,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第三项",
+              "prop": "backgroundColor",
+              "before": "oklch(0.94 0.001 286.375)",
+              "restored": "oklch(0.274 0.006 286.033)"
+            },
+            {
+              "index": 72,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第三项",
+              "prop": "color",
+              "before": "rgb(0, 0, 0)",
+              "restored": "rgb(255, 255, 255)"
+            },
+            {
+              "index": 72,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第三项",
+              "prop": "outline",
+              "before": "rgb(0, 0, 0) none 3px",
+              "restored": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "index": 73,
+              "cls": "toggle-button-group toggle-button-group--horizontal",
+              "name": "单项切换按钮组",
+              "prop": "color",
+              "before": "rgb(0, 0, 0)",
+              "restored": "rgb(255, 255, 255)"
+            },
+            {
+              "index": 73,
+              "cls": "toggle-button-group toggle-button-group--horizontal",
+              "name": "单项切换按钮组",
+              "prop": "outline",
+              "before": "rgb(0, 0, 0) none 3px",
+              "restored": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "index": 74,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "单项切换",
+              "prop": "backgroundColor",
+              "before": "oklab(0.6204 -0.0543052 -0.187286 / 0.15)",
+              "restored": "oklab(0.6204 -0.0543052 -0.187286 / 0.12)"
+            },
+            {
+              "index": 74,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "单项切换",
+              "prop": "color",
+              "before": "oklab(0.49737 -0.0375297 -0.132801)",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201)"
+            },
+            {
+              "index": 74,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "单项切换",
+              "prop": "outline",
+              "before": "oklab(0.49737 -0.0375297 -0.132801) none 3px",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201) none 3px"
+            },
+            {
+              "index": 75,
+              "cls": "toggle-button-group toggle-button-group--horizontal",
+              "name": "禁用切换按钮组",
+              "prop": "color",
+              "before": "rgb(0, 0, 0)",
+              "restored": "rgb(255, 255, 255)"
+            },
+            {
+              "index": 75,
+              "cls": "toggle-button-group toggle-button-group--horizontal",
+              "name": "禁用切换按钮组",
+              "prop": "outline",
+              "before": "rgb(0, 0, 0) none 3px",
+              "restored": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "index": 76,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第一项",
+              "prop": "backgroundColor",
+              "before": "oklab(0.6204 -0.0543052 -0.187286 / 0.15)",
+              "restored": "oklab(0.6204 -0.0543052 -0.187286 / 0.12)"
+            },
+            {
+              "index": 76,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第一项",
+              "prop": "color",
+              "before": "oklab(0.49737 -0.0375297 -0.132801)",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201)"
+            },
+            {
+              "index": 76,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第一项",
+              "prop": "outline",
+              "before": "oklab(0.49737 -0.0375297 -0.132801) none 3px",
+              "restored": "oklab(0.721499 -0.0394974 -0.136201) none 3px"
+            },
+            {
+              "index": 77,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第二项",
+              "prop": "backgroundColor",
+              "before": "oklch(0.94 0.001 286.375)",
+              "restored": "oklch(0.274 0.006 286.033)"
+            },
+            {
+              "index": 77,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第二项",
+              "prop": "color",
+              "before": "rgb(0, 0, 0)",
+              "restored": "rgb(255, 255, 255)"
+            },
+            {
+              "index": 77,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第二项",
+              "prop": "outline",
+              "before": "rgb(0, 0, 0) none 3px",
+              "restored": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "index": 78,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第三项",
+              "prop": "backgroundColor",
+              "before": "oklch(0.94 0.001 286.375)",
+              "restored": "oklch(0.274 0.006 286.033)"
+            },
+            {
+              "index": 78,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第三项",
+              "prop": "color",
+              "before": "rgb(0, 0, 0)",
+              "restored": "rgb(255, 255, 255)"
+            },
+            {
+              "index": 78,
+              "cls": "toggle-button toggle-button--md toggle-button--default",
+              "name": "第三项",
+              "prop": "outline",
+              "before": "rgb(0, 0, 0) none 3px",
+              "restored": "rgb(255, 255, 255) none 3px"
+            }
+          ]
+        }
+      ],
+      "rainGeometryDifferences": [],
+      "rainViewport": {
+        "devicePixelRatio": 1,
+        "height": 816,
+        "width": 980
+      }
+    },
+    {
+      "id": "components-theme-state-review--fields",
+      "group": "fields",
+      "nodes": 92,
+      "originalRestore": [
+        {
+          "mode": "light",
+          "viewportBefore": {
+            "devicePixelRatio": 1,
+            "height": 816,
+            "width": 980
+          },
+          "viewportRestored": {
+            "devicePixelRatio": 1,
+            "height": 816,
+            "width": 980
+          },
+          "differences": []
+        },
+        {
+          "mode": "dark",
+          "viewportBefore": {
+            "devicePixelRatio": 1,
+            "height": 816,
+            "width": 980
+          },
+          "viewportRestored": {
+            "devicePixelRatio": 1,
+            "height": 816,
+            "width": 980
+          },
+          "differences": []
+        }
+      ],
+      "rainGeometryDifferences": [],
+      "rainViewport": {
+        "devicePixelRatio": 1,
+        "height": 816,
+        "width": 980
+      }
+    },
+    {
+      "id": "components-forms-inputgroup--invalid",
+      "group": "fields",
+      "nodes": 11,
+      "originalRestore": [
+        {
+          "mode": "light",
+          "viewportBefore": {
+            "devicePixelRatio": 1,
+            "height": 816,
+            "width": 980
+          },
+          "viewportRestored": {
+            "devicePixelRatio": 1,
+            "height": 816,
+            "width": 980
+          },
+          "differences": []
+        },
+        {
+          "mode": "dark",
+          "viewportBefore": {
+            "devicePixelRatio": 1,
+            "height": 816,
+            "width": 980
+          },
+          "viewportRestored": {
+            "devicePixelRatio": 1,
+            "height": 816,
+            "width": 980
+          },
+          "differences": []
+        }
+      ],
+      "rainGeometryDifferences": [],
+      "rainViewport": {
+        "devicePixelRatio": 1,
+        "height": 816,
+        "width": 980
+      }
+    },
+    {
+      "id": "components-forms-inputgroup--disabled",
+      "group": "fields",
+      "nodes": 9,
+      "originalRestore": [
+        {
+          "mode": "light",
+          "viewportBefore": {
+            "devicePixelRatio": 1,
+            "height": 816,
+            "width": 980
+          },
+          "viewportRestored": {
+            "devicePixelRatio": 1,
+            "height": 816,
+            "width": 980
+          },
+          "differences": []
+        },
+        {
+          "mode": "dark",
+          "viewportBefore": {
+            "devicePixelRatio": 1,
+            "height": 816,
+            "width": 980
+          },
+          "viewportRestored": {
+            "devicePixelRatio": 1,
+            "height": 816,
+            "width": 980
+          },
+          "differences": []
+        }
+      ],
+      "rainGeometryDifferences": [],
+      "rainViewport": {
+        "devicePixelRatio": 1,
+        "height": 816,
+        "width": 980
+      }
+    },
+    {
+      "id": "components-theme-state-review--selections",
+      "group": "selections",
+      "nodes": 27,
+      "originalRestore": [
+        {
+          "mode": "light",
+          "viewportBefore": {
+            "devicePixelRatio": 1,
+            "height": 816,
+            "width": 980
+          },
+          "viewportRestored": {
+            "devicePixelRatio": 1,
+            "height": 816,
+            "width": 980
+          },
+          "differences": [
+            {
+              "index": 2,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "color",
+              "before": "oklch(0.2103 0.0059 285.89)",
+              "restored": "oklab(0.210572 0.00155411 -0.00593942)"
+            },
+            {
+              "index": 2,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "outline",
+              "before": "oklch(0.2103 0.0059 285.89) none 3px",
+              "restored": "oklab(0.210572 0.00155411 -0.00593942) none 3px"
+            },
+            {
+              "index": 4,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "color",
+              "before": "oklch(0.2103 0.0059 285.89)",
+              "restored": "oklab(0.210572 0.00155411 -0.00593942)"
+            },
+            {
+              "index": 4,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "outline",
+              "before": "oklch(0.2103 0.0059 285.89) none 3px",
+              "restored": "oklab(0.210572 0.00155411 -0.00593942) none 3px"
+            },
+            {
+              "index": 6,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "color",
+              "before": "oklch(0.2103 0.0059 285.89)",
+              "restored": "oklab(0.210572 0.00155411 -0.00593942)"
+            },
+            {
+              "index": 6,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "outline",
+              "before": "oklch(0.2103 0.0059 285.89) none 3px",
+              "restored": "oklab(0.210572 0.00155411 -0.00593942) none 3px"
+            },
+            {
+              "index": 8,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "color",
+              "before": "oklch(0.2103 0.0059 285.89)",
+              "restored": "oklab(0.210572 0.00155411 -0.00593942)"
+            },
+            {
+              "index": 8,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "outline",
+              "before": "oklch(0.2103 0.0059 285.89) none 3px",
+              "restored": "oklab(0.210572 0.00155411 -0.00593942) none 3px"
+            },
+            {
+              "index": 10,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "color",
+              "before": "oklch(0.6532 0.2328 25.74)",
+              "restored": "oklab(0.652369 0.209422 0.100889)"
+            },
+            {
+              "index": 10,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "outline",
+              "before": "oklch(0.6532 0.2328 25.74) none 3px",
+              "restored": "oklab(0.652369 0.209422 0.100889) none 3px"
+            },
+            {
+              "index": 13,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "color",
+              "before": "oklch(0.2103 0.0059 285.89)",
+              "restored": "oklab(0.210572 0.00155411 -0.00593942)"
+            },
+            {
+              "index": 13,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "outline",
+              "before": "oklch(0.2103 0.0059 285.89) none 3px",
+              "restored": "oklab(0.210572 0.00155411 -0.00593942) none 3px"
+            },
+            {
+              "index": 15,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "color",
+              "before": "oklch(0.2103 0.0059 285.89)",
+              "restored": "oklab(0.210572 0.00155411 -0.00593942)"
+            },
+            {
+              "index": 15,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "outline",
+              "before": "oklch(0.2103 0.0059 285.89) none 3px",
+              "restored": "oklab(0.210572 0.00155411 -0.00593942) none 3px"
+            },
+            {
+              "index": 17,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "color",
+              "before": "oklch(0.2103 0.0059 285.89)",
+              "restored": "oklab(0.210572 0.00155411 -0.00593942)"
+            },
+            {
+              "index": 17,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "outline",
+              "before": "oklch(0.2103 0.0059 285.89) none 3px",
+              "restored": "oklab(0.210572 0.00155411 -0.00593942) none 3px"
+            },
+            {
+              "index": 19,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "color",
+              "before": "oklch(0.2103 0.0059 285.89)",
+              "restored": "oklab(0.210572 0.00155411 -0.00593942)"
+            },
+            {
+              "index": 19,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "outline",
+              "before": "oklch(0.2103 0.0059 285.89) none 3px",
+              "restored": "oklab(0.210572 0.00155411 -0.00593942) none 3px"
+            },
+            {
+              "index": 22,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "color",
+              "before": "oklch(0.2103 0.0059 285.89)",
+              "restored": "oklab(0.210572 0.00155411 -0.00593942)"
+            },
+            {
+              "index": 22,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "outline",
+              "before": "oklch(0.2103 0.0059 285.89) none 3px",
+              "restored": "oklab(0.210572 0.00155411 -0.00593942) none 3px"
+            },
+            {
+              "index": 24,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "color",
+              "before": "oklch(0.6532 0.2328 25.74)",
+              "restored": "oklab(0.652369 0.209422 0.100889)"
+            },
+            {
+              "index": 24,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "outline",
+              "before": "oklch(0.6532 0.2328 25.74) none 3px",
+              "restored": "oklab(0.652369 0.209422 0.100889) none 3px"
+            }
+          ]
+        },
+        {
+          "mode": "dark",
+          "viewportBefore": {
+            "devicePixelRatio": 1,
+            "height": 816,
+            "width": 980
+          },
+          "viewportRestored": {
+            "devicePixelRatio": 1,
+            "height": 816,
+            "width": 980
+          },
+          "differences": [
+            {
+              "index": 2,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "color",
+              "before": "oklab(0.986675 0.00000915477 -0.0000321593)",
+              "restored": "oklch(0.9911 0 0)"
+            },
+            {
+              "index": 2,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "outline",
+              "before": "oklab(0.986675 0.00000915477 -0.0000321593) none 3px",
+              "restored": "oklch(0.9911 0 0) none 3px"
+            },
+            {
+              "index": 4,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "color",
+              "before": "oklab(0.986675 0.00000915477 -0.0000321593)",
+              "restored": "oklch(0.9911 0 0)"
+            },
+            {
+              "index": 4,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "outline",
+              "before": "oklab(0.986675 0.00000915477 -0.0000321593) none 3px",
+              "restored": "oklch(0.9911 0 0) none 3px"
+            },
+            {
+              "index": 6,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "color",
+              "before": "oklab(0.986675 0.00000915477 -0.0000321593)",
+              "restored": "oklch(0.9911 0 0)"
+            },
+            {
+              "index": 6,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "outline",
+              "before": "oklab(0.986675 0.00000915477 -0.0000321593) none 3px",
+              "restored": "oklch(0.9911 0 0) none 3px"
+            },
+            {
+              "index": 8,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "color",
+              "before": "oklab(0.986675 0.00000915477 -0.0000321593)",
+              "restored": "oklch(0.9911 0 0)"
+            },
+            {
+              "index": 8,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "outline",
+              "before": "oklab(0.986675 0.00000915477 -0.0000321593) none 3px",
+              "restored": "oklch(0.9911 0 0) none 3px"
+            },
+            {
+              "index": 10,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "color",
+              "before": "oklab(0.594335 0.178979 0.0820845)",
+              "restored": "oklch(0.594 0.1967 24.63)"
+            },
+            {
+              "index": 10,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "outline",
+              "before": "oklab(0.594335 0.178979 0.0820845) none 3px",
+              "restored": "oklch(0.594 0.1967 24.63) none 3px"
+            },
+            {
+              "index": 13,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "color",
+              "before": "oklab(0.986675 0.00000915477 -0.0000321593)",
+              "restored": "oklch(0.9911 0 0)"
+            },
+            {
+              "index": 13,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "outline",
+              "before": "oklab(0.986675 0.00000915477 -0.0000321593) none 3px",
+              "restored": "oklch(0.9911 0 0) none 3px"
+            },
+            {
+              "index": 15,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "color",
+              "before": "oklab(0.986675 0.00000915477 -0.0000321593)",
+              "restored": "oklch(0.9911 0 0)"
+            },
+            {
+              "index": 15,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "outline",
+              "before": "oklab(0.986675 0.00000915477 -0.0000321593) none 3px",
+              "restored": "oklch(0.9911 0 0) none 3px"
+            },
+            {
+              "index": 17,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "color",
+              "before": "oklab(0.986675 0.00000915477 -0.0000321593)",
+              "restored": "oklch(0.9911 0 0)"
+            },
+            {
+              "index": 17,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "outline",
+              "before": "oklab(0.986675 0.00000915477 -0.0000321593) none 3px",
+              "restored": "oklch(0.9911 0 0) none 3px"
+            },
+            {
+              "index": 19,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "color",
+              "before": "oklab(0.986675 0.00000915477 -0.0000321593)",
+              "restored": "oklch(0.9911 0 0)"
+            },
+            {
+              "index": 19,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "outline",
+              "before": "oklab(0.986675 0.00000915477 -0.0000321593) none 3px",
+              "restored": "oklch(0.9911 0 0) none 3px"
+            },
+            {
+              "index": 22,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "color",
+              "before": "oklab(0.986675 0.00000915477 -0.0000321593)",
+              "restored": "oklch(0.9911 0 0)"
+            },
+            {
+              "index": 22,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "outline",
+              "before": "oklab(0.986675 0.00000915477 -0.0000321593) none 3px",
+              "restored": "oklch(0.9911 0 0) none 3px"
+            },
+            {
+              "index": 24,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "color",
+              "before": "oklab(0.594335 0.178979 0.0820845)",
+              "restored": "oklch(0.594 0.1967 24.63)"
+            },
+            {
+              "index": 24,
+              "cls": "list-box-item__indicator",
+              "name": "",
+              "prop": "outline",
+              "before": "oklab(0.594335 0.178979 0.0820845) none 3px",
+              "restored": "oklch(0.594 0.1967 24.63) none 3px"
+            }
+          ]
+        }
+      ],
+      "rainGeometryDifferences": [],
+      "rainViewport": {
+        "devicePixelRatio": 1,
+        "height": 816,
+        "width": 980
+      }
+    },
+    {
+      "id": "components-theme-state-review--layouts",
+      "group": "table-tabs",
+      "nodes": 76,
+      "originalRestore": [
+        {
+          "mode": "light",
+          "viewportBefore": {
+            "devicePixelRatio": 1,
+            "height": 816,
+            "width": 980
+          },
+          "viewportRestored": {
+            "devicePixelRatio": 1,
+            "height": 816,
+            "width": 980
+          },
+          "differences": []
+        },
+        {
+          "mode": "dark",
+          "viewportBefore": {
+            "devicePixelRatio": 1,
+            "height": 816,
+            "width": 980
+          },
+          "viewportRestored": {
+            "devicePixelRatio": 1,
+            "height": 816,
+            "width": 980
+          },
+          "differences": []
+        }
+      ],
+      "rainGeometryDifferences": [
+        {
+          "index": 70,
+          "cls": "tabs__label",
+          "name": "按知识点汇总的学习情况与反馈",
+          "prop": "height",
+          "original": "40px",
+          "rain": "20px"
+        }
+      ],
+      "rainViewport": {
+        "devicePixelRatio": 1,
+        "height": 816,
+        "width": 980
+      }
+    },
+    {
+      "id": "components-data-display-table--default",
+      "group": "table-tabs",
+      "nodes": 37,
+      "originalRestore": [
+        {
+          "mode": "light",
+          "viewportBefore": {
+            "devicePixelRatio": 1,
+            "height": 816,
+            "width": 980
+          },
+          "viewportRestored": {
+            "devicePixelRatio": 1,
+            "height": 816,
+            "width": 980
+          },
+          "differences": []
+        },
+        {
+          "mode": "dark",
+          "viewportBefore": {
+            "devicePixelRatio": 1,
+            "height": 816,
+            "width": 980
+          },
+          "viewportRestored": {
+            "devicePixelRatio": 1,
+            "height": 816,
+            "width": 980
+          },
+          "differences": []
+        }
+      ],
+      "rainGeometryDifferences": [],
+      "rainViewport": {
+        "devicePixelRatio": 1,
+        "height": 816,
+        "width": 980
+      }
+    },
+    {
+      "id": "components-data-display-table--secondary-variant",
+      "group": "table-tabs",
+      "nodes": 37,
+      "originalRestore": [
+        {
+          "mode": "light",
+          "viewportBefore": {
+            "devicePixelRatio": 1,
+            "height": 816,
+            "width": 980
+          },
+          "viewportRestored": {
+            "devicePixelRatio": 1,
+            "height": 816,
+            "width": 980
+          },
+          "differences": []
+        },
+        {
+          "mode": "dark",
+          "viewportBefore": {
+            "devicePixelRatio": 1,
+            "height": 816,
+            "width": 980
+          },
+          "viewportRestored": {
+            "devicePixelRatio": 1,
+            "height": 816,
+            "width": 980
+          },
+          "differences": []
+        }
+      ],
+      "rainGeometryDifferences": [],
+      "rainViewport": {
+        "devicePixelRatio": 1,
+        "height": 816,
+        "width": 980
+      }
+    },
+    {
+      "id": "components-navigation-tabs--default",
+      "group": "table-tabs",
+      "nodes": 9,
+      "originalRestore": [
+        {
+          "mode": "light",
+          "viewportBefore": {
+            "devicePixelRatio": 1,
+            "height": 816,
+            "width": 980
+          },
+          "viewportRestored": {
+            "devicePixelRatio": 1,
+            "height": 816,
+            "width": 980
+          },
+          "differences": [
+            {
+              "index": 4,
+              "cls": "tabs__tab",
+              "name": "Analytics",
+              "prop": "opacity",
+              "before": "0.799147",
+              "restored": "0.7"
+            }
+          ]
+        },
+        {
+          "mode": "dark",
+          "viewportBefore": {
+            "devicePixelRatio": 1,
+            "height": 816,
+            "width": 980
+          },
+          "viewportRestored": {
+            "devicePixelRatio": 1,
+            "height": 816,
+            "width": 980
+          },
+          "differences": []
+        }
+      ],
+      "rainGeometryDifferences": [
+        {
+          "index": 4,
+          "cls": "tabs__tab",
+          "name": "Analytics",
+          "prop": "opacity",
+          "original": "0.799147",
+          "rain": "1"
+        }
+      ],
+      "rainViewport": {
+        "devicePixelRatio": 1,
+        "height": 816,
+        "width": 980
+      }
+    }
+  ]
+}

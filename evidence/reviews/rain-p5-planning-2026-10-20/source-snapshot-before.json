@@ -1,0 +1,101 @@
+{
+  "recordedAt": "2026-10-20T13:36:42.880Z",
+  "activity": "Read existing evidence and prepare P5 checklist; no runtime execution",
+  "newTestsRun": false,
+  "newProductionBuildsRun": false,
+  "upstreamCommit": "e385ac202b2cdb94b1bf6fa76d32c31c8259cc5e",
+  "inventory": {
+    "fileSha256": "1999b77ad1f64e02adb98cb74e92e2324b42e96fb389c855206a501607b5f8b3",
+    "inputSha256": "f1f13f6a91c723a12b3c1aa0cf64df8d8432e133a41cc41c268bce10af3fb7cf",
+    "summary": {
+      "allStoryFiles": 80,
+      "builtStories": 587,
+      "builtStorybookEntries": 660,
+      "componentStoryFiles": 68,
+      "locales": {
+        "en": {
+          "allReactDocs": 179,
+          "componentDocs": 73,
+          "demoTsxFiles": 683,
+          "registeredDemos": 681
+        },
+        "zh": {
+          "allReactDocs": 179,
+          "componentDocs": 73,
+          "demoTsxFiles": 687,
+          "registeredDemos": 681
+        }
+      },
+      "publicComponentBarrelModules": 85,
+      "referenceIssues": 12,
+      "registeredLoaderWrappers": 4,
+      "sourceModules": 87,
+      "staticStoryExports": 596,
+      "unregisteredDemoFiles": 4
+    },
+    "modulesWithOwnZhDocs": 72,
+    "modulesWithoutOwnZhDocs": [
+      "calendar-year-picker",
+      "color-input-group",
+      "date-input-group",
+      "empty-state",
+      "header",
+      "icons",
+      "list-box-item",
+      "list-box-section",
+      "menu",
+      "menu-item",
+      "menu-section",
+      "rac",
+      "radio",
+      "switch-group",
+      "tag"
+    ],
+    "catalogRoutes": 87
+  },
+  "sourceTrees": {
+    "packages/react/src": {
+      "files": 282,
+      "sha256": "60cd53eddeb7ba32ab3861a36341a4b2ccfd3bcf5ca4065bef78c34ea1a38fa2"
+    },
+    "packages/styles/src": {
+      "files": 171,
+      "sha256": "1989345a7a543b22054e044d66746674f689179ce6923244ebb9baadc28be6d8"
+    },
+    "packages/styles/components": {
+      "files": 85,
+      "sha256": "ad932aad3add7e51fab0429a7efdc5087a462a2abf33091044dfc97117a63bac"
+    },
+    "packages/styles/themes": {
+      "files": 4,
+      "sha256": "aa4493e8e4efdc90cb92f9d6d3df6f7a19f98f9e8efde55b848c2f6307185d89"
+    },
+    "packages/rain-theme": {
+      "files": 3,
+      "sha256": "18799b6926dbccc131c64d23daa8fbb6e9299e35115751ebbfa91885dad383a2"
+    },
+    "apps/docs/src/components/rain-center": {
+      "files": 2,
+      "sha256": "195c996ef7dec299b231977eba4739987f80d2816595c47a8be5966331909ff7"
+    },
+    "apps/docs/src/components/rain-examples": {
+      "files": 3,
+      "sha256": "e0c26489d7bbb84faa4ac935cc18a0f98d4f6c12943a7c6ff3cd3781d6a96671"
+    },
+    "packages/storybook/.storybook/stories": {
+      "files": 33,
+      "sha256": "087c68c7dd201a2385d6712a86e5e751e6ac7105c348582c03352a80090821da"
+    }
+  },
+  "files": {
+    "pnpm-lock.yaml": "1ea1be22f0b2304dc81d10f8f4bdb2562f9a4444b77c5cb68928305c69dac815",
+    "packages/react/package.json": "249c214328afa44b88068924527a4972ca0d3a8ea45c1d7d0e21a7e01e665994",
+    "packages/styles/package.json": "66f56219e71a2765c492a63ca158e4c900da9819b3556c68ad9e8ecb1b46fb29",
+    "package.json": "0af1e2dfeed2c334816fd80cdfa1a94fe274baedc3785a5359e3f8ccd04af0f3",
+    "docs/rain/local-patch.json": "522d6da4532f0078b5f4ed00ac3885c967f5171589b64091efaafbc9d6eaf471",
+    "delivery/rain-heroui-local-2026-10-20-r2/manifest.json": "af0a809b1087f890d51771b806da21f82dae2675ae91c3d68e83ab8757cd828b",
+    "delivery/rain-heroui-local-2026-10-20-r2/report.json": "e45b9f2b630d9c94ffe166758665d6be30b087dd3af92d3bb3a981389cb448bf",
+    "delivery/rain-heroui-local-2026-10-20-r2/patch-provenance.json": "6d7c0c76672040e33122063862b1d644b8b53c3babacfb3c81851fe5978a1e09",
+    "delivery/rain-heroui-local-2026-10-20-r2/verification-closeout.json": "a6b1679335f48d23a719e8cac468520bda8fc82f83c7154f3761ff7be9c98b54"
+  }
+}

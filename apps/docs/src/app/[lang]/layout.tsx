@@ -7,6 +7,8 @@ import {TreeContextProvider} from "fumadocs-ui/contexts/tree";
 import {Inter} from "next/font/google";
 import {NuqsAdapter} from "nuqs/adapters/next/app";
 
+import {env} from "~env";
+
 import {siteConfig} from "@/config/site";
 import {getDictionary, hasLocale} from "@/lib/dictionaries";
 import {getOrganizationJsonLd, getSoftwareApplicationJsonLd, getWebSiteJsonLd} from "@/lib/json-ld";
@@ -59,7 +61,7 @@ export default async function Layout({
             </TreeContextProvider>
           </NextProvider>
         </NuqsAdapter>
-        <Analytics />
+        {!env.NEXT_PUBLIC_LOCAL_PREVIEW && <Analytics />}
       </body>
     </html>
   );

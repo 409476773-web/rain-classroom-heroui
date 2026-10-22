@@ -28,6 +28,7 @@
     "@iconify/react": "6.0.2",
     "@internationalized/date": "3.12.4",
     "@lglab/react-qr-code": "1.7.3",
+    "@rain-classroom/heroui-theme": "workspace:*",
     "@react-aria/overlays": "3.32.1",
     "@react-stately/data": "3.16.1",
     "@t3-oss/env-nextjs": "0.13.11",

@@ -1,0 +1,30 @@
+{
+  "column": {
+    "color": {
+      "before": "rgb(86, 104, 143)",
+      "after": "rgb(116, 133, 168)"
+    }
+  },
+  "header": {
+    "backgroundColor": {
+      "before": "rgb(250, 252, 255)",
+      "after": "rgb(237, 243, 250)"
+    }
+  },
+  "primary": {
+    "backgroundColor": {
+      "before": "rgb(250, 252, 255)",
+      "after": "rgb(237, 243, 250)"
+    }
+  },
+  "secondaryColumn": {
+    "backgroundColor": {
+      "before": "rgb(250, 252, 255)",
+      "after": "rgb(237, 243, 250)"
+    },
+    "color": {
+      "before": "rgb(86, 104, 143)",
+      "after": "rgb(116, 133, 168)"
+    }
+  }
+}

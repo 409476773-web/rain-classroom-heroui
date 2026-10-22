@@ -1,0 +1,38 @@
+- main:
+  - heading "课堂练习记录（示例）" [level=3]
+  - paragraph: 切换标签查看说明；下方记录均为虚构数据。
+  - tablist "课堂练习示例页面":
+    - tab "课堂练习完整批改记录与学生作答反馈分析详细报告（虚构示例）" [selected]:
+      - generic: 课堂练习完整批改记录与学生作答反馈分析详细报告（虚构示例）
+    - tab "作答列表":
+      - generic: 作答列表
+    - tab "暂不可用的历次课堂练习批改记录与完整反馈汇总" [disabled]:
+      - generic: 暂不可用的历次课堂练习批改记录与完整反馈汇总
+  - button "Scroll tabs right":
+  - tabpanel "课堂练习完整批改记录与学生作答反馈分析详细报告（虚构示例）": 名称过长时保持单行，悬停省略的文字可查看全名。可用方向键切换标签，禁用项不可选择。
+  - grid "课堂练习虚构批改记录":
+    - rowgroup:
+      - row "学生 批改状态 得分":
+        - columnheader "学生"
+        - columnheader "批改状态"
+        - columnheader "得分"
+    - rowgroup:
+      - row "林同学":
+        - rowheader "林同学"
+        - gridcell "已批改"
+        - gridcell "18 分"
+      - row "陈同学":
+        - rowheader "陈同学"
+        - gridcell "待批改"
+        - gridcell "待评分"
+      - row "周同学":
+        - rowheader "周同学"
+        - gridcell "已批改"
+        - gridcell "16 分"
+  - heading "反馈预览" [level=3]
+  - paragraph: 填写反馈后打开预览，关闭后继续编辑。
+  - generic: 反馈内容*
+  - textbox "反馈内容*" [active]:
+    - /placeholder: 填写一条示例反馈
+  - generic: 请填写反馈
+  - button "预览反馈"

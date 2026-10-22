@@ -1,0 +1,23 @@
+{
+  "background": "rgba(0, 0, 0, 0)",
+  "body": {
+    "height": 584,
+    "overflowY": "auto",
+    "rect": {
+      "bottom": 640,
+      "height": 584,
+      "left": 917,
+      "right": 1259,
+      "top": 56,
+      "width": 342,
+      "x": 917,
+      "y": 56
+    },
+    "scrollHeight": 1115
+  },
+  "contentClass": "drawer__content drawer__content--right",
+  "dialogClass": "drawer__dialog drawer__dialog--right",
+  "placeholder": "rgb(160, 172, 197)",
+  "radius": "0px",
+  "width": 1280
+}

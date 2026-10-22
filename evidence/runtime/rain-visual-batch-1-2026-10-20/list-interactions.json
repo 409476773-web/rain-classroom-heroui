@@ -1,0 +1,180 @@
+{
+  "singleSelectedHover": [
+    {
+      "background": "rgb(220, 233, 255)",
+      "color": "rgb(20, 35, 60)",
+      "disabled": null,
+      "focusVisible": null,
+      "hovered": "true",
+      "label": "林同学待批改 · 示例 01",
+      "list": "单选作答列表",
+      "opacity": "1",
+      "selected": "true",
+      "shadow": "none"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 35, 60)",
+      "disabled": null,
+      "focusVisible": null,
+      "hovered": null,
+      "label": "陈同学待批改 · 示例 02",
+      "list": "单选作答列表",
+      "opacity": "1",
+      "selected": "false",
+      "shadow": "none"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 35, 60)",
+      "disabled": "true",
+      "focusVisible": null,
+      "hovered": null,
+      "label": "周同学（禁用）",
+      "list": "单选作答列表",
+      "opacity": "0.5",
+      "selected": "false",
+      "shadow": "none"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 35, 60)",
+      "disabled": null,
+      "focusVisible": null,
+      "hovered": null,
+      "label": "许同学",
+      "list": "单选作答列表",
+      "opacity": "1",
+      "selected": "false",
+      "shadow": "none"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(181, 42, 54)",
+      "disabled": null,
+      "focusVisible": null,
+      "hovered": null,
+      "label": "危险选项（仅选择）",
+      "list": "单选作答列表",
+      "opacity": "1",
+      "selected": "false",
+      "shadow": "none"
+    }
+  ],
+  "listDisabledSkip": {
+    "active": "许同学",
+    "focusVisible": "true"
+  },
+  "singleAfterKeys": [
+    {
+      "background": "rgb(237, 243, 250)",
+      "color": "rgb(20, 35, 60)",
+      "disabled": null,
+      "focusVisible": null,
+      "hovered": "true",
+      "label": "林同学待批改 · 示例 01",
+      "list": "单选作答列表",
+      "opacity": "1",
+      "selected": "false",
+      "shadow": "none"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 35, 60)",
+      "disabled": null,
+      "focusVisible": null,
+      "hovered": null,
+      "label": "陈同学待批改 · 示例 02",
+      "list": "单选作答列表",
+      "opacity": "1",
+      "selected": "false",
+      "shadow": "none"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 35, 60)",
+      "disabled": "true",
+      "focusVisible": null,
+      "hovered": null,
+      "label": "周同学（禁用）",
+      "list": "单选作答列表",
+      "opacity": "0.5",
+      "selected": "false",
+      "shadow": "none"
+    },
+    {
+      "background": "rgb(234, 242, 255)",
+      "color": "rgb(20, 35, 60)",
+      "disabled": null,
+      "focusVisible": "true",
+      "hovered": null,
+      "label": "许同学",
+      "list": "单选作答列表",
+      "opacity": "1",
+      "selected": "true",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(242, 244, 255) 0px 0px 0px 2px, rgb(61, 123, 255) 0px 0px 0px 4px, rgba(0, 0, 0, 0) 0px 0px 0px 0px"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(181, 42, 54)",
+      "disabled": null,
+      "focusVisible": null,
+      "hovered": null,
+      "label": "危险选项（仅选择）",
+      "list": "单选作答列表",
+      "opacity": "1",
+      "selected": "false",
+      "shadow": "none"
+    }
+  ],
+  "multiAfterToggle": [
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 35, 60)",
+      "disabled": null,
+      "focusVisible": "true",
+      "hovered": null,
+      "label": "林同学",
+      "list": "多选作答列表",
+      "opacity": "1",
+      "selected": "false",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(242, 244, 255, 0.875) 0px 0px 0px 1.7453px, rgba(61, 123, 255, 0.875) 0px 0px 0px 3.4906px, rgba(0, 0, 0, 0) 0px 0px 0px 0px"
+    },
+    {
+      "background": "rgb(234, 242, 255)",
+      "color": "rgb(20, 35, 60)",
+      "disabled": null,
+      "focusVisible": null,
+      "hovered": null,
+      "label": "陈同学",
+      "list": "多选作答列表",
+      "opacity": "1",
+      "selected": "true",
+      "shadow": "none"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 35, 60)",
+      "disabled": "true",
+      "focusVisible": null,
+      "hovered": null,
+      "label": "周同学（禁用）",
+      "list": "多选作答列表",
+      "opacity": "0.5",
+      "selected": "false",
+      "shadow": "none"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 35, 60)",
+      "disabled": null,
+      "focusVisible": null,
+      "hovered": null,
+      "label": "许同学",
+      "list": "多选作答列表",
+      "opacity": "1",
+      "selected": "false",
+      "shadow": "none"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+✔ 93 collection state fixtures keep original light/dark unchanged after import and theme removal (4097.633625ms)
+✔ Rain collection states retain spacing, type scale, disabled opacity, focus geometry and motion (697.29625ms)
+✔ soft status text stays readable on all four Rain surfaces in normal and hover fills (456.058292ms)
+✔ container theme import leaves original light and dark computed styles unchanged (2528.277167ms)
+✔ Rain date-picker panel uses 16px without changing nested circles or pills (323.032959ms)
+✔ Rain date-range-picker panel uses 16px without changing nested circles or pills (206.322459ms)
+✔ Rain color-picker panel uses 16px without changing nested circles or pills (246.913125ms)
+✔ Rain primary table retains its inner/outer corner relationship (199.287ms)
+✔ Rain secondary table retains its inner/outer corner relationship (211.343542ms)
+✔ 168 form CSS state fixtures leave original light/dark unchanged after import and switching back (4901.217333ms)
+✔ Rain form states retain dimensions, disabled behavior, focus/error geometry, pseudo-element shapes and motion (892.234625ms)
+✔ InputGroup native focus applies the correct Rain normal/error ring without changing the original focus mechanism (2303.449708ms)
+✔ overlay containers and four drawer placements change only allowed brand roles (2661.083041ms)
+✔ overlay triggers and close button retain default, hover, keyboard focus, pressed and disabled state behavior (12367.973583ms)
+✔ overlay arrows, status content and backdrop variants inherit the intended colors (654.59025ms)
+✔ overlay entering and exiting states preserve motion and pointer-event rules (1357.4965ms)
+✔ import is inert in original light and dark; removing the brand restores exact computed styles (3107.728584ms)
+✔ Rain changes brand roles, font identity and container/field radii without changing geometry or motion (695.82975ms)
+✔ body-level overlay inherits Rain colors/radii and native keyboard focus remains usable (259.276ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 19
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 17399.892834

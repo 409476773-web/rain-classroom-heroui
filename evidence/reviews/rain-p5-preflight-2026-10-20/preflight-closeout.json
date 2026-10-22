@@ -1,0 +1,42 @@
+{
+  "checkedAt": "2026-10-20T14:19:25.759598+00:00",
+  "scope": "P5 scan preflight, static demo classification and next-batch preparation only",
+  "protectedFiles": 13,
+  "protectedFilesUnchanged": true,
+  "earlierSnapshotFilesUnchanged": true,
+  "localLinksChecked": 203,
+  "missingLocalLinks": [],
+  "matrixModules": 87,
+  "acceptanceGates": 12,
+  "issueSections": 13,
+  "nextBatchExistingStoryIds": [
+    "components-data-display-table--default",
+    "components-data-display-table--secondary-variant",
+    "components-forms-inputgroup--disabled",
+    "components-forms-inputgroup--invalid",
+    "components-navigation-tabs--default",
+    "components-theme-state-review--buttons",
+    "components-theme-state-review--fields",
+    "components-theme-state-review--layouts",
+    "components-theme-state-review--selections"
+  ],
+  "sourceStories": 596,
+  "historicalBuiltStories": 587,
+  "explainedMissingStories": 9,
+  "unregisteredFilesClassified": 4,
+  "toolTests": {
+    "nodeReportedTests": 7,
+    "subtests": 6,
+    "passed": 7,
+    "failed": 0,
+    "log": "story-smoke-green.log"
+  },
+  "cliCases": "cli-preflight.json",
+  "scanOutputCreated": false,
+  "heavyTestsRun": false,
+  "componentTestsRun": false,
+  "browserRuns": false,
+  "productionBuilds": false,
+  "realScanIntegrationRun": false,
+  "overallP5Status": "pending"
+}

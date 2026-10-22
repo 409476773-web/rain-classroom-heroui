@@ -1,0 +1,710 @@
+{
+  "active": {
+    "class": "accordion__trigger",
+    "label": null,
+    "role": null,
+    "tag": "BUTTON"
+  },
+  "nodes": [
+    {
+      "checked": false,
+      "class": "accordion__trigger",
+      "disabled": false,
+      "expanded": "false",
+      "focus": "true",
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "52px",
+        "opacity": "1",
+        "outline": "rgb(0, 95, 204) none 1px",
+        "radius": "0px",
+        "width": "448px"
+      },
+      "tag": "BUTTON",
+      "text": "How do I place an order?",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "iconify iconify--gravity-ui me-3 size-4 shrink-0 text-muted",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "img",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(86, 104, 143)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "16px",
+        "opacity": "1",
+        "outline": "rgb(86, 104, 143) none 3px",
+        "radius": "0px",
+        "width": "16px"
+      },
+      "tag": "svg",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "iconify iconify--gravity-ui accordion__indicator",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "img",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(86, 104, 143)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "16px",
+        "opacity": "1",
+        "outline": "rgb(86, 104, 143) none 3px",
+        "radius": "0px",
+        "width": "16px"
+      },
+      "tag": "svg",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "accordion__panel",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "group",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "49.7031px",
+        "opacity": "0.556675",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "448px"
+      },
+      "tag": "DIV",
+      "text": "Browse our products, add items to your cart, and proceed to checkout. You'll need to provide shipping and payment information to c",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "accordion__trigger",
+      "disabled": false,
+      "expanded": "true",
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "52px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "448px"
+      },
+      "tag": "BUTTON",
+      "text": "Can I modify or cancel my order?",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "iconify iconify--gravity-ui me-3 size-4 shrink-0 text-muted",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "img",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(86, 104, 143)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "16px",
+        "opacity": "1",
+        "outline": "rgb(86, 104, 143) none 3px",
+        "radius": "0px",
+        "width": "16px"
+      },
+      "tag": "svg",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "iconify iconify--gravity-ui accordion__indicator",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "img",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(86, 104, 143)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "16px",
+        "opacity": "1",
+        "outline": "rgb(86, 104, 143) none 3px",
+        "radius": "0px",
+        "width": "16px"
+      },
+      "tag": "svg",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "accordion__panel",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "group",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "35.7656px",
+        "opacity": "0.733995",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "448px"
+      },
+      "tag": "DIV",
+      "text": "Yes, you can modify or cancel your order before it's shipped. Once your order is processed, you can't make changes.",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "accordion__trigger",
+      "disabled": false,
+      "expanded": "false",
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "52px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "448px"
+      },
+      "tag": "BUTTON",
+      "text": "What payment methods do you accept?",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "iconify iconify--gravity-ui me-3 size-4 shrink-0 text-muted",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "img",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(86, 104, 143)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "16px",
+        "opacity": "1",
+        "outline": "rgb(86, 104, 143) none 3px",
+        "radius": "0px",
+        "width": "16px"
+      },
+      "tag": "svg",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "iconify iconify--gravity-ui accordion__indicator",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "img",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(86, 104, 143)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "16px",
+        "opacity": "1",
+        "outline": "rgb(86, 104, 143) none 3px",
+        "radius": "0px",
+        "width": "16px"
+      },
+      "tag": "svg",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "accordion__panel",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "group",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "0px",
+        "opacity": "0",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "448px"
+      },
+      "tag": "DIV",
+      "text": "We accept all major credit cards, including Visa, Mastercard, and American Express.",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "accordion__trigger",
+      "disabled": false,
+      "expanded": "false",
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "52px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "448px"
+      },
+      "tag": "BUTTON",
+      "text": "How much does shipping cost?",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "iconify iconify--gravity-ui me-3 size-4 shrink-0 text-muted",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "img",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(86, 104, 143)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "16px",
+        "opacity": "1",
+        "outline": "rgb(86, 104, 143) none 3px",
+        "radius": "0px",
+        "width": "16px"
+      },
+      "tag": "svg",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "iconify iconify--gravity-ui accordion__indicator",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "img",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(86, 104, 143)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "16px",
+        "opacity": "1",
+        "outline": "rgb(86, 104, 143) none 3px",
+        "radius": "0px",
+        "width": "16px"
+      },
+      "tag": "svg",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "accordion__panel",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "group",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "0px",
+        "opacity": "0",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "448px"
+      },
+      "tag": "DIV",
+      "text": "Shipping costs vary based on your location and the size of your order. We offer free shipping for orders over $50.",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "accordion__trigger",
+      "disabled": false,
+      "expanded": "false",
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "52px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "448px"
+      },
+      "tag": "BUTTON",
+      "text": "Do you ship internationally?",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "iconify iconify--gravity-ui me-3 size-4 shrink-0 text-muted",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "img",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(86, 104, 143)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "16px",
+        "opacity": "1",
+        "outline": "rgb(86, 104, 143) none 3px",
+        "radius": "0px",
+        "width": "16px"
+      },
+      "tag": "svg",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "iconify iconify--gravity-ui accordion__indicator",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "img",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(86, 104, 143)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "16px",
+        "opacity": "1",
+        "outline": "rgb(86, 104, 143) none 3px",
+        "radius": "0px",
+        "width": "16px"
+      },
+      "tag": "svg",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "accordion__panel",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "group",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "0px",
+        "opacity": "0",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "448px"
+      },
+      "tag": "DIV",
+      "text": "Yes, we ship to most countries. Please check our shipping rates and policies for more information.",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "accordion__trigger",
+      "disabled": false,
+      "expanded": "false",
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "52px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "448px"
+      },
+      "tag": "BUTTON",
+      "text": "How do I request a refund?",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "iconify iconify--gravity-ui me-3 size-4 shrink-0 text-muted",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "img",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(86, 104, 143)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "16px",
+        "opacity": "1",
+        "outline": "rgb(86, 104, 143) none 3px",
+        "radius": "0px",
+        "width": "16px"
+      },
+      "tag": "svg",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "iconify iconify--gravity-ui accordion__indicator",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "img",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(86, 104, 143)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "16px",
+        "opacity": "1",
+        "outline": "rgb(86, 104, 143) none 3px",
+        "radius": "0px",
+        "width": "16px"
+      },
+      "tag": "svg",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "accordion__panel",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "group",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "0px",
+        "opacity": "0",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "448px"
+      },
+      "tag": "DIV",
+      "text": "If you're not satisfied with your purchase, you can request a refund within 30 days of purchase. Please contact our customer suppo",
+      "value": ""
+    }
+  ],
+  "rain": "light",
+  "text": "How do I place an order?\nBrowse our products, add items to your cart, and proceed to checkout. You'll need to provide shipping and payment information to complete your purchase.\nCan I modify or cancel my order?\nYes, you can modify or cancel your order before it's shipped. Once your order is processed, you can't make changes.\nWhat payment methods do you accept?\nHow much does shipping cost?\nDo you ship internationally?\nHow do I request a refund?",
+  "theme": "light",
+  "url": "http://127.0.0.1:6006/iframe.html?id=components-navigation-accordion--default&viewMode=story&globals=heroui-theme%3Arain-light"
+}

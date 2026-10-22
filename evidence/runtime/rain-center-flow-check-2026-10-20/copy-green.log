@@ -1,0 +1,9 @@
+
+ RUN  v4.1.11 /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs
+
+
+ Test Files  1 passed (1)
+      Tests  2 passed (2)
+   Start at  00:54:30
+   Duration  4.28s (transform 1.60s, setup 0ms, import 2.81s, tests 196ms, environment 943ms)
+

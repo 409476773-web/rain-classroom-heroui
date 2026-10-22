@@ -1,0 +1,38 @@
+{
+  "active": {
+    "class": "sb-main-centered sb-show-main",
+    "id": "",
+    "name": null,
+    "role": null,
+    "tag": "BODY",
+    "text": "\n    \n  \n\n\n\n  \n    \n      \n      \n      \n      \n    \n    \n      \n    \n  \n  \n    \n      \n        Name\n        Description\n        Default\n   "
+  },
+  "items": [
+    {
+      "activeDescendant": null,
+      "ariaDisabled": null,
+      "background": "rgba(0, 0, 0, 0)",
+      "checked": false,
+      "color": "rgb(20, 35, 60)",
+      "disabled": true,
+      "display": "inline-block",
+      "expanded": null,
+      "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+      "id": "react-aria588737917-_r_1_-0",
+      "invalid": null,
+      "name": null,
+      "opacity": "1",
+      "radius": "0px",
+      "role": null,
+      "selected": null,
+      "tag": "INPUT",
+      "text": "",
+      "value": "30",
+      "visibility": "visible",
+      "visible": null
+    }
+  ],
+  "rain": "light",
+  "theme": "light",
+  "url": "http://127.0.0.1:6006/iframe.html?id=components-controls-slider--disabled&viewMode=story&globals=heroui-theme%3Arain-light"
+}

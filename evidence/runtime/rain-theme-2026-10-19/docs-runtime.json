@@ -1,0 +1,47 @@
+{
+  "originalDark": {
+    "background": "lab(8.34178 0.607349 -2.12998)",
+    "brand": null,
+    "color": "oklab(0.991098 -0.00000977516 0.0000231862 / 0.9)",
+    "font": "Inter, \"Inter Fallback\", ui-sans-serif, system-ui, sans-serif",
+    "mode": "inter_5901b7c6-module__ec5Qua__variable dark",
+    "padding": "16px",
+    "radius": "24px",
+    "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px inset"
+  },
+  "presetBefore": {
+    "background": "lab(7.9935 6.50314 -8.91113)",
+    "color": "oklab(0.991098 0.0086976 -0.0121893 / 0.9)",
+    "font": "Inter, \"Inter Fallback\", ui-sans-serif, system-ui, sans-serif",
+    "mode": "inter_5901b7c6-module__ec5Qua__variable dark",
+    "preset": "lavender",
+    "radius": "24px"
+  },
+  "rain": {
+    "accent": "#1561f8",
+    "background": "rgb(255, 255, 255)",
+    "brand": "light",
+    "color": "oklab(0.256788 -0.00885402 -0.0509422 / 0.9)",
+    "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+    "mode": "inter_5901b7c6-module__ec5Qua__variable light",
+    "padding": "16px",
+    "page": "rgb(242, 244, 255)",
+    "preset": null,
+    "radius": "16px"
+  },
+  "presetAfter": {
+    "background": "lab(7.9935 6.50314 -8.91113)",
+    "color": "oklab(0.991098 0.0086976 -0.0121893 / 0.9)",
+    "font": "Inter, \"Inter Fallback\", ui-sans-serif, system-ui, sans-serif",
+    "mode": "inter_5901b7c6-module__ec5Qua__variable dark",
+    "preset": "lavender",
+    "radius": "24px"
+  },
+  "presetRestored": true,
+  "afterReload": {
+    "accent": "#1561f8",
+    "brand": "light",
+    "cards": 19,
+    "mode": "inter_5901b7c6-module__ec5Qua__variable light"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "inputs": [
+    {
+      "placeholder": "you@example.com",
+      "value": ""
+    },
+    {
+      "placeholder": "输入用户名",
+      "value": "<redacted>"
+    },
+    {
+      "placeholder": "John Doe",
+      "value": ""
+    },
+    {
+      "placeholder": "john@example.com",
+      "value": ""
+    },
+    {
+      "placeholder": "john@example.com",
+      "value": ""
+    },
+    {
+      "placeholder": "输入密码",
+      "value": ""
+    },
+    {
+      "placeholder": "输入你的姓名",
+      "value": ""
+    },
+    {
+      "placeholder": "输入你的姓名",
+      "value": ""
+    },
+    {
+      "placeholder": null,
+      "value": "basic"
+    },
+    {
+      "placeholder": null,
+      "value": "premium"
+    },
+    {
+      "placeholder": null,
+      "value": "business"
+    },
+    {
+      "placeholder": "输入你的邮箱",
+      "value": ""
+    }
+  ],
+  "missing": [],
+  "previews": 9,
+  "text": "概述\n\n所有版本\n\n版本列表\n\nv3.2.6\nv3.2.5\nv3.2.4\nv3.2.3\nv3.2.2\nv3.2.1\nv3.2.0\nv3.1.0\nv3.0.5\nv3.0.4\nv3.0.3\nv3.0.2\nHeroUI v3 正式发布\nv3.0.0-rc.1\nv3.0.0-beta.8\nv3.0.0-beta.7\nv3.0.0-beta.6\nv3.0.0-beta.5\nv3.0.0-beta.4\nv3.0.0-beta.3\nv3.0.0-beta.2\nv3.0.0-beta.1\nv3.0.0-alpha.35\nv3.0.0-alpha.34\nv3.0.0-alpha.33\nv3.0.0-alpha.32\nHeroUI\nv3.2.6\n搜索\n⌘\nK\n雨课堂\n31.0k\n快速开始\n雨课堂\n组件\n业务组合\n发布说明\n迁移\n网页\n移动端\nv3.0.0-alpha.34\n复制 Markdown\n\n用 Form、TextField、RadioGroup、Label、Input、Fieldset 等简洁 API 构建表单的核心组件。\n\n2025 年 10 月 15 日\n\n此版本引入了一系列基于表单的组件、表单字段 token，重新组织了 Storybook，并对各组件之间的 data-slot 标识做了统一对齐。\n\n安装\n\n升级到最新版本：\n\nnpm\npnpm\nyarn\nbun\nnpm i @heroui/styles@alpha @heroui/react@alpha\n\n正在使用 AI 助手？ 只需对它说一句「Hey Cursor，把 HeroUI 升级到最新版本」，AI 助手就会自动对比版本并应用必要的变更。了解更多请参阅 HeroUI MCP 服务器。\n\n新增功能\n基于表单的组件\n\n我们引入了一整套基于 React Aria Components 构建的表单类组件，为构建表单提供了无障碍且可组合的基础构件。这些组件包括 Description、FieldError、Fieldset、Form、Input、Label、RadioGroup、TextField 与 TextArea。\n\nDescription\n邮箱\n我们不会将你的邮箱分享给任何人。\nimport {Description, Input, Label} from \"@heroui/react\";\nexport function Basic() {\n  return (\n    <div className=\"flex flex-col gap-1\">\nExpand code\nFieldError\n用户名\n用户名至少需要 3 个字符\n\"use client\";\nimport {FieldError, Input, Label, TextField} from \"@heroui/react\";\nimport {useState} from \"react\";\nExpand code\nFieldset\n个人资料设置\n更新你的个人资料信息。\n姓名\n邮箱\n简介\n至少 10 个字符\n保存更改\n取消\n\"use client\";\nimport {FloppyDisk} from \"@gravity-ui/icons\";\nimport {\n  Button,\nExpand code\nForm\n邮箱\n密码\n至少 8 个字符，且包含 1 个大写字母和 1 个数字\n提交\n重置\n\"use client\";\nimport {Check} from \"@gravity-ui/icons\";\nimport {Button, Description, FieldError, Form, Input, Label, TextField} from \"@heroui/react\";\nExpand code\nInput\nimport {Input} from \"@heroui/react\";\nexport function Basic() {\n  return <Input aria-label=\"姓名\" className=\"w-64\" placeholder=\"输入你的姓名\" />;\n}\nExpand code\nLabel\n姓名\nimport {Input, Label} from \"@heroui/react\";\nexport function Basic() {\n  return (\n    <div className=\"flex flex-col gap-1\">\n      <Label htmlFor=\"name\">姓名</Label>\n      <Input className=\"w-64\" id=\"name\" placeholder=\"输入你的姓名\" type=\"text\" />\n    </div>\n  );\n}\nExpand code\nRadioGroup\n选择套餐\n选择最适合你的套餐\n基础版\n每月包含 100 条消息\n高级版\n每月包含 200 条消息\n商业版\n无限消息\nimport {Description, Label, Radio, RadioGroup} from \"@heroui/react\";\nexport function Basic() {\n  return (\n    <RadioGroup defaultValue=\"premium\" name=\"plan\">\nExpand code\nTextField\n邮箱\nimport {Input, Label, TextField} from \"@heroui/react\";\nexport function Basic() {\n  return (\n    <TextField className=\"w-full max-w-64\" name=\"email\" type=\"email\">\n      <Label>邮箱</Label>\n      <Input placeholder=\"输入你的邮箱\" />\n    </TextField>\n  );\n}\nExpand code\nTextArea\nimport {TextArea} from \"@heroui/react\";\nexport function Basic() {\n  return (\n    <TextArea\nExpand code\n表单字段 token\n\n引入 --field-* 表单字段 token，确保各表单组件之间样式保持一致。--field-* 变量的具体说明请参阅 主题。\n\nStorybook 重新组织\n\n按类别重新组织了 Storybook，方便导航与组件查找。\n\nSkeleton 动画 token\n\n🚧 破坏性变更： 为了与其他组件 token 保持一致，Skeleton 中的 --skeleton-default-animation-type 已重命名为 --skeleton-animation。\n\ndata-slot 对齐\n\n我们统一了各组件的 data-slot 标识，使样式与定制更加一致。这项标准化让通过 CSS 选择器定位特定组件部件变得更容易，整体上也优化了自定义组件样式时的开发体验。\n\n组件现在使用一致的 data-slot 属性，例如：\n\ndata-slot=\"base\" —— 用于根元素\ndata-slot=\"label\" —— 用于标签文本\ndata-slot=\"description\" —— 用于描述文本\ndata-slot=\"error\" —— 用于错误信息\n\n这样在所有表单组件中都能用可预期的方式进行 CSS 定位：\n\n.radio {\n  [data-slot=\"label\"] {\n    /* Styles apply to radio labels */\n  }\n}\n文档改进\n组件文档\nLink：新增 anatomy 与带图标的示例，更新了 Link 与 Link.Icon 的 prop 章节。\nDescription、FieldError、Fieldset、Form、Input、Label、RadioGroup、TextField，以及 TextArea：附带使用示例的全新文档\n迁移指南\nSkeleton 组件迁移\n更新动画 token：\n将 --skeleton-default-animation-type 替换为 --skeleton-animation\n链接\nGitHub PR #5780\nDescription 组件\nFieldError 组件\nFieldset 组件\nForm 组件\nInput 组件\nLabel 组件\nRadioGroup 组件\nTextField 组件\nTextArea 组件\nSkeleton 组件\n贡献者\n\n感谢每一位为本次发布做出贡献的开发者！\n\nv3.0.0-alpha.35\n\n复合组件支持 React Server Components、面向 React 19 的改进，以及关键 bug 修复。\n\nv3.0.0-alpha.33\n\n升级 RAC、重新设计 Tabs 指示器、新增 Switch 尺寸变体，以及相关示例展示。\n\n本页目录\n安装\n新增功能\n基于表单的组件\nDescription\nFieldError\nFieldset\nForm\nInput\nLabel\nRadioGroup\nTextField\nTextArea\n表单字段 token\nStorybook 重新组织\nSkeleton 动画 token\ndata-slot 对齐\n文档改进\n组件文档\n迁移指南\nSkeleton 组件迁移\n链接\n贡献者\nHero 新闻通讯\n订阅",
+  "title": "v3.0.0-alpha.34 | HeroUI",
+  "typography": [],
+  "url": "http://127.0.0.1:3100/cn/docs/react/releases/v3-0-0-alpha-34"
+}

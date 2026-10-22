@@ -1,0 +1,21 @@
+{
+  "scope": "only three changed historical release documents",
+  "compilerBuild": false,
+  "results": [
+    {
+      "path": "content/docs/en/react/releases/v3-0-0-alpha-34.mdx",
+      "status": "mdx_parse_pass",
+      "topLevelNodes": 51
+    },
+    {
+      "path": "content/docs/cn/react/releases/v3-0-0-alpha-34.mdx",
+      "status": "mdx_parse_pass",
+      "topLevelNodes": 51
+    },
+    {
+      "path": "content/docs/cn/react/releases/v3-0-4.mdx",
+      "status": "mdx_parse_pass",
+      "topLevelNodes": 30
+    }
+  ]
+}

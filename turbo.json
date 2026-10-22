@@ -5,7 +5,8 @@
     "eslint.config.mjs",
     "prettier.config.mjs",
     "pnpm-lock.yaml",
-    "package.json"
+    "package.json",
+    "apps/docs/.env.local"
   ],
   "globalEnv": [
     "VERCEL_ENV",
@@ -13,7 +14,11 @@
     "LOOPS_API_ENDPOINT",
     "LOOPS_API_KEY",
     "FEATUREBASE_API_ENDPOINT",
-    "FEATUREBASE_API_KEY"
+    "FEATUREBASE_API_KEY",
+    "NEXT_PUBLIC_LOCAL_PREVIEW",
+    "NEXT_PUBLIC_APP_ENV",
+    "NEXT_PUBLIC_CDN_URL",
+    "NEXT_PUBLIC_SHOW_PRE_SALE_BANNER"
   ],
   "tasks": {
     "dev": {

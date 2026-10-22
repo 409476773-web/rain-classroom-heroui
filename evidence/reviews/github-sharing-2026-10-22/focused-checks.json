@@ -1,0 +1,47 @@
+{
+  "candidateFiles": 4172,
+  "textFilesChecked": 4029,
+  "highConfidenceCredentialMatches": [],
+  "r2ArchiveIdentity": "matched",
+  "independentPrototypeExcluded": true,
+  "copiedStarterFilesMatched": 4,
+  "readmeLocalLinksValid": 18,
+  "inventoryUnitTests": {
+    "passed": 12,
+    "failed": 0
+  },
+  "historicalBrowserEvidenceDate": "2026-10-21",
+  "freshNetworkDependencyInstall": "not_run",
+  "heavyTests": "not_run",
+  "productionBuild": "not_run",
+  "fullBinaryOrScreenshotSensitiveReview": "not_run",
+  "npmRegistryMetadata": "2 verified; remaining requests timed out or returned 504, not a clean install",
+  "localSourceSnapshot": {
+    "commit": "2a93092d82ba13a6cd2a6c4d4deef084959ba9c6",
+    "tree": "956c4dc6bc9579ec1faa105a1318ea8aa5fbe6e0",
+    "officialTree": "f29f154cb42fb516263c7b48b5b68e40f31b2140",
+    "date": "2026-10-22",
+    "purpose": "Complete official release source snapshot; original workflow files relocated byte-for-byte as documentation references; upstream ancestry is not included.",
+    "workflowRelocations": [
+      {
+        "original": ".github/workflows/QA.yaml",
+        "reference": "docs/upstream-workflows/QA.yaml",
+        "mode": "100644",
+        "blob": "56c5f306bc04fa065a86ede3b6acc2652d03185e"
+      },
+      {
+        "original": ".github/workflows/release.yml",
+        "reference": "docs/upstream-workflows/release.yml",
+        "mode": "100644",
+        "blob": "cdbabe549fa46bac3a7ea562cbd159d854c77644"
+      },
+      {
+        "original": ".github/workflows/trigger-mcp-extraction.yml",
+        "reference": "docs/upstream-workflows/trigger-mcp-extraction.yml",
+        "mode": "100644",
+        "blob": "f469a6a7957272f3650a619044925630cbf76f81"
+      }
+    ]
+  },
+  "workflowReferenceFilesPreserved": 3
+}

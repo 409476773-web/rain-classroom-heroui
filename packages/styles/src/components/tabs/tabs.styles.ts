@@ -15,6 +15,7 @@ export const tabsVariants = tv({
     separator: "tabs__separator",
     tab: "tabs__tab",
     tabIndicator: "tabs__indicator",
+    tabLabel: "tabs__label",
     tabList: "tabs__list",
     tabListContainer: "tabs__list-container",
     tabPanel: "tabs__panel",

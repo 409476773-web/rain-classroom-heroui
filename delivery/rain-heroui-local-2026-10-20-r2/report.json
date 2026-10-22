@@ -1,0 +1,46 @@
+{
+  "artifacts": [
+    {
+      "archive": "heroui-styles-3.2.6-rain.1.tgz",
+      "checkedExports": 11,
+      "name": "@heroui/styles",
+      "sha256": "057877bc6f650327f018fdcdc02fcc0a343be34a01fab0fb6ab0583c4e6ad4d2",
+      "version": "3.2.6-rain.1"
+    },
+    {
+      "archive": "heroui-react-3.2.6-rain.1.tgz",
+      "checkedExports": 264,
+      "name": "@heroui/react",
+      "sha256": "838cc882f5e227e01a655332a46b8b0d462c4a9df86eab24bedbf9b8e5357cc4",
+      "version": "3.2.6-rain.1"
+    },
+    {
+      "archive": "rain-classroom-heroui-theme-0.1.2.tgz",
+      "checkedExports": 1,
+      "name": "@rain-classroom/heroui-theme",
+      "sha256": "5d097da6470587dcab8b4e0fb2c26f026499b2e6b54435009d158924d3243d01",
+      "version": "0.1.2"
+    }
+  ],
+  "consumerTypecheck": true,
+  "exampleTypecheck": true,
+  "limitations": [
+    "Third-party dependencies reuse existing local installs; this is not a clean network installation.",
+    "A historical NodeNext probe rejected upstream extensionless declaration barrels; NodeNext was not rerun. This result covers Bundler consumers."
+  ],
+  "lockfileSha256": "1ea1be22f0b2304dc81d10f8f4bdb2562f9a4444b77c5cb68928305c69dac815",
+  "packagedCssCompiled": true,
+  "patchProvenance": "delivery/rain-heroui-local-2026-10-20-r2/patch-provenance.json",
+  "runtime": {
+    "react": "file:///private/var/folders/2h/mp7rp10x1plgfqrm94_0dcdm0000gn/T/rain-heroui-consumer-TB5OeN/consumer/node_modules/@heroui/react/dist/index.js",
+    "styles": "file:///private/var/folders/2h/mp7rp10x1plgfqrm94_0dcdm0000gn/T/rain-heroui-consumer-TB5OeN/consumer/node_modules/@heroui/styles/dist/index.js",
+    "rootAndSubpathImport": true,
+    "ssr": true,
+    "tabsPatch": true,
+    "html": "consumer.html"
+  },
+  "temporaryConsumer": "/var/folders/2h/mp7rp10x1plgfqrm94_0dcdm0000gn/T/rain-heroui-consumer-TB5OeN/consumer",
+  "themeSourceSha256": "2349702bace822f597b8954e6dc312f7a70a69ed7b65e5c2cee25e672c3e69c6",
+  "typeResolution": "Bundler, matching upstream React config; includes negative type checks",
+  "verification": "verified base archives + isolated Tabs module and declaration patch + current Rain theme; no full rebuild, registry install, browser sweep or publication"
+}

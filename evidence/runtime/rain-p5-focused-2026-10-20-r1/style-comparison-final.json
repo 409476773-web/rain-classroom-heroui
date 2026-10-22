@@ -1,0 +1,169 @@
+{
+  "scope": "9 explicit story entries, default states only; interactive paths recorded separately",
+  "selectedNodeCount": 377,
+  "originalRestorePairs": 18,
+  "propertiesComparedForRainGeometry": [
+    "height",
+    "paddingTop",
+    "paddingRight",
+    "paddingBottom",
+    "paddingLeft",
+    "gap",
+    "fontSize",
+    "lineHeight",
+    "fontWeight",
+    "borderTopWidth",
+    "borderBottomWidth",
+    "opacity",
+    "transitionDuration",
+    "transform"
+  ],
+  "originalRestoreStyleDifferences": 0,
+  "allowedRainTextLayoutException": [
+    [
+      "components-theme-state-review--layouts",
+      {
+        "index": 70,
+        "class": "tabs__label",
+        "name": "按知识点汇总的学习情况与反馈",
+        "property": "height",
+        "original": "40px",
+        "rain": "20px"
+      }
+    ]
+  ],
+  "records": [
+    {
+      "id": "components-theme-state-review--buttons",
+      "group": "buttons",
+      "evidencePrefix": "verified-components-theme-state-review--buttons-",
+      "nodes": 79,
+      "originalRestoreDifferences": [],
+      "rainGeometryDifferences": [],
+      "rootThemesVerified": true,
+      "iframeViewport": {
+        "width": 980,
+        "height": 816
+      }
+    },
+    {
+      "id": "components-theme-state-review--fields",
+      "group": "fields",
+      "evidencePrefix": "accepted-components-theme-state-review--fields-",
+      "nodes": 92,
+      "originalRestoreDifferences": [],
+      "rainGeometryDifferences": [],
+      "rootThemesVerified": true,
+      "iframeViewport": {
+        "width": 980,
+        "height": 816
+      }
+    },
+    {
+      "id": "components-forms-inputgroup--invalid",
+      "group": "fields",
+      "evidencePrefix": "accepted-components-forms-inputgroup--invalid-",
+      "nodes": 11,
+      "originalRestoreDifferences": [],
+      "rainGeometryDifferences": [],
+      "rootThemesVerified": true,
+      "iframeViewport": {
+        "width": 980,
+        "height": 816
+      }
+    },
+    {
+      "id": "components-forms-inputgroup--disabled",
+      "group": "fields",
+      "evidencePrefix": "accepted-components-forms-inputgroup--disabled-",
+      "nodes": 9,
+      "originalRestoreDifferences": [],
+      "rainGeometryDifferences": [],
+      "rootThemesVerified": true,
+      "iframeViewport": {
+        "width": 980,
+        "height": 816
+      }
+    },
+    {
+      "id": "components-theme-state-review--selections",
+      "group": "selections",
+      "evidencePrefix": "verified-components-theme-state-review--selections-",
+      "nodes": 27,
+      "originalRestoreDifferences": [],
+      "rainGeometryDifferences": [],
+      "rootThemesVerified": true,
+      "iframeViewport": {
+        "width": 980,
+        "height": 816
+      }
+    },
+    {
+      "id": "components-theme-state-review--layouts",
+      "group": "table-tabs",
+      "evidencePrefix": "accepted-components-theme-state-review--layouts-",
+      "nodes": 76,
+      "originalRestoreDifferences": [],
+      "rainGeometryDifferences": [
+        {
+          "index": 70,
+          "class": "tabs__label",
+          "name": "按知识点汇总的学习情况与反馈",
+          "property": "height",
+          "original": "40px",
+          "rain": "20px"
+        }
+      ],
+      "rootThemesVerified": true,
+      "iframeViewport": {
+        "width": 980,
+        "height": 816
+      }
+    },
+    {
+      "id": "components-data-display-table--default",
+      "group": "table-tabs",
+      "evidencePrefix": "accepted-components-data-display-table--default-",
+      "nodes": 37,
+      "originalRestoreDifferences": [],
+      "rainGeometryDifferences": [],
+      "rootThemesVerified": true,
+      "iframeViewport": {
+        "width": 980,
+        "height": 816
+      }
+    },
+    {
+      "id": "components-data-display-table--secondary-variant",
+      "group": "table-tabs",
+      "evidencePrefix": "accepted-components-data-display-table--secondary-variant-",
+      "nodes": 37,
+      "originalRestoreDifferences": [],
+      "rainGeometryDifferences": [],
+      "rootThemesVerified": true,
+      "iframeViewport": {
+        "width": 980,
+        "height": 816
+      }
+    },
+    {
+      "id": "components-navigation-tabs--default",
+      "group": "table-tabs",
+      "evidencePrefix": "verified-components-navigation-tabs--default-",
+      "nodes": 9,
+      "originalRestoreDifferences": [],
+      "rainGeometryDifferences": [],
+      "rootThemesVerified": true,
+      "iframeViewport": {
+        "width": 980,
+        "height": 816
+      }
+    }
+  ],
+  "excludedSamples": [
+    "Early snapshots affected by Storybook sidebar dragging or wrong theme timing",
+    "Buttons accepted-original-dark-before and accepted-rain-default did not have their named root theme; superseded by verified samples",
+    "Raw transitions and pointer-hover defaults superseded by verified samples"
+  ],
+  "notAFullLibraryPass": true
+}

@@ -1,0 +1,56 @@
+fatal: not a tree object
+✔ parses generic TypeScript functions as TS rather than JSX (3.89125ms)
+✔ reads default Storybook metadata and bound template story exports (1.50775ms)
+✔ records a dynamic import so registered no-SSR wrappers are distinguished from missing sources (0.34325ms)
+✔ built Storybook IDs are matched by source file and export, including missing stories (0.189625ms)
+✔ tracks aliases, type-only exports, star exports, and compound members (1.091167ms)
+✔ registry keeps loader and displayed source independently so mismatches are detectable (0.525125ms)
+✔ MDX references ignore fenced code examples and retain multiline previews and source views (0.485ms)
+✔ maps parent implementation evidence without claiming runtime or visual acceptance (1318.882542ms)
+✔ local ignored caches and screenshots do not change source input identity (91.11525ms)
+✔ fixed upstream identity does not follow a new Git index or publication commit (124.409958ms)
+✔ historical index fallback preserves the nine-story gap and never verifies a current build (158.055375ms)
+✖ published source snapshot preserves official identity without requiring upstream ancestry (87.182084ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 11
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2035.477417
+
+✖ failing tests:
+
+test at scripts/rain/inventory.test.mjs:270:1
+✖ published source snapshot preserves official identity without requiring upstream ancestry (87.182084ms)
+  AssertionError [ERR_ASSERTION]: Got unwanted exception.
+  Actual message: "Command failed: git ls-tree -r --name-only -z ffffffffffffffffffffffffffffffffffffffff
+  fatal: not a tree object
+  "
+      at TestContext.<anonymous> (file:///Users/wenchengkai/CodexFile/rain-classroom-heroui/scripts/rain/inventory.test.mjs:281:10)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: Error: Command failed: git ls-tree -r --name-only -z ffffffffffffffffffffffffffffffffffffffff
+    fatal: not a tree object
+    
+        at genericNodeError (node:internal/errors:985:15)
+        at wrappedFn (node:internal/errors:539:14)
+        at checkExecSyncError (node:child_process:925:11)
+        at execFileSync (node:child_process:961:15)
+        at generateInventory (file:///Users/wenchengkai/CodexFile/rain-classroom-heroui/scripts/rain/inventory.mjs:404:19)
+        at file:///Users/wenchengkai/CodexFile/rain-classroom-heroui/scripts/rain/inventory.test.mjs:281:42
+        at getActual (node:assert:611:5)
+        at strict.doesNotThrow (node:assert:779:32)
+        at TestContext.<anonymous> (file:///Users/wenchengkai/CodexFile/rain-classroom-heroui/scripts/rain/inventory.test.mjs:281:10)
+        at Test.runInAsyncScope (node:async_hooks:214:14),
+    expected: undefined,
+    operator: 'doesNotThrow',
+    diff: 'simple'
+  }

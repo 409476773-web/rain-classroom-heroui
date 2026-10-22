@@ -1,0 +1,71 @@
+{
+  "affixes": [
+    {
+      "color": "rgb(86, 104, 143)",
+      "text": "$"
+    },
+    {
+      "color": "rgb(86, 104, 143)",
+      "text": "USD"
+    },
+    {
+      "color": "rgb(86, 104, 143)",
+      "text": "$"
+    },
+    {
+      "color": "rgb(86, 104, 143)",
+      "text": "USD"
+    },
+    {
+      "color": "rgb(86, 104, 143)",
+      "text": "https://"
+    },
+    {
+      "color": "rgb(86, 104, 143)",
+      "text": ".com"
+    }
+  ],
+  "placeholders": [
+    {
+      "color": "rgb(160, 172, 197)",
+      "placeholder": "搜索学生姓名"
+    },
+    {
+      "color": "rgb(160, 172, 197)",
+      "placeholder": "搜索学生姓名"
+    },
+    {
+      "color": "rgb(160, 172, 197)",
+      "placeholder": "搜索学生姓名"
+    },
+    {
+      "color": "rgb(160, 172, 197)",
+      "placeholder": "搜索学生姓名"
+    },
+    {
+      "color": "rgb(160, 172, 197)",
+      "placeholder": "搜索学生姓名"
+    },
+    {
+      "color": "rgb(160, 172, 197)",
+      "placeholder": "请输入分数"
+    },
+    {
+      "color": "rgb(160, 172, 197)",
+      "placeholder": "请输入分数"
+    },
+    {
+      "color": "rgb(160, 172, 197)",
+      "placeholder": "请输入分数"
+    },
+    {
+      "color": "rgb(160, 172, 197)",
+      "placeholder": "请输入分数"
+    },
+    {
+      "color": "rgb(160, 172, 197)",
+      "placeholder": "请输入分数"
+    }
+  ],
+  "theme": "light"
+}

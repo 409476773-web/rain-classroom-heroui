@@ -1,0 +1,391 @@
+{
+  "active": {
+    "class": "date-range-picker__trigger",
+    "label": "日历",
+    "role": null,
+    "tag": "BUTTON"
+  },
+  "nodes": [
+    {
+      "checked": false,
+      "class": "date-input-group date-input-group--full-width date-input-group--primary",
+      "disabled": false,
+      "expanded": null,
+      "focus": "true",
+      "invalid": null,
+      "name": null,
+      "role": "group",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgb(255, 255, 255)",
+        "border": "rgba(0, 0, 0, 0)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "6px",
+        "width": "320px"
+      },
+      "tag": "DIV",
+      "text": "2026/10/21 - 2026/10/26",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "date-input-group__input",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "presentation",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "40px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "114.453px"
+      },
+      "tag": "DIV",
+      "text": "2026/10/21",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "date-input-group__segment",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "年, 开始日期, ",
+      "role": "spinbutton",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "24px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "6px",
+        "width": "42.4062px"
+      },
+      "tag": "SPAN",
+      "text": "2026",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "date-input-group__segment",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "月, 开始日期, ",
+      "role": "spinbutton",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "24px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "6px",
+        "width": "20.0234px"
+      },
+      "tag": "SPAN",
+      "text": "10",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "date-input-group__segment",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "日, 开始日期, ",
+      "role": "spinbutton",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "24px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "6px",
+        "width": "20.0234px"
+      },
+      "tag": "SPAN",
+      "text": "21",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "auto",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "auto"
+      },
+      "tag": "INPUT",
+      "text": "",
+      "value": "2026-10-21"
+    },
+    {
+      "checked": false,
+      "class": "date-input-group__input",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "presentation",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "40px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "153.07px"
+      },
+      "tag": "DIV",
+      "text": "2026/10/26",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "date-input-group__segment",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "年, 结束日期, ",
+      "role": "spinbutton",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "24px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "6px",
+        "width": "42.4062px"
+      },
+      "tag": "SPAN",
+      "text": "2026",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "date-input-group__segment",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "月, 结束日期, ",
+      "role": "spinbutton",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "24px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "6px",
+        "width": "20.0234px"
+      },
+      "tag": "SPAN",
+      "text": "10",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "date-input-group__segment",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "日, 结束日期, ",
+      "role": "spinbutton",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "24px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "6px",
+        "width": "23.2031px"
+      },
+      "tag": "SPAN",
+      "text": "26",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "auto",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "auto"
+      },
+      "tag": "INPUT",
+      "text": "",
+      "value": "2026-10-26"
+    },
+    {
+      "checked": false,
+      "class": "date-range-picker__trigger",
+      "disabled": false,
+      "expanded": "false",
+      "focus": "true",
+      "invalid": null,
+      "name": "日历",
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(160, 172, 197)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "24px",
+        "opacity": "1",
+        "outline": "rgb(0, 95, 204) none 1px",
+        "radius": "6px",
+        "width": "24px"
+      },
+      "tag": "BUTTON",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "presentation",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(160, 172, 197)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "14px",
+        "opacity": "1",
+        "outline": "rgb(160, 172, 197) none 3px",
+        "radius": "0px",
+        "width": "14px"
+      },
+      "tag": "svg",
+      "text": "",
+      "value": ""
+    }
+  ],
+  "rain": "light",
+  "text": "Trip dates\n2026\n/\n10\n/\n21\n-\n2026\n/\n10\n/\n26\nSelect your check-in and check-out dates.\nCurrent value: 2026-10-21 -> 2026-10-26",
+  "theme": "light",
+  "url": "http://127.0.0.1:6006/iframe.html?id=components-date-and-time-daterangepicker--controlled&viewMode=story&globals=heroui-theme%3Arain-light"
+}

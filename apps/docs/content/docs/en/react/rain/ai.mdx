@@ -1,0 +1,40 @@
+---
+title: Using and adapting with AI
+description: Locate pinned source and examples for vibe design and vibe coding.
+---
+
+Search the [component center](/docs/react/rain), expand **Source and AI context**, and copy the local source, documentation and example paths into your AI conversation. Read one to three relevant examples for each task.
+
+## Start from the local version
+
+```text
+Read AGENTS.md, docs/rain/ai/index.md and docs/rain/ai/usage-rules.md first.
+Use the pinned HeroUI 3.2.6 and packages/rain-theme/index.css.
+Confirm the local API and examples before composing business interfaces.
+Preserve keyboard, focus, error, disabled and portal behavior.
+```
+
+The generated lookup table is `docs/rain/ai/components.md`; structured data is in `apps/docs/src/generated/rain-catalog.json`. Both derive from the existing inventory.
+
+Local reviews now include a standalone [Menu](http://127.0.0.1:6006/?path=/story/components-theme-state-review--menu&globals=heroui-theme:rain-light) and [calendar/year navigation](http://127.0.0.1:6006/?path=/story/components-theme-state-review--calendar-navigation&globals=heroui-theme:rain-light), with the existing theme switcher. The year picker remains upstream work in progress and has a known keyboard focus restoration limitation when its year panel closes. Preview availability does not imply stability acceptance.
+
+Further local reviews cover [Table, Tabs and Card](http://127.0.0.1:6006/?path=/story/components-theme-state-review--layouts&globals=heroui-theme:rain-light), [overlays and long Chinese text](http://127.0.0.1:6006/?path=/story/components-theme-state-review--overlays&globals=heroui-theme:rain-light), and [ErrorMessage states](http://127.0.0.1:6006/?path=/story/components-theme-state-review--error-messages&globals=heroui-theme:rain-light). The private r2 delivery is `delivery/rain-heroui-local-2026-10-20-r2/`: React/Styles `3.2.6-rain.1` and Rain theme `0.1.2`, still based on upstream HeroUI 3.2.6. Its private archives include the two local Tabs source patches and updated Table colors and have passed scoped consumer checks: root/subpath imports, Tabs label SSR and style slot, Bundler example and negative type checks, and packaged CSS compilation. The packaged theme CSS matches the frozen source SHA. Read the delivery README, manifest and report, plus the local `docs/rain/consumer-verification.md`, for the actual scope.
+
+The older `delivery/rain-heroui-local-2026-10-20/` theme 0.1.1 archives remain a historical frozen delivery without these Table/Tabs changes. The new Tabs behavior requires component JS, the style slot and theme CSS; replacing old package CSS alone is insufficient.
+
+## Choose where to edit
+
+| Goal | Entry |
+| --- | --- |
+| Recompose pages, cards and panels | The business layer; see `apps/docs/src/components/rain-examples/grading-panel/` |
+| Change brand colors, font families or radii | `packages/rain-theme/index.css` |
+| Reuse a business interaction | Extract a shared composition after repetition exists |
+| Extend a primitive API | Read its `packages/react` implementation and record affected states |
+
+The [classroom grading example](/docs/react/examples/grading-panel) has been reviewed by the user, including the current 10px button radius. Its Chinese fictional data and draft submissions remain in page memory.
+
+The latest user confirmation is limited to the current Table background `#EBEFFF`, header text `#7485A8`, and ordinary Tabs text staying on one line with ellipsis and a native full-name hint on hover. It does not cover arbitrary custom rich-text labels, every library state or production acceptance.
+
+Use the pinned v3 API; avoid legacy NextUI/v2 patterns and empty wrappers for every component. Keep theme values centralized.
+
+The current workflow uses focused checks. New heavy regression runs and documentation/Storybook production builds remain deferred. The r2 private archives passed this round's scoped consumer checks rather than inheriting earlier results. Targeted compilation replaces the authorized Tabs artifacts and preserves shared modules. See the local `docs/rain/consumer-verification.md` for setup, consumer/browser scope and limits, including the unsupported NodeNext declaration probe. These checks reuse existing local third-party dependencies and cover Bundler consumers; they are not a clean network installation or full-library/production acceptance.

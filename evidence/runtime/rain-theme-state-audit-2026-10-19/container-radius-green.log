@@ -1,0 +1,17 @@
+✔ container theme import leaves original light and dark computed styles unchanged (5284.785333ms)
+✔ Rain date-picker panel uses 16px without changing nested circles or pills (620.288667ms)
+✔ Rain date-range-picker panel uses 16px without changing nested circles or pills (455.9895ms)
+✔ Rain color-picker panel uses 16px without changing nested circles or pills (467.826791ms)
+✔ Rain primary table retains its inner/outer corner relationship (450.794875ms)
+✔ Rain secondary table retains its inner/outer corner relationship (444.211333ms)
+✔ import is inert in original light and dark; removing the brand restores exact computed styles (5969.707625ms)
+✔ Rain changes brand roles, font identity and container/field radii without changing geometry or motion (1151.235584ms)
+✔ body-level overlay inherits Rain colors/radii and native keyboard focus remains usable (692.177333ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 9300.782

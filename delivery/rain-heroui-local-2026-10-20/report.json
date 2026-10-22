@@ -1,0 +1,44 @@
+{
+  "artifacts": [
+    {
+      "archive": "heroui-styles-3.2.6.tgz",
+      "checkedExports": 11,
+      "name": "@heroui/styles",
+      "sha256": "2815eba93b7a66edd49067850306938d954a09d0352df53ad1d015d418e47c82",
+      "version": "3.2.6"
+    },
+    {
+      "archive": "heroui-react-3.2.6.tgz",
+      "checkedExports": 264,
+      "name": "@heroui/react",
+      "sha256": "3b32f4fbfc5c840f5efad1067d6c3bf83a1557aae44fef549c6b31336a35c123",
+      "version": "3.2.6"
+    },
+    {
+      "archive": "rain-classroom-heroui-theme-0.1.1.tgz",
+      "checkedExports": 1,
+      "name": "@rain-classroom/heroui-theme",
+      "sha256": "06d4015254063f2488b5c63cec930fd9ed7cba92ec773887b1f39d6f23cfb758",
+      "version": "0.1.1"
+    }
+  ],
+  "consumerTypecheck": true,
+  "exampleTypecheck": true,
+  "limitations": [
+    "Third-party dependencies reuse existing local installs; this is not a clean network installation.",
+    "A historical NodeNext probe rejected upstream extensionless declaration barrels; NodeNext was not rerun. This result covers Bundler consumers."
+  ],
+  "lockfileSha256": "1ea1be22f0b2304dc81d10f8f4bdb2562f9a4444b77c5cb68928305c69dac815",
+  "packagedCssCompiled": true,
+  "runtime": {
+    "react": "file:///private/var/folders/2h/mp7rp10x1plgfqrm94_0dcdm0000gn/T/rain-heroui-consumer-eHxarN/consumer/node_modules/@heroui/react/dist/index.js",
+    "styles": "file:///private/var/folders/2h/mp7rp10x1plgfqrm94_0dcdm0000gn/T/rain-heroui-consumer-eHxarN/consumer/node_modules/@heroui/styles/dist/index.js",
+    "rootAndSubpathImport": true,
+    "ssr": true,
+    "html": "consumer.html"
+  },
+  "temporaryConsumer": "/var/folders/2h/mp7rp10x1plgfqrm94_0dcdm0000gn/T/rain-heroui-consumer-eHxarN/consumer",
+  "themeSourceSha256": "3a681c04190cecbd82e8a096645d004438ab8e58ac109a3fc79f270432b0483d",
+  "typeResolution": "Bundler, matching upstream React config; includes negative type checks",
+  "verification": "existing JS build + isolated declaration-only emit + current Rain theme; no full rebuild, registry install, browser sweep or publication"
+}

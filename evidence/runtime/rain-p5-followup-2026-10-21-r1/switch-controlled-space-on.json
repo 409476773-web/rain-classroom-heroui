@@ -1,0 +1,101 @@
+{
+  "active": {
+    "class": "",
+    "label": null,
+    "role": "switch",
+    "tag": "INPUT"
+  },
+  "nodes": [
+    {
+      "checked": false,
+      "class": "switch__content",
+      "disabled": false,
+      "expanded": null,
+      "focus": "true",
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": "true"
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "20px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "183.656px"
+      },
+      "tag": "LABEL",
+      "text": "Enable notifications",
+      "value": ""
+    },
+    {
+      "checked": true,
+      "class": "",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "switch",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgb(20, 35, 60)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "13px",
+        "opacity": "1",
+        "outline": "rgb(0, 95, 204) auto 1px",
+        "radius": "0px",
+        "width": "13px"
+      },
+      "tag": "INPUT",
+      "text": "",
+      "value": "on"
+    },
+    {
+      "checked": false,
+      "class": "switch__control",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "oklab(0.952611 -0.00408276 -0.0156994)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "20px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "12px",
+        "width": "40px"
+      },
+      "tag": "SPAN",
+      "text": "",
+      "value": ""
+    }
+  ],
+  "rain": "light",
+  "text": "Enable notifications\n\nSwitch is on",
+  "theme": "light",
+  "url": "http://127.0.0.1:6006/iframe.html?id=components-controls-switch--controlled&viewMode=story&globals=heroui-theme%3Arain-light"
+}

@@ -1,0 +1,71 @@
+{
+  "nodes": [
+    {
+      "animation": "none",
+      "bg": "rgb(237, 243, 250)",
+      "busy": null,
+      "class": "avatar__fallback avatar__fallback--default",
+      "color": "rgb(20, 35, 60)",
+      "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+      "max": null,
+      "min": null,
+      "name": null,
+      "now": null,
+      "opacity": "1",
+      "role": null,
+      "stroke": "none",
+      "text": "J"
+    },
+    {
+      "animation": "none",
+      "bg": "rgb(237, 243, 250)",
+      "busy": null,
+      "class": "avatar__fallback avatar__fallback--default",
+      "color": "rgb(20, 35, 60)",
+      "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+      "max": null,
+      "min": null,
+      "name": null,
+      "now": null,
+      "opacity": "1",
+      "role": null,
+      "stroke": "none",
+      "text": "K"
+    },
+    {
+      "animation": "none",
+      "bg": "rgb(237, 243, 250)",
+      "busy": null,
+      "class": "avatar__fallback avatar__fallback--default",
+      "color": "rgb(20, 35, 60)",
+      "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+      "max": null,
+      "min": null,
+      "name": null,
+      "now": null,
+      "opacity": "1",
+      "role": null,
+      "stroke": "none",
+      "text": "E"
+    },
+    {
+      "animation": "none",
+      "bg": "rgb(237, 243, 250)",
+      "busy": null,
+      "class": "avatar__fallback avatar__fallback--default",
+      "color": "rgb(20, 35, 60)",
+      "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+      "max": null,
+      "min": null,
+      "name": null,
+      "now": null,
+      "opacity": "1",
+      "role": null,
+      "stroke": "none",
+      "text": "+2"
+    }
+  ],
+  "rain": "light",
+  "text": "J\nK\nE\n+2",
+  "url": "http://127.0.0.1:6006/iframe.html?id=components-media-avatargroup--max&viewMode=story&globals=heroui-theme%3Arain-light"
+}

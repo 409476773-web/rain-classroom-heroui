@@ -1,0 +1,4 @@
+
+> @heroui/storybook@0.0.0 typecheck /Users/wenchengkai/CodexFile/hero ui-改造/packages/storybook
+> tsc --noEmit
+

@@ -1,0 +1,14 @@
+[
+  {
+    "level": "error",
+    "message": "Received `%s` for a non-boolean attribute `%s`.\n\nIf you want to write it to the DOM, pass a string instead: %s=\"%s\" or %s={value.toString()}. true __button_group_child __button_group_child true __button_group_child",
+    "timestamp": "2026-10-20T16:09:25.289Z",
+    "url": "http://127.0.0.1:6006/node_modules/.cache/storybook/10.6.0/634c8a0e2d0a4d258d8b7ac6c7a92f24fd709b5dfd69574334d3795254d780d0/sb-vite/deps/chunk-ICSKFSS7.js?v=df6bb9b3"
+  },
+  {
+    "level": "error",
+    "message": "%s contains an input of type %s with both value and defaultValue props. Input elements must be either controlled or uncontrolled (specify either the value prop, or the defaultValue prop, but not both). Decide between using a controlled or uncontrolled input element and remove one of these props. More info: https://react.dev/link/controlled-components ForwardRef(bound $7230ffa83bc0c2cf$var$DOMElement) text",
+    "timestamp": "2026-10-20T16:11:43.283Z",
+    "url": "http://127.0.0.1:6006/node_modules/.cache/storybook/10.6.0/634c8a0e2d0a4d258d8b7ac6c7a92f24fd709b5dfd69574334d3795254d780d0/sb-vite/deps/chunk-ICSKFSS7.js?v=df6bb9b3"
+  }
+]

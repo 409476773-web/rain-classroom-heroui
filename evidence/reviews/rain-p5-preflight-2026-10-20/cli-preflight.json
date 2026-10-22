@@ -1,0 +1,22 @@
+{
+  "checks": [
+    {
+      "case": "story-smoke-help.txt",
+      "exitCode": 0,
+      "expectedExitCode": 0
+    },
+    {
+      "case": "configuration-plan.json",
+      "exitCode": 0,
+      "expectedExitCode": 0
+    },
+    {
+      "case": "existing-output-rejected.log",
+      "exitCode": 1,
+      "expectedExitCode": 1
+    }
+  ],
+  "outputDirectoryCreated": false,
+  "browserRun": false,
+  "scanRun": false
+}

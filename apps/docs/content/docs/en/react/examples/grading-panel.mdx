@@ -1,0 +1,23 @@
+---
+title: Rain Classroom grading panel
+description: An interactive business composition using the original HeroUI forms, lists, cards and overlays.
+full: true
+---
+
+import { GradingPanel } from "@/components/rain-examples/grading-panel/grading-panel";
+
+This shared example uses Chinese, fictional classroom content. Choose **Rain Classroom** in the theme menu to compare it with the original HeroUI theme. Nothing is sent to students; reloading resets the example.
+
+<div className="not-prose">
+  <GradingPanel />
+</div>
+
+## Try the workflow
+
+Search or filter submissions, select a student, review the answer, and enter a score from 0 to 20 in half-point increments plus feedback. Drafts survive student changes within this page. Submission validates the form and opens a confirmation dialog; cancelling preserves the draft. Confirming updates the list and progress, optionally moving to the next pending submission. Submitted reviews are read-only in this example.
+
+## Shared implementation
+
+The [Storybook workspace](http://127.0.0.1:6006/?path=/story/components-business-grading-panel--workspace&globals=heroui-theme:rain-light) and this page import the same component from `src/components/rain-examples/grading-panel/grading-panel.tsx`. Its adjacent `grading-panel.model.ts` owns fixture data and business rules; `grading-panel.styles.ts` owns composition layout only.
+
+HeroUI primitives remain unchanged. The example inherits the selected theme, and its layout adapts to the container width. Real persistence, authorization, network errors and concurrent submissions are outside this local demonstration.

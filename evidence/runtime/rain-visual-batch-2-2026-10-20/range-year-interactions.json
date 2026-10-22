@@ -1,0 +1,11 @@
+{
+  "rangeEnd": {
+    "outline": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(242, 244, 255) 0px 0px 0px 2px, rgb(61, 123, 255) 0px 0px 0px 4px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+    "year": "2028"
+  },
+  "rangeEsc": {
+    "activeYear": "2028",
+    "insideHiddenGrid": true,
+    "open": "false"
+  }
+}

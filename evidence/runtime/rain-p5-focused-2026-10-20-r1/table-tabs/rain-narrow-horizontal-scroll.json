@@ -1,0 +1,34 @@
+{
+  "action": "Real cell clicks scroll last column into view and return to selection cell",
+  "right": [
+    {
+      "scrollLeft": 0,
+      "scrollWidth": 704,
+      "width": 444
+    },
+    {
+      "scrollLeft": 384,
+      "scrollWidth": 704,
+      "width": 320
+    }
+  ],
+  "left": [
+    {
+      "scrollLeft": 0,
+      "scrollWidth": 704,
+      "width": 444
+    },
+    {
+      "scrollLeft": 0,
+      "scrollWidth": 704,
+      "width": 320
+    }
+  ],
+  "viewport": {
+    "height": 816,
+    "pageScrollHeight": 2581,
+    "pageScrollWidth": 500,
+    "rootFontSize": "16px",
+    "width": 500
+  }
+}

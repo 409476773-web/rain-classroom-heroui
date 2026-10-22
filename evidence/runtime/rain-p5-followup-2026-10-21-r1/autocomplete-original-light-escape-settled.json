@@ -1,0 +1,188 @@
+{
+  "active": {
+    "class": "sb-main-centered sb-show-main",
+    "label": null,
+    "role": null,
+    "tag": "BODY"
+  },
+  "nodes": [
+    {
+      "checked": false,
+      "class": "autocomplete__trigger",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "group",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "oklab(0.983423 0.0000339097 -0.00011912 / 0.922537)",
+        "border": "oklab(0.2103 0.00161537 -0.00567456 / 0.0968289)",
+        "color": "oklch(0.2103 0.0059 285.89)",
+        "font": "Inter, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "height": "40px",
+        "opacity": "1",
+        "outline": "oklch(0.2103 0.0059 285.89) none 3px",
+        "radius": "12px",
+        "width": "256px"
+      },
+      "tag": "DIV",
+      "text": "Select an animal",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "autocomplete__clear-button",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "Clear selection",
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "oklch(0.9 0.004 286.32)",
+        "color": "oklch(0.5517 0.0138 285.94)",
+        "font": "Inter, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "height": "20px",
+        "opacity": "0",
+        "outline": "oklch(0.5517 0.0138 285.94) none 3px",
+        "radius": "12px",
+        "width": "20px"
+      },
+      "tag": "BUTTON",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "presentation",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "oklch(0.9 0.004 286.32)",
+        "color": "oklch(0.5517 0.0138 285.94)",
+        "font": "Inter, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "height": "14px",
+        "opacity": "1",
+        "outline": "oklch(0.5517 0.0138 285.94) none 3px",
+        "radius": "0px",
+        "width": "12px"
+      },
+      "tag": "svg",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "react-aria-Button",
+      "disabled": false,
+      "expanded": "false",
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "oklch(0.9 0.004 286.32)",
+        "color": "oklch(0.2103 0.0059 285.89)",
+        "font": "Inter, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "height": "24px",
+        "opacity": "1",
+        "outline": "oklch(0.2103 0.0059 285.89) none 3px",
+        "radius": "0px",
+        "width": "0px"
+      },
+      "tag": "BUTTON",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "autocomplete__indicator",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "presentation",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "oklch(0.9 0.004 286.32)",
+        "color": "oklch(0.5517 0.0138 285.94)",
+        "font": "Inter, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "height": "16px",
+        "opacity": "1",
+        "outline": "oklch(0.5517 0.0138 285.94) none 3px",
+        "radius": "0px",
+        "width": "16px"
+      },
+      "tag": "svg",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "oklch(0.9 0.004 286.32)",
+        "color": "rgb(0, 0, 0)",
+        "font": "Inter, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "height": "auto",
+        "opacity": "1",
+        "outline": "rgb(0, 0, 0) none 3px",
+        "radius": "0px",
+        "width": "auto"
+      },
+      "tag": "LABEL",
+      "text": " DogCatBirdKangarooElephantTiger",
+      "value": ""
+    }
+  ],
+  "rain": null,
+  "text": "Animal\nSelect an animal\n \nDog\nCat\nBird\nKangaroo\nElephant\nTiger",
+  "theme": "light",
+  "url": "http://127.0.0.1:6006/iframe.html?id=components-pickers-autocomplete--with-disabled-options&viewMode=story&globals=heroui-theme%3Arain-light"
+}

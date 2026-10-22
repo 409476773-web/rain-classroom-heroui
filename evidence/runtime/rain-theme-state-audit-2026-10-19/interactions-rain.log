@@ -1,0 +1,24 @@
+
+ RUN  v4.1.11 /Users/wenchengkai/CodexFile/hero ui-改造/packages/react
+
+ ❯ |rain-browser (chromium)| tests/components/tooltip/tooltip.browser.test.tsx (1 test | 1 failed) 1061ms
+     × shows content when open and dismisses with Escape 1061ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  |rain-browser (chromium)| tests/components/tooltip/tooltip.browser.test.tsx > Tooltip (browser) > shows content when open and dismisses with Escape
+Error: frame.evaluate: Frame was detached
+
+Failure screenshot:
+  - packages/react/tests/components/tooltip/__screenshots__/tooltip.browser.test.tsx/Tooltip--browser--shows-content-when-open-and-dismisses-with-Escape-1.png
+
+ ❯ ../../../hero%20ui-%E6%94%B9%E9%80%A0/packages/react/tests/components/tooltip/tooltip.browser.test.tsx:29:21
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 12 passed (13)
+      Tests  1 failed | 50 passed (51)
+   Start at  18:21:01
+   Duration  30.62s (transform 0ms, setup 19.38s, import 82.81s, tests 46.33s, environment 0ms)
+

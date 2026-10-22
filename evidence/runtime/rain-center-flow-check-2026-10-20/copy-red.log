@@ -1,0 +1,70 @@
+
+ RUN  v4.1.11 /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs
+
+ ❯ tests/rain-center.test.ts (2 tests | 2 failed) 199ms
+     × copies the English sources shown by the English center 160ms
+     × removes the old success label and exposes full text after clipboard rejection 36ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 2 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/rain-center.test.ts > Rain center copy flow > copies the English sources shown by the English center
+AssertionError: expected '使用本地雨课堂 HeroUI 库：HeroUI 3.2.6，固定提交 e3…' to contain 'apps/docs/content/docs/en/react/compo…'
+
+- Expected
++ Received
+
+- apps/docs/content/docs/en/react/components/
++ 使用本地雨课堂 HeroUI 库：HeroUI 3.2.6，固定提交 e385ac202b2cdb94b1bf6fa76d32c31c8259cc5e。
++ 项目根目录：/Users/wenchengkai/CodexFile/hero ui-改造/
++ 先读取 AGENTS.md、docs/rain/ai/index.md 与 docs/rain/ai/usage-rules.md。
++ 本次组件：Card。
++ 公开导入：import {Card} from "@heroui/react";
++ 组件入口：packages/react/src/components/card/index.ts
++ 组件实现：packages/react/src/components/card/card.tsx
++ 样式：packages/styles/components/card.css
++ 可用组合部件：Card.Root, Card.Header, Card.Title, Card.Description, Card.Content, Card.Footer
++ 文档：apps/docs/content/docs/cn/react/components/(layout)/card.mdx
++ 示例：apps/docs/src/demos/cn/card/default.tsx
++ 示例：apps/docs/src/demos/cn/card/horizontal.tsx
++ 示例：apps/docs/src/demos/cn/card/variants.tsx
++ Story：packages/react/src/components/card/card.stories.tsx → components-layout-card--default
++ 主题唯一入口：packages/rain-theme/index.css；页面不硬编码品牌色、字体或圆角。
++ 优先在业务层组合，保持基础组件的键盘、焦点、错误与禁用机制。
++ 课堂练习批改页已审核，改造时保留其已确认行为；本轮暂不运行新重测试。
++ 请先根据以上资料确认 API，再处理我随后描述的业务需求。
+
+ ❯ tests/rain-center.test.ts:57:18
+     55|     const text = writeText.mock.calls[0]![0];
+     56|
+     57|     expect(text).toContain("apps/docs/content/docs/en/react/components…
+       |                  ^
+     58|     expect(text).toContain("apps/docs/src/demos/en/card/default.tsx");
+     59|     expect(text).not.toContain("apps/docs/src/demos/cn/");
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/2]⎯
+
+ FAIL  tests/rain-center.test.ts > Rain center copy flow > removes the old success label and exposes full text after clipboard rejection
+AssertionError: expected true to be false // Object.is equality
+
+- Expected
++ Received
+
+- false
++ true
+
+ ❯ tests/rain-center.test.ts:72:104
+     70|
+     71|     expect(container.querySelector('[role="status"]')?.textContent).to…
+     72|     expect([...container.querySelectorAll("button")].some(item => item…
+       |                                                                                                        ^
+     73|     expect(button("复制 AI 上下文")).toBeDefined();
+     74|     const fallback = container.querySelector("textarea");
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/2]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  2 failed (2)
+   Start at  00:53:13
+   Duration  3.01s (transform 1.01s, setup 0ms, import 2.08s, tests 199ms, environment 566ms)
+

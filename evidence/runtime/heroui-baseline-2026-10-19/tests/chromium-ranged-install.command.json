@@ -1,0 +1,233 @@
+{
+  "startedAt": "2026-10-19T09:01:43.967975+00:00",
+  "officialUrl": "https://storage.googleapis.com/chrome-for-testing-public/153.0.8010.12/mac-arm64/chrome-headless-shell-mac-arm64.zip",
+  "urlProvenance": "Official Playwright CDN redirect recorded in chromium-download-headers.txt",
+  "revision": "1243",
+  "expectedVersion": "153.0.8010.12",
+  "destination": "/Users/wenchengkai/Library/Caches/ms-playwright/chromium_headless_shell-1243",
+  "reason": "Single-stream curl was manually interrupted after 185 seconds because throughput was 50–80 KB/s; use 8 HTTP ranges to the identical public Google Storage artifact, verifying each Content-Range and the full official MD5.",
+  "commands": [
+    {
+      "name": "chromium-range-6",
+      "command": [
+        "curl",
+        "--location",
+        "--fail",
+        "--retry",
+        "1",
+        "--connect-timeout",
+        "15",
+        "--max-time",
+        "600",
+        "--range",
+        "74123469-86477380",
+        "--dump-header",
+        "/Users/wenchengkai/CodexFile/hero ui-改造/evidence/runtime/heroui-baseline-2026-10-19/tests/chromium-range-6.headers",
+        "--output",
+        "/var/folders/2h/mp7rp10x1plgfqrm94_0dcdm0000gn/T/heroui-browser-1243-ranged-mm2u78xm/6.part",
+        "https://storage.googleapis.com/chrome-for-testing-public/153.0.8010.12/mac-arm64/chrome-headless-shell-mac-arm64.zip"
+      ],
+      "shellDisplay": "curl --location --fail --retry 1 --connect-timeout 15 --max-time 600 --range 74123469-86477380 --dump-header '/Users/wenchengkai/CodexFile/hero ui-改造/evidence/runtime/heroui-baseline-2026-10-19/tests/chromium-range-6.headers' --output /var/folders/2h/mp7rp10x1plgfqrm94_0dcdm0000gn/T/heroui-browser-1243-ranged-mm2u78xm/6.part https://storage.googleapis.com/chrome-for-testing-public/153.0.8010.12/mac-arm64/chrome-headless-shell-mac-arm64.zip",
+      "exitCode": 0
+    },
+    {
+      "name": "chromium-range-5",
+      "command": [
+        "curl",
+        "--location",
+        "--fail",
+        "--retry",
+        "1",
+        "--connect-timeout",
+        "15",
+        "--max-time",
+        "600",
+        "--range",
+        "61769558-74123468",
+        "--dump-header",
+        "/Users/wenchengkai/CodexFile/hero ui-改造/evidence/runtime/heroui-baseline-2026-10-19/tests/chromium-range-5.headers",
+        "--output",
+        "/var/folders/2h/mp7rp10x1plgfqrm94_0dcdm0000gn/T/heroui-browser-1243-ranged-mm2u78xm/5.part",
+        "https://storage.googleapis.com/chrome-for-testing-public/153.0.8010.12/mac-arm64/chrome-headless-shell-mac-arm64.zip"
+      ],
+      "shellDisplay": "curl --location --fail --retry 1 --connect-timeout 15 --max-time 600 --range 61769558-74123468 --dump-header '/Users/wenchengkai/CodexFile/hero ui-改造/evidence/runtime/heroui-baseline-2026-10-19/tests/chromium-range-5.headers' --output /var/folders/2h/mp7rp10x1plgfqrm94_0dcdm0000gn/T/heroui-browser-1243-ranged-mm2u78xm/5.part https://storage.googleapis.com/chrome-for-testing-public/153.0.8010.12/mac-arm64/chrome-headless-shell-mac-arm64.zip",
+      "exitCode": 0
+    },
+    {
+      "name": "chromium-range-4",
+      "command": [
+        "curl",
+        "--location",
+        "--fail",
+        "--retry",
+        "1",
+        "--connect-timeout",
+        "15",
+        "--max-time",
+        "600",
+        "--range",
+        "49415646-61769557",
+        "--dump-header",
+        "/Users/wenchengkai/CodexFile/hero ui-改造/evidence/runtime/heroui-baseline-2026-10-19/tests/chromium-range-4.headers",
+        "--output",
+        "/var/folders/2h/mp7rp10x1plgfqrm94_0dcdm0000gn/T/heroui-browser-1243-ranged-mm2u78xm/4.part",
+        "https://storage.googleapis.com/chrome-for-testing-public/153.0.8010.12/mac-arm64/chrome-headless-shell-mac-arm64.zip"
+      ],
+      "shellDisplay": "curl --location --fail --retry 1 --connect-timeout 15 --max-time 600 --range 49415646-61769557 --dump-header '/Users/wenchengkai/CodexFile/hero ui-改造/evidence/runtime/heroui-baseline-2026-10-19/tests/chromium-range-4.headers' --output /var/folders/2h/mp7rp10x1plgfqrm94_0dcdm0000gn/T/heroui-browser-1243-ranged-mm2u78xm/4.part https://storage.googleapis.com/chrome-for-testing-public/153.0.8010.12/mac-arm64/chrome-headless-shell-mac-arm64.zip",
+      "exitCode": 0
+    },
+    {
+      "name": "chromium-range-3",
+      "command": [
+        "curl",
+        "--location",
+        "--fail",
+        "--retry",
+        "1",
+        "--connect-timeout",
+        "15",
+        "--max-time",
+        "600",
+        "--range",
+        "37061734-49415645",
+        "--dump-header",
+        "/Users/wenchengkai/CodexFile/hero ui-改造/evidence/runtime/heroui-baseline-2026-10-19/tests/chromium-range-3.headers",
+        "--output",
+        "/var/folders/2h/mp7rp10x1plgfqrm94_0dcdm0000gn/T/heroui-browser-1243-ranged-mm2u78xm/3.part",
+        "https://storage.googleapis.com/chrome-for-testing-public/153.0.8010.12/mac-arm64/chrome-headless-shell-mac-arm64.zip"
+      ],
+      "shellDisplay": "curl --location --fail --retry 1 --connect-timeout 15 --max-time 600 --range 37061734-49415645 --dump-header '/Users/wenchengkai/CodexFile/hero ui-改造/evidence/runtime/heroui-baseline-2026-10-19/tests/chromium-range-3.headers' --output /var/folders/2h/mp7rp10x1plgfqrm94_0dcdm0000gn/T/heroui-browser-1243-ranged-mm2u78xm/3.part https://storage.googleapis.com/chrome-for-testing-public/153.0.8010.12/mac-arm64/chrome-headless-shell-mac-arm64.zip",
+      "exitCode": 0
+    },
+    {
+      "name": "chromium-range-7",
+      "command": [
+        "curl",
+        "--location",
+        "--fail",
+        "--retry",
+        "1",
+        "--connect-timeout",
+        "15",
+        "--max-time",
+        "600",
+        "--range",
+        "86477381-98831292",
+        "--dump-header",
+        "/Users/wenchengkai/CodexFile/hero ui-改造/evidence/runtime/heroui-baseline-2026-10-19/tests/chromium-range-7.headers",
+        "--output",
+        "/var/folders/2h/mp7rp10x1plgfqrm94_0dcdm0000gn/T/heroui-browser-1243-ranged-mm2u78xm/7.part",
+        "https://storage.googleapis.com/chrome-for-testing-public/153.0.8010.12/mac-arm64/chrome-headless-shell-mac-arm64.zip"
+      ],
+      "shellDisplay": "curl --location --fail --retry 1 --connect-timeout 15 --max-time 600 --range 86477381-98831292 --dump-header '/Users/wenchengkai/CodexFile/hero ui-改造/evidence/runtime/heroui-baseline-2026-10-19/tests/chromium-range-7.headers' --output /var/folders/2h/mp7rp10x1plgfqrm94_0dcdm0000gn/T/heroui-browser-1243-ranged-mm2u78xm/7.part https://storage.googleapis.com/chrome-for-testing-public/153.0.8010.12/mac-arm64/chrome-headless-shell-mac-arm64.zip",
+      "exitCode": 0
+    },
+    {
+      "name": "chromium-range-0",
+      "command": [
+        "curl",
+        "--location",
+        "--fail",
+        "--retry",
+        "1",
+        "--connect-timeout",
+        "15",
+        "--max-time",
+        "600",
+        "--range",
+        "0-12353910",
+        "--dump-header",
+        "/Users/wenchengkai/CodexFile/hero ui-改造/evidence/runtime/heroui-baseline-2026-10-19/tests/chromium-range-0.headers",
+        "--output",
+        "/var/folders/2h/mp7rp10x1plgfqrm94_0dcdm0000gn/T/heroui-browser-1243-ranged-mm2u78xm/0.part",
+        "https://storage.googleapis.com/chrome-for-testing-public/153.0.8010.12/mac-arm64/chrome-headless-shell-mac-arm64.zip"
+      ],
+      "shellDisplay": "curl --location --fail --retry 1 --connect-timeout 15 --max-time 600 --range 0-12353910 --dump-header '/Users/wenchengkai/CodexFile/hero ui-改造/evidence/runtime/heroui-baseline-2026-10-19/tests/chromium-range-0.headers' --output /var/folders/2h/mp7rp10x1plgfqrm94_0dcdm0000gn/T/heroui-browser-1243-ranged-mm2u78xm/0.part https://storage.googleapis.com/chrome-for-testing-public/153.0.8010.12/mac-arm64/chrome-headless-shell-mac-arm64.zip",
+      "exitCode": 0
+    },
+    {
+      "name": "chromium-range-2",
+      "command": [
+        "curl",
+        "--location",
+        "--fail",
+        "--retry",
+        "1",
+        "--connect-timeout",
+        "15",
+        "--max-time",
+        "600",
+        "--range",
+        "24707823-37061733",
+        "--dump-header",
+        "/Users/wenchengkai/CodexFile/hero ui-改造/evidence/runtime/heroui-baseline-2026-10-19/tests/chromium-range-2.headers",
+        "--output",
+        "/var/folders/2h/mp7rp10x1plgfqrm94_0dcdm0000gn/T/heroui-browser-1243-ranged-mm2u78xm/2.part",
+        "https://storage.googleapis.com/chrome-for-testing-public/153.0.8010.12/mac-arm64/chrome-headless-shell-mac-arm64.zip"
+      ],
+      "shellDisplay": "curl --location --fail --retry 1 --connect-timeout 15 --max-time 600 --range 24707823-37061733 --dump-header '/Users/wenchengkai/CodexFile/hero ui-改造/evidence/runtime/heroui-baseline-2026-10-19/tests/chromium-range-2.headers' --output /var/folders/2h/mp7rp10x1plgfqrm94_0dcdm0000gn/T/heroui-browser-1243-ranged-mm2u78xm/2.part https://storage.googleapis.com/chrome-for-testing-public/153.0.8010.12/mac-arm64/chrome-headless-shell-mac-arm64.zip",
+      "exitCode": 0
+    },
+    {
+      "name": "chromium-range-1",
+      "command": [
+        "curl",
+        "--location",
+        "--fail",
+        "--retry",
+        "1",
+        "--connect-timeout",
+        "15",
+        "--max-time",
+        "600",
+        "--range",
+        "12353911-24707822",
+        "--dump-header",
+        "/Users/wenchengkai/CodexFile/hero ui-改造/evidence/runtime/heroui-baseline-2026-10-19/tests/chromium-range-1.headers",
+        "--output",
+        "/var/folders/2h/mp7rp10x1plgfqrm94_0dcdm0000gn/T/heroui-browser-1243-ranged-mm2u78xm/1.part",
+        "https://storage.googleapis.com/chrome-for-testing-public/153.0.8010.12/mac-arm64/chrome-headless-shell-mac-arm64.zip"
+      ],
+      "shellDisplay": "curl --location --fail --retry 1 --connect-timeout 15 --max-time 600 --range 12353911-24707822 --dump-header '/Users/wenchengkai/CodexFile/hero ui-改造/evidence/runtime/heroui-baseline-2026-10-19/tests/chromium-range-1.headers' --output /var/folders/2h/mp7rp10x1plgfqrm94_0dcdm0000gn/T/heroui-browser-1243-ranged-mm2u78xm/1.part https://storage.googleapis.com/chrome-for-testing-public/153.0.8010.12/mac-arm64/chrome-headless-shell-mac-arm64.zip",
+      "exitCode": 0
+    },
+    {
+      "name": "chromium-range-extract",
+      "command": [
+        "unzip",
+        "-q",
+        "/var/folders/2h/mp7rp10x1plgfqrm94_0dcdm0000gn/T/heroui-browser-1243-ranged-mm2u78xm/chrome-headless-shell-mac-arm64.zip",
+        "-d",
+        "/Users/wenchengkai/Library/Caches/ms-playwright/chromium_headless_shell-1243"
+      ],
+      "shellDisplay": "unzip -q /var/folders/2h/mp7rp10x1plgfqrm94_0dcdm0000gn/T/heroui-browser-1243-ranged-mm2u78xm/chrome-headless-shell-mac-arm64.zip -d /Users/wenchengkai/Library/Caches/ms-playwright/chromium_headless_shell-1243",
+      "exitCode": 0
+    },
+    {
+      "name": "chromium-range-register",
+      "command": [
+        "pnpm",
+        "--filter",
+        "@heroui/testing",
+        "exec",
+        "playwright",
+        "install",
+        "--only-shell",
+        "chromium"
+      ],
+      "shellDisplay": "pnpm --filter @heroui/testing exec playwright install --only-shell chromium",
+      "exitCode": 0
+    }
+  ],
+  "download": {
+    "bytes": 98831293,
+    "sha256": "89d80a6d26ccd0ccfd51e22d9e1297283862af2b0cd91dce07459b35ca0059f2",
+    "officialGoogleStorageMd5Base64": "dew3XY0eautubimRYnqH9w==",
+    "actualMd5Base64": "dew3XY0eautubimRYnqH9w==",
+    "md5Matches": true
+  },
+  "actualVersionOutput": "Google Chrome for Testing 153.0.8010.12",
+  "exitCode": 0,
+  "finishedAt": "2026-10-19T09:08:27.129002+00:00",
+  "durationSeconds": 403.17
+}

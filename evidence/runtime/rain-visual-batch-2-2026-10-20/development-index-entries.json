@@ -1,0 +1,32 @@
+[
+  {
+    "type": "story",
+    "subtype": "story",
+    "id": "components-theme-state-review--calendar-navigation",
+    "name": "日历与年份入口",
+    "title": "Components/Theme/State Review",
+    "importPath": "./.storybook/stories/rain-state-review-calendar.stories.tsx",
+    "tags": [
+      "dev",
+      "test",
+      "manifest",
+      "autodocs"
+    ],
+    "exportName": "CalendarNavigation"
+  },
+  {
+    "type": "story",
+    "subtype": "story",
+    "id": "components-theme-state-review--menu",
+    "name": "菜单状态",
+    "title": "Components/Theme/State Review",
+    "importPath": "./.storybook/stories/rain-state-review-menu.stories.tsx",
+    "tags": [
+      "dev",
+      "test",
+      "manifest",
+      "autodocs"
+    ],
+    "exportName": "Menu"
+  }
+]

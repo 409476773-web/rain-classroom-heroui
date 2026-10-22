@@ -1,0 +1,180 @@
+{
+  "artifacts": [
+    {
+      "archive": "heroui-react-3.2.6-rain.1.tgz",
+      "name": "@heroui/react",
+      "sha256": "838cc882f5e227e01a655332a46b8b0d462c4a9df86eab24bedbf9b8e5357cc4",
+      "version": "3.2.6-rain.1"
+    },
+    {
+      "archive": "heroui-styles-3.2.6-rain.1.tgz",
+      "name": "@heroui/styles",
+      "sha256": "057877bc6f650327f018fdcdc02fcc0a343be34a01fab0fb6ab0583c4e6ad4d2",
+      "version": "3.2.6-rain.1"
+    },
+    {
+      "archive": "rain-classroom-heroui-theme-0.1.2.tgz",
+      "name": "@rain-classroom/heroui-theme",
+      "sha256": "5d097da6470587dcab8b4e0fb2c26f026499b2e6b54435009d158924d3243d01",
+      "version": "0.1.2"
+    }
+  ],
+  "baseArchives": [
+    {
+      "archive": "delivery/rain-heroui-local-2026-10-20/packages/heroui-react-3.2.6.tgz",
+      "name": "@heroui/react",
+      "sha256": "3b32f4fbfc5c840f5efad1067d6c3bf83a1557aae44fef549c6b31336a35c123",
+      "version": "3.2.6"
+    },
+    {
+      "archive": "delivery/rain-heroui-local-2026-10-20/packages/heroui-styles-3.2.6.tgz",
+      "name": "@heroui/styles",
+      "sha256": "2815eba93b7a66edd49067850306938d954a09d0352df53ad1d015d418e47c82",
+      "version": "3.2.6"
+    }
+  ],
+  "baseVersion": "3.2.6",
+  "compilation": [
+    {
+      "baselineArchiveModuleSha256": "418e528e12f98236b8290019f708b4e4bec1b465e3681a6298986c4a7f6be472",
+      "baselineMatchesArchive": true,
+      "baselineModuleSha256": "418e528e12f98236b8290019f708b4e4bec1b465e3681a6298986c4a7f6be472",
+      "declarationChanges": [],
+      "entry": "packages/react/src/components/tabs/tabs.tsx",
+      "importCalibration": {
+        "baseline": {
+          "afterSha256": "418e528e12f98236b8290019f708b4e4bec1b465e3681a6298986c4a7f6be472",
+          "beforeSha256": "22723ab54ed1bedb0b365cd2fe64f01f9d8327121e25b051b24e67a0adec36f6",
+          "rules": [
+            "React default binding React → React__default",
+            "RAC Tabs named imports ordered as the verified base archive"
+          ]
+        },
+        "patched": {
+          "afterSha256": "e367e54b0ca744771841893cc87b9d4fa61daaebbd8d65b890ef54bd1e0e1327",
+          "beforeSha256": "b30cfa86cdc3e77eb3a780a5862e551ea1d8aab9011f3fba2bb9cef1b9e19375",
+          "rules": [
+            "React default binding React → React__default",
+            "RAC Tabs named imports ordered as the verified base archive"
+          ]
+        }
+      },
+      "jsChanges": [
+        "components/tabs/tabs.js"
+      ],
+      "name": "@heroui/react",
+      "outputModules": [
+        "components/icons.js",
+        "components/scroll-shadow/index.js",
+        "components/scroll-shadow/scroll-shadow.js",
+        "components/scroll-shadow/use-scroll-shadow.js",
+        "components/tabs/tabs.js",
+        "hooks/use-safe-layout-effect.js",
+        "utils/collection-prop-injection.js",
+        "utils/compose.js",
+        "utils/dom.js",
+        "utils/logger.js"
+      ],
+      "sharedModulesPreserved": true,
+      "toolchain": "Upstream Rollup/Babel, narrowed entry; upstream directive postprocess"
+    },
+    {
+      "baselineArchiveModuleSha256": "8c09e01b499396714b30e3f8f6e840b276485f3f2a35284f4a670c2e35a164a0",
+      "baselineMatchesArchive": true,
+      "baselineModuleSha256": "8c09e01b499396714b30e3f8f6e840b276485f3f2a35284f4a670c2e35a164a0",
+      "declarationChanges": [
+        "components/tabs/tabs.styles.d.ts",
+        "components/tabs/tabs.styles.d.ts.map"
+      ],
+      "entry": "packages/styles/src/components/tabs/tabs.styles.ts",
+      "importCalibration": null,
+      "jsChanges": [
+        "components/tabs/tabs.styles.js"
+      ],
+      "name": "@heroui/styles",
+      "outputModules": [
+        "components/tabs/tabs.styles.js"
+      ],
+      "sharedModulesPreserved": true,
+      "toolchain": "Upstream Rollup/TypeScript, narrowed entry and TS program"
+    }
+  ],
+  "compiledAt": "2026-10-20T13:06:19.465Z",
+  "limitations": [
+    "Only Tabs entries and their reachable modules/declarations were compiled; no full build or test sweep.",
+    "Existing local compiler/dependencies reused; no network installation or publication."
+  ],
+  "lockfileSha256": "1ea1be22f0b2304dc81d10f8f4bdb2562f9a4444b77c5cb68928305c69dac815",
+  "patchId": "rain-tabs-title-table-2026-10-20",
+  "patchSha256": "54725c17271ea8b324fed99e0de238b4eeee77e99ad6df990af1506cee3cef66",
+  "profileSha256": "522d6da4532f0078b5f4ed00ac3885c967f5171589b64091efaafbc9d6eaf471",
+  "replacements": [
+    {
+      "afterSha256": "e367e54b0ca744771841893cc87b9d4fa61daaebbd8d65b890ef54bd1e0e1327",
+      "beforeSha256": "418e528e12f98236b8290019f708b4e4bec1b465e3681a6298986c4a7f6be472",
+      "file": "dist/components/tabs/tabs.js",
+      "name": "@heroui/react"
+    },
+    {
+      "afterSha256": "e5ee12e7d5bb0bebea65675565e8b16334d4a759bb550715b65eb91128ad3c3b",
+      "beforeSha256": "dcfc10fe5ca459231c49dbac351e74a0484a3f4a4438490a3557577160848b9b",
+      "file": "package.json",
+      "name": "@heroui/react"
+    },
+    {
+      "afterSha256": "fb0c2a48d38f855bd1e86052946ce91d2d3d94cd9c1fef82aa3af3dc2f8e2737",
+      "beforeSha256": "6d19c04afe23c4603287a663c01199a295103b5acc3ae9b328d19efbd1228d14",
+      "file": "dist/components/tabs/tabs.styles.d.ts",
+      "name": "@heroui/styles"
+    },
+    {
+      "afterSha256": "10cb98fc2fa022a2be8fe97cc9faa000902972b79a0436a8a7709212b3006478",
+      "beforeSha256": "4bd13efc97331003b3b1a7eb3405e0617b15473534440e53bfb725d14aea42c4",
+      "file": "dist/components/tabs/tabs.styles.d.ts.map",
+      "name": "@heroui/styles"
+    },
+    {
+      "afterSha256": "b94dd7050e84eafce838d582d9c83c3df4d2d5cfea3304824c44628466f0ece3",
+      "beforeSha256": "8c09e01b499396714b30e3f8f6e840b276485f3f2a35284f4a670c2e35a164a0",
+      "file": "dist/components/tabs/tabs.styles.js",
+      "name": "@heroui/styles"
+    },
+    {
+      "afterSha256": "649fca2cdddd092c96b56534173d7e3e15c6ae543e89eb36319c1c4832f7c5b6",
+      "beforeSha256": "9736b00140df636d947bcf7b0a1b522bacae60a72eff3260498316df947b3694",
+      "file": "package.json",
+      "name": "@heroui/styles"
+    },
+    {
+      "afterSha256": "5e5297e111e4260f0b7c71ad47a3bee65b439c4e72e181458e26720475b4a010",
+      "beforeSha256": "c052f62e55843d46b0ee21d5a691d1ec40b7f9afded098f8c9f6cca12a6ceecd",
+      "file": "src/components/tabs/tabs.styles.ts",
+      "name": "@heroui/styles"
+    }
+  ],
+  "sources": [
+    {
+      "file": "packages/react/src/components/tabs/tabs.tsx",
+      "sha256": "57f77ccefe0fb3af69d8d00c48b9518f5f268d07599b1f687c27dc090a1b7eb5",
+      "upstreamSha256": "e3db8ced47e18943ed6ddf38da9155db04ddf4a6a371dc0c65737e957b96de37"
+    },
+    {
+      "file": "packages/styles/src/components/tabs/tabs.styles.ts",
+      "sha256": "5e5297e111e4260f0b7c71ad47a3bee65b439c4e72e181458e26720475b4a010",
+      "upstreamSha256": "c052f62e55843d46b0ee21d5a691d1ec40b7f9afded098f8c9f6cca12a6ceecd"
+    }
+  ],
+  "staging": "/private/var/folders/2h/mp7rp10x1plgfqrm94_0dcdm0000gn/T/rain-tabs-patch-cZtRZG",
+  "themeSourceSha256": "2349702bace822f597b8954e6dc312f7a70a69ed7b65e5c2cee25e672c3e69c6",
+  "toolVersions": {
+    "rollup": "4.63.3",
+    "@rollup/plugin-babel": "6.1.0",
+    "@rollup/plugin-typescript": "12.3.0",
+    "@babel/core": "7.29.6",
+    "@babel/preset-react": "7.28.5",
+    "@babel/preset-typescript": "7.28.5",
+    "typescript": "5.9.3"
+  },
+  "upstreamCommit": "e385ac202b2cdb94b1bf6fa76d32c31c8259cc5e",
+  "workspaceDistPreserved": true
+}

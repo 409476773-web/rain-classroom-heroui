@@ -1,0 +1,118 @@
+{
+  "status": "passed",
+  "temporaryConsumer": "/var/folders/2h/mp7rp10x1plgfqrm94_0dcdm0000gn/T/rain-heroui-consumer-TB5OeN/consumer",
+  "node": "v24.13.0",
+  "archiveIdentity": {
+    "@heroui/styles": {
+      "sha256": "057877bc6f650327f018fdcdc02fcc0a343be34a01fab0fb6ab0583c4e6ad4d2",
+      "verifiedFiles": 780
+    },
+    "@heroui/react": {
+      "sha256": "838cc882f5e227e01a655332a46b8b0d462c4a9df86eab24bedbf9b8e5357cc4",
+      "verifiedFiles": 420
+    },
+    "@rain-classroom/heroui-theme": {
+      "sha256": "5d097da6470587dcab8b4e0fb2c26f026499b2e6b54435009d158924d3243d01",
+      "verifiedFiles": 3
+    }
+  },
+  "esm": {
+    "@heroui/styles": 85,
+    "@heroui/react": 87,
+    "@rain-classroom/heroui-theme": 0
+  },
+  "successfulImports": 172,
+  "failedImports": 0,
+  "cjs": {
+    "declaredRequireEntries": 0,
+    "checked": 0,
+    "reason": "These three packages declare no require condition; ESM default branches are not presented as a separate CJS pass"
+  },
+  "nonJavaScriptExcluded": [
+    {
+      "package": "@heroui/styles",
+      "subpath": "./css",
+      "target": "./dist/index.css",
+      "reason": "non-JavaScript export; not imported"
+    },
+    {
+      "package": "@heroui/styles",
+      "subpath": "./base",
+      "target": "./dist/base/base.css",
+      "reason": "non-JavaScript export; not imported"
+    },
+    {
+      "package": "@heroui/styles",
+      "subpath": "./base/*.css",
+      "target": "./dist/base/*.css",
+      "reason": "non-JavaScript export; not imported"
+    },
+    {
+      "package": "@heroui/styles",
+      "subpath": "./components/*.css",
+      "target": "./dist/components/*.css",
+      "reason": "non-JavaScript export; not imported"
+    },
+    {
+      "package": "@heroui/styles",
+      "subpath": "./themes/default",
+      "target": "./dist/themes/default/index.css",
+      "reason": "non-JavaScript export; not imported"
+    },
+    {
+      "package": "@heroui/styles",
+      "subpath": "./themes/*/*.css",
+      "target": "./dist/themes/*/*.css",
+      "reason": "non-JavaScript export; not imported"
+    },
+    {
+      "package": "@heroui/styles",
+      "subpath": "./themes/*.css",
+      "target": "./dist/themes/*.css",
+      "reason": "non-JavaScript export; not imported"
+    },
+    {
+      "package": "@heroui/styles",
+      "subpath": "./utilities",
+      "target": "./dist/utilities/index.css",
+      "reason": "non-JavaScript export; not imported"
+    },
+    {
+      "package": "@heroui/styles",
+      "subpath": "./variants",
+      "target": "./dist/variants/index.css",
+      "reason": "non-JavaScript export; not imported"
+    },
+    {
+      "package": "@heroui/styles",
+      "subpath": "./package.json",
+      "target": "./package.json",
+      "reason": "non-JavaScript export; not imported"
+    },
+    {
+      "package": "@heroui/react",
+      "subpath": "./package.json",
+      "target": "./package.json",
+      "reason": "non-JavaScript export; not imported"
+    },
+    {
+      "package": "@heroui/react",
+      "subpath": "./styles",
+      "target": "./dist/styles.css",
+      "reason": "non-JavaScript export; not imported"
+    },
+    {
+      "package": "@rain-classroom/heroui-theme",
+      "subpath": ".",
+      "target": "./index.css",
+      "reason": "non-JavaScript export; not imported"
+    }
+  ],
+  "frozenDeliveryFilesUnchanged": 23,
+  "limitations": [
+    "Third-party dependencies reuse existing local installations; this is not a clean install",
+    "Imports check resolution and module evaluation, not rendering, component behavior, browser compatibility, RSC, or production readiness",
+    "CSS, type declarations, metadata and wildcard CSS export patterns are excluded from JavaScript import counts",
+    "Imports run serially in one Node process and may reuse its normal module cache"
+  ]
+}

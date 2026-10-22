@@ -1,0 +1,53 @@
+{
+  "at": "2026-10-21T00:02:20.370747",
+  "files": [
+    {
+      "path": "packages/rain-theme/index.css",
+      "sha256": "2349702bace822f597b8954e6dc312f7a70a69ed7b65e5c2cee25e672c3e69c6"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "sha256": "1ea1be22f0b2304dc81d10f8f4bdb2562f9a4444b77c5cb68928305c69dac815"
+    },
+    {
+      "path": "packages/react/src/components/tabs/tabs.tsx",
+      "sha256": "57f77ccefe0fb3af69d8d00c48b9518f5f268d07599b1f687c27dc090a1b7eb5"
+    },
+    {
+      "path": "packages/styles/src/components/tabs/tabs.styles.ts",
+      "sha256": "5e5297e111e4260f0b7c71ad47a3bee65b439c4e72e181458e26720475b4a010"
+    },
+    {
+      "path": "packages/storybook/.storybook/globals.css",
+      "sha256": "49cd02d4a6e36b5bd6db4b55243e8b79ce2df06e07d270c5ba272cca15407a72"
+    },
+    {
+      "path": "docs/rain/inventory.json",
+      "sha256": "866be0bca4d7ff0c955e4fb6d09fb540372537715b49bf3cf717f0113dd3366b"
+    },
+    {
+      "path": "apps/docs/src/generated/rain-catalog.json",
+      "sha256": "38bafba52404cdb8dd7244cf6c6b22c5d1e5eba1a0820f9e425dd4a70d8ecc4c"
+    },
+    {
+      "path": "delivery/rain-heroui-local-2026-10-20-r2/report.json",
+      "sha256": "e45b9f2b630d9c94ffe166758665d6be30b087dd3af92d3bb3a981389cb448bf"
+    },
+    {
+      "path": "delivery/rain-heroui-local-2026-10-20-r2/verification-closeout.json",
+      "sha256": "a6b1679335f48d23a719e8cac468520bda8fc82f83c7154f3761ff7be9c98b54"
+    },
+    {
+      "path": "delivery/rain-heroui-local-2026-10-20-r2/preview-process.json",
+      "sha256": "f6a35ae8e4ad1b1fd12985a0c295776a5943f33e836e38dcd4da785d0323302c"
+    },
+    {
+      "path": "delivery/rain-heroui-local-2026-10-20-r2/patch-provenance.json",
+      "sha256": "6d7c0c76672040e33122063862b1d644b8b53c3babacfb3c81851fe5978a1e09"
+    },
+    {
+      "path": "delivery/rain-heroui-local-2026-10-20-r2/manifest.json",
+      "sha256": "af0a809b1087f890d51771b806da21f82dae2675ae91c3d68e83ab8757cd828b"
+    }
+  ]
+}

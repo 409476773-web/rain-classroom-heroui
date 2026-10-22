@@ -1,0 +1,55 @@
+{
+  "nodes": [
+    {
+      "animation": "none",
+      "bg": "rgb(237, 243, 250)",
+      "busy": null,
+      "class": "avatar__fallback avatar__fallback--default",
+      "color": "rgb(20, 35, 60)",
+      "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+      "max": null,
+      "min": null,
+      "name": null,
+      "now": null,
+      "opacity": "1",
+      "role": null,
+      "stroke": "none",
+      "text": "JD"
+    },
+    {
+      "animation": "none",
+      "bg": "rgb(237, 243, 250)",
+      "busy": null,
+      "class": "avatar__fallback avatar__fallback--default",
+      "color": "rgb(20, 35, 60)",
+      "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+      "max": null,
+      "min": null,
+      "name": null,
+      "now": null,
+      "opacity": "1",
+      "role": null,
+      "stroke": "none",
+      "text": ""
+    },
+    {
+      "animation": "none",
+      "bg": "rgb(237, 243, 250)",
+      "busy": null,
+      "class": "avatar__fallback avatar__fallback--default border-none bg-gradient-to-br from-pink-500 to-purple-500 text-white",
+      "color": "rgb(255, 255, 255)",
+      "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+      "max": null,
+      "min": null,
+      "name": null,
+      "now": null,
+      "opacity": "1",
+      "role": null,
+      "stroke": "none",
+      "text": "GB"
+    }
+  ],
+  "rain": "light",
+  "text": "JD\nGB",
+  "url": "http://127.0.0.1:6006/iframe.html?id=components-media-avatar--fallback&viewMode=story&globals=heroui-theme%3Arain-light"
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "index": 0,
+    "className": "table-root table-root--primary",
+    "property": "backgroundColor",
+    "before": "rgb(237, 243, 250)",
+    "after": "rgb(235, 239, 255)"
+  },
+  {
+    "index": 1,
+    "className": "table__header",
+    "property": "backgroundColor",
+    "before": "rgb(237, 243, 250)",
+    "after": "rgb(235, 239, 255)"
+  },
+  {
+    "index": 28,
+    "className": "table__column",
+    "property": "backgroundColor",
+    "before": "rgb(237, 243, 250)",
+    "after": "rgb(235, 239, 255)"
+  },
+  {
+    "index": 29,
+    "className": "table__column",
+    "property": "backgroundColor",
+    "before": "rgb(237, 243, 250)",
+    "after": "rgb(235, 239, 255)"
+  },
+  {
+    "index": 30,
+    "className": "table__column",
+    "property": "backgroundColor",
+    "before": "rgb(237, 243, 250)",
+    "after": "rgb(235, 239, 255)"
+  },
+  {
+    "index": 31,
+    "className": "table__column",
+    "property": "backgroundColor",
+    "before": "rgb(237, 243, 250)",
+    "after": "rgb(235, 239, 255)"
+  }
+]

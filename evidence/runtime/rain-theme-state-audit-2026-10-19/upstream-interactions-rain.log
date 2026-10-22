@@ -1,0 +1,9 @@
+
+ RUN  v4.1.11 /Users/wenchengkai/CodexFile/hero ui-改造/packages/react
+
+
+ Test Files  12 passed (12)
+      Tests  47 passed (47)
+   Start at  18:16:13
+   Duration  6.46s (transform 0ms, setup 4.14s, import 12.72s, tests 11.15s, environment 0ms)
+

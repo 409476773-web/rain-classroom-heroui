@@ -1,0 +1,8 @@
+{
+  "background": "oklch(1 0 0)",
+  "dialogRadius": "24px",
+  "footerWrap": "wrap",
+  "headingPaddingEnd": "32px",
+  "placeholderColor": "oklch(0.5517 0.0138 285.94)",
+  "theme": null
+}

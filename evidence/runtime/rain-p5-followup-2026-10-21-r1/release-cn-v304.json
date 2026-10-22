@@ -1,0 +1,50 @@
+{
+  "inputs": [],
+  "missing": [],
+  "previews": 1,
+  "text": "概述\n\n所有版本\n\n版本列表\n\nv3.2.6\nv3.2.5\nv3.2.4\nv3.2.3\nv3.2.2\nv3.2.1\nv3.2.0\nv3.1.0\nv3.0.5\nv3.0.4\nv3.0.3\nv3.0.2\nHeroUI v3 正式发布\nv3.0.0-rc.1\nv3.0.0-beta.8\nv3.0.0-beta.7\nv3.0.0-beta.6\nv3.0.0-beta.5\nv3.0.0-beta.4\nv3.0.0-beta.3\nv3.0.0-beta.2\nv3.0.0-beta.1\nv3.0.0-alpha.35\nv3.0.0-alpha.34\nv3.0.0-alpha.33\nv3.0.0-alpha.32\nHeroUI\nv3.2.6\n搜索\n⌘\nK\n主题\n27.7k\n快速开始\n雨课堂\n组件\n业务组合\n发布说明\n迁移\n网页\n移动端\nv3.0.4\n复制 Markdown\n\n全新 Typography 组件、文档主题选择器、采用 min() 上限约束的圆角设计令牌、Table 聚焦环重构，以及多项 bug 修复。\n\n2026 年 5 月\n\n补丁版本：从 HeroUI Pro 移植的全新 Typography 复合组件；文档站新增主题选择器，可在不同主题下预览各组件；在约 45 个组件 CSS 文件中将圆角设计令牌改为使用 min() 上限约束；重做 Table 的聚焦环；并修复 Checkbox、Autocomplete、Tooltip 与表单字段内边距等问题。\n\n安装\n\n升级到最新版本：\n\nnpm\npnpm\nyarn\nbun\nnpm i @heroui/styles@latest @heroui/react@latest\n\n正在使用 AI 助手？ 只需对它说一句「Hey Cursor，把 HeroUI 升级到最新版本」，AI 助手就会自动对比版本并应用必要的变更。了解更多请参阅 HeroUI MCP 服务器。\n\n新增功能\nTypography 组件\n\n用于结构化排版的新复合组件，从 HeroUI Pro 移植 (#6479)。会根据子组件或 type prop 自动渲染正确的 HTML 元素——<h1> 至 <h6>、<p> 或 <code>。\n\nh1\n36px / 600 / 1.11 / tight\n打造更出色的界面\nh2\n30px / 600 / 1.17 / tight\n为智能时代而生\nh3\n24px / 600 / 1.25 / tight\n按您的条件定价\nh4\n20px / 600 / 1.33 / tight\n申请创业计划\nh5\n18px / 600 / 1.39 / tight\n卡片标题\nh6\n16px / 600 / 1.50 / tight\n较小的功能标题\nbody\n16px / 400 / 1.75\n\n用于文档、营销文案与描述的主要正文。\n\nbody-sm\n14px / 400 / 1.50\n\n次要正文、表格单元格、导航与侧边栏项。\n\nbody-xs\n12px / 400 / 1.25\n\n说明文字、徽章、辅助文本与细则。\n\ncode\n14px / mono\npnpm add @heroui/react\nimport {Typography} from \"@heroui/react\";\nconst scale = [\n  {\n    label: \"h1\",\nExpand code\n\n子组件：Typography.Heading、Typography.Paragraph、Typography.Code、Typography.Prose。\n\n各子组件支持的 prop：align、color、weight、truncate。Typography.Heading 支持 level（1–6）。Typography.Paragraph 支持 size（\"base\"、\"sm\"、\"xs\"）。\n\n使用 Typography.Prose 包裹混合内容以获得自动的文章体间距：\n\n<Typography.Prose>\n  <Typography.Heading level={3}>快速开始</Typography.Heading>\n  <Typography.Paragraph>安装依赖包并引入组件。</Typography.Paragraph>\n</Typography.Prose>\n文档主题选择器\n\n文档站现内置主题选择器，可在浅色、深色、粗野主义等多种主题下预览每个组件。你的选择会保存到 localStorage，在会话之间保持 (#6471)。\n\n圆角设计令牌\n\n约 45 个组件 CSS 文件中的 rounded-full 与硬编码 border-radius 现均通过 min() 限制计算后的半径 (#6465)。当用户设置过大的自定义圆角主题时，组件外观不再失真——半径在即将超过元素尺寸时停止增大。\n\nTable 聚焦环重构\n\n表格行的聚焦指示改为在每个单元格上使用内阴影分别绘制，而非在整行使用单一 box-shadow。聚焦环在所有单元格之间视觉上保持连续，并在虚拟化表格包装器中正常工作。\n\nBug 修复\nCheckbox：移除选中/半选指示态中硬编码的 accent-hover 背景 (#6487)\nAutocomplete：isDisabled 现通过 context 从根节点传递到 Trigger 与 ClearButton (#6443)\nDescription：移除表单字段中说明文字的多余水平内边距（textfield、color-field、date-field、number-field、search-field、time-field） (#6484)\nTooltip：内边距由 px-2 py-1 调整为 p-2，圆角改为使用设计令牌 (#6481)\nTheme Builder：修复 accent-foreground 取值被对调的问题 (#6401)\n柔和色对比度：浅色强调主题（Sky、Lavender、Mint）下，accent-soft-foreground 现使用更深一级的色阶，修复次要按钮、Chip 与 Badge 上文字几乎不可见的问题。共享主题现从 --accent-soft-foreground 读取，并回退到 --accent\n链接\n组件文档\nFigma Kit v3\nGitHub 仓库\nGitHub PR #6483\n贡献者\n\n感谢每一位为本次发布做出贡献的开发者！\n\nW\nwingkwong\n@wingkwong\nD\ndiegonzs\n@diegonzs\nJ\njrgarciadev\n@jrgarciadev\n\nv3.0.5\n\nText 重命名为 Typography（破坏性变更），颜色令牌重构为无前缀源变量，修复 Checkbox 与 Radio 边框对齐，并新增 CLI 文档页。\n\nv3.0.3\n\n升级到 RAC 1.17（依赖减少 90%）、Table 支持可展开行、采用 Apache 2.0 协议、新增 useTheme Hook、DOM 多态 render-prop API，以及若干 bug 修复。\n\n本页目录\n安装\n新增功能\nTypography 组件\n文档主题选择器\n圆角设计令牌\nTable 聚焦环重构\nBug 修复\n链接\n贡献者\nHero 新闻通讯\n订阅",
+  "title": "v3.0.4 | HeroUI",
+  "typography": [
+    {
+      "tag": "H1",
+      "text": "打造更出色的界面"
+    },
+    {
+      "tag": "H2",
+      "text": "为智能时代而生"
+    },
+    {
+      "tag": "H3",
+      "text": "按您的条件定价"
+    },
+    {
+      "tag": "H4",
+      "text": "申请创业计划"
+    },
+    {
+      "tag": "H5",
+      "text": "卡片标题"
+    },
+    {
+      "tag": "H6",
+      "text": "较小的功能标题"
+    },
+    {
+      "tag": "P",
+      "text": "用于文档、营销文案与描述的主要正文。"
+    },
+    {
+      "tag": "P",
+      "text": "次要正文、表格单元格、导航与侧边栏项。"
+    },
+    {
+      "tag": "P",
+      "text": "说明文字、徽章、辅助文本与细则。"
+    },
+    {
+      "tag": "CODE",
+      "text": "pnpm add @heroui/react"
+    }
+  ],
+  "url": "http://127.0.0.1:3100/cn/docs/react/releases/v3-0-4"
+}

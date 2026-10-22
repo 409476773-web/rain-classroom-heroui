@@ -1,0 +1,275 @@
+{
+  "active": {
+    "class": "menu-item menu-item--default",
+    "label": null,
+    "role": "menuitem",
+    "tag": "DIV"
+  },
+  "nodes": [
+    {
+      "checked": false,
+      "class": "button button--icon-only button--md button--secondary",
+      "disabled": false,
+      "expanded": "true",
+      "focus": null,
+      "invalid": null,
+      "name": "Menu",
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "oklab(0.938003 -0.00363657 -0.0121525)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(15, 85, 223)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "40px",
+        "opacity": "1",
+        "outline": "rgb(15, 85, 223) none 3px",
+        "radius": "10px",
+        "width": "40px"
+      },
+      "tag": "BUTTON",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "iconify iconify--gravity-ui outline-none",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "img",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(15, 85, 223)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "20px",
+        "opacity": "1",
+        "outline": "rgb(15, 85, 223) none 3px",
+        "radius": "0px",
+        "width": "20px"
+      },
+      "tag": "svg",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "dropdown__popover min-w-[220px]",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "dialog",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgb(255, 255, 255)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "213px",
+        "opacity": "0.573886",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "16px",
+        "width": "220px"
+      },
+      "tag": "DIV",
+      "text": "ActionsNew fileCreate a new file⌘NEdit fileMake changes⌘EDanger zoneDelete fileMove to trash⌘⇧D",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "dropdown__menu",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "menu",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "213px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "220px"
+      },
+      "tag": "DIV",
+      "text": "ActionsNew fileCreate a new file⌘NEdit fileMake changes⌘EDanger zoneDelete fileMove to trash⌘⇧D",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "menu-section",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "group",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "122px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "208px"
+      },
+      "tag": "SECTION",
+      "text": "ActionsNew fileCreate a new file⌘NEdit fileMake changes⌘E",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "menu-item menu-item--default",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "menuitem",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "48px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "16px",
+        "width": "208px"
+      },
+      "tag": "DIV",
+      "text": "New fileCreate a new file⌘N",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "menu-item menu-item--default",
+      "disabled": false,
+      "expanded": null,
+      "focus": "true",
+      "invalid": null,
+      "name": null,
+      "role": "menuitem",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "48px",
+        "opacity": "1",
+        "outline": "rgb(0, 95, 204) none 1px",
+        "radius": "16px",
+        "width": "208px"
+      },
+      "tag": "DIV",
+      "text": "Edit fileMake changes⌘E",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "menu-section",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "group",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "74px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "208px"
+      },
+      "tag": "SECTION",
+      "text": "Danger zoneDelete fileMove to trash⌘⇧D",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "menu-item menu-item--danger",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "menuitem",
+      "selected": null,
+      "state": {
+        "disabled": "true",
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "48px",
+        "opacity": "0.5",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "16px",
+        "width": "208px"
+      },
+      "tag": "DIV",
+      "text": "Delete fileMove to trash⌘⇧D",
+      "value": ""
+    }
+  ],
+  "rain": "light",
+  "text": "Actions\nNew file\nCreate a new file\n⌘\nN\nEdit file\nMake changes\n⌘\nE\nDanger zone\nDelete file\nMove to trash\n⌘\n⇧\nD",
+  "theme": "light",
+  "url": "http://127.0.0.1:6006/iframe.html?id=components-collections-dropdown--with-disabled-items&viewMode=story&globals=heroui-theme%3Arain-light"
+}

@@ -1,0 +1,246 @@
+{
+  "active": {
+    "class": "sb-main-centered sb-show-main",
+    "label": null,
+    "role": null,
+    "tag": "BODY"
+  },
+  "nodes": [
+    {
+      "checked": false,
+      "class": "pagination pagination--md",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "pagination",
+      "role": "navigation",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "72px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "640px"
+      },
+      "tag": "NAV",
+      "text": "Showing 1-10 of 120 resultsPrevious12…12Next",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "pagination__link pagination__link--nav",
+      "disabled": true,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": "true",
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "0.5",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "24px",
+        "width": "98.7422px"
+      },
+      "tag": "BUTTON",
+      "text": "Previous",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "presentation",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "16px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "16px"
+      },
+      "tag": "svg",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "pagination__link",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgb(237, 243, 250)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "24px",
+        "width": "36px"
+      },
+      "tag": "BUTTON",
+      "text": "1",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "pagination__link",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "24px",
+        "width": "36px"
+      },
+      "tag": "BUTTON",
+      "text": "2",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "pagination__link",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "24px",
+        "width": "36px"
+      },
+      "tag": "BUTTON",
+      "text": "12",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "pagination__link pagination__link--nav",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "24px",
+        "width": "72.5625px"
+      },
+      "tag": "BUTTON",
+      "text": "Next",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "presentation",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "16px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "16px"
+      },
+      "tag": "svg",
+      "text": "",
+      "value": ""
+    }
+  ],
+  "rain": "light",
+  "text": "Showing 1-10 of 120 results\nPrevious\n1\n2\n…\n12\nNext",
+  "theme": "light",
+  "url": "http://127.0.0.1:6006/iframe.html?id=components-navigation-pagination--controlled&viewMode=story&globals=heroui-theme%3Arain-light"
+}

@@ -1,0 +1,133 @@
+AssertionError [ERR_ASSERTION]: Packed files differ from verified staging: @heroui/react
++ actual - expected
+... Skipped lines
+
+  {
+    'README.md': 'd3a225e1fc4a415620921668c9a1e0c7af430818df8d570060125aff750497a3',
+    'dist/components/accordion/accordion.d.ts': '8972af55e851fd6681fdc22355d8b0e58505e4b2f43ab8fc098f39808c5b9b1e',
+    'dist/components/accordion/accordion.js': '5ab0bc045046509700e4851b2c5c1f3686a3d47e23d0f98a432eaffa9284856b',
+    'dist/components/accordion/index.d.ts': 'dcb057b22a729b07db7ecf5a3161ccea5996e0b8c26abb04f7f1a1ed742aa23d',
+...
+    'dist/version.d.ts': '4efda9038c92e9f19b035c7c0f00e5ef110f677fad46a762f8f59b84a737f337',
++   'package.json': 'e5ee12e7d5bb0bebea65675565e8b16334d4a759bb550715b65eb91128ad3c3b'
+-   'package.json': '929970061254c1ecd44cf753165835fd266fb6d5697f1a7dbf1ba37f0194b58b'
+  }
+
+    at main (file:///Users/wenchengkai/CodexFile/hero%20ui-%E6%94%B9%E9%80%A0/scripts/rain/compile-local-patch.mjs:676:12) {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: [Object],
+  expected: [Object],
+  operator: 'deepStrictEqual',
+  diff: 'simple'
+}
+node:internal/errors:985
+  const err = new Error(message);
+              ^
+
+Error: Command failed: /Users/wenchengkai/.nvm/versions/node/v24.13.0/bin/node /Users/wenchengkai/CodexFile/hero ui-改造/scripts/rain/compile-local-patch.mjs /Users/wenchengkai/CodexFile/hero ui-改造/delivery/rain-heroui-local-2026-10-20-r2
+AssertionError [ERR_ASSERTION]: Packed files differ from verified staging: @heroui/react
++ actual - expected
+... Skipped lines
+
+  {
+    'README.md': 'd3a225e1fc4a415620921668c9a1e0c7af430818df8d570060125aff750497a3',
+    'dist/components/accordion/accordion.d.ts': '8972af55e851fd6681fdc22355d8b0e58505e4b2f43ab8fc098f39808c5b9b1e',
+    'dist/components/accordion/accordion.js': '5ab0bc045046509700e4851b2c5c1f3686a3d47e23d0f98a432eaffa9284856b',
+    'dist/components/accordion/index.d.ts': 'dcb057b22a729b07db7ecf5a3161ccea5996e0b8c26abb04f7f1a1ed742aa23d',
+...
+    'dist/version.d.ts': '4efda9038c92e9f19b035c7c0f00e5ef110f677fad46a762f8f59b84a737f337',
++   'package.json': 'e5ee12e7d5bb0bebea65675565e8b16334d4a759bb550715b65eb91128ad3c3b'
+-   'package.json': '929970061254c1ecd44cf753165835fd266fb6d5697f1a7dbf1ba37f0194b58b'
+  }
+
+    at main (file:///Users/wenchengkai/CodexFile/hero%20ui-%E6%94%B9%E9%80%A0/scripts/rain/compile-local-patch.mjs:676:12) {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: [Object],
+  expected: [Object],
+  operator: 'deepStrictEqual',
+  diff: 'simple'
+}
+
+    at genericNodeError (node:internal/errors:985:15)
+    at wrappedFn (node:internal/errors:539:14)
+    at checkExecSyncError (node:child_process:925:11)
+    at execFileSync (node:child_process:961:15)
+    at file:///Users/wenchengkai/CodexFile/hero%20ui-%E6%94%B9%E9%80%A0/scripts/rain/prepare-delivery.mjs:39:21
+    at ModuleJob.run (node:internal/modules/esm/module_job:413:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:660:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+  status: 1,
+  signal: null,
+  output: [
+    null,
+    'Starting frozen local patch rain-tabs-title-table-2026-10-20; staging /private/var/folders/2h/mp7rp10x1plgfqrm94_0dcdm0000gn/T/rain-tabs-patch-ShAv0l\n' +
+      'Compiling react / baseline: one Tabs entry and its reachable modules\n' +
+      'Compiling react / patched: one Tabs entry and its reachable modules\n' +
+      'Calibrated React Tabs only: React default binding alias and RAC Tabs named-import order\n' +
+      'Calibrated React Tabs only: React default binding alias and RAC Tabs named-import order\n' +
+      '@heroui/react: baseline calibrated; only expected package files replaced\n' +
+      'Compiling styles / baseline: one Tabs entry and its reachable modules\n' +
+      'Compiling styles / patched: one Tabs entry and its reachable modules\n' +
+      '@heroui/styles: baseline calibrated; only expected package files replaced\n',
+    'AssertionError [ERR_ASSERTION]: Packed files differ from verified staging: @heroui/react\n' +
+      '+ actual - expected\n' +
+      '... Skipped lines\n' +
+      '\n' +
+      '  {\n' +
+      "    'README.md': 'd3a225e1fc4a415620921668c9a1e0c7af430818df8d570060125aff750497a3',\n" +
+      "    'dist/components/accordion/accordion.d.ts': '8972af55e851fd6681fdc22355d8b0e58505e4b2f43ab8fc098f39808c5b9b1e',\n" +
+      "    'dist/components/accordion/accordion.js': '5ab0bc045046509700e4851b2c5c1f3686a3d47e23d0f98a432eaffa9284856b',\n" +
+      "    'dist/components/accordion/index.d.ts': 'dcb057b22a729b07db7ecf5a3161ccea5996e0b8c26abb04f7f1a1ed742aa23d',\n" +
+      '...\n' +
+      "    'dist/version.d.ts': '4efda9038c92e9f19b035c7c0f00e5ef110f677fad46a762f8f59b84a737f337',\n" +
+      "+   'package.json': 'e5ee12e7d5bb0bebea65675565e8b16334d4a759bb550715b65eb91128ad3c3b'\n" +
+      "-   'package.json': '929970061254c1ecd44cf753165835fd266fb6d5697f1a7dbf1ba37f0194b58b'\n" +
+      '  }\n' +
+      '\n' +
+      '    at main (file:///Users/wenchengkai/CodexFile/hero%20ui-%E6%94%B9%E9%80%A0/scripts/rain/compile-local-patch.mjs:676:12) {\n' +
+      '  generatedMessage: false,\n' +
+      "  code: 'ERR_ASSERTION',\n" +
+      '  actual: [Object],\n' +
+      '  expected: [Object],\n' +
+      "  operator: 'deepStrictEqual',\n" +
+      "  diff: 'simple'\n" +
+      '}\n'
+  ],
+  pid: 89103,
+  stdout: 'Starting frozen local patch rain-tabs-title-table-2026-10-20; staging /private/var/folders/2h/mp7rp10x1plgfqrm94_0dcdm0000gn/T/rain-tabs-patch-ShAv0l\n' +
+    'Compiling react / baseline: one Tabs entry and its reachable modules\n' +
+    'Compiling react / patched: one Tabs entry and its reachable modules\n' +
+    'Calibrated React Tabs only: React default binding alias and RAC Tabs named-import order\n' +
+    'Calibrated React Tabs only: React default binding alias and RAC Tabs named-import order\n' +
+    '@heroui/react: baseline calibrated; only expected package files replaced\n' +
+    'Compiling styles / baseline: one Tabs entry and its reachable modules\n' +
+    'Compiling styles / patched: one Tabs entry and its reachable modules\n' +
+    '@heroui/styles: baseline calibrated; only expected package files replaced\n',
+  stderr: 'AssertionError [ERR_ASSERTION]: Packed files differ from verified staging: @heroui/react\n' +
+    '+ actual - expected\n' +
+    '... Skipped lines\n' +
+    '\n' +
+    '  {\n' +
+    "    'README.md': 'd3a225e1fc4a415620921668c9a1e0c7af430818df8d570060125aff750497a3',\n" +
+    "    'dist/components/accordion/accordion.d.ts': '8972af55e851fd6681fdc22355d8b0e58505e4b2f43ab8fc098f39808c5b9b1e',\n" +
+    "    'dist/components/accordion/accordion.js': '5ab0bc045046509700e4851b2c5c1f3686a3d47e23d0f98a432eaffa9284856b',\n" +
+    "    'dist/components/accordion/index.d.ts': 'dcb057b22a729b07db7ecf5a3161ccea5996e0b8c26abb04f7f1a1ed742aa23d',\n" +
+    '...\n' +
+    "    'dist/version.d.ts': '4efda9038c92e9f19b035c7c0f00e5ef110f677fad46a762f8f59b84a737f337',\n" +
+    "+   'package.json': 'e5ee12e7d5bb0bebea65675565e8b16334d4a759bb550715b65eb91128ad3c3b'\n" +
+    "-   'package.json': '929970061254c1ecd44cf753165835fd266fb6d5697f1a7dbf1ba37f0194b58b'\n" +
+    '  }\n' +
+    '\n' +
+    '    at main (file:///Users/wenchengkai/CodexFile/hero%20ui-%E6%94%B9%E9%80%A0/scripts/rain/compile-local-patch.mjs:676:12) {\n' +
+    '  generatedMessage: false,\n' +
+    "  code: 'ERR_ASSERTION',\n" +
+    '  actual: [Object],\n' +
+    '  expected: [Object],\n' +
+    "  operator: 'deepStrictEqual',\n" +
+    "  diff: 'simple'\n" +
+    '}\n'
+}
+
+Node.js v24.13.0

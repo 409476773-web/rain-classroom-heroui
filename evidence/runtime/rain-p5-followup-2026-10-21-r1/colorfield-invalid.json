@@ -1,0 +1,188 @@
+{
+  "active": {
+    "class": "color-input-group__input",
+    "label": null,
+    "role": "textbox",
+    "tag": "INPUT"
+  },
+  "nodes": [
+    {
+      "checked": false,
+      "class": "label",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(181, 42, 54)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "20px",
+        "opacity": "1",
+        "outline": "rgb(181, 42, 54) none 3px",
+        "radius": "0px",
+        "width": "44.8672px"
+      },
+      "tag": "LABEL",
+      "text": "Color",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "color-input-group color-input-group--primary",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "presentation",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgb(255, 255, 255)",
+        "border": "rgb(20, 35, 60)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(181, 42, 54) solid 1px",
+        "radius": "6px",
+        "width": "280px"
+      },
+      "tag": "DIV",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "color-input-group__input",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": "true",
+      "name": null,
+      "role": "textbox",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "280px"
+      },
+      "tag": "INPUT",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "label",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(181, 42, 54)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "20px",
+        "opacity": "1",
+        "outline": "rgb(181, 42, 54) none 3px",
+        "radius": "0px",
+        "width": "119.844px"
+      },
+      "tag": "LABEL",
+      "text": "Background Color",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "color-input-group color-input-group--primary",
+      "disabled": false,
+      "expanded": null,
+      "focus": "true",
+      "invalid": null,
+      "name": null,
+      "role": "presentation",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgb(255, 255, 255)",
+        "border": "rgb(20, 35, 60)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(181, 42, 54) solid 1px",
+        "radius": "6px",
+        "width": "280px"
+      },
+      "tag": "DIV",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "color-input-group__input",
+      "disabled": false,
+      "expanded": null,
+      "focus": "true",
+      "invalid": "true",
+      "name": null,
+      "role": "textbox",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(0, 95, 204) none 1px",
+        "radius": "0px",
+        "width": "280px"
+      },
+      "tag": "INPUT",
+      "text": "",
+      "value": ""
+    }
+  ],
+  "rain": "light",
+  "text": "Color\nPlease enter a valid hex color\nBackground Color\nInvalid color format. Use hex (e.g., #FF5733)",
+  "theme": "light",
+  "url": "http://127.0.0.1:6006/iframe.html?id=components-colors-colorfield--invalid&viewMode=story&globals=heroui-theme%3Arain-light"
+}

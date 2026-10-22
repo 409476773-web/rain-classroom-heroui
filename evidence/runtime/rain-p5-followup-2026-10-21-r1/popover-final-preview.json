@@ -1,0 +1,47 @@
+[
+  {
+    "activeDescendant": null,
+    "bg": "rgba(0, 0, 0, 0)",
+    "class": "popover__dialog",
+    "color": "rgb(20, 35, 60)",
+    "disabled": null,
+    "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+    "id": "react-aria6712382388-_r_0_",
+    "opacity": "1",
+    "role": "dialog",
+    "selected": null,
+    "tag": "SECTION",
+    "text": "Popover headingThis is the popover content",
+    "visible": true
+  },
+  {
+    "activeDescendant": null,
+    "bg": "rgba(0, 0, 0, 0)",
+    "class": "popover__heading",
+    "color": "rgb(20, 35, 60)",
+    "disabled": null,
+    "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+    "id": "react-aria6712382388-_r_5_",
+    "opacity": "1",
+    "role": null,
+    "selected": null,
+    "tag": "H2",
+    "text": "Popover heading",
+    "visible": true
+  },
+  {
+    "activeDescendant": null,
+    "bg": "rgba(0, 0, 0, 0)",
+    "class": "",
+    "color": "rgb(20, 35, 60)",
+    "disabled": null,
+    "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+    "id": "",
+    "opacity": "1",
+    "role": null,
+    "selected": null,
+    "tag": "P",
+    "text": "This is the popover content",
+    "visible": true
+  }
+]

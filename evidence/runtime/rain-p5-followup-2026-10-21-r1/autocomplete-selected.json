@@ -1,0 +1,478 @@
+{
+  "active": {
+    "class": "search-field__input",
+    "label": "Search animals",
+    "role": null,
+    "tag": "INPUT"
+  },
+  "nodes": [
+    {
+      "checked": false,
+      "class": "autocomplete__trigger",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "group",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "oklab(0.99844 0.0000269574 -0.0000864829 / 0.991705)",
+        "border": "oklab(0.256788 -0.00885402 -0.0509422 / 0.010369)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "40px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "6px",
+        "width": "256px"
+      },
+      "tag": "DIV",
+      "text": "Bird",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "presentation",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "10px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "10px"
+      },
+      "tag": "svg",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "autocomplete__clear-button",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "Clear selection",
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(86, 104, 143)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "20px",
+        "opacity": "0.10369",
+        "outline": "rgb(86, 104, 143) none 3px",
+        "radius": "12px",
+        "width": "20px"
+      },
+      "tag": "BUTTON",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "presentation",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(86, 104, 143)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "14px",
+        "opacity": "1",
+        "outline": "rgb(86, 104, 143) none 3px",
+        "radius": "0px",
+        "width": "12px"
+      },
+      "tag": "svg",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "react-aria-Button",
+      "disabled": false,
+      "expanded": "false",
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "24px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "0px"
+      },
+      "tag": "BUTTON",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "autocomplete__indicator",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "presentation",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(160, 172, 197)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "16px",
+        "opacity": "1",
+        "outline": "rgb(160, 172, 197) none 3px",
+        "radius": "0px",
+        "width": "16px"
+      },
+      "tag": "svg",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(0, 0, 0)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "auto",
+        "opacity": "1",
+        "outline": "rgb(0, 0, 0) none 3px",
+        "radius": "0px",
+        "width": "auto"
+      },
+      "tag": "LABEL",
+      "text": " DogCatBirdKangarooElephantTiger",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "autocomplete__popover",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "dialog",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgb(255, 255, 255)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(0, 0, 0)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "300px",
+        "opacity": "0.704557",
+        "outline": "rgb(0, 0, 0) none 3px",
+        "radius": "16px",
+        "width": "256px"
+      },
+      "tag": "DIV",
+      "text": "DogCatBirdKangarooElephantTiger",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "search-field__group",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "group",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgb(237, 243, 250)",
+        "border": "rgba(0, 0, 0, 0)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "6px",
+        "width": "232px"
+      },
+      "tag": "DIV",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "list-box list-box--default",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "建议",
+      "role": "listbox",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(0, 0, 0)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "248px",
+        "opacity": "1",
+        "outline": "rgb(0, 0, 0) none 3px",
+        "radius": "0px",
+        "width": "256px"
+      },
+      "tag": "DIV",
+      "text": "DogCatBirdKangarooElephantTiger",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "list-box-item list-box-item--default",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "option",
+      "selected": "false",
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(0, 0, 0)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(0, 0, 0) none 3px",
+        "radius": "16px",
+        "width": "244px"
+      },
+      "tag": "DIV",
+      "text": "Dog",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "list-box-item list-box-item--default",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "option",
+      "selected": "false",
+      "state": {
+        "disabled": "true",
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(0, 0, 0)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "0.5",
+        "outline": "rgb(0, 0, 0) none 3px",
+        "radius": "16px",
+        "width": "244px"
+      },
+      "tag": "DIV",
+      "text": "Cat",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "list-box-item list-box-item--default",
+      "disabled": false,
+      "expanded": null,
+      "focus": "true",
+      "invalid": null,
+      "name": null,
+      "role": "option",
+      "selected": "true",
+      "state": {
+        "disabled": null,
+        "selected": "true"
+      },
+      "style": {
+        "background": "rgb(234, 242, 255)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(0, 0, 0)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(0, 0, 0) none 3px",
+        "radius": "16px",
+        "width": "244px"
+      },
+      "tag": "DIV",
+      "text": "Bird",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "list-box-item list-box-item--default",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "option",
+      "selected": "false",
+      "state": {
+        "disabled": "true",
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(0, 0, 0)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "0.5",
+        "outline": "rgb(0, 0, 0) none 3px",
+        "radius": "16px",
+        "width": "244px"
+      },
+      "tag": "DIV",
+      "text": "Kangaroo",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "list-box-item list-box-item--default",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "option",
+      "selected": "false",
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(0, 0, 0)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(0, 0, 0) none 3px",
+        "radius": "16px",
+        "width": "244px"
+      },
+      "tag": "DIV",
+      "text": "Elephant",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "list-box-item list-box-item--default",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "option",
+      "selected": "false",
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(0, 0, 0)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(0, 0, 0) none 3px",
+        "radius": "16px",
+        "width": "244px"
+      },
+      "tag": "DIV",
+      "text": "Tiger",
+      "value": ""
+    }
+  ],
+  "rain": "light",
+  "text": "Animal\nBird\n \nDog\nCat\nBird\nKangaroo\nElephant\nTiger\nDog\nCat\nBird\nKangaroo\nElephant\nTiger",
+  "theme": "light",
+  "url": "http://127.0.0.1:6006/iframe.html?id=components-pickers-autocomplete--with-disabled-options&viewMode=story&globals=heroui-theme%3Arain-light"
+}

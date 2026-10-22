@@ -1,0 +1,51 @@
+{
+  "body": {
+    "clientWidth": 862,
+    "scrollWidth": 862
+  },
+  "containers": [
+    {
+      "rect": {
+        "bottom": 236.5,
+        "height": 296,
+        "left": 28,
+        "right": 833.5,
+        "top": -59.5,
+        "width": 805.5,
+        "x": 28,
+        "y": -59.5
+      },
+      "scrollLeft": 0,
+      "scrollWidth": 806,
+      "width": 806
+    },
+    {
+      "rect": {
+        "bottom": 608.5,
+        "height": 296,
+        "left": 24,
+        "right": 344,
+        "top": 312.5,
+        "width": 320,
+        "x": 24,
+        "y": 312.5
+      },
+      "scrollLeft": 45,
+      "scrollWidth": 704,
+      "width": 320
+    }
+  ],
+  "html": {
+    "clientWidth": 861,
+    "rect": 861.5,
+    "scrollWidth": 861
+  },
+  "main": [
+    {
+      "clientWidth": 862,
+      "name": "表格、标签页与卡片状态检查",
+      "scrollWidth": 862,
+      "width": 861.5
+    }
+  ]
+}

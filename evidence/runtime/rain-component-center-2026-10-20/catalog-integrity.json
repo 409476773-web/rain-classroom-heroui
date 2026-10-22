@@ -1,0 +1,10 @@
+{
+  "sourceModules": 87,
+  "publicModules": 85,
+  "sourcePointers": 959,
+  "allPointersExist": true,
+  "allRootImportsExist": true,
+  "allPreviewIdsFromExistingIndex": true,
+  "version": "3.2.6",
+  "commit": "e385ac202b2cdb94b1bf6fa76d32c31c8259cc5e"
+}

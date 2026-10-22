@@ -1,0 +1,19 @@
+✔ parses generic TypeScript functions as TS rather than JSX (4.679209ms)
+✔ reads default Storybook metadata and bound template story exports (1.624834ms)
+✔ records a dynamic import so registered no-SSR wrappers are distinguished from missing sources (0.350542ms)
+✔ built Storybook IDs are matched by source file and export, including missing stories (0.205042ms)
+✔ tracks aliases, type-only exports, star exports, and compound members (1.111541ms)
+✔ registry keeps loader and displayed source independently so mismatches are detectable (0.530625ms)
+✔ MDX references ignore fenced code examples and retain multiline previews and source views (0.685625ms)
+✔ maps parent implementation evidence without claiming runtime or visual acceptance (1178.061583ms)
+✔ import is inert in original light and dark; removing the brand restores exact computed styles (1754.044208ms)
+✔ Rain changes brand roles, font identity and container/field radii without changing geometry or motion (596.124583ms)
+✔ body-level overlay inherits Rain colors/radii and native keyboard focus remains usable (219.230083ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2862.542333

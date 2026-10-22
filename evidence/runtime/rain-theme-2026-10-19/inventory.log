@@ -1,0 +1,50 @@
+
+> heroui@3.2.6 local:inventory /Users/wenchengkai/CodexFile/hero ui-改造
+> node scripts/rain/inventory.mjs
+
+{
+  "generated": [
+    "docs/rain/inventory.json",
+    "docs/rain/exceptions.md"
+  ],
+  "summary": {
+    "allStoryFiles": 72,
+    "builtStories": 587,
+    "builtStorybookEntries": 660,
+    "componentStoryFiles": 68,
+    "locales": {
+      "en": {
+        "allReactDocs": 176,
+        "componentDocs": 73,
+        "demoTsxFiles": 683,
+        "registeredDemos": 681
+      },
+      "zh": {
+        "allReactDocs": 176,
+        "componentDocs": 73,
+        "demoTsxFiles": 687,
+        "registeredDemos": 681
+      }
+    },
+    "publicComponentBarrelModules": 85,
+    "referenceIssues": 3,
+    "registeredLoaderWrappers": 4,
+    "sourceModules": 87,
+    "staticStoryExports": 587,
+    "unregisteredDemoFiles": 4
+  },
+  "verification": {
+    "builtPackageExports": "not_checked",
+    "builtStorybookIndex": "matched",
+    "humanVisualAcceptance": "not_checked",
+    "interaction": "not_run",
+    "inventory": "static-analysis-completed",
+    "rainTheme": "not_checked",
+    "runtime": "not_run"
+  }
+}
+
+> heroui@3.2.6 local:inventory:check /Users/wenchengkai/CodexFile/hero ui-改造
+> node scripts/rain/inventory.mjs --check
+
+Inventory artifacts match current source. Runtime and visual acceptance are not checked.

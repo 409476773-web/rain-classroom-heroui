@@ -1,0 +1,187 @@
+{
+  "scope": "current selected non-disabled placeholder and table header samples only; normal text AA criterion 4.5:1; not a complete accessibility audit",
+  "samples": [
+    {
+      "type": "placeholder",
+      "class": "input input--primary",
+      "foreground": "rgb(160, 172, 197)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 2.282,
+      "normalTextAA": false
+    },
+    {
+      "type": "placeholder",
+      "class": "input input--primary",
+      "foreground": "rgb(160, 172, 197)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 2.282,
+      "normalTextAA": false
+    },
+    {
+      "type": "placeholder",
+      "class": "input input--primary",
+      "foreground": "rgb(160, 172, 197)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 2.282,
+      "normalTextAA": false
+    },
+    {
+      "type": "placeholder",
+      "class": "textarea textarea--primary",
+      "foreground": "rgb(160, 172, 197)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 2.282,
+      "normalTextAA": false
+    },
+    {
+      "type": "placeholder",
+      "class": "textarea textarea--primary",
+      "foreground": "rgb(160, 172, 197)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 2.282,
+      "normalTextAA": false
+    },
+    {
+      "type": "placeholder",
+      "class": "search-field__input w-full min-w-0",
+      "foreground": "rgb(160, 172, 197)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 2.282,
+      "normalTextAA": false
+    },
+    {
+      "type": "placeholder",
+      "class": "search-field__input w-full min-w-0",
+      "foreground": "rgb(160, 172, 197)",
+      "background": "rgb(237, 243, 250)",
+      "ratio": 2.043,
+      "normalTextAA": false
+    },
+    {
+      "type": "placeholder",
+      "class": "search-field__input w-full min-w-0",
+      "foreground": "rgb(160, 172, 197)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 2.282,
+      "normalTextAA": false
+    },
+    {
+      "type": "placeholder",
+      "class": "search-field__input w-full min-w-0",
+      "foreground": "rgb(160, 172, 197)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 2.282,
+      "normalTextAA": false
+    },
+    {
+      "type": "placeholder",
+      "class": "number-field__input w-full min-w-0",
+      "foreground": "rgb(160, 172, 197)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 2.282,
+      "normalTextAA": false
+    },
+    {
+      "type": "placeholder",
+      "class": "number-field__input w-full min-w-0",
+      "foreground": "rgb(160, 172, 197)",
+      "background": "rgb(237, 243, 250)",
+      "ratio": 2.043,
+      "normalTextAA": false
+    },
+    {
+      "type": "placeholder",
+      "class": "number-field__input w-full min-w-0",
+      "foreground": "rgb(160, 172, 197)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 2.282,
+      "normalTextAA": false
+    },
+    {
+      "type": "placeholder",
+      "class": "number-field__input w-full min-w-0",
+      "foreground": "rgb(160, 172, 197)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 2.282,
+      "normalTextAA": false
+    },
+    {
+      "type": "placeholder",
+      "class": "input-group__input w-full min-w-0",
+      "foreground": "rgb(160, 172, 197)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 2.282,
+      "normalTextAA": false
+    },
+    {
+      "type": "placeholder",
+      "class": "input-group__input w-full min-w-0",
+      "foreground": "rgb(160, 172, 197)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 2.282,
+      "normalTextAA": false
+    },
+    {
+      "type": "table-header",
+      "text": "学生示例",
+      "foreground": "rgb(116, 133, 168)",
+      "background": "rgb(235, 239, 255)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "ratio": 3.236,
+      "normalTextAA": false
+    },
+    {
+      "type": "table-header",
+      "text": "长中文作答片段",
+      "foreground": "rgb(116, 133, 168)",
+      "background": "rgb(235, 239, 255)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "ratio": 3.236,
+      "normalTextAA": false
+    },
+    {
+      "type": "table-header",
+      "text": "待确认的反馈内容",
+      "foreground": "rgb(116, 133, 168)",
+      "background": "rgb(235, 239, 255)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "ratio": 3.236,
+      "normalTextAA": false
+    },
+    {
+      "type": "table-header",
+      "text": "学生示例",
+      "foreground": "rgb(116, 133, 168)",
+      "background": "rgb(235, 239, 255)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "ratio": 3.236,
+      "normalTextAA": false
+    },
+    {
+      "type": "table-header",
+      "text": "长中文作答片段",
+      "foreground": "rgb(116, 133, 168)",
+      "background": "rgb(235, 239, 255)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "ratio": 3.236,
+      "normalTextAA": false
+    },
+    {
+      "type": "table-header",
+      "text": "待确认的反馈内容",
+      "foreground": "rgb(116, 133, 168)",
+      "background": "rgb(235, 239, 255)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "ratio": 3.236,
+      "normalTextAA": false
+    }
+  ],
+  "allNormalTextAA": false,
+  "action": "retain user-confirmed colors; record design limit, do not claim full contrast pass"
+}

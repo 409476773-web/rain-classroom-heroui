@@ -1,0 +1,217 @@
+{
+  "active": {
+    "class": "sb-main-centered sb-show-main",
+    "label": null,
+    "role": null,
+    "tag": "BODY"
+  },
+  "nodes": [
+    {
+      "checked": false,
+      "class": "link breadcrumbs__link",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "link",
+      "selected": null,
+      "state": {
+        "disabled": "true",
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(86, 104, 143)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "20px",
+        "opacity": "0.5",
+        "outline": "rgb(86, 104, 143) none 3px",
+        "radius": "12px",
+        "width": "38.7812px"
+      },
+      "tag": "SPAN",
+      "text": "Home",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "breadcrumbs__separator",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "presentation",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(86, 104, 143)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "12px",
+        "opacity": "1",
+        "outline": "rgb(86, 104, 143) none 3px",
+        "radius": "0px",
+        "width": "12px"
+      },
+      "tag": "svg",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "link breadcrumbs__link",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "link",
+      "selected": null,
+      "state": {
+        "disabled": "true",
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(86, 104, 143)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "20px",
+        "opacity": "0.5",
+        "outline": "rgb(86, 104, 143) none 3px",
+        "radius": "12px",
+        "width": "59.2812px"
+      },
+      "tag": "SPAN",
+      "text": "Products",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "breadcrumbs__separator",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "presentation",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(86, 104, 143)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "12px",
+        "opacity": "1",
+        "outline": "rgb(86, 104, 143) none 3px",
+        "radius": "0px",
+        "width": "12px"
+      },
+      "tag": "svg",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "link breadcrumbs__link",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "link",
+      "selected": null,
+      "state": {
+        "disabled": "true",
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(86, 104, 143)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "20px",
+        "opacity": "0.5",
+        "outline": "rgb(86, 104, 143) none 3px",
+        "radius": "12px",
+        "width": "73.7422px"
+      },
+      "tag": "SPAN",
+      "text": "Electronics",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "breadcrumbs__separator",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "presentation",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(86, 104, 143)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "12px",
+        "opacity": "1",
+        "outline": "rgb(86, 104, 143) none 3px",
+        "radius": "0px",
+        "width": "12px"
+      },
+      "tag": "svg",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "link breadcrumbs__link",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "link",
+      "selected": null,
+      "state": {
+        "disabled": "true",
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(15, 85, 223)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "20px",
+        "opacity": "1",
+        "outline": "rgb(15, 85, 223) none 3px",
+        "radius": "12px",
+        "width": "46.3828px"
+      },
+      "tag": "SPAN",
+      "text": "Laptop",
+      "value": ""
+    }
+  ],
+  "rain": "light",
+  "text": "Home\nProducts\nElectronics\nLaptop",
+  "theme": "light",
+  "url": "http://127.0.0.1:6006/iframe.html?id=components-navigation-breadcrumbs--disabled&viewMode=story&globals=heroui-theme%3Arain-light"
+}

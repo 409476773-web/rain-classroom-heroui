@@ -1,0 +1,72 @@
+{
+  "active": {
+    "class": "close-button close-button--default alert-dialog__close-trigger",
+    "label": "Close",
+    "role": null,
+    "tag": "BUTTON"
+  },
+  "nodes": [
+    {
+      "checked": false,
+      "class": "button button--md button--danger",
+      "disabled": false,
+      "expanded": "true",
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "oklab(0.48579 0.145052 0.0530953)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(255, 255, 255)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "40px",
+        "opacity": "1",
+        "outline": "rgb(255, 255, 255) none 3px",
+        "radius": "10px",
+        "width": "126.211px"
+      },
+      "tag": "BUTTON",
+      "text": "Delete Project",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "alert-dialog__dialog alert-dialog__dialog--md sm:max-w-[400px]",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "alertdialog",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgb(255, 255, 255)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "238.031px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "16px",
+        "width": "448px"
+      },
+      "tag": "SECTION",
+      "text": "Delete project permanently?This will permanently delete My Awesome Project and all of its data. This action cannot be undone.Cance",
+      "value": ""
+    }
+  ],
+  "rain": "light",
+  "text": "Delete Project\nDelete project permanently?\n\nThis will permanently delete My Awesome Project and all of its data. This action cannot be undone.\n\nCancel\nDelete Project",
+  "theme": "light",
+  "url": "http://127.0.0.1:6006/iframe.html?id=components-overlays-alertdialog--default&viewMode=story&globals=heroui-theme%3Arain-light"
+}

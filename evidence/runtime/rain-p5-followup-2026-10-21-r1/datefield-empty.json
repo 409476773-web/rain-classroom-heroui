@@ -1,0 +1,217 @@
+{
+  "active": {
+    "class": "sb-main-centered sb-show-main",
+    "label": null,
+    "role": null,
+    "tag": "BODY"
+  },
+  "nodes": [
+    {
+      "checked": false,
+      "class": "date-input-group date-input-group--primary",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "group",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgb(255, 255, 255)",
+        "border": "rgba(0, 0, 0, 0)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "6px",
+        "width": "256px"
+      },
+      "tag": "DIV",
+      "text": "年/月/日",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "date-input-group__input",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "group",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "40px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "256px"
+      },
+      "tag": "DIV",
+      "text": "年/月/日",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "date-input-group__segment",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "年, ",
+      "role": "spinbutton",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(160, 172, 197)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "24px",
+        "opacity": "1",
+        "outline": "rgb(160, 172, 197) none 3px",
+        "radius": "6px",
+        "width": "20px"
+      },
+      "tag": "SPAN",
+      "text": "年",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "date-input-group__segment",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "月, ",
+      "role": "spinbutton",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(160, 172, 197)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "24px",
+        "opacity": "1",
+        "outline": "rgb(160, 172, 197) none 3px",
+        "radius": "6px",
+        "width": "20px"
+      },
+      "tag": "SPAN",
+      "text": "月",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "date-input-group__segment",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "日, ",
+      "role": "spinbutton",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(160, 172, 197)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "24px",
+        "opacity": "1",
+        "outline": "rgb(160, 172, 197) none 3px",
+        "radius": "6px",
+        "width": "20px"
+      },
+      "tag": "SPAN",
+      "text": "日",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "auto",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "auto"
+      },
+      "tag": "INPUT",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "24px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "130px"
+      },
+      "tag": "INPUT",
+      "text": "",
+      "value": ""
+    }
+  ],
+  "rain": "light",
+  "text": "Date\n年\n/\n月\n/\n日\nEnter a date from today onwards",
+  "theme": "light",
+  "url": "http://127.0.0.1:6006/iframe.html?id=components-date-and-time-datefield--with-validation&viewMode=story&globals=heroui-theme%3Arain-light"
+}

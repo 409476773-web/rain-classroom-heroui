@@ -22,6 +22,7 @@ import netflixTheme from "@/assets/themes/netflix.png";
 import rabbitTheme from "@/assets/themes/rabbit.png";
 import skyTheme from "@/assets/themes/sky.png";
 import spotifyTheme from "@/assets/themes/spotify.png";
+import {useRainTheme} from "@/components/rain-theme-provider";
 import {useDictionary} from "@/hooks/use-dictionary";
 import {cn} from "@/utils/cn";
 import {
@@ -75,6 +76,7 @@ export function DesignThemeSelector({
   triggerVariant?: ButtonProps["variant"];
 }) {
   const dict = useDictionary().themes;
+  const {isRainTheme, setRainTheme} = useRainTheme();
   const [active, setActive] = useState<ThemeId>("default");
   const [mounted, setMounted] = useState(false);
   const [vibrant, setVibrant] = useState(false);
@@ -85,18 +87,19 @@ export function DesignThemeSelector({
   useEffect(() => {
     const stored = getStoredDesignTheme();
 
-    if (stored !== "default") {
-      setActive(stored);
-      applyTheme(stored);
-    }
-
+    setActive(stored);
     const storedVibrant = localStorage.getItem(VIBRANT_STORAGE_KEY);
 
+    setVibrant(storedVibrant === "true");
+    if (isRainTheme) return;
+
+    applyTheme(stored);
     if (storedVibrant === "true") {
-      setVibrant(true);
       document.documentElement.setAttribute("data-vibrant-palette", "true");
+    } else {
+      document.documentElement.removeAttribute("data-vibrant-palette");
     }
-  }, []);
+  }, [isRainTheme]);
   /* eslint-enable react-hooks/set-state-in-effect */
 
   const handleSelect = useCallback((keys: "all" | Set<React.Key>) => {
@@ -122,7 +125,7 @@ export function DesignThemeSelector({
   }, []);
 
   const current = THEMES.find((t) => t.id === active);
-  const showAvatar = mounted && active !== "default" && current;
+  const showAvatar = mounted && !isRainTheme && active !== "default" && current;
 
   const themeBuilderHref = useMemo(() => {
     const values = themeValuesById[active];
@@ -180,76 +183,110 @@ export function DesignThemeSelector({
             ) : (
               <BucketPaint className="size-3.5 text-foreground" />
             )}
-            <span className="hidden sm:inline">{showAvatar ? current.label : dict.theme}</span>
+            <span className="hidden sm:inline">
+              {mounted && isRainTheme
+                ? dict.rainClassroom
+                : showAvatar
+                  ? current.label
+                  : dict.theme}
+            </span>
           </Button>
         </Popover.Trigger>
         <Popover.Content className="w-[248px] rounded-3xl" placement="bottom">
           <Popover.Dialog className="p-4">
             <ListBox
-              aria-label={dict.designTheme}
-              className="grid grid-cols-4 gap-3"
-              items={THEMES}
-              layout="grid"
-              selectedKeys={new Set([active])}
+              aria-label={dict.libraryTheme}
+              className="mb-4"
+              selectedKeys={new Set([isRainTheme ? "rain" : "heroui"])}
               selectionMode="single"
-              onSelectionChange={handleSelect}
+              onSelectionChange={(keys) => {
+                if (keys === "all") return;
+                const selected = [...keys][0];
+
+                if (selected === "rain" || selected === "heroui") {
+                  setRainTheme(selected === "rain");
+                }
+              }}
             >
-              {(item) => (
-                <ListBox.Item
-                  key={item.id}
-                  id={item.id}
-                  textValue={item.label}
-                  className={cn(
-                    "group relative flex w-10 flex-col items-center justify-center gap-1.5 p-0",
-                    "hover:bg-transparent data-[hovered=true]:bg-transparent",
-                  )}
-                >
-                  <Image
-                    alt={item.label}
-                    height={36}
-                    placeholder="blur"
-                    src={item.image}
-                    width={36}
-                    className={cn(
-                      "size-9 rounded-full bg-surface",
-                      "group-data-[selected=true]:ring-2 group-data-[selected=true]:ring-accent group-data-[selected=true]:ring-offset-2 group-data-[selected=true]:ring-offset-surface",
-                    )}
-                  />
-                  <span className="text-[10px] font-medium text-muted capitalize group-data-[selected=true]:text-foreground">
-                    {item.label}
-                  </span>
-                </ListBox.Item>
-              )}
+              <ListBox.Item id="heroui" textValue={dict.heroUIOriginal}>
+                {dict.heroUIOriginal}
+                <ListBox.ItemIndicator />
+              </ListBox.Item>
+              <ListBox.Item id="rain" textValue={dict.rainClassroom}>
+                {dict.rainClassroom}
+                <ListBox.ItemIndicator />
+              </ListBox.Item>
             </ListBox>
-            <div className="mt-4 border-t border-separator pt-4">
-              <div className="flex items-center justify-between">
-                <div className="flex flex-col gap-0.5">
-                  <Label className="text-xs">{dict.vibrantPalette}</Label>
-                  <Description className="text-[10px]">
-                    {dict.vibrantPaletteDescription}
-                  </Description>
+            {isRainTheme ? (
+              <Description className="text-xs">{dict.rainLightOnly}</Description>
+            ) : null}
+            <div hidden={isRainTheme}>
+              <ListBox
+                aria-label={dict.designTheme}
+                className="grid grid-cols-4 gap-3"
+                items={THEMES}
+                layout="grid"
+                selectedKeys={new Set([active])}
+                selectionMode="single"
+                onSelectionChange={handleSelect}
+              >
+                {(item) => (
+                  <ListBox.Item
+                    key={item.id}
+                    id={item.id}
+                    textValue={item.label}
+                    className={cn(
+                      "group relative flex w-10 flex-col items-center justify-center gap-1.5 p-0",
+                      "hover:bg-transparent data-[hovered=true]:bg-transparent",
+                    )}
+                  >
+                    <Image
+                      alt={item.label}
+                      height={36}
+                      placeholder="blur"
+                      src={item.image}
+                      width={36}
+                      className={cn(
+                        "size-9 rounded-full bg-surface",
+                        "group-data-[selected=true]:ring-2 group-data-[selected=true]:ring-accent group-data-[selected=true]:ring-offset-2 group-data-[selected=true]:ring-offset-surface",
+                      )}
+                    />
+                    <span className="text-[10px] font-medium text-muted capitalize group-data-[selected=true]:text-foreground">
+                      {item.label}
+                    </span>
+                  </ListBox.Item>
+                )}
+              </ListBox>
+              <div className="mt-4 border-t border-separator pt-4">
+                <div className="flex items-center justify-between">
+                  <div className="flex flex-col gap-0.5">
+                    <Label className="text-xs">{dict.vibrantPalette}</Label>
+                    <Description className="text-[10px]">
+                      {dict.vibrantPaletteDescription}
+                    </Description>
+                  </div>
+                  <Switch isSelected={vibrant} onChange={handleVibrantToggle}>
+                    <Switch.Content>
+                      <Switch.Control>
+                        <Switch.Thumb />
+                      </Switch.Control>
+                    </Switch.Content>
+                  </Switch>
                 </div>
-                <Switch isSelected={vibrant} onChange={handleVibrantToggle}>
-                  <Switch.Content>
-                    <Switch.Control>
-                      <Switch.Thumb />
-                    </Switch.Control>
-                  </Switch.Content>
-                </Switch>
               </div>
+              <LinkRoot
+                href={themeBuilderHref}
+                className={buttonVariants({
+                  className: "mt-3 rounded-full text-[13px] text-muted",
+                  fullWidth: true,
+                  size: "sm",
+                  variant: "outline",
+                })}
+              >
+                <Palette className="size-4" />
+                {dict.editTheme}
+              </LinkRoot>
             </div>
-            <LinkRoot
-              href={themeBuilderHref}
-              className={buttonVariants({
-                className: "mt-3 rounded-full text-[13px] text-muted",
-                fullWidth: true,
-                size: "sm",
-                variant: "outline",
-              })}
-            >
-              <Palette className="size-4" />
-              {dict.editTheme}
-            </LinkRoot>
           </Popover.Dialog>
         </Popover.Content>
       </Popover>

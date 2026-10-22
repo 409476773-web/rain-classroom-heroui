@@ -6,6 +6,7 @@ import type {ComponentPropsWithRef, ReactNode} from "react";
 
 import {tabsVariants} from "@heroui/styles";
 import React, {createContext, use, useCallback, useRef} from "react";
+import {composeRenderProps} from "react-aria-components/composeRenderProps";
 import {SelectionIndicator as SelectionIndicatorPrimitive} from "react-aria-components/SelectionIndicator";
 import {
   TabList as TabListPrimitive,
@@ -236,8 +237,59 @@ interface TabProps extends ComponentPropsWithRef<typeof TabPrimitive> {
   className?: string;
 }
 
+const getPlainTabText = (content: ReactNode): string | undefined => {
+  if (typeof content === "string" || typeof content === "number") return String(content);
+  if (!React.isValidElement<{children?: ReactNode}>(content) || content.type !== React.Fragment) {
+    return undefined;
+  }
+
+  const parts = React.Children.toArray(content.props.children).map(getPlainTabText);
+
+  return parts.every((part) => part !== undefined) ? parts.join("") : undefined;
+};
+
 const Tab = ({children, className, ...props}: TabProps) => {
   const {slots} = use(TabsContext);
+  const renderLabels = (content: ReactNode): ReactNode => {
+    const nodes: ReactNode[] = [];
+
+    React.Children.forEach(content, (child) => {
+      if (child == null) return;
+      const text = getPlainTabText(child);
+      const previous = nodes[nodes.length - 1];
+
+      if (text === undefined) nodes.push(child);
+      else if (typeof previous === "string") nodes[nodes.length - 1] = previous + text;
+      else nodes.push(text);
+    });
+
+    return React.Children.map(nodes, (child) => {
+      if (typeof child === "string" || typeof child === "number") {
+        return (
+          <span
+            className={slots?.tabLabel()}
+            data-slot="tabs-label"
+            onMouseLeave={({currentTarget}) => currentTarget.removeAttribute("title")}
+            onMouseEnter={({currentTarget}) => {
+              if (currentTarget.scrollWidth > currentTarget.clientWidth) {
+                currentTarget.title = currentTarget.textContent ?? "";
+              } else {
+                currentTarget.removeAttribute("title");
+              }
+            }}
+          >
+            {child}
+          </span>
+        );
+      }
+
+      if (React.isValidElement<{children?: ReactNode}>(child) && child.type === React.Fragment) {
+        return React.cloneElement(child, {children: renderLabels(child.props.children)});
+      }
+
+      return child;
+    });
+  };
 
   return (
     <TabPrimitive
@@ -245,7 +297,7 @@ const Tab = ({children, className, ...props}: TabProps) => {
       className={composeTwRenderProps(className, slots?.tab())}
       data-slot="tabs-tab"
     >
-      {children}
+      {composeRenderProps(children, renderLabels)}
     </TabPrimitive>
   );
 };

@@ -1,0 +1,857 @@
+[
+  {
+    "ancestors": [
+      {
+        "background": "rgb(255, 255, 255)",
+        "class": "input input--primary",
+        "opacity": "1",
+        "tag": "INPUT"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "textfield",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "card__content flex min-w-0 flex-col gap-4",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "class": "card card--default",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "grid items-start gap-4 md:grid-cols-2",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "mx-auto flex w-full max-w-6xl flex-col gap-6 p-6",
+        "opacity": "1",
+        "tag": "MAIN"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgb(242, 244, 255)",
+        "class": "sb-main-fullscreen sb-show-main",
+        "opacity": "1",
+        "tag": "BODY"
+      }
+    ],
+    "class": "input input--primary",
+    "color": "rgb(160, 172, 197)",
+    "inputBackground": "rgb(255, 255, 255)",
+    "opacity": "1",
+    "placeholder": "请输入练习名称"
+  },
+  {
+    "ancestors": [
+      {
+        "background": "rgb(255, 255, 255)",
+        "class": "input input--primary",
+        "opacity": "1",
+        "tag": "INPUT"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "textfield",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "card__content flex min-w-0 flex-col gap-4",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "class": "card card--default",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "grid items-start gap-4 md:grid-cols-2",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "mx-auto flex w-full max-w-6xl flex-col gap-6 p-6",
+        "opacity": "1",
+        "tag": "MAIN"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgb(242, 244, 255)",
+        "class": "sb-main-fullscreen sb-show-main",
+        "opacity": "1",
+        "tag": "BODY"
+      }
+    ],
+    "class": "input input--primary",
+    "color": "rgb(160, 172, 197)",
+    "inputBackground": "rgb(255, 255, 255)",
+    "opacity": "1",
+    "placeholder": "请输入练习名称"
+  },
+  {
+    "ancestors": [
+      {
+        "background": "rgb(255, 255, 255)",
+        "class": "input input--primary",
+        "opacity": "1",
+        "tag": "INPUT"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "textfield",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "card__content flex min-w-0 flex-col gap-4",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "class": "card card--default",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "grid items-start gap-4 md:grid-cols-2",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "mx-auto flex w-full max-w-6xl flex-col gap-6 p-6",
+        "opacity": "1",
+        "tag": "MAIN"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgb(242, 244, 255)",
+        "class": "sb-main-fullscreen sb-show-main",
+        "opacity": "1",
+        "tag": "BODY"
+      }
+    ],
+    "class": "input input--primary",
+    "color": "rgb(160, 172, 197)",
+    "inputBackground": "rgb(255, 255, 255)",
+    "opacity": "1",
+    "placeholder": "请输入练习名称"
+  },
+  {
+    "ancestors": [
+      {
+        "background": "rgb(255, 255, 255)",
+        "class": "textarea textarea--primary",
+        "opacity": "1",
+        "tag": "TEXTAREA"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "textfield",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "card__content flex min-w-0 flex-col gap-4",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "class": "card card--default",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "grid items-start gap-4 md:grid-cols-2",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "mx-auto flex w-full max-w-6xl flex-col gap-6 p-6",
+        "opacity": "1",
+        "tag": "MAIN"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgb(242, 244, 255)",
+        "class": "sb-main-fullscreen sb-show-main",
+        "opacity": "1",
+        "tag": "BODY"
+      }
+    ],
+    "class": "textarea textarea--primary",
+    "color": "rgb(160, 172, 197)",
+    "inputBackground": "rgb(255, 255, 255)",
+    "opacity": "1",
+    "placeholder": "指出做得好的地方，以及下一步可以改进什么。"
+  },
+  {
+    "ancestors": [
+      {
+        "background": "rgb(255, 255, 255)",
+        "class": "textarea textarea--primary",
+        "opacity": "1",
+        "tag": "TEXTAREA"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "textfield",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "card__content flex min-w-0 flex-col gap-4",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "class": "card card--default",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "grid items-start gap-4 md:grid-cols-2",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "mx-auto flex w-full max-w-6xl flex-col gap-6 p-6",
+        "opacity": "1",
+        "tag": "MAIN"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgb(242, 244, 255)",
+        "class": "sb-main-fullscreen sb-show-main",
+        "opacity": "1",
+        "tag": "BODY"
+      }
+    ],
+    "class": "textarea textarea--primary",
+    "color": "rgb(160, 172, 197)",
+    "inputBackground": "rgb(255, 255, 255)",
+    "opacity": "1",
+    "placeholder": "请输入反馈"
+  },
+  {
+    "ancestors": [
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "search-field__input w-full min-w-0",
+        "opacity": "1",
+        "tag": "INPUT"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "class": "search-field__group",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "search-field search-field--primary w-full min-w-0",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "card__content flex min-w-0 flex-col gap-4",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "class": "card card--default",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "grid items-start gap-4 md:grid-cols-2",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "mx-auto flex w-full max-w-6xl flex-col gap-6 p-6",
+        "opacity": "1",
+        "tag": "MAIN"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "",
+        "opacity": "1",
+        "tag": "DIV"
+      }
+    ],
+    "class": "search-field__input w-full min-w-0",
+    "color": "rgb(160, 172, 197)",
+    "inputBackground": "rgba(0, 0, 0, 0)",
+    "opacity": "1",
+    "placeholder": "搜索学生姓名"
+  },
+  {
+    "ancestors": [
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "search-field__input w-full min-w-0",
+        "opacity": "1",
+        "tag": "INPUT"
+      },
+      {
+        "background": "rgb(237, 243, 250)",
+        "class": "search-field__group",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "search-field search-field--secondary w-full min-w-0",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "card__content flex min-w-0 flex-col gap-4",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "class": "card card--default",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "grid items-start gap-4 md:grid-cols-2",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "mx-auto flex w-full max-w-6xl flex-col gap-6 p-6",
+        "opacity": "1",
+        "tag": "MAIN"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "",
+        "opacity": "1",
+        "tag": "DIV"
+      }
+    ],
+    "class": "search-field__input w-full min-w-0",
+    "color": "rgb(160, 172, 197)",
+    "inputBackground": "rgba(0, 0, 0, 0)",
+    "opacity": "1",
+    "placeholder": "搜索学生姓名"
+  },
+  {
+    "ancestors": [
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "search-field__input w-full min-w-0",
+        "opacity": "1",
+        "tag": "INPUT"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "class": "search-field__group",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "search-field search-field--primary w-full min-w-0",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "card__content flex min-w-0 flex-col gap-4",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "class": "card card--default",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "grid items-start gap-4 md:grid-cols-2",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "mx-auto flex w-full max-w-6xl flex-col gap-6 p-6",
+        "opacity": "1",
+        "tag": "MAIN"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "",
+        "opacity": "1",
+        "tag": "DIV"
+      }
+    ],
+    "class": "search-field__input w-full min-w-0",
+    "color": "rgb(160, 172, 197)",
+    "inputBackground": "rgba(0, 0, 0, 0)",
+    "opacity": "1",
+    "placeholder": "搜索学生姓名"
+  },
+  {
+    "ancestors": [
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "search-field__input w-full min-w-0",
+        "opacity": "1",
+        "tag": "INPUT"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "class": "search-field__group",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "search-field search-field--primary",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "card__content flex min-w-0 flex-col gap-4",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "class": "card card--default",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "grid items-start gap-4 md:grid-cols-2",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "mx-auto flex w-full max-w-6xl flex-col gap-6 p-6",
+        "opacity": "1",
+        "tag": "MAIN"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "",
+        "opacity": "1",
+        "tag": "DIV"
+      }
+    ],
+    "class": "search-field__input w-full min-w-0",
+    "color": "rgb(160, 172, 197)",
+    "inputBackground": "rgba(0, 0, 0, 0)",
+    "opacity": "1",
+    "placeholder": "搜索学生姓名"
+  },
+  {
+    "ancestors": [
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "number-field__input w-full min-w-0",
+        "opacity": "1",
+        "tag": "INPUT"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "class": "number-field__group",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "number-field number-field--primary w-full min-w-0",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "card__content flex min-w-0 flex-col gap-4",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "class": "card card--default",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "grid items-start gap-4 md:grid-cols-2",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "mx-auto flex w-full max-w-6xl flex-col gap-6 p-6",
+        "opacity": "1",
+        "tag": "MAIN"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "",
+        "opacity": "1",
+        "tag": "DIV"
+      }
+    ],
+    "class": "number-field__input w-full min-w-0",
+    "color": "rgb(160, 172, 197)",
+    "inputBackground": "rgba(0, 0, 0, 0)",
+    "opacity": "1",
+    "placeholder": "请输入分数"
+  },
+  {
+    "ancestors": [
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "number-field__input w-full min-w-0",
+        "opacity": "1",
+        "tag": "INPUT"
+      },
+      {
+        "background": "rgb(237, 243, 250)",
+        "class": "number-field__group",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "number-field number-field--secondary w-full min-w-0",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "card__content flex min-w-0 flex-col gap-4",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "class": "card card--default",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "grid items-start gap-4 md:grid-cols-2",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "mx-auto flex w-full max-w-6xl flex-col gap-6 p-6",
+        "opacity": "1",
+        "tag": "MAIN"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "",
+        "opacity": "1",
+        "tag": "DIV"
+      }
+    ],
+    "class": "number-field__input w-full min-w-0",
+    "color": "rgb(160, 172, 197)",
+    "inputBackground": "rgba(0, 0, 0, 0)",
+    "opacity": "1",
+    "placeholder": "请输入分数"
+  },
+  {
+    "ancestors": [
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "number-field__input w-full min-w-0",
+        "opacity": "1",
+        "tag": "INPUT"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "class": "number-field__group",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "number-field number-field--primary w-full min-w-0",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "card__content flex min-w-0 flex-col gap-4",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "class": "card card--default",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "grid items-start gap-4 md:grid-cols-2",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "mx-auto flex w-full max-w-6xl flex-col gap-6 p-6",
+        "opacity": "1",
+        "tag": "MAIN"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "",
+        "opacity": "1",
+        "tag": "DIV"
+      }
+    ],
+    "class": "number-field__input w-full min-w-0",
+    "color": "rgb(160, 172, 197)",
+    "inputBackground": "rgba(0, 0, 0, 0)",
+    "opacity": "1",
+    "placeholder": "请输入分数"
+  },
+  {
+    "ancestors": [
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "number-field__input w-full min-w-0",
+        "opacity": "1",
+        "tag": "INPUT"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "class": "number-field__group",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "number-field number-field--primary",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "card__content flex min-w-0 flex-col gap-4",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "class": "card card--default",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "grid items-start gap-4 md:grid-cols-2",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "mx-auto flex w-full max-w-6xl flex-col gap-6 p-6",
+        "opacity": "1",
+        "tag": "MAIN"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "",
+        "opacity": "1",
+        "tag": "DIV"
+      }
+    ],
+    "class": "number-field__input w-full min-w-0",
+    "color": "rgb(160, 172, 197)",
+    "inputBackground": "rgba(0, 0, 0, 0)",
+    "opacity": "1",
+    "placeholder": "请输入分数"
+  },
+  {
+    "ancestors": [
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "input-group__input w-full min-w-0",
+        "opacity": "1",
+        "tag": "INPUT"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "class": "input-group input-group--primary w-full min-w-0",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "textfield",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "card__content flex min-w-0 flex-col gap-4",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "class": "card card--default",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "grid items-start gap-4 md:grid-cols-2",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "mx-auto flex w-full max-w-6xl flex-col gap-6 p-6",
+        "opacity": "1",
+        "tag": "MAIN"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "",
+        "opacity": "1",
+        "tag": "DIV"
+      }
+    ],
+    "class": "input-group__input w-full min-w-0",
+    "color": "rgb(160, 172, 197)",
+    "inputBackground": "rgba(0, 0, 0, 0)",
+    "opacity": "1",
+    "placeholder": "请输入金额"
+  },
+  {
+    "ancestors": [
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "input-group__input w-full min-w-0",
+        "opacity": "1",
+        "tag": "INPUT"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "class": "input-group input-group--primary w-full min-w-0",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "textfield",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "card__content flex min-w-0 flex-col gap-4",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "class": "card card--default",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "grid items-start gap-4 md:grid-cols-2",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "mx-auto flex w-full max-w-6xl flex-col gap-6 p-6",
+        "opacity": "1",
+        "tag": "MAIN"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "",
+        "opacity": "1",
+        "tag": "DIV"
+      }
+    ],
+    "class": "input-group__input w-full min-w-0",
+    "color": "rgb(160, 172, 197)",
+    "inputBackground": "rgba(0, 0, 0, 0)",
+    "opacity": "1",
+    "placeholder": "请输入域名"
+  }
+]

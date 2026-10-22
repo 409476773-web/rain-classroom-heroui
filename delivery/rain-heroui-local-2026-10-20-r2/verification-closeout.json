@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-10-20T13:12:15.272Z",
+  "exampleFiles": [
+    {
+      "file": "example/App.tsx",
+      "sha256": "f5649289ae98973fc617bfb262569a3c8b42347eef11984da109c66e7fe0a82d"
+    },
+    {
+      "file": "example/App.styles.ts",
+      "sha256": "00f8c2ae1fb29e98a1ea53b67bfe32afae413f9fe419d5e02aa3efbc56e0e51f"
+    },
+    {
+      "file": "example/global.css",
+      "sha256": "cd9c429b7ff270ae666d3ecde293f4ffb0ce45aa1ad1c510144a34963672c3a5"
+    },
+    {
+      "file": "example/main.tsx",
+      "sha256": "f95a3f3822b49de1fda6b5e838be6a10ca3b2b57e5cfbc5d52c84a6120b4ea80"
+    },
+    {
+      "file": "example/index.html",
+      "sha256": "f64ae36e0f89894fff32b590309795bda9e50462cadd92d37b8bf3938c14caab"
+    }
+  ],
+  "reportSha256": "e45b9f2b630d9c94ffe166758665d6be30b087dd3af92d3bb3a981389cb448bf",
+  "browserEvidence": "evidence/runtime/rain-delivery-r2-2026-10-20/browser-checks.json",
+  "browserEvidenceSha256": "23f8272d19ffe78443fbd4823b49917bf597bc5ee219997f6282c75c5b844240",
+  "preview": {
+    "consumer": "/var/folders/2h/mp7rp10x1plgfqrm94_0dcdm0000gn/T/rain-heroui-consumer-TB5OeN/consumer",
+    "pid": 95978,
+    "url": "http://127.0.0.1:6008"
+  },
+  "scope": "Focused archive consumer and example verification; not full-library, production, clean network install or cross-device acceptance."
+}

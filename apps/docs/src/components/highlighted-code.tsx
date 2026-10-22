@@ -46,8 +46,8 @@ export const HighlightedCode = memo(function HighlightedCode({
   lang = "tsx",
   showLineNumbers = true,
 }: HighlightedCodeProps) {
-  const {resolvedTheme} = useTheme();
-  const theme = resolvedTheme === "dark" ? "dark" : "light";
+  const {forcedTheme, resolvedTheme} = useTheme();
+  const theme = (forcedTheme ?? resolvedTheme) === "dark" ? "dark" : "light";
 
   // Use React's `use` hook to suspend while loading the highlighter
   const highlighter = use(getHighlighterPromise());

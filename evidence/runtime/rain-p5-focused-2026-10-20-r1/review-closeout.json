@@ -1,0 +1,88 @@
+{
+  "checkedAt": "2026-10-20T15:23:29.165349+00:00",
+  "scope": "Four-group focused review on 9 named stories plus one specified docs Tabs sample",
+  "implementationFiles": [
+    "packages/storybook/.storybook/globals.css"
+  ],
+  "implementationChange": "Rain-scoped Storybook host font inheritance only",
+  "sourceSummary": {
+    "allStoryFiles": 80,
+    "builtStories": 587,
+    "builtStorybookEntries": 660,
+    "componentStoryFiles": 68,
+    "locales": {
+      "en": {
+        "allReactDocs": 179,
+        "componentDocs": 73,
+        "demoTsxFiles": 683,
+        "registeredDemos": 681
+      },
+      "zh": {
+        "allReactDocs": 179,
+        "componentDocs": 73,
+        "demoTsxFiles": 687,
+        "registeredDemos": 681
+      }
+    },
+    "publicComponentBarrelModules": 85,
+    "referenceIssues": 12,
+    "registeredLoaderWrappers": 4,
+    "sourceModules": 87,
+    "staticStoryExports": 596,
+    "unregisteredDemoFiles": 4
+  },
+  "inventoryRefresh": {
+    "docs/rain/inventory.json": {
+      "before": "1999b77ad1f64e02adb98cb74e92e2324b42e96fb389c855206a501607b5f8b3",
+      "after": "866be0bca4d7ff0c955e4fb6d09fb540372537715b49bf3cf717f0113dd3366b"
+    }
+  },
+  "newInputSha256": "935164d553fe9eada128a367f1a13da99c0a23ec1462ce729d991eef24773a14",
+  "other22RecordedInputsUnchanged": true,
+  "oldEvidenceAndR2ArchivesUnchanged": true,
+  "localLinksChecked": 217,
+  "missingLocalLinks": [],
+  "moduleMatrixRows": 87,
+  "openIssueSections": 13,
+  "selectedNodeCount": 377,
+  "originalRestorationPairs": 18,
+  "originalSampledStyleDifferences": 0,
+  "allowedRainGeometryExceptions": [
+    [
+      "components-theme-state-review--layouts",
+      {
+        "index": 70,
+        "class": "tabs__label",
+        "name": "按知识点汇总的学习情况与反馈",
+        "property": "height",
+        "original": "40px",
+        "rain": "20px"
+      }
+    ]
+  ],
+  "evidenceAssertions": 19,
+  "additionalReadonlyCases": 3,
+  "heavyTestsRun": false,
+  "testSuitesRun": false,
+  "fullLibraryScanRun": false,
+  "productionBuildsRun": false,
+  "installRun": false,
+  "archiveRepackRun": false,
+  "publishRun": false,
+  "browserViewportOverrideReset": true,
+  "sidebarRestoredToInitialValue": 300,
+  "checkCommands": [
+    {
+      "command": "pnpm local:catalog",
+      "exitCode": 0,
+      "kind": "static_generation_only"
+    },
+    {
+      "command": "pnpm local:catalog:check",
+      "exitCode": 0,
+      "kind": "static_check_only"
+    }
+  ],
+  "overallP5Status": "pending",
+  "report": "docs/rain/p5-focused-review-2026-10-20.md"
+}

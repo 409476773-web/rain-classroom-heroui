@@ -1,0 +1,43 @@
+{
+  "recordedAt": "2026-10-20T14:09:43.827Z",
+  "scope": "Static source/registry/document review only; no new runtime verification",
+  "remainingUnregisteredFiles": 4,
+  "records": [
+    {
+      "file": "apps/docs/src/demos/cn/close-button/variants.tsx",
+      "classification": "Unregistered presentational sample; only renders the default CloseButton",
+      "coveredBy": "close-button-default",
+      "reference": "apps/docs/content/docs/cn/react/components/(buttons)/close-button.mdx",
+      "sha256": "15a6679986bec405ff9b3e3fcf1c84b7b173066721f62f6b9a8f48a3d83c6261",
+      "decision": "Preserve source without adding a redundant or unverified registered preview",
+      "runtime": "not_run"
+    },
+    {
+      "file": "apps/docs/src/demos/cn/link/underline-offset.tsx",
+      "classification": "Unregistered split example; offsets 1/2/3 are included in the registered combined example",
+      "coveredBy": "link-underline-and-offset",
+      "reference": "apps/docs/content/docs/cn/react/components/(navigation)/link.mdx",
+      "sha256": "3494324ebf57fca4caee8f291a45ab2354db0fe2a4a5ce52c202dae52e5dde5b",
+      "decision": "Preserve source without adding a redundant or unverified registered preview",
+      "runtime": "not_run"
+    },
+    {
+      "file": "apps/docs/src/demos/cn/link/underline-variants.tsx",
+      "classification": "Unregistered split example; underline/default/no-underline are included in the registered combined example",
+      "coveredBy": "link-underline-and-offset",
+      "reference": "apps/docs/content/docs/cn/react/components/(navigation)/link.mdx",
+      "sha256": "e70af69d5dedc9c2cf4ecfbfd33a5613abcc085b1449f18ee31ef1d763077aeb",
+      "decision": "Preserve source without adding a redundant or unverified registered preview",
+      "runtime": "not_run"
+    },
+    {
+      "file": "apps/docs/src/demos/cn/skeleton/card.tsx",
+      "classification": "Unregistered additional composition; a related custom-styled skeleton card is registered, not claimed byte-equivalent",
+      "coveredBy": "skeleton-custom-styles",
+      "reference": "apps/docs/content/docs/cn/react/components/(feedback)/skeleton.mdx",
+      "sha256": "80ffe549aeed0536a20d805639701710a2520d2d788f82f776694f02bc60067f",
+      "decision": "Preserve source without adding a redundant or unverified registered preview",
+      "runtime": "not_run"
+    }
+  ]
+}

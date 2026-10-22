@@ -1,0 +1,22 @@
+{
+  "pages": [
+    {
+      "url": "http://127.0.0.1:3100/cn/docs/react/components/date-picker",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3100/cn/docs/react/components/card",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3100/cn/docs/react/components/text-field",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:6006/index.json",
+      "status": 200,
+      "stories": 587
+    }
+  ],
+  "themeSha256": "9a9fb13cd1a786d26e74095afb9bddeb252e37534b28b604717cbea4b648ec37"
+}

@@ -1,0 +1,101 @@
+{
+  "active": {
+    "class": "popover__dialog",
+    "label": null,
+    "role": "dialog",
+    "tag": "SECTION"
+  },
+  "nodes": [
+    {
+      "checked": false,
+      "class": "button button--icon-only button--md button--tertiary",
+      "disabled": false,
+      "expanded": "true",
+      "focus": null,
+      "invalid": null,
+      "name": "Popover trigger",
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "oklab(0.942554 -0.00360171 -0.0118933)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(0, 0, 0)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "40px",
+        "opacity": "1",
+        "outline": "rgb(0, 0, 0) none 3px",
+        "radius": "10px",
+        "width": "40px"
+      },
+      "tag": "BUTTON",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "popover",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgb(255, 255, 255)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(0, 0, 0)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "72px",
+        "opacity": "0.334892",
+        "outline": "rgb(0, 0, 0) none 3px",
+        "radius": "16px",
+        "width": "210.602px"
+      },
+      "tag": "DIV",
+      "text": "Popover headingThis is the popover content",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "popover__dialog",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "dialog",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(0, 0, 0)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "72px",
+        "opacity": "1",
+        "outline": "rgb(0, 95, 204) none 1px",
+        "radius": "0px",
+        "width": "210.602px"
+      },
+      "tag": "SECTION",
+      "text": "Popover headingThis is the popover content",
+      "value": ""
+    }
+  ],
+  "rain": "light",
+  "text": "Popover heading\n\nThis is the popover content",
+  "theme": "light",
+  "url": "http://127.0.0.1:6006/iframe.html?id=components-overlays-popover--with-arrow&viewMode=story&globals=heroui-theme%3Arain-light"
+}

@@ -1,0 +1,97 @@
+# 本地组件定位索引
+
+自动生成：`scripts/rain/catalog.mjs`；HeroUI 3.2.6，提交 `e385ac202b2cdb94b1bf6fa76d32c31c8259cc5e`。
+
+先读 index.md 与 usage-rules.md，再按任务读取下表中的入口及 1–3 个示例。完整结构化目录位于 apps/docs/src/generated/rain-catalog.json。
+
+目录包含公开模块和内部辅助模块；没有公开导入建议的条目不要自行拼接 @heroui/react 子路径。组合文档／story 只说明引用关系，不等于该模块已有独立演示或验收。
+
+| 模块 | 根包导入 | 本地源码 | 文档 | Storybook |
+| --- | --- | --- | --- | --- |
+| accordion | Accordion | packages/react/src/components/accordion/index.ts | apps/docs/content/docs/cn/react/components/(navigation)/accordion.mdx | components-navigation-accordion--default |
+| alert | Alert | packages/react/src/components/alert/index.ts | apps/docs/content/docs/cn/react/components/(feedback)/alert.mdx | components-feedback-alert--default |
+| alert-dialog | AlertDialog | packages/react/src/components/alert-dialog/index.ts | apps/docs/content/docs/cn/react/components/(overlays)/alert-dialog.mdx | components-overlays-alertdialog--default |
+| autocomplete | Autocomplete | packages/react/src/components/autocomplete/index.ts | apps/docs/content/docs/cn/react/components/(pickers)/autocomplete.mdx | components-pickers-autocomplete--default |
+| avatar | Avatar | packages/react/src/components/avatar/index.ts | apps/docs/content/docs/cn/react/components/(media)/avatar.mdx | components-media-avatar--default |
+| avatar-group | AvatarGroup | packages/react/src/components/avatar-group/index.ts | apps/docs/content/docs/cn/react/components/(media)/avatar-group.mdx | components-media-avatargroup--default |
+| badge | Badge | packages/react/src/components/badge/index.ts | apps/docs/content/docs/cn/react/components/(data-display)/badge.mdx | components-data-display-badge--default |
+| breadcrumbs | Breadcrumbs | packages/react/src/components/breadcrumbs/index.ts | apps/docs/content/docs/cn/react/components/(navigation)/breadcrumbs.mdx | components-navigation-breadcrumbs--default |
+| button | Button | packages/react/src/components/button/index.ts | apps/docs/content/docs/cn/react/components/(buttons)/button.mdx | components-buttons-button--default |
+| button-group | ButtonGroup | packages/react/src/components/button-group/index.ts | apps/docs/content/docs/cn/react/components/(buttons)/button-group.mdx | components-buttons-buttongroup--default |
+| calendar | Calendar | packages/react/src/components/calendar/index.ts | apps/docs/content/docs/cn/react/components/(date-and-time)/calendar.mdx | components-date-and-time-calendar--default |
+| calendar-year-picker | CalendarYearPicker | packages/react/src/components/calendar-year-picker/index.ts | 无独立文档 | components-theme-state-review--calendar-navigation（组合引用）（本地复查） |
+| card | Card | packages/react/src/components/card/index.ts | apps/docs/content/docs/cn/react/components/(layout)/card.mdx | components-layout-card--default |
+| checkbox | Checkbox | packages/react/src/components/checkbox/index.ts | apps/docs/content/docs/cn/react/components/(forms)/checkbox.mdx | components-forms-checkbox--default |
+| checkbox-group | CheckboxGroup | packages/react/src/components/checkbox-group/index.ts | apps/docs/content/docs/cn/react/components/(forms)/checkbox-group.mdx | components-forms-checkboxgroup--default |
+| chip | Chip | packages/react/src/components/chip/index.ts | apps/docs/content/docs/cn/react/components/(data-display)/chip.mdx | components-data-display-chip--default |
+| close-button | CloseButton | packages/react/src/components/close-button/index.ts | apps/docs/content/docs/cn/react/components/(buttons)/close-button.mdx | components-buttons-closebutton--default |
+| color-area | ColorArea | packages/react/src/components/color-area/index.ts | apps/docs/content/docs/cn/react/components/(colors)/color-area.mdx | components-colors-colorarea--default |
+| color-field | ColorField | packages/react/src/components/color-field/index.ts | apps/docs/content/docs/cn/react/components/(colors)/color-field.mdx | components-colors-colorfield--default |
+| color-input-group | 内部辅助 | packages/react/src/components/color-input-group/index.ts | 无独立文档 | components-colors-colorfield--default（组合引用） |
+| color-picker | ColorPicker | packages/react/src/components/color-picker/index.ts | apps/docs/content/docs/cn/react/components/(colors)/color-picker.mdx | components-colors-colorpicker--default |
+| color-slider | ColorSlider | packages/react/src/components/color-slider/index.ts | apps/docs/content/docs/cn/react/components/(colors)/color-slider.mdx | components-colors-colorslider--default |
+| color-swatch | ColorSwatch | packages/react/src/components/color-swatch/index.ts | apps/docs/content/docs/cn/react/components/(colors)/color-swatch.mdx | components-colors-colorswatch--default |
+| color-swatch-picker | ColorSwatchPicker | packages/react/src/components/color-swatch-picker/index.ts | apps/docs/content/docs/cn/react/components/(colors)/color-swatch-picker.mdx | components-colors-colorswatchpicker--default |
+| combo-box | ComboBox | packages/react/src/components/combo-box/index.ts | apps/docs/content/docs/cn/react/components/(pickers)/combo-box.mdx | components-pickers-combobox--default |
+| date-field | DateField | packages/react/src/components/date-field/index.ts | apps/docs/content/docs/cn/react/components/(date-and-time)/date-field.mdx | components-date-and-time-datefield--default |
+| date-input-group | 内部辅助 | packages/react/src/components/date-input-group/index.ts | 无独立文档 | components-date-and-time-datefield--default（组合引用） |
+| date-picker | DatePicker | packages/react/src/components/date-picker/index.ts | apps/docs/content/docs/cn/react/components/(date-and-time)/date-picker.mdx | components-date-and-time-datepicker--default |
+| date-range-picker | DateRangePicker | packages/react/src/components/date-range-picker/index.ts | apps/docs/content/docs/cn/react/components/(date-and-time)/date-range-picker.mdx | components-date-and-time-daterangepicker--default |
+| description | Description | packages/react/src/components/description/index.ts | apps/docs/content/docs/cn/react/components/(forms)/description.mdx | components-pickers-autocomplete--default（组合引用） |
+| disclosure | Disclosure | packages/react/src/components/disclosure/index.ts | apps/docs/content/docs/cn/react/components/(navigation)/disclosure.mdx | components-navigation-disclosure--default |
+| disclosure-group | DisclosureGroup | packages/react/src/components/disclosure-group/index.ts | apps/docs/content/docs/cn/react/components/(navigation)/disclosure-group.mdx | components-navigation-disclosuregroup--default |
+| drawer | Drawer | packages/react/src/components/drawer/index.ts | apps/docs/content/docs/cn/react/components/(overlays)/drawer.mdx | components-overlays-drawer--default |
+| dropdown | Dropdown | packages/react/src/components/dropdown/index.ts | apps/docs/content/docs/cn/react/components/(collections)/dropdown.mdx | components-collections-dropdown--default |
+| empty-state | EmptyState | packages/react/src/components/empty-state/index.ts | apps/docs/content/docs/cn/react/components/(pickers)/autocomplete.mdx（组合引用） | components-pickers-autocomplete--default（组合引用） |
+| error-message | ErrorMessage | packages/react/src/components/error-message/index.ts | apps/docs/content/docs/cn/react/components/(forms)/error-message.mdx | components-theme-state-review--error-messages（本地复查） |
+| field-error | FieldError | packages/react/src/components/field-error/index.ts | apps/docs/content/docs/cn/react/components/(forms)/field-error.mdx | components-pickers-autocomplete--default（组合引用） |
+| fieldset | Fieldset | packages/react/src/components/fieldset/index.ts | apps/docs/content/docs/cn/react/components/(forms)/fieldset.mdx | components-forms-fieldset--default |
+| form | Form | packages/react/src/components/form/index.ts | apps/docs/content/docs/cn/react/components/(forms)/form.mdx | components-pickers-autocomplete--default（组合引用） |
+| header | Header | packages/react/src/components/header/index.ts | apps/docs/content/docs/cn/react/components/(pickers)/autocomplete.mdx（组合引用） | components-pickers-autocomplete--default（组合引用） |
+| icons | 辅助导出，查入口 | packages/react/src/components/icons.tsx | 无独立文档 | components-navigation-accordion--default（组合引用） |
+| input | Input | packages/react/src/components/input/index.ts | apps/docs/content/docs/cn/react/components/(forms)/input.mdx | components-forms-input--default |
+| input-group | InputGroup | packages/react/src/components/input-group/index.ts | apps/docs/content/docs/cn/react/components/(forms)/input-group.mdx | components-forms-inputgroup--default |
+| input-otp | InputOTP | packages/react/src/components/input-otp/index.ts | apps/docs/content/docs/cn/react/components/(forms)/input-otp.mdx | components-forms-inputotp--default |
+| kbd | Kbd | packages/react/src/components/kbd/index.ts | apps/docs/content/docs/cn/react/components/(typography)/kbd.mdx | components-typography-kbd--default |
+| label | Label | packages/react/src/components/label/index.ts | apps/docs/content/docs/cn/react/components/(forms)/label.mdx | components-pickers-autocomplete--default（组合引用） |
+| link | Link | packages/react/src/components/link/index.ts | apps/docs/content/docs/cn/react/components/(navigation)/link.mdx | components-navigation-link--default |
+| list-box | ListBox | packages/react/src/components/list-box/index.ts | apps/docs/content/docs/cn/react/components/(collections)/list-box.mdx | components-collections-listbox--default |
+| list-box-item | ListBoxItem | packages/react/src/components/list-box-item/index.ts | 无独立文档 | components-collections-listbox--default（组合引用） |
+| list-box-section | ListBoxSection | packages/react/src/components/list-box-section/index.ts | 无独立文档 | components-collections-listbox--default（组合引用） |
+| menu | Menu | packages/react/src/components/menu/index.ts | 无独立文档 | components-theme-state-review--menu（本地复查） |
+| menu-item | MenuItem | packages/react/src/components/menu-item/index.ts | 无独立文档 | components-collections-dropdown--default（组合引用） |
+| menu-section | MenuSection | packages/react/src/components/menu-section/index.ts | 无独立文档 | components-collections-dropdown--default（组合引用） |
+| meter | Meter | packages/react/src/components/meter/index.ts | apps/docs/content/docs/cn/react/components/(feedback)/meter.mdx | components-feedback-meter--default |
+| modal | Modal | packages/react/src/components/modal/index.ts | apps/docs/content/docs/cn/react/components/(overlays)/modal.mdx | components-overlays-modal--default |
+| number-field | NumberField | packages/react/src/components/number-field/index.ts | apps/docs/content/docs/cn/react/components/(forms)/number-field.mdx | components-forms-numberfield--default |
+| pagination | Pagination | packages/react/src/components/pagination/index.ts | apps/docs/content/docs/cn/react/components/(navigation)/pagination.mdx | components-navigation-pagination--default |
+| popover | Popover | packages/react/src/components/popover/index.ts | apps/docs/content/docs/cn/react/components/(overlays)/popover.mdx | components-overlays-popover--default |
+| progress-bar | ProgressBar | packages/react/src/components/progress-bar/index.ts | apps/docs/content/docs/cn/react/components/(feedback)/progress-bar.mdx | components-feedback-progressbar--default |
+| progress-circle | ProgressCircle | packages/react/src/components/progress-circle/index.ts | apps/docs/content/docs/cn/react/components/(feedback)/progress-circle.mdx | components-feedback-progresscircle--default |
+| rac | 辅助导出，查入口 | packages/react/src/components/rac/index.ts | apps/docs/content/docs/cn/react/components/(pickers)/autocomplete.mdx（组合引用） | components-colors-colorarea--default（组合引用） |
+| radio | Radio | packages/react/src/components/radio/index.ts | apps/docs/content/docs/cn/react/components/(forms)/radio-group.mdx（组合引用） | components-media-avatargroup--default（组合引用） |
+| radio-group | RadioGroup | packages/react/src/components/radio-group/index.ts | apps/docs/content/docs/cn/react/components/(forms)/radio-group.mdx | components-forms-radiogroup--default |
+| range-calendar | RangeCalendar | packages/react/src/components/range-calendar/index.ts | apps/docs/content/docs/cn/react/components/(date-and-time)/range-calendar.mdx | components-date-and-time-rangecalendar--default |
+| scroll-shadow | ScrollShadow | packages/react/src/components/scroll-shadow/index.ts | apps/docs/content/docs/cn/react/components/(utilities)/scroll-shadow.mdx | components-utilities-scrollshadow--default |
+| search-field | SearchField | packages/react/src/components/search-field/index.ts | apps/docs/content/docs/cn/react/components/(forms)/search-field.mdx | components-forms-searchfield--default |
+| select | Select | packages/react/src/components/select/index.ts | apps/docs/content/docs/cn/react/components/(pickers)/select.mdx | components-pickers-select--default |
+| separator | Separator | packages/react/src/components/separator/index.ts | apps/docs/content/docs/cn/react/components/(layout)/separator.mdx | components-layout-separator--default |
+| skeleton | Skeleton | packages/react/src/components/skeleton/index.ts | apps/docs/content/docs/cn/react/components/(feedback)/skeleton.mdx | components-feedback-skeleton--default |
+| slider | Slider | packages/react/src/components/slider/index.ts | apps/docs/content/docs/cn/react/components/(controls)/slider.mdx | components-controls-slider--default |
+| spinner | Spinner | packages/react/src/components/spinner/index.ts | apps/docs/content/docs/cn/react/components/(feedback)/spinner.mdx | components-feedback-spinner--default |
+| surface | Surface | packages/react/src/components/surface/index.ts | apps/docs/content/docs/cn/react/components/(layout)/surface.mdx | components-layout-surface--variants |
+| switch | Switch | packages/react/src/components/switch/index.ts | apps/docs/content/docs/cn/react/components/(controls)/switch.mdx | components-controls-switch--default |
+| switch-group | SwitchGroup | packages/react/src/components/switch-group/index.ts | apps/docs/content/docs/cn/react/components/(controls)/switch.mdx（组合引用） | components-controls-switchgroup--default |
+| table | Table | packages/react/src/components/table/index.ts | apps/docs/content/docs/cn/react/components/(data-display)/table.mdx | components-data-display-table--default |
+| tabs | Tabs | packages/react/src/components/tabs/index.ts | apps/docs/content/docs/cn/react/components/(navigation)/tabs.mdx | components-navigation-tabs--default |
+| tag | Tag | packages/react/src/components/tag/index.ts | apps/docs/content/docs/cn/react/components/(collections)/tag-group.mdx（组合引用） | components-pickers-autocomplete--default（组合引用） |
+| tag-group | TagGroup | packages/react/src/components/tag-group/index.ts | apps/docs/content/docs/cn/react/components/(collections)/tag-group.mdx | components-collections-taggroup--default |
+| textarea | TextArea | packages/react/src/components/textarea/index.ts | apps/docs/content/docs/cn/react/components/(forms)/text-area.mdx | components-forms-textarea--default |
+| textfield | TextField | packages/react/src/components/textfield/index.ts | apps/docs/content/docs/cn/react/components/(forms)/text-field.mdx | components-forms-textfield--default |
+| time-field | TimeField | packages/react/src/components/time-field/index.ts | apps/docs/content/docs/cn/react/components/(date-and-time)/time-field.mdx | components-date-and-time-timefield--default |
+| toast | Toast | packages/react/src/components/toast/index.ts | apps/docs/content/docs/cn/react/components/(overlays)/toast.mdx | components-feedback-toast--default |
+| toggle-button | ToggleButton | packages/react/src/components/toggle-button/index.ts | apps/docs/content/docs/cn/react/components/(buttons)/toggle-button.mdx | components-buttons-togglebutton--default |
+| toggle-button-group | ToggleButtonGroup | packages/react/src/components/toggle-button-group/index.ts | apps/docs/content/docs/cn/react/components/(buttons)/toggle-button-group.mdx | components-buttons-togglebuttongroup--default |
+| toolbar | Toolbar | packages/react/src/components/toolbar/index.ts | apps/docs/content/docs/cn/react/components/(layout)/toolbar.mdx | components-layout-toolbar--default |
+| tooltip | Tooltip | packages/react/src/components/tooltip/index.ts | apps/docs/content/docs/cn/react/components/(overlays)/tooltip.mdx | components-overlays-tooltip--default |
+| typography | Typography | packages/react/src/components/typography/index.ts | apps/docs/content/docs/cn/react/components/(typography)/typography.mdx | components-typography--default |

@@ -1,0 +1,39 @@
+{
+  "nodes": [
+    {
+      "animation": "none",
+      "bg": "rgba(0, 0, 0, 0)",
+      "busy": null,
+      "class": "progress-bar progress-bar--accent progress-bar--md",
+      "color": "rgb(20, 35, 60)",
+      "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+      "max": "100",
+      "min": "0",
+      "name": null,
+      "now": null,
+      "opacity": "1",
+      "role": "progressbar",
+      "stroke": "none",
+      "text": "Loading..."
+    },
+    {
+      "animation": "progress-bar-indeterminate",
+      "bg": "rgb(21, 97, 248)",
+      "busy": null,
+      "class": "progress-bar__fill",
+      "color": "rgb(20, 35, 60)",
+      "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+      "max": null,
+      "min": null,
+      "name": null,
+      "now": null,
+      "opacity": "1",
+      "role": null,
+      "stroke": "none",
+      "text": ""
+    }
+  ],
+  "rain": "light",
+  "text": "Loading...",
+  "url": "http://127.0.0.1:6006/iframe.html?id=components-feedback-progressbar--indeterminate&viewMode=story&globals=heroui-theme%3Arain-light"
+}

@@ -1,0 +1,33 @@
+✔ container theme import leaves original light and dark computed styles unchanged (4637.365917ms)
+✔ Rain date-picker panel uses 16px without changing nested circles or pills (729.621125ms)
+✔ Rain date-range-picker panel uses 16px without changing nested circles or pills (422.890792ms)
+✔ Rain color-picker panel uses 16px without changing nested circles or pills (302.579875ms)
+✖ Rain primary table retains its inner/outer corner relationship (328.750417ms)
+✔ Rain secondary table retains its inner/outer corner relationship (464.008375ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 5
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 8754.506125
+
+✖ failing tests:
+
+test at scripts/rain/container-radius.test.mjs:152:3
+✖ Rain primary table retains its inner/outer corner relationship (328.750417ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  '20px' !== '16px'
+  
+      at TestContext.<anonymous> (file:///Users/wenchengkai/CodexFile/hero%20ui-%E6%94%B9%E9%80%A0/scripts/rain/container-radius.test.mjs:167:14)
+      at async Test.run (node:internal/test_runner/test:1113:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '20px',
+    expected: '16px',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

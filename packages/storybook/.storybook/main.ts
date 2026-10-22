@@ -52,6 +52,9 @@ const config: StorybookConfig = {
     "./stories/colors.stories.tsx",
     "./stories/colors-demo.stories.tsx",
     "./stories/demo.stories.tsx",
+    "./stories/brand-comparison.stories.tsx",
+    "./stories/grading-panel.stories.tsx",
+    "./stories/rain-state-review-*.stories.tsx",
     ...getStories(),
   ],
 };

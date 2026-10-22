@@ -1,0 +1,776 @@
+
+> heroui@3.2.6 build:storybook /Users/wenchengkai/CodexFile/hero ui-改造
+> dotenv -- turbo build --filter=@heroui/storybook
+
+• turbo 2.10.13
+
+   • Packages in scope: @heroui/storybook
+   • Running build in 1 package
+   • Remote caching disabled
+
+@heroui/styles:build: cache hit, replaying logs ed22c081485b0b21
+@heroui/styles:build: 
+@heroui/styles:build: > @heroui/styles@3.2.6 build /Users/wenchengkai/CodexFile/hero ui-改造/packages/styles
+@heroui/styles:build: > node scripts/build.mjs --tsc
+@heroui/styles:build: 
+@heroui/styles:build: 🧹 Cleaning dist directory...
+@heroui/styles:build: 📦 Building with Rollup...
+@heroui/styles:build: 
+@heroui/styles:build: src/index.ts, src/components/accordion/index.ts, src/components/alert/index.ts, src/components/alert-dialog/index.ts, src/components/autocomplete/index.ts, src/components/avatar/index.ts, src/components/avatar-group/index.ts, src/components/badge/index.ts, src/components/breadcrumbs/index.ts, src/components/button/index.ts, src/components/button-group/index.ts, src/components/calendar/index.ts, src/components/calendar-year-picker/index.ts, src/components/card/index.ts, src/components/checkbox/index.ts, src/components/checkbox-group/index.ts, src/components/chip/index.ts, src/components/close-button/index.ts, src/components/color-area/index.ts, src/components/color-field/index.ts, src/components/color-input-group/index.ts, src/components/color-picker/index.ts, src/components/color-slider/index.ts, src/components/color-swatch/index.ts, src/components/color-swatch-picker/index.ts, src/components/combo-box/index.ts, src/components/date-field/index.ts, src/components/date-input-group/index.ts, src/components/date-picker/index.ts, src/components/date-range-picker/index.ts, src/components/description/index.ts, src/components/disclosure/index.ts, src/components/disclosure-group/index.ts, src/components/drawer/index.ts, src/components/dropdown/index.ts, src/components/empty-state/index.ts, src/components/error-message/index.ts, src/components/field-error/index.ts, src/components/fieldset/index.ts, src/components/header/index.ts, src/components/input/index.ts, src/components/input-group/index.ts, src/components/input-otp/index.ts, src/components/kbd/index.ts, src/components/label/index.ts, src/components/link/index.ts, src/components/list-box/index.ts, src/components/list-box-item/index.ts, src/components/list-box-section/index.ts, src/components/menu/index.ts, src/components/menu-item/index.ts, src/components/menu-section/index.ts, src/components/meter/index.ts, src/components/modal/index.ts, src/components/number-field/index.ts, src/components/pagination/index.ts, src/components/popover/index.ts, src/components/progress-bar/index.ts, src/components/progress-circle/index.ts, src/components/radio/index.ts, src/components/radio-group/index.ts, src/components/range-calendar/index.ts, src/components/scroll-shadow/index.ts, src/components/search-field/index.ts, src/components/select/index.ts, src/components/separator/index.ts, src/components/skeleton/index.ts, src/components/slider/index.ts, src/components/spinner/index.ts, src/components/surface/index.ts, src/components/switch/index.ts, src/components/switch-group/index.ts, src/components/table/index.ts, src/components/tabs/index.ts, src/components/tag/index.ts, src/components/tag-group/index.ts, src/components/textarea/index.ts, src/components/textfield/index.ts, src/components/time-field/index.ts, src/components/toast/index.ts, src/components/toggle-button/index.ts, src/components/toggle-button-group/index.ts, src/components/toolbar/index.ts, src/components/tooltip/index.ts, src/components/typography/index.ts → dist...
+@heroui/styles:build: (!) [plugin typescript] @rollup/plugin-typescript TS5069: Option 'declarationMap' cannot be specified without specifying option 'declaration' or option 'composite'.
+@heroui/styles:build: (!) [plugin typescript] @rollup/plugin-typescript: outputToFilesystem option is defaulting to true.
+@heroui/styles:build: created dist in 799ms
+@heroui/styles:build: 📝 Generating TypeScript declarations...
+@heroui/styles:build: ✅ TypeScript declarations generated
+@heroui/styles:build: 🎨 Copying CSS files...
+@heroui/styles:build: Copying CSS files to dist...
+@heroui/styles:build: ✓ Copied: index.css
+@heroui/styles:build: ✓ Copied: base/base.css
+@heroui/styles:build: ✓ Copied: base/scrollbar.css
+@heroui/styles:build: ✓ Copied: components/accordion.css
+@heroui/styles:build: ✓ Copied: components/alert-dialog.css
+@heroui/styles:build: ✓ Copied: components/alert.css
+@heroui/styles:build: ✓ Copied: components/autocomplete.css
+@heroui/styles:build: ✓ Copied: components/avatar-group.css
+@heroui/styles:build: ✓ Copied: components/avatar.css
+@heroui/styles:build: ✓ Copied: components/badge.css
+@heroui/styles:build: ✓ Copied: components/breadcrumbs.css
+@heroui/styles:build: ✓ Copied: components/button-group.css
+@heroui/styles:build: ✓ Copied: components/button.css
+@heroui/styles:build: ✓ Copied: components/calendar-year-picker.css
+@heroui/styles:build: ✓ Copied: components/calendar.css
+@heroui/styles:build: ✓ Copied: components/card.css
+@heroui/styles:build: ✓ Copied: components/checkbox-group.css
+@heroui/styles:build: ✓ Copied: components/checkbox.css
+@heroui/styles:build: ✓ Copied: components/chip.css
+@heroui/styles:build: ✓ Copied: components/close-button.css
+@heroui/styles:build: ✓ Copied: components/color-area.css
+@heroui/styles:build: ✓ Copied: components/color-field.css
+@heroui/styles:build: ✓ Copied: components/color-input-group.css
+@heroui/styles:build: ✓ Copied: components/color-picker.css
+@heroui/styles:build: ✓ Copied: components/color-slider.css
+@heroui/styles:build: ✓ Copied: components/color-swatch-picker.css
+@heroui/styles:build: ✓ Copied: components/color-swatch.css
+@heroui/styles:build: ✓ Copied: components/combo-box.css
+@heroui/styles:build: ✓ Copied: components/date-field.css
+@heroui/styles:build: ✓ Copied: components/date-input-group.css
+@heroui/styles:build: ✓ Copied: components/date-picker.css
+@heroui/styles:build: ✓ Copied: components/date-range-picker.css
+@heroui/styles:build: ✓ Copied: components/description.css
+@heroui/styles:build: ✓ Copied: components/disclosure-group.css
+@heroui/styles:build: ✓ Copied: components/disclosure.css
+@heroui/styles:build: ✓ Copied: components/drawer.css
+@heroui/styles:build: ✓ Copied: components/dropdown.css
+@heroui/styles:build: ✓ Copied: components/empty-state.css
+@heroui/styles:build: ✓ Copied: components/error-message.css
+@heroui/styles:build: ✓ Copied: components/field-error.css
+@heroui/styles:build: ✓ Copied: components/fieldset.css
+@heroui/styles:build: ✓ Copied: components/header.css
+@heroui/styles:build: ✓ Copied: components/index.css
+@heroui/styles:build: ✓ Copied: components/input-group.css
+@heroui/styles:build: ✓ Copied: components/input-otp.css
+@heroui/styles:build: ✓ Copied: components/input.css
+@heroui/styles:build: ✓ Copied: components/kbd.css
+@heroui/styles:build: ✓ Copied: components/label.css
+@heroui/styles:build: ✓ Copied: components/link.css
+@heroui/styles:build: ✓ Copied: components/list-box-item.css
+@heroui/styles:build: ✓ Copied: components/list-box-section.css
+@heroui/styles:build: ✓ Copied: components/list-box.css
+@heroui/styles:build: ✓ Copied: components/menu-item.css
+@heroui/styles:build: ✓ Copied: components/menu-section.css
+@heroui/styles:build: ✓ Copied: components/menu.css
+@heroui/styles:build: ✓ Copied: components/meter.css
+@heroui/styles:build: ✓ Copied: components/modal.css
+@heroui/styles:build: ✓ Copied: components/number-field.css
+@heroui/styles:build: ✓ Copied: components/pagination.css
+@heroui/styles:build: ✓ Copied: components/popover.css
+@heroui/styles:build: ✓ Copied: components/progress-bar.css
+@heroui/styles:build: ✓ Copied: components/progress-circle.css
+@heroui/styles:build: ✓ Copied: components/radio-group.css
+@heroui/styles:build: ✓ Copied: components/radio.css
+@heroui/styles:build: ✓ Copied: components/range-calendar.css
+@heroui/styles:build: ✓ Copied: components/scroll-shadow.css
+@heroui/styles:build: ✓ Copied: components/search-field.css
+@heroui/styles:build: ✓ Copied: components/select.css
+@heroui/styles:build: ✓ Copied: components/separator.css
+@heroui/styles:build: ✓ Copied: components/skeleton.css
+@heroui/styles:build: ✓ Copied: components/slider.css
+@heroui/styles:build: ✓ Copied: components/spinner.css
+@heroui/styles:build: ✓ Copied: components/surface.css
+@heroui/styles:build: ✓ Copied: components/switch-group.css
+@heroui/styles:build: ✓ Copied: components/switch.css
+@heroui/styles:build: ✓ Copied: components/table.css
+@heroui/styles:build: ✓ Copied: components/tabs.css
+@heroui/styles:build: ✓ Copied: components/tag-group.css
+@heroui/styles:build: ✓ Copied: components/tag.css
+@heroui/styles:build: ✓ Copied: components/textarea.css
+@heroui/styles:build: ✓ Copied: components/textfield.css
+@heroui/styles:build: ✓ Copied: components/time-field.css
+@heroui/styles:build: ✓ Copied: components/toast.css
+@heroui/styles:build: ✓ Copied: components/toggle-button-group.css
+@heroui/styles:build: ✓ Copied: components/toggle-button.css
+@heroui/styles:build: ✓ Copied: components/toolbar.css
+@heroui/styles:build: ✓ Copied: components/tooltip.css
+@heroui/styles:build: ✓ Copied: components/typography.css
+@heroui/styles:build: ✓ Copied: themes/default/components/index.css
+@heroui/styles:build: ✓ Copied: themes/default/index.css
+@heroui/styles:build: ✓ Copied: themes/default/variables.css
+@heroui/styles:build: ✓ Copied: themes/shared/theme.css
+@heroui/styles:build: ✓ Copied: utilities/index.css
+@heroui/styles:build: ✓ Copied: variants/index.css
+@heroui/styles:build: ✅ CSS files copied successfully!
+@heroui/styles:build: 🗜️  Minifying CSS...
+@heroui/styles:build: npm warn Unknown env config "npm-globalconfig". This will stop working in the next major version of npm.
+@heroui/styles:build: npm warn Unknown env config "verify-deps-before-run". This will stop working in the next major version of npm.
+@heroui/styles:build: npm warn Unknown env config "auto-install-peers". This will stop working in the next major version of npm.
+@heroui/styles:build: npm warn Unknown env config "_jsr-registry". This will stop working in the next major version of npm.
+@heroui/styles:build: npm warn Unknown env config "enable-pre-post-scripts". This will stop working in the next major version of npm.
+@heroui/styles:build: npm warn Unknown env config "lockfile". This will stop working in the next major version of npm.
+@heroui/styles:build: npm warn Unknown env config "overrides". This will stop working in the next major version of npm.
+@heroui/styles:build: ≈ tailwindcss v4.3.3
+@heroui/styles:build: 
+@heroui/styles:build: Done in 168ms
+@heroui/styles:build: ✨ Build completed successfully!
+@heroui/react:build: cache hit, replaying logs 01aecd98293c8b8f
+@heroui/react:build: 
+@heroui/react:build: > @heroui/react@3.2.6 build /Users/wenchengkai/CodexFile/hero ui-改造/packages/react
+@heroui/react:build: > node scripts/build.mjs --tsc
+@heroui/react:build: 
+@heroui/react:build: 🧹 Cleaning dist directory...
+@heroui/react:build: 📦 Building with Rollup...
+@heroui/react:build: 
+@heroui/react:build: src/index.ts, src/components/accordion/index.ts, src/components/alert/index.ts, src/components/alert-dialog/index.ts, src/components/autocomplete/index.ts, src/components/avatar/index.ts, src/components/avatar-group/index.ts, src/components/badge/index.ts, src/components/breadcrumbs/index.ts, src/components/button/index.ts, src/components/button-group/index.ts, src/components/calendar/index.ts, src/components/calendar-year-picker/index.ts, src/components/card/index.ts, src/components/checkbox/index.ts, src/components/checkbox-group/index.ts, src/components/chip/index.ts, src/components/close-button/index.ts, src/components/color-area/index.ts, src/components/color-field/index.ts, src/components/color-input-group/index.ts, src/components/color-picker/index.ts, src/components/color-slider/index.ts, src/components/color-swatch/index.ts, src/components/color-swatch-picker/index.ts, src/components/combo-box/index.ts, src/components/date-field/index.ts, src/components/date-input-group/index.ts, src/components/date-picker/index.ts, src/components/date-range-picker/index.ts, src/components/description/index.ts, src/components/disclosure/index.ts, src/components/disclosure-group/index.ts, src/components/drawer/index.ts, src/components/dropdown/index.ts, src/components/empty-state/index.ts, src/components/error-message/index.ts, src/components/field-error/index.ts, src/components/fieldset/index.ts, src/components/form/index.ts, src/components/header/index.ts, src/components/input/index.ts, src/components/input-group/index.ts, src/components/input-otp/index.ts, src/components/kbd/index.ts, src/components/label/index.ts, src/components/link/index.ts, src/components/list-box/index.ts, src/components/list-box-item/index.ts, src/components/list-box-section/index.ts, src/components/menu/index.ts, src/components/menu-item/index.ts, src/components/menu-section/index.ts, src/components/meter/index.ts, src/components/modal/index.ts, src/components/number-field/index.ts, src/components/pagination/index.ts, src/components/popover/index.ts, src/components/progress-bar/index.ts, src/components/progress-circle/index.ts, src/components/rac/index.ts, src/components/radio/index.ts, src/components/radio-group/index.ts, src/components/range-calendar/index.ts, src/components/scroll-shadow/index.ts, src/components/search-field/index.ts, src/components/select/index.ts, src/components/separator/index.ts, src/components/skeleton/index.ts, src/components/slider/index.ts, src/components/spinner/index.ts, src/components/surface/index.ts, src/components/switch/index.ts, src/components/switch-group/index.ts, src/components/table/index.ts, src/components/tabs/index.ts, src/components/tag/index.ts, src/components/tag-group/index.ts, src/components/textarea/index.ts, src/components/textfield/index.ts, src/components/time-field/index.ts, src/components/toast/index.ts, src/components/toggle-button/index.ts, src/components/toggle-button-group/index.ts, src/components/toolbar/index.ts, src/components/tooltip/index.ts, src/components/typography/index.ts → dist...
+@heroui/react:build: created dist in 1.2s
+@heroui/react:build: 🎨 Creating styles export...
+@heroui/react:build: ✅ Styles export created successfully
+@heroui/react:build: 🔧 Adding directives to files...
+@heroui/react:build: ✅ Added "use client" to 88 files (from .tsx)
+@heroui/react:build: ✅ Added "use strict" to 105 files (from .ts)
+@heroui/react:build: 📝 Generating TypeScript declarations...
+@heroui/react:build: Running tsc with tsconfig.build.json...
+@heroui/react:build: ✅ TypeScript declarations generated successfully
+@heroui/react:build: ✅ TypeScript declarations generated
+@heroui/react:build: 📊 Counting components...
+@heroui/react:build: ✅ Found 86 components
+@heroui/react:build:    Note: Component exports will be generated during 'pnpm pack' via clean-package
+@heroui/react:build: 📊 Measuring bundle sizes...
+@heroui/react:build: 
+@heroui/react:build: 📦 Bundle Size Report
+@heroui/react:build: ══════════════════════════════════════════════════
+@heroui/react:build: Total across 204 files: 480.63kb (75.56kb gzipped)
+@heroui/react:build: ──────────────────────────────────────────────────
+@heroui/react:build: 
+@heroui/react:build: 📄 Entry:
+@heroui/react:build:   index.js: 18.57kb (3.69kb gzipped)
+@heroui/react:build:   utils/ (10 files): 12.68kb (4.20kb gzipped)
+@heroui/react:build:   hooks/ (10 files): 21.70kb (6.09kb gzipped)
+@heroui/react:build: 
+@heroui/react:build: 🎨 CSS:
+@heroui/react:build:   styles.css: 0.07kb (0.09kb gzipped)
+@heroui/react:build: 
+@heroui/react:build: 🧩 Components (own modules only — excludes shared utils/hooks):
+@heroui/react:build:   toast (4 files): 43.23kb (11.15kb gzipped)
+@heroui/react:build:   calendar-year-picker (4 files): 18.13kb (3.92kb gzipped)
+@heroui/react:build:   drawer (3 files): 15.16kb (3.13kb gzipped)
+@heroui/react:build:   calendar (4 files): 16.40kb (2.99kb gzipped)
+@heroui/react:build:   range-calendar (2 files): 15.35kb (2.79kb gzipped)
+@heroui/react:build:   select (2 files): 9.39kb (2.35kb gzipped)
+@heroui/react:build:   scroll-shadow (3 files): 7.96kb (2.28kb gzipped)
+@heroui/react:build:   color-slider (2 files): 8.08kb (2.11kb gzipped)
+@heroui/react:build:   autocomplete (2 files): 9.67kb (2.01kb gzipped)
+@heroui/react:build:   tabs (2 files): 9.09kb (2.01kb gzipped)
+@heroui/react:build:   table (2 files): 11.81kb (1.83kb gzipped)
+@heroui/react:build:   tooltip (2 files): 6.29kb (1.76kb gzipped)
+@heroui/react:build:   combo-box (2 files): 7.20kb (1.55kb gzipped)
+@heroui/react:build:   alert-dialog (2 files): 10.31kb (1.53kb gzipped)
+@heroui/react:build:   modal (2 files): 9.29kb (1.46kb gzipped)
+@heroui/react:build:   date-range-picker (2 files): 7.01kb (1.44kb gzipped)
+@heroui/react:build:   color-swatch-picker (2 files): 5.84kb (1.38kb gzipped)
+@heroui/react:build:   date-picker (2 files): 5.90kb (1.36kb gzipped)
+@heroui/react:build:   fieldset (2 files): 5.24kb (1.36kb gzipped)
+@heroui/react:build:   pagination (2 files): 8.43kb (1.35kb gzipped)
+@heroui/react:build:   accordion (2 files): 6.88kb (1.30kb gzipped)
+@heroui/react:build:   checkbox (2 files): 5.20kb (1.29kb gzipped)
+@heroui/react:build:   slider (2 files): 6.37kb (1.28kb gzipped)
+@heroui/react:build:   input-otp (2 files): 5.40kb (1.22kb gzipped)
+@heroui/react:build:   avatar-group (3 files): 4.06kb (1.17kb gzipped)
+@heroui/react:build:   spinner (2 files): 3.56kb (1.13kb gzipped)
+@heroui/react:build:   menu-item (2 files): 4.33kb (1.12kb gzipped)
+@heroui/react:build:   progress-circle (2 files): 4.94kb (1.09kb gzipped)
+@heroui/react:build:   disclosure (2 files): 5.88kb (1.07kb gzipped)
+@heroui/react:build:   popover (2 files): 5.40kb (1.07kb gzipped)
+@heroui/react:build:   dropdown (2 files): 6.27kb (1.05kb gzipped)
+@heroui/react:build:   date-input-group (2 files): 5.72kb (1.02kb gzipped)
+@heroui/react:build:   disclosure-group (3 files): 3.58kb (1.01kb gzipped)
+@heroui/react:build:   button-group (2 files): 3.45kb (0.98kb gzipped)
+@heroui/react:build:   input-group (2 files): 4.76kb (0.98kb gzipped)
+@heroui/react:build:   kbd (3 files): 3.49kb (0.98kb gzipped)
+@heroui/react:build:   avatar (2 files): 3.73kb (0.95kb gzipped)
+@heroui/react:build:   radio (2 files): 3.84kb (0.95kb gzipped)
+@heroui/react:build:   switch (2 files): 4.25kb (0.95kb gzipped)
+@heroui/react:build:   alert (2 files): 4.89kb (0.93kb gzipped)
+@heroui/react:build:   search-field (2 files): 4.89kb (0.93kb gzipped)
+@heroui/react:build:   tag (2 files): 3.31kb (0.93kb gzipped)
+@heroui/react:build:   list-box-item (2 files): 3.00kb (0.89kb gzipped)
+@heroui/react:build:   number-field (2 files): 5.08kb (0.89kb gzipped)
+@heroui/react:build:   progress-bar (2 files): 3.91kb (0.87kb gzipped)
+@heroui/react:build:   toggle-button-group (2 files): 3.28kb (0.86kb gzipped)
+@heroui/react:build:   breadcrumbs (2 files): 3.08kb (0.83kb gzipped)
+@heroui/react:build:   card (2 files): 4.63kb (0.83kb gzipped)
+@heroui/react:build:   meter (2 files): 3.56kb (0.83kb gzipped)
+@heroui/react:build:   color-picker (2 files): 3.46kb (0.79kb gzipped)
+@heroui/react:build:   color-input-group (2 files): 3.87kb (0.77kb gzipped)
+@heroui/react:build:   badge (2 files): 2.97kb (0.74kb gzipped)
+@heroui/react:build:   button (2 files): 2.12kb (0.72kb gzipped)
+@heroui/react:build:   color-area (2 files): 2.66kb (0.70kb gzipped)
+@heroui/react:build:   link (2 files): 2.41kb (0.70kb gzipped)
+@heroui/react:build:   typography (2 files): 2.00kb (0.68kb gzipped)
+@heroui/react:build:   chip (2 files): 2.33kb (0.64kb gzipped)
+@heroui/react:build:   date-field (2 files): 1.76kb (0.62kb gzipped)
+@heroui/react:build:   tag-group (2 files): 2.35kb (0.62kb gzipped)
+@heroui/react:build:   time-field (2 files): 1.76kb (0.62kb gzipped)
+@heroui/react:build:   color-field (2 files): 1.66kb (0.59kb gzipped)
+@heroui/react:build:   toolbar (2 files): 1.66kb (0.58kb gzipped)
+@heroui/react:build:   textfield (2 files): 1.78kb (0.56kb gzipped)
+@heroui/react:build:   toggle-button (2 files): 1.51kb (0.55kb gzipped)
+@heroui/react:build:   close-button (2 files): 1.38kb (0.51kb gzipped)
+@heroui/react:build:   input (2 files): 1.33kb (0.49kb gzipped)
+@heroui/react:build:   checkbox-group (2 files): 1.15kb (0.48kb gzipped)
+@heroui/react:build:   radio-group (2 files): 1.24kb (0.48kb gzipped)
+@heroui/react:build:   skeleton (2 files): 1.19kb (0.48kb gzipped)
+@heroui/react:build:   color-swatch (2 files): 1.25kb (0.47kb gzipped)
+@heroui/react:build:   list-box (2 files): 1.30kb (0.47kb gzipped)
+@heroui/react:build:   surface (2 files): 1.45kb (0.47kb gzipped)
+@heroui/react:build:   menu (2 files): 1.19kb (0.45kb gzipped)
+@heroui/react:build:   switch-group (2 files): 1.17kb (0.44kb gzipped)
+@heroui/react:build:   textarea (2 files): 1.19kb (0.44kb gzipped)
+@heroui/react:build:   separator (2 files): 1.24kb (0.42kb gzipped)
+@heroui/react:build:   error-message (2 files): 1.07kb (0.41kb gzipped)
+@heroui/react:build:   field-error (2 files): 1.08kb (0.41kb gzipped)
+@heroui/react:build:   description (2 files): 1.05kb (0.40kb gzipped)
+@heroui/react:build:   list-box-section (2 files): 1.03kb (0.39kb gzipped)
+@heroui/react:build:   menu-section (2 files): 0.99kb (0.38kb gzipped)
+@heroui/react:build:   empty-state (2 files): 0.91kb (0.36kb gzipped)
+@heroui/react:build:   label (2 files): 0.92kb (0.36kb gzipped)
+@heroui/react:build:   header (2 files): 0.80kb (0.31kb gzipped)
+@heroui/react:build:   form (2 files): 0.59kb (0.25kb gzipped)
+@heroui/react:build:   rac (1 file): 0.34kb (0.23kb gzipped)
+@heroui/react:build: ══════════════════════════════════════════════════
+@heroui/react:build: 
+@heroui/react:build: 💾 Size report saved to: /Users/wenchengkai/CodexFile/hero ui-改造/packages/react/bundle-sizes.json
+@heroui/react:build: ✨ Build completed successfully!
+@heroui/storybook:build: cache miss, executing 6dec9c2b87fde727
+@heroui/storybook:build: 
+@heroui/storybook:build: > @heroui/storybook@0.0.0 build /Users/wenchengkai/CodexFile/hero ui-改造/packages/storybook
+@heroui/storybook:build: > storybook build
+@heroui/storybook:build: 
+@heroui/storybook:build: 
+@heroui/storybook:build: ┌  Building storybook v10.6.0
+@heroui/storybook:build: │
+@heroui/storybook:build: ◇  Cleaning outputDir: storybook-static
+@heroui/storybook:build: │
+@heroui/storybook:build: ◇  Loading presets
+@heroui/storybook:build: │
+@heroui/storybook:build: ◇  Building manager..
+@heroui/storybook:build: │
+@heroui/storybook:build: ●  Building open services..
+@heroui/storybook:build: │
+@heroui/storybook:build: ●  Building preview..
+@heroui/storybook:build: │  Vite vite v7.3.5 building client environment for production...
+@heroui/storybook:build: │  Vite transforming...
+@heroui/storybook:build: │
+@heroui/storybook:build: ●  Copying static files: public at storybook-static
+@heroui/storybook:build: │  Vite ✓ 3114 modules transformed.
+@heroui/storybook:build: │  Vite rendering chunks...
+@heroui/storybook:build: │  Vite computing gzip size...
+@heroui/storybook:build: │  Vite storybook-static/iframe.html
+@heroui/storybook:build: │  20.53 kB │ gzip:   5.67 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/iframe-DlyAVHvq.css
+@heroui/storybook:build: │  499.75 kB │ gzip:  48.71 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/assertion-BJKjjmWO.js
+@heroui/storybook:build: │  0.04 kB │ gzip:   0.06 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-Bfq6Okk0.js
+@heroui/storybook:build: │  0.09 kB │ gzip:   0.11 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-BDP1Yjms.js
+@heroui/storybook:build: │  0.09 kB │ gzip:   0.11 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-Dj3GK99z.js
+@heroui/storybook:build: │  0.11 kB │ gzip:   0.12 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-ElZl_-nY.js
+@heroui/storybook:build: │  0.11 kB │ gzip:   0.12 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/use-safe-layout-effect-Czx-mZn1.js
+@heroui/storybook:build: │  0.12 kB │ gzip:   0.12 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/formatter-L2YTDE3Q-BkgSBL-e.js
+@heroui/storybook:build: │  0.18 kB │ gzip:   0.17 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/useListFormatter-DmBa-GcW.js
+@heroui/storybook:build: │  0.19 kB │ gzip:   0.18 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/use-has-text-slot-DGSpOCxT.js
+@heroui/storybook:build: │  0.19 kB │ gzip:   0.18 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/useColor-CVTOORGY.js
+@heroui/storybook:build: │  0.21 kB │ gzip:   0.18 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/useNumberFormatter-ChBIs0w3.js
+@heroui/storybook:build: │  0.22 kB │ gzip:   0.19 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-Cs9AVslh.js
+@heroui/storybook:build: │  0.27 kB │ gzip:   0.23 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/compose-DWgcROEH.js
+@heroui/storybook:build: │  0.27 kB │ gzip:   0.21 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/useEvent-DJc_lkNg.js
+@heroui/storybook:build: │  0.27 kB │ gzip:   0.22 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/useFormReset-BcNRrDqf.js
+@heroui/storybook:build: │  0.29 kB │ gzip:   0.22 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/useLabels-BR_D__HB.js
+@heroui/storybook:build: │  0.29 kB │ gzip:   0.20 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/Text-B55LTNWa.js
+@heroui/storybook:build: │  0.32 kB │ gzip:   0.26 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/Heading-DC0nb6Pe.js
+@heroui/storybook:build: │  0.33 kB │ gzip:   0.26 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/Label-Tbnf93rt.js
+@heroui/storybook:build: │  0.33 kB │ gzip:   0.26 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/useUpdateEffect-BXNlO8fu.js
+@heroui/storybook:build: │  0.33 kB │ gzip:   0.24 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/useToggleState-ByY_8A8p.js
+@heroui/storybook:build: │  0.35 kB │ gzip:   0.25 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/useSlot-C2cu9kEr.js
+@heroui/storybook:build: │  0.35 kB │ gzip:   0.26 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/useLabel-CcSQUVnD.js
+@heroui/storybook:build: │  0.36 kB │ gzip:   0.26 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/use-css-variable-D3LDHxMA.js
+@heroui/storybook:build: │  0.38 kB │ gzip:   0.28 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-K7dzaPXb.js
+@heroui/storybook:build: │  0.39 kB │ gzip:   0.29 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/dom-D1yN8NaY.js
+@heroui/storybook:build: │  0.40 kB │ gzip:   0.29 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/mergeRefs-CgTlrmLv.js
+@heroui/storybook:build: │  0.40 kB │ gzip:   0.28 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/SelectionIndicator-ZMI_gUJd.js
+@heroui/storybook:build: │  0.41 kB │ gzip:   0.29 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/use-overlay-state-CERD3aHx.js
+@heroui/storybook:build: │  0.42 kB │ gzip:   0.28 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/useField-D-cmMUHc.js
+@heroui/storybook:build: │  0.43 kB │ gzip:   0.28 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/useCollator-DbE3oLuX.js
+@heroui/storybook:build: │  0.45 kB │ gzip:   0.32 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/field-slots-gate-1P6qjvN_.js
+@heroui/storybook:build: │  0.46 kB │ gzip:   0.34 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/useResizeObserver-BdBRkkQW.js
+@heroui/storybook:build: │  0.47 kB │ gzip:   0.31 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/useControlledState-CgmEq_Jm.js
+@heroui/storybook:build: │  0.49 kB │ gzip:   0.33 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/useHasTabbableChild-B75LLVAR.js
+@heroui/storybook:build: │  0.50 kB │ gzip:   0.34 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/button.styles-DSyjq2CQ.js
+@heroui/storybook:build: │  0.50 kB │ gzip:   0.27 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-Dj3ZDKaz.js
+@heroui/storybook:build: │  0.52 kB │ gzip:   0.36 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/Pressable-FzBGOp35.js
+@heroui/storybook:build: │  0.52 kB │ gzip:   0.35 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-PclicDBF.js
+@heroui/storybook:build: │  0.55 kB │ gzip:   0.35 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/useFilter-Bya5eUQ3.js
+@heroui/storybook:build: │  0.66 kB │ gzip:   0.34 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-DGP8e0gl.js
+@heroui/storybook:build: │  0.68 kB │ gzip:   0.38 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/VisuallyHidden-eRh_E_e9.js
+@heroui/storybook:build: │  0.69 kB │ gzip:   0.46 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/useProgressBar-BTnNyLgf.js
+@heroui/storybook:build: │  0.71 kB │ gzip:   0.44 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-Bdx9MLkW.js
+@heroui/storybook:build: │  0.73 kB │ gzip:   0.43 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-Qs53bCDF.js
+@heroui/storybook:build: │  0.82 kB │ gzip:   0.48 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/animation-CPXtGnJR.js
+@heroui/storybook:build: │  0.84 kB │ gzip:   0.46 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-9TSnj6Z2.js
+@heroui/storybook:build: │  0.86 kB │ gzip:   0.48 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-DuN63T5p.js
+@heroui/storybook:build: │  0.86 kB │ gzip:   0.45 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-DmX4Djws.js
+@heroui/storybook:build: │  0.88 kB │ gzip:   0.53 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/Input-BfaEWKSC.js
+@heroui/storybook:build: │  0.90 kB │ gzip:   0.51 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/ProgressBar-CJMhxo3T.js
+@heroui/storybook:build: │  0.91 kB │ gzip:   0.56 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/virtualFocus-C5GUeXuF.js
+@heroui/storybook:build: │  0.92 kB │ gzip:   0.48 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/textSelection-nsWQY62X.js
+@heroui/storybook:build: │  0.95 kB │ gzip:   0.43 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/DragAndDrop-CxcnkkzB.js
+@heroui/storybook:build: │  0.95 kB │ gzip:   0.52 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/SSRProvider-Du5-452f.js
+@heroui/storybook:build: │  0.96 kB │ gzip:   0.53 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/Separator-BKcspzEi.js
+@heroui/storybook:build: │  1.00 kB │ gzip:   0.58 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/Group-CyXZtZNp.js
+@heroui/storybook:build: │  1.01 kB │ gzip:   0.54 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/ColorThumb-By8kXXk2.js
+@heroui/storybook:build: │  1.04 kB │ gzip:   0.57 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/useFocusable-U_x_wnt8.js
+@heroui/storybook:build: │  1.06 kB │ gzip:   0.62 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/Hidden-D8QAwPpR.js
+@heroui/storybook:build: │  1.08 kB │ gzip:   0.42 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/getItemCount-Cj4i61jH.js
+@heroui/storybook:build: │  1.11 kB │ gzip:   0.62 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/filterDOMProps-SeKkUh_q.js
+@heroui/storybook:build: │  1.12 kB │ gzip:   0.55 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/DocsRenderer-JROSPFPF-CEnFbRpi.js
+@heroui/storybook:build: │  1.16 kB │ gzip:   0.65 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/preload-helper-PPVm8Dsz.js
+@heroui/storybook:build: │  1.23 kB │ gzip:   0.71 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/Collection-2YtZ20Y1.js
+@heroui/storybook:build: │  1.28 kB │ gzip:   0.62 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/useButton-C1N307NF.js
+@heroui/storybook:build: │  1.30 kB │ gzip:   0.62 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/ToggleButton-CtgSO1Pn.js
+@heroui/storybook:build: │  1.34 kB │ gzip:   0.70 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-cNUzJZx5.js
+@heroui/storybook:build: │  1.42 kB │ gzip:   0.75 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/I18nProvider-DPJIOaiz.js
+@heroui/storybook:build: │  1.61 kB │ gzip:   0.80 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/Link-DVf0tw17.js
+@heroui/storybook:build: │  1.63 kB │ gzip:   0.83 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/surface-k-685y0K.js
+@heroui/storybook:build: │  1.88 kB │ gzip:   0.91 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/collection-prop-injection-B7IAvZWh.js
+@heroui/storybook:build: │  1.88 kB │ gzip:   0.95 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/useFormValidation-6Pfq-2Fz.js
+@heroui/storybook:build: │  1.89 kB │ gzip:   0.86 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/useMove-C1pVHarV.js
+@heroui/storybook:build: │  2.04 kB │ gzip:   0.80 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/useTextField-Cz4DiEY-.js
+@heroui/storybook:build: │  2.06 kB │ gzip:   0.94 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-DxOyYEFy.js
+@heroui/storybook:build: │  2.10 kB │ gzip:   1.03 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/useLocalizedStringFormatter-BOKqV6_3.js
+@heroui/storybook:build: │  2.15 kB │ gzip:   1.00 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/useListState-DhA74HBn.js
+@heroui/storybook:build: │  2.18 kB │ gzip:   0.91 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/close-button.stories-CAgrKJfX.js
+@heroui/storybook:build: │  2.29 kB │ gzip:   1.02 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/useToggle-_dxvoC_R.js
+@heroui/storybook:build: │  2.40 kB │ gzip:   1.02 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/spinner.stories-CPki0sC7.js
+@heroui/storybook:build: │  2.83 kB │ gzip:   0.71 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/textarea.stories-CeWquLjY.js
+@heroui/storybook:build: │  2.88 kB │ gzip:   1.10 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/textfield-Dcun4l-7.js
+@heroui/storybook:build: │  3.26 kB │ gzip:   1.51 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/scrollIntoView-CCvRag2b.js
+@heroui/storybook:build: │  3.28 kB │ gzip:   1.36 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/Button-D3UDa7TV.js
+@heroui/storybook:build: │  3.33 kB │ gzip:   1.54 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/number-DBfTRhNK.js
+@heroui/storybook:build: │  3.33 kB │ gzip:   1.39 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/welcome-BvnDQPpL.js
+@heroui/storybook:build: │  3.35 kB │ gzip:   1.17 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/Form-B2CxzRiD.js
+@heroui/storybook:build: │  3.38 kB │ gzip:   1.43 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/ToggleButtonGroup-B0CkJxvN.js
+@heroui/storybook:build: │  3.46 kB │ gzip:   1.49 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-BMWp7seS.js
+@heroui/storybook:build: │  3.56 kB │ gzip:   1.50 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/skeleton.stories-1GJinSWW.js
+@heroui/storybook:build: │  3.57 kB │ gzip:   1.39 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-8ZC4UYR4.js
+@heroui/storybook:build: │  3.59 kB │ gzip:   1.58 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/tooltip.stories-BvtpOO08.js
+@heroui/storybook:build: │  3.61 kB │ gzip:   1.37 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-P57l33pE.js
+@heroui/storybook:build: │  3.63 kB │ gzip:   1.47 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-BrfCkseH.js
+@heroui/storybook:build: │  3.71 kB │ gzip:   1.45 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-BoO-RCHZ.js
+@heroui/storybook:build: │  3.71 kB │ gzip:   1.40 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-SeQAY_LT.js
+@heroui/storybook:build: │  3.71 kB │ gzip:   1.18 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/useHover-nnWC87dL.js
+@heroui/storybook:build: │  3.76 kB │ gzip:   1.51 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-DsZePHXl.js
+@heroui/storybook:build: │  3.83 kB │ gzip:   1.13 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-DObOREk0.js
+@heroui/storybook:build: │  4.11 kB │ gzip:   1.69 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/Modal-Bwd_LPje.js
+@heroui/storybook:build: │  4.14 kB │ gzip:   1.67 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/slider.stories-Bbaxkykl.js
+@heroui/storybook:build: │  4.16 kB │ gzip:   1.33 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/link.stories-poXyI-2a.js
+@heroui/storybook:build: │  4.18 kB │ gzip:   1.30 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/color-area.stories-ChT7IVxG.js
+@heroui/storybook:build: │  4.34 kB │ gzip:   1.32 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/chip.stories-BHCBBeaF.js
+@heroui/storybook:build: │  4.49 kB │ gzip:   1.30 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/utils-Be3XwiLj.js
+@heroui/storybook:build: │  4.61 kB │ gzip:   2.01 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-D4UyXgnt.js
+@heroui/storybook:build: │  4.64 kB │ gzip:   1.40 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/alert.stories-ghry9SgO.js
+@heroui/storybook:build: │  4.66 kB │ gzip:   1.66 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/Disclosure-B4lLtCVE.js
+@heroui/storybook:build: │  4.85 kB │ gzip:   1.71 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-DKnSFJcc.js
+@heroui/storybook:build: │  4.86 kB │ gzip:   1.43 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-CYV4uVrZ.js
+@heroui/storybook:build: │  4.90 kB │ gzip:   1.56 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-DR3LkodL.js
+@heroui/storybook:build: │  5.06 kB │ gzip:   1.76 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/separator.stories-C9oLbs33.js
+@heroui/storybook:build: │  5.14 kB │ gzip:   1.48 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-wlqAkNE9.js
+@heroui/storybook:build: │  5.56 kB │ gzip:   1.68 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/intlStrings-BTHtKwgC.js
+@heroui/storybook:build: │  5.63 kB │ gzip:   2.20 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-BgExk6dU.js
+@heroui/storybook:build: │  5.77 kB │ gzip:   2.33 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-Dygkdbae.js
+@heroui/storybook:build: │  5.77 kB │ gzip:   1.57 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/color-swatch.stories-x2GNoULk.js
+@heroui/storybook:build: │  5.87 kB │ gzip:   1.50 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/toggle-button.stories-BAMEefCT.js
+@heroui/storybook:build: │  6.01 kB │ gzip:   1.48 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/useAsyncList-DOpYSASv.js
+@heroui/storybook:build: │  6.24 kB │ gzip:   1.77 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/ListKeyboardDelegate-DEAwEZE-.js
+@heroui/storybook:build: │  6.48 kB │ gzip:   1.83 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-Dnvjrfgb.js
+@heroui/storybook:build: │  6.51 kB │ gzip:   2.13 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/disclosure.stories-DuWUkOOi.js
+@heroui/storybook:build: │  6.57 kB │ gzip:   2.19 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-DKpP_VDa.js
+@heroui/storybook:build: │  6.93 kB │ gzip:   2.69 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/icons-BJ7b_EFQ.js
+@heroui/storybook:build: │  6.93 kB │ gzip:   1.46 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/Checkbox-CoEqA-ty.js
+@heroui/storybook:build: │  7.19 kB │ gzip:   2.40 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/breadcrumbs.stories-Dh-ErIb3.js
+@heroui/storybook:build: │  7.22 kB │ gzip:   2.97 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/Autocomplete-_jg3aJF5.js
+@heroui/storybook:build: │  7.49 kB │ gzip:   3.08 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-BRU4DtD-.js
+@heroui/storybook:build: │  7.52 kB │ gzip:   1.33 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/RadioGroup-DEn1kPeg.js
+@heroui/storybook:build: │  7.53 kB │ gzip:   2.76 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-DcoSyNXE.js
+@heroui/storybook:build: │  7.72 kB │ gzip:   2.14 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/input.stories-yUFiNPyW.js
+@heroui/storybook:build: │  7.82 kB │ gzip:   1.95 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-D2Y4lczH.js
+@heroui/storybook:build: │  7.92 kB │ gzip:   2.17 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/button.stories-BuUFM-9K.js
+@heroui/storybook:build: │  7.93 kB │ gzip:   2.10 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/pagination.stories-BLXKERvY.js
+@heroui/storybook:build: │  8.02 kB │ gzip:   1.80 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/surface.stories-DYrV7UNM.js
+@heroui/storybook:build: │  8.11 kB │ gzip:   1.93 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/usePress-7cbglawz.js
+@heroui/storybook:build: │  8.13 kB │ gzip:   3.20 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/avatar.stories-nQrFvYMw.js
+@heroui/storybook:build: │  8.14 kB │ gzip:   1.91 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-qVPZMv5W.js
+@heroui/storybook:build: │  8.20 kB │ gzip:   2.40 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/switch-group.stories-CspBJGxy.js
+@heroui/storybook:build: │  8.25 kB │ gzip:   2.42 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-FnUpSfZ1.js
+@heroui/storybook:build: │  8.31 kB │ gzip:   3.55 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-BfEgws5h.js
+@heroui/storybook:build: │  8.35 kB │ gzip:   1.30 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/color-swatch-picker.stories-BLVKUrzn.js
+@heroui/storybook:build: │  8.73 kB │ gzip:   2.44 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-CbT0aHU2.js
+@heroui/storybook:build: │  8.73 kB │ gzip:   3.58 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/popover.stories-DI-67-AE.js
+@heroui/storybook:build: │  8.83 kB │ gzip:   2.78 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-DFuG74WQ.js
+@heroui/storybook:build: │  9.07 kB │ gzip:   2.50 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-Bt1UKfFd.js
+@heroui/storybook:build: │  9.27 kB │ gzip:   3.54 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-C_-iUVOc.js
+@heroui/storybook:build: │  9.60 kB │ gzip:   2.62 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/useSpinButton-Bv-dfXVz.js
+@heroui/storybook:build: │  9.87 kB │ gzip:   3.85 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/useOverlayTriggerState-Lb9ysA60.js
+@heroui/storybook:build: │  10.39 kB │ gzip:   4.16 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/Select-DsJG_XQL.js
+@heroui/storybook:build: │  10.57 kB │ gzip:   3.92 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/ListBox-BEdj8yTn.js
+@heroui/storybook:build: │  10.60 kB │ gzip:   3.87 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-G3UMtS6Q.js
+@heroui/storybook:build: │  10.64 kB │ gzip:   3.74 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-CStiAoi1.js
+@heroui/storybook:build: │  10.94 kB │ gzip:   2.15 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/Slider-B0gzU4WN.js
+@heroui/storybook:build: │  11.25 kB │ gzip:   4.26 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/meter.stories-DvzKDsXm.js
+@heroui/storybook:build: │  11.60 kB │ gzip:   2.76 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-thdEYKp_.js
+@heroui/storybook:build: │  11.61 kB │ gzip:   1.66 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/color-slider.stories-DlxbEghC.js
+@heroui/storybook:build: │  11.62 kB │ gzip:   2.30 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-DYKNC5yy.js
+@heroui/storybook:build: │  11.67 kB │ gzip:   4.36 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/scroll-shadow.stories-7oRw7FkL.js
+@heroui/storybook:build: │  11.71 kB │ gzip:   2.58 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/toolbar.stories-DepfECXL.js
+@heroui/storybook:build: │  11.84 kB │ gzip:   2.23 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/progress-bar.stories-wzWVQbIk.js
+@heroui/storybook:build: │  12.01 kB │ gzip:   2.52 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/progress-circle.stories-B8bbxdJk.js
+@heroui/storybook:build: │  12.02 kB │ gzip:   2.38 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/fieldset.stories-ByKkiPuO.js
+@heroui/storybook:build: │  12.02 kB │ gzip:   3.40 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/badge.stories-D5e6xWIp.js
+@heroui/storybook:build: │  12.84 kB │ gzip:   2.66 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/accordion.stories-De6PNQvw.js
+@heroui/storybook:build: │  13.00 kB │ gzip:   3.55 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-DR-k3dxR.js
+@heroui/storybook:build: │  13.02 kB │ gzip:   4.93 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/switch.stories-Cep2tOR0.js
+@heroui/storybook:build: │  13.35 kB │ gzip:   2.82 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/kbd.stories-BseW24Ql.js
+@heroui/storybook:build: │  13.96 kB │ gzip:   1.75 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/checkbox-group.stories-D1XAV9jP.js
+@heroui/storybook:build: │  14.40 kB │ gzip:   3.00 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/CollectionBuilder-D009HN3Y.js
+@heroui/storybook:build: │  14.46 kB │ gzip:   4.19 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/date-picker.stories-DsduYP6x.js
+@heroui/storybook:build: │  14.62 kB │ gzip:   4.44 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/useNumberFieldState-CCBVkC8Y.js
+@heroui/storybook:build: │  14.77 kB │ gzip:   5.60 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/DatePicker-B6nh-XWp.js
+@heroui/storybook:build: │  14.82 kB │ gzip:   4.49 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/brand-comparison.stories-BEWDNzuj.js
+@heroui/storybook:build: │  14.91 kB │ gzip:   4.22 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-DRJdd7Dt.js
+@heroui/storybook:build: │  15.12 kB │ gzip:   4.79 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/SharedElementTransition-Dynssi3o.js
+@heroui/storybook:build: │  15.25 kB │ gzip:   4.92 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/colors.stories-DCmr0apT.js
+@heroui/storybook:build: │  15.25 kB │ gzip:   2.79 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/textfield.stories-DaUik98m.js
+@heroui/storybook:build: │  15.31 kB │ gzip:   3.24 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/disclosure-group.stories-CvQCryQT.js
+@heroui/storybook:build: │  15.96 kB │ gzip:   4.87 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/useKeyboard-SnfOzA5r.js
+@heroui/storybook:build: │  16.71 kB │ gzip:   5.96 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/tabs.stories-DYm2rIeA.js
+@heroui/storybook:build: │  17.03 kB │ gzip:   3.59 kB
+@heroui/storybook:build: │  Vite
+@heroui/storybook:build: │  storybook-static/assets/useHighlightSelectionDescription-C6Mz5RQi.js
+@heroui/storybook:build: │  17.48 kB │ gzip:   5.04 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/iconify-DyY8_uW0.js
+@heroui/storybook:build: │  18.36 kB │ gzip:   7.21 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/date-range-picker.stories-CAPgF3_-.js
+@heroui/storybook:build: │  18.62 kB │ gzip:   4.88 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/avatar-group.stories-lqB-qoFL.js
+@heroui/storybook:build: │  19.02 kB │ gzip:   3.95 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/color-picker.stories-D8vCqK5w.js
+@heroui/storybook:build: │  19.09 kB │ gzip:   4.69 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/checkbox.stories-xjwaexow.js
+@heroui/storybook:build: │  19.67 kB │ gzip:   3.98 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-CpsHAzNO.js
+@heroui/storybook:build: │  19.86 kB │ gzip:   7.70 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/input-otp.stories-BIGm30HD.js
+@heroui/storybook:build: │  20.15 kB │ gzip:   3.75 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/time-field.stories-DhpzH2j2.js
+@heroui/storybook:build: │  22.71 kB │ gzip:   3.93 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/search-field.stories-S_2CldHv.js
+@heroui/storybook:build: │  23.10 kB │ gzip:   4.55 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/typography.stories-BZq93iMh.js
+@heroui/storybook:build: │  23.62 kB │ gzip:   5.14 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/color-field.stories-dESpbeHI.js
+@heroui/storybook:build: │  24.80 kB │ gzip:   4.30 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/useMultipleSelectionState-CpkhoKuG.js
+@heroui/storybook:build: │  24.83 kB │ gzip:   7.92 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/button-group.stories-BT945m3b.js
+@heroui/storybook:build: │  26.43 kB │ gzip:   3.65 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/list-box.stories-B2P2TXwv.js
+@heroui/storybook:build: │  27.14 kB │ gzip:   4.13 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/date-field.stories-DN9Q8ADI.js
+@heroui/storybook:build: │  27.60 kB │ gzip:   4.92 kB
+@heroui/storybook:build: │  Vite storybook-static/vite-inject-mocker-entry.js
+@heroui/storybook:build: │  28.11 kB │ gzip:   9.82 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/radio-group.stories-CLVeUVFc.js
+@heroui/storybook:build: │  28.64 kB │ gzip:   4.27 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/matchers-JIUQ3HVY-N4FjKbka.js
+@heroui/storybook:build: │  29.23 kB │ gzip:  10.05 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/tag-group.stories-d8RGhfLW.js
+@heroui/storybook:build: │  29.76 kB │ gzip:   6.27 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/Color-6AOWCN3U-DuvVSipv.js
+@heroui/storybook:build: │  30.07 kB │ gzip:  11.41 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/useDateFormatter-DTT7Askb.js
+@heroui/storybook:build: │  30.83 kB │ gzip:  10.60 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/demo.stories-Jdj2spwN.js
+@heroui/storybook:build: │  31.07 kB │ gzip:   8.59 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/drawer.stories-DLyYF-UE.js
+@heroui/storybook:build: │  31.34 kB │ gzip:   6.95 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/Virtualizer-lItnWuD-.js
+@heroui/storybook:build: │  31.87 kB │ gzip:   9.28 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/WithTooltip-CDUNV5IS-D9M7Lx3d.js
+@heroui/storybook:build: │  33.03 kB │ gzip:  11.62 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/number-field.stories-NTOGgLcH.js
+@heroui/storybook:build: │  33.84 kB │ gzip:   5.92 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/toggle-button-group.stories-u_M24c1W.js
+@heroui/storybook:build: │  34.32 kB │ gzip:   3.23 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/card.stories-CR4DAbVC.js
+@heroui/storybook:build: │  35.25 kB │ gzip:   6.66 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/input-group.stories-CS1w-iyf.js
+@heroui/storybook:build: │  35.89 kB │ gzip:   5.47 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/range-calendar.stories-C8MC3jxr.js
+@heroui/storybook:build: │  37.96 kB │ gzip:   6.37 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/Dialog-strFuSt8.js
+@heroui/storybook:build: │  40.13 kB │ gzip:  15.20 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-DTHWc9Rl.js
+@heroui/storybook:build: │  41.79 kB │ gzip:  13.50 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-CpKLHx1N.js
+@heroui/storybook:build: │  42.46 kB │ gzip:  11.59 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/calendar.stories-ByxZatfr.js
+@heroui/storybook:build: │  46.26 kB │ gzip:   7.42 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/ColorSwatch-Leyu6CJ5.js
+@heroui/storybook:build: │  53.10 kB │ gzip:  14.81 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/toast.stories-Pce_4b14.js
+@heroui/storybook:build: │  53.78 kB │ gzip:  15.83 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/select.stories-BssuFil-.js
+@heroui/storybook:build: │  55.23 kB │ gzip:   7.24 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/combo-box.stories-D3hw24pc.js
+@heroui/storybook:build: │  56.05 kB │ gzip:   7.10 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/alert-dialog.stories-6ZdAMyKt.js
+@heroui/storybook:build: │  57.98 kB │ gzip:   9.23 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/modal.stories-CJLq4Y9Z.js
+@heroui/storybook:build: │  59.37 kB │ gzip:   9.71 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/dropdown.stories-Dgn-a7aY.js
+@heroui/storybook:build: │  60.27 kB │ gzip:   7.05 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/calendar-day-view-grid-header-DNzrqq1-.js
+@heroui/storybook:build: │  61.94 kB │ gzip:  17.64 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/index-CyD4dcWr.js
+@heroui/storybook:build: │  63.38 kB │ gzip:  20.15 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/syntaxhighlighter-4REYKNEV-lsqUZ2ZI.js
+@heroui/storybook:build: │  77.88 kB │ gzip:  27.24 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/colors-demo.stories-Cj1mgPSa.js
+@heroui/storybook:build: │  94.10 kB │ gzip:  27.86 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/autocomplete.stories-DPHz5tgy.js
+@heroui/storybook:build: │  107.16 kB │ gzip:  14.22 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/table.stories-CGZvRi8A.js
+@heroui/storybook:build: │  126.75 kB │ gzip:  35.48 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/react-18-CR1wkw-v.js
+@heroui/storybook:build: │  209.72 kB │ gzip:  65.49 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/axe-CO_-d8d4.js
+@heroui/storybook:build: │  592.15 kB │ gzip: 163.49 kB
+@heroui/storybook:build: │  Vite storybook-static/assets/iframe-qc7f1qav.js
+@heroui/storybook:build: │  2,449.93 kB │ gzip: 725.70 kB
+@heroui/storybook:build: │
+@heroui/storybook:build: ▲  Vite
+@heroui/storybook:build: │  (!) Some chunks are larger than 500 kB after minification. Consider:
+@heroui/storybook:build: │  - Using dynamic import() to code-split the application
+@heroui/storybook:build: │  - Use build.rollupOptions.output.manualChunks to improve chunking:
+@heroui/storybook:build: │  ]8;;https://rollupjs.org/configuration-options/#output-manualchunkshttps://rollupjs.org/configuration-options/#output-manualchunks]8;;
+@heroui/storybook:build: │  - Adjust chunk size limit for this warning via
+@heroui/storybook:build: │  build.chunkSizeWarningLimit.
+@heroui/storybook:build: │  Vite ✓ built in 16.53s
+@heroui/storybook:build: │
+@heroui/storybook:build: ◇  Output directory: /Users/wenchengkai/CodexFile/hero
+@heroui/storybook:build: │  ui-改造/packages/storybook/storybook-static
+@heroui/storybook:build: │
+@heroui/storybook:build: └  Storybook build completed successfully
+@heroui/storybook:build: 
+
+ Tasks:    3 successful, 3 total
+Cached:    2 cached, 3 total
+  Time:    18.629s 
+

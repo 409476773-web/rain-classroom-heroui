@@ -1,0 +1,64 @@
+{
+  "activity": "Static inventory preparation only; no Storybook fetch or browser scan",
+  "sourceStories": 596,
+  "builtStories": 587,
+  "status": "mismatch",
+  "inputSha256": "f1f13f6a91c723a12b3c1aa0cf64df8d8432e133a41cc41c268bce10af3fb7cf",
+  "missing": [
+    {
+      "file": "packages/storybook/.storybook/stories/grading-panel.stories.tsx",
+      "exportName": "Workspace",
+      "expectedId": "components-business-grading-panel--workspace",
+      "title": "Components/Business/Grading Panel"
+    },
+    {
+      "file": "packages/storybook/.storybook/stories/rain-state-review-buttons.stories.tsx",
+      "exportName": "Buttons",
+      "expectedId": "components-theme-state-review--buttons",
+      "title": "Components/Theme/State Review"
+    },
+    {
+      "file": "packages/storybook/.storybook/stories/rain-state-review-calendar.stories.tsx",
+      "exportName": "CalendarNavigation",
+      "expectedId": "components-theme-state-review--calendar-navigation",
+      "title": "Components/Theme/State Review"
+    },
+    {
+      "file": "packages/storybook/.storybook/stories/rain-state-review-fields.stories.tsx",
+      "exportName": "Fields",
+      "expectedId": "components-theme-state-review--fields",
+      "title": "Components/Theme/State Review"
+    },
+    {
+      "file": "packages/storybook/.storybook/stories/rain-state-review-layouts.stories.tsx",
+      "exportName": "Layouts",
+      "expectedId": "components-theme-state-review--layouts",
+      "title": "Components/Theme/State Review"
+    },
+    {
+      "file": "packages/storybook/.storybook/stories/rain-state-review-menu.stories.tsx",
+      "exportName": "Menu",
+      "expectedId": "components-theme-state-review--menu",
+      "title": "Components/Theme/State Review"
+    },
+    {
+      "file": "packages/storybook/.storybook/stories/rain-state-review-overlays.stories.tsx",
+      "exportName": "Overlays",
+      "expectedId": "components-theme-state-review--overlays",
+      "title": "Components/Theme/State Review"
+    },
+    {
+      "file": "packages/storybook/.storybook/stories/rain-state-review-overlays.stories.tsx",
+      "exportName": "ErrorMessages",
+      "expectedId": "components-theme-state-review--error-messages",
+      "title": "Components/Theme/State Review"
+    },
+    {
+      "file": "packages/storybook/.storybook/stories/rain-state-review-selections.stories.tsx",
+      "exportName": "Selections",
+      "expectedId": "components-theme-state-review--selections",
+      "title": "Components/Theme/State Review"
+    }
+  ],
+  "unexpected": []
+}

@@ -1,0 +1,788 @@
+
+> heroui@3.2.6 local:preview /Users/wenchengkai/CodexFile/hero ui-改造
+> node scripts/rain/preview.mjs
+
+[local:preview] 使用已有 apps/docs/.env.local，未覆盖。
+[local:preview] 模式：local preview（强制开启），APP_ENV=development。
+[local:preview] Docs 启动地址：http://127.0.0.1:3100/docs/react
+[local:preview] 中文文档：http://127.0.0.1:3100/cn/docs/react
+[local:preview] Storybook 启动地址：http://127.0.0.1:6006/
+[local:preview] 等待下方服务就绪提示；按 Ctrl+C 同时退出。
+
+> @heroui/docs@0.0.0 predev /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs
+> node scripts/build-skills.mjs && node scripts/build-theme-presets.mjs
+
+Building skill tarballs...
+Source: /Users/wenchengkai/CodexFile/hero ui-改造/skills
+Output: /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/public/skills
+
+✓ Built heroui-react.tar.gz (11.1KB)
+✓ Built heroui-native.tar.gz (10.5KB)
+✓ Built heroui-migration.tar.gz (7.6KB)
+
+✓ All skill tarballs built successfully
+✓ Generated 10 theme presets → /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/styles/theme-presets.css
+
+> @heroui/docs@0.0.0 dev /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs
+> next dev --hostname 127.0.0.1 --port 3100
+
+
+┌  storybook v10.6.0
+▲ Next.js 16.3.5 (Turbopack)
+- Local:         http://127.0.0.1:3100
+- Network:       http://127.0.0.1:3100
+- Environments: .env.local
+✓ Ready in 457ms
+✓ Running next.config.ts took 72ms
+Warning: total number of custom routes exceeds 1000, this can reduce performance. Route counts:
+headers: 17
+rewrites: 2
+redirects: 1107
+See more info: https://nextjs.org/docs/messages/max-custom-routes-reached
+[MDX] generated files in 30.79354199999989ms
+[MDX] started dev server
+- Experiments (use with caution):
+  · optimizePackageImports
+
+✓ Generated AGENTS.md and CLAUDE.md for AI agents. Set `agentRules: false` in next.config to disable.
+│
+●  Starting...
+│ [38;2;255;71;133m╭[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m╮[39m
+│ [38;2;255;71;133m│[39m   Storybook ready!                                 [38;2;255;71;133m│[39m
+│ [38;2;255;71;133m│[39m                                                    [38;2;255;71;133m│[39m
+│ [38;2;255;71;133m│[39m   - Local:                http://localhost:6006/   [38;2;255;71;133m│[39m
+│ [38;2;255;71;133m│[39m   - On your network:      http://127.0.0.1:6006/   [38;2;255;71;133m│[39m
+│ [38;2;255;71;133m│[39m                                                    [38;2;255;71;133m│[39m
+│ [38;2;255;71;133m╰[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m─[39m[38;2;255;71;133m╯[39m
+│
+●  1.06 s for manager and 187 ms for preview
+○ Compiling /[lang]/docs/[[...slug]] ...
+Image with src "/_next/static/media/default.01h6-m33xneyc.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+Image with src "/_next/static/media/sky.19tf97908ki3o.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+Image with src "/_next/static/media/lavender.36n_i04b28e_u.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+Image with src "/_next/static/media/mint.37bqf7u8dhc2m.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+Image with src "/_next/static/media/netflix.0k9fsp6r1su36.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+Image with src "/_next/static/media/black.24rh4iaxmw5ft.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+Image with src "/_next/static/media/spotify.0j2lokvek79ru.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+Image with src "/_next/static/media/coinbase.444cu95rte3ow.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+Image with src "/_next/static/media/airbnb.1ho6v-efq2b37.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+Image with src "/_next/static/media/discord.2t_v_b206_2ym.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+Image with src "/_next/static/media/rabbit.0dvbf20fhrdyd.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+ GET /cn/docs/react/components/card 200 in 44s (next.js: 34.4s, proxy.ts: 106ms, generate-params: 5.5s, application-code: 3.9s)
+[browser] Image with src "/_next/static/media/default.01h6-m33xneyc.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/sky.19tf97908ki3o.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/lavender.36n_i04b28e_u.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/mint.37bqf7u8dhc2m.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/netflix.0k9fsp6r1su36.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/black.24rh4iaxmw5ft.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/spotify.0j2lokvek79ru.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/coinbase.444cu95rte3ow.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/airbnb.1ho6v-efq2b37.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/discord.2t_v_b206_2ym.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+[browser] Image with src "/_next/static/media/rabbit.0dvbf20fhrdyd.png" is smaller than 40x40. Consider removing the "placeholder" property to improve performance.
+ GET /cn/docs/react/components/card 200 in 889ms (next.js: 27ms, proxy.ts: 3ms, generate-params: 2ms, application-code: 856ms)
+(node:82536) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 drain listeners added to [Gzip]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+ GET /cn/docs/react/components/accordion 200 in 428ms (next.js: 20ms, proxy.ts: 3ms, generate-params: 1.9ms, application-code: 404ms)
+[browser] Unexpected DOM element returned by custom `render` function. Expected <h3>, got <div>. This may break the component behavior and accessibility.
+[browser] Unexpected DOM element returned by custom `render` function. Expected <h3>, got <div>. This may break the component behavior and accessibility.
+[browser] Unexpected DOM element returned by custom `render` function. Expected <h3>, got <div>. This may break the component behavior and accessibility.
+[browser] Unexpected DOM element returned by custom `render` function. Expected <h3>, got <div>. This may break the component behavior and accessibility.
+[browser] Unexpected DOM element returned by custom `render` function. Expected <h3>, got <div>. This may break the component behavior and accessibility.
+[browser] Unexpected DOM element returned by custom `render` function. Expected <h3>, got <div>. This may break the component behavior and accessibility.
+[browser] <Pressable> child must be focusable. Please ensure the tabIndex prop is passed through.
+[browser] Unexpected DOM element returned by custom `render` function. Expected <h3>, got <div>. This may break the component behavior and accessibility.
+[browser] Unexpected DOM element returned by custom `render` function. Expected <h3>, got <div>. This may break the component behavior and accessibility.
+[browser] Unexpected DOM element returned by custom `render` function. Expected <h3>, got <div>. This may break the component behavior and accessibility.
+[browser] Unexpected DOM element returned by custom `render` function. Expected <h3>, got <div>. This may break the component behavior and accessibility.
+[browser] Unexpected DOM element returned by custom `render` function. Expected <h3>, got <div>. This may break the component behavior and accessibility.
+[browser] Unexpected DOM element returned by custom `render` function. Expected <h3>, got <div>. This may break the component behavior and accessibility.
+[browser] <Pressable> child must be focusable. Please ensure the tabIndex prop is passed through.
+ GET /cn/docs/react/components/breadcrumbs 200 in 231ms (next.js: 30ms, proxy.ts: 4ms, generate-params: 0.0ms, application-code: 197ms)
+[browser] <Pressable> child must be focusable. Please ensure the tabIndex prop is passed through.
+[browser] <Pressable> child must be focusable. Please ensure the tabIndex prop is passed through.
+[browser] In HTML, <li> cannot be a descendant of <li>.
+This will cause a hydration error.
+
+  ...
+    <div data-name="breadcrumb..." className="preview no..." onClickCapture={function preventPlaceholderHashNavigation}>
+      <div className="flex w-ful..." style={{...}}>
+        <RenderFunction>
+          <BreadcrumbsRoot render={function _RenderFunctionBreadcrumbsRender}>
+            <Breadcrumbs data-slot="breadcrumbs" render={function _RenderFunctionBreadcrumbsRender} ...>
+              <$42ceafc619f9c3ba$export$bf788dd355e3a401 content={<$42ceafc619f9c3ba$export$fb8073518f34e6ec>}>
+                <$d7f64c32b702fe2c$export$8dc98ba7eadeaa56>
+                <$42ceafc619f9c3ba$var$CollectionInner render={function} collection={{keyMap:Map, ...}}>
+                  <bound $7230ffa83bc0c2cf$var$DOMElement render={function _RenderFunctionBreadcrumbsRender} ref={{...}} ...>
+                    <ol data-slot="breadcrumbs" aria-label="导航栏" slot={undefined} style={undefined} ...>
+                      <CollectionRoot collection={{keyMap:Map, ...}}>
+                        <Component node={{...}}>
+                          <bound $7230ffa83bc0c2cf$var$DOMElement data-slot="breadcrumb..." className="breadcrumb..." ...>
+>                           <li
+>                             data-slot="breadcrumbs-item"
+>                             className="breadcrumbs__item"
+>                             style={undefined}
+>                             data-rac=""
+>                             data-disabled={undefined}
+>                             data-current={undefined}
+>                             ref={function}
+>                             data-custom="bar"
+>                           >
+                              ...
+                                <Link data-slot="link" render={function _RenderFunctionBreadcrumbsItemRender} ...>
+                                  <bound $7230ffa83bc0c2cf$var$DOMElement ref={{current:null}} slot={undefined} ...>
+>                                   <li
+>                                     slot={undefined}
+>                                     data-slot="link"
+>                                     className="link breadcrumbs__link"
+>                                     style={undefined}
+>                                     data-rac=""
+>                                     onFocus={function}
+>                                     onBlur={function}
+>                                     onKeyDown={function onKeyDown}
+>                                     onKeyUp={undefined}
+>                                     tabIndex={0}
+>                                     onClick={function onClick}
+>                                     onPointerDown={function}
+>                                     onMouseDown={function}
+>                                     onPointerUp={function}
+>                                     onPointerEnter={function}
+>                                     onPointerLeave={function}
+>                                     onDragStart={function}
+>                                     data-react-aria-pressable={true}
+>                                     role="link"
+>                                     aria-disabled={undefined}
+>                                     aria-current={null}
+>                                     data-focused={undefined}
+>                                     data-hovered={undefined}
+>                                     data-pressed={undefined}
+>                                     data-focus-visible={undefined}
+>                                     data-current={undefined}
+>                                     data-disabled={undefined}
+>                                     ref={function}
+>                                     data-custom="bar"
+>                                   >
+                        ...
+ 
+[browser] <li> cannot contain a nested <li>.
+See this log for the ancestor stack trace. 
+[browser] Unexpected DOM element returned by custom `render` function. Expected <span>, got <li>. This may break the component behavior and accessibility.
+[browser] Unexpected DOM element returned by custom `render` function. Expected <span>, got <li>. This may break the component behavior and accessibility.
+[browser] Unexpected DOM element returned by custom `render` function. Expected <span>, got <li>. This may break the component behavior and accessibility.
+[browser] Unexpected DOM element returned by custom `render` function. Expected <span>, got <li>. This may break the component behavior and accessibility.
+[browser] Unexpected DOM element returned by custom `render` function. Expected <span>, got <li>. This may break the component behavior and accessibility.
+[browser] Unexpected DOM element returned by custom `render` function. Expected <span>, got <li>. This may break the component behavior and accessibility.
+[browser] Unexpected DOM element returned by custom `render` function. Expected <span>, got <li>. This may break the component behavior and accessibility.
+[browser] Unexpected DOM element returned by custom `render` function. Expected <span>, got <li>. This may break the component behavior and accessibility.
+ GET /cn/docs/react/components/card 200 in 1082ms (next.js: 68ms, proxy.ts: 2ms, generate-params: 3ms, application-code: 1008ms)
+ GET /cn/docs/react/components/close-button 200 in 146ms (next.js: 22ms, proxy.ts: 2ms, generate-params: 4ms, application-code: 118ms)
+ GET /cn/docs/react/components 200 in 64ms (next.js: 14ms, proxy.ts: 2.0ms, generate-params: 1.6ms, application-code: 47ms)
+ GET /cn/docs/react/components/alert 200 in 114ms (next.js: 12ms, proxy.ts: 2ms, generate-params: 0.0ms, application-code: 100ms)
+ GET /cn/docs/react/components 200 in 62ms (next.js: 12ms, proxy.ts: 2ms, generate-params: 1.5ms, application-code: 46ms)
+(node:82536) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 drain listeners added to [Gzip]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+ GET /cn/docs/react/components/accordion 200 in 344ms (next.js: 17ms, proxy.ts: 2ms, generate-params: 1.7ms, application-code: 323ms)
+[browser] Unexpected DOM element returned by custom `render` function. Expected <h3>, got <div>. This may break the component behavior and accessibility.
+[browser] Unexpected DOM element returned by custom `render` function. Expected <h3>, got <div>. This may break the component behavior and accessibility.
+[browser] Unexpected DOM element returned by custom `render` function. Expected <h3>, got <div>. This may break the component behavior and accessibility.
+[browser] Unexpected DOM element returned by custom `render` function. Expected <h3>, got <div>. This may break the component behavior and accessibility.
+[browser] Unexpected DOM element returned by custom `render` function. Expected <h3>, got <div>. This may break the component behavior and accessibility.
+[browser] Unexpected DOM element returned by custom `render` function. Expected <h3>, got <div>. This may break the component behavior and accessibility.
+[browser] Unexpected DOM element returned by custom `render` function. Expected <h3>, got <div>. This may break the component behavior and accessibility.
+[browser] Unexpected DOM element returned by custom `render` function. Expected <h3>, got <div>. This may break the component behavior and accessibility.
+[browser] Unexpected DOM element returned by custom `render` function. Expected <h3>, got <div>. This may break the component behavior and accessibility.
+[browser] Unexpected DOM element returned by custom `render` function. Expected <h3>, got <div>. This may break the component behavior and accessibility.
+[browser] Unexpected DOM element returned by custom `render` function. Expected <h3>, got <div>. This may break the component behavior and accessibility.
+[browser] Unexpected DOM element returned by custom `render` function. Expected <h3>, got <div>. This may break the component behavior and accessibility.
+ GET /cn/docs/native/getting-started 200 in 60ms (next.js: 14ms, proxy.ts: 1.9ms, generate-params: 0.0ms, application-code: 44ms)
+ GET /cn/docs/react/getting-started 200 in 70ms (next.js: 14ms, proxy.ts: 2ms, generate-params: 1.5ms, application-code: 53ms)
+│  Vite hmr update
+│  /@id/__x00__virtual:/@storybook/builder-vite/vite-app.js
+│  Vite hmr update
+│  /@id/__x00__virtual:/@storybook/builder-vite/vite-app.js
+│  Vite hmr update
+│  /@id/__x00__virtual:/@storybook/builder-vite/vite-app.js
+│  Vite hmr update
+│  /@id/__x00__virtual:/@storybook/builder-vite/vite-app.js
+│  Vite hmr update
+│  /@id/__x00__virtual:/@storybook/builder-vite/project-annotations.js,
+│  /.storybook/components/docs-container.tsx, /.storybook/globals.css
+│  Vite hmr update
+│  /@id/__x00__virtual:/@storybook/builder-vite/project-annotations.js,
+│  /.storybook/globals.css
+│  Vite hmr update /.storybook/globals.css
+│  Vite hmr update
+│  /@id/__x00__virtual:/@storybook/builder-vite/project-annotations.js,
+│  /.storybook/globals.css
+│  Vite hmr update /.storybook/components/docs-container.tsx,
+│  /.storybook/globals.css
+│  Vite hmr update /.storybook/globals.css
+│
+■  Vite Internal server error: Can't resolve
+│  '@rain-classroom/heroui-theme' in './.storybook'
+│  Plugin: @tailwindcss/vite:generate:serve
+│  File: ./.storybook/globals.css
+│  at finishWithoutResolve (/Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/enhanced-resolve@5.24.5/node_modules/enhanced-resolve/lib/Resolver.js:952:18)
+│  at /Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/enhanced-resolve@5.24.5/node_modules/enhanced-resolve/lib/Resolver.js:1048:13
+│  at /Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/enhanced-resolve@5.24.5/node_modules/enhanced-resolve/lib/Resolver.js:1132:5
+│  at eval (eval at create (/Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/tapable@2.3.3/node_modules/tapable/lib/HookCodeFactory.js:31:10),
+│  <anonymous>:15:1)
+│  at /Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/enhanced-resolve@5.24.5/node_modules/enhanced-resolve/lib/Resolver.js:1132:5
+│  at eval (eval at create (/Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/tapable@2.3.3/node_modules/tapable/lib/HookCodeFactory.js:31:10),
+│  <anonymous>:27:1)
+│  at /Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/enhanced-resolve@5.24.5/node_modules/enhanced-resolve/lib/DescriptionFilePlugin.js:94:43
+│  at /Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/enhanced-resolve@5.24.5/node_modules/enhanced-resolve/lib/Resolver.js:1132:5
+│  at eval (eval at create (/Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/tapable@2.3.3/node_modules/tapable/lib/HookCodeFactory.js:31:10),
+│  <anonymous>:15:1)
+│  at /Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/enhanced-resolve@5.24.5/node_modules/enhanced-resolve/lib/Resolver.js:1132:5
+│  at eval (eval at create (/Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/tapable@2.3.3/node_modules/tapable/lib/HookCodeFactory.js:31:10),
+│  <anonymous>:15:1)
+│  at /Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/enhanced-resolve@5.24.5/node_modules/enhanced-resolve/lib/Resolver.js:1132:5
+│  at eval (eval at create (/Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/tapable@2.3.3/node_modules/tapable/lib/HookCodeFactory.js:31:10),
+│  <anonymous>:42:1)
+│  at /Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/enhanced-resolve@5.24.5/node_modules/enhanced-resolve/lib/ConditionalPlugin.js:53:42
+│  at /Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/enhanced-resolve@5.24.5/node_modules/enhanced-resolve/lib/Resolver.js:1132:5
+│  at eval (eval at create (/Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/tapable@2.3.3/node_modules/tapable/lib/HookCodeFactory.js:31:10),
+│  <anonymous>:16:1)
+│  at /Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/enhanced-resolve@5.24.5/node_modules/enhanced-resolve/lib/Resolver.js:1132:5
+│  at eval (eval at create (/Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/tapable@2.3.3/node_modules/tapable/lib/HookCodeFactory.js:31:10),
+│  <anonymous>:15:1)
+│  at /Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/enhanced-resolve@5.24.5/node_modules/enhanced-resolve/lib/Resolver.js:1132:5
+│  at eval (eval at create (/Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/tapable@2.3.3/node_modules/tapable/lib/HookCodeFactory.js:31:10),
+│  <anonymous>:16:1)
+│  at /Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/enhanced-resolve@5.24.5/node_modules/enhanced-resolve/lib/DirectoryExistsPlugin.js:52:15
+│  at SyncAsyncFileSystemDecorator.stat
+│  (/Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/enhanced-resolve@5.24.5/node_modules/enhanced-resolve/lib/SyncAsyncFileSystemDecorator.js:66:34)
+│  at /Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/enhanced-resolve@5.24.5/node_modules/enhanced-resolve/lib/DirectoryExistsPlugin.js:35:9
+│  at _next0 (eval at create (/Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/tapable@2.3.3/node_modules/tapable/lib/HookCodeFactory.js:31:10),
+│  <anonymous>:8:1)
+│  at eval (eval at create (/Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/tapable@2.3.3/node_modules/tapable/lib/HookCodeFactory.js:31:10),
+│  <anonymous>:30:1)
+│  at /Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/enhanced-resolve@5.24.5/node_modules/enhanced-resolve/lib/Resolver.js:1132:5
+│  at eval (eval at create (/Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/tapable@2.3.3/node_modules/tapable/lib/HookCodeFactory.js:31:10),
+│  <anonymous>:27:1)
+│  at /Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/enhanced-resolve@5.24.5/node_modules/enhanced-resolve/lib/DescriptionFilePlugin.js:94:43
+│  at /Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/enhanced-resolve@5.24.5/node_modules/enhanced-resolve/lib/Resolver.js:1132:5
+│  at eval (eval at create (/Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/tapable@2.3.3/node_modules/tapable/lib/HookCodeFactory.js:31:10),
+│  <anonymous>:16:1)
+│  at /Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/enhanced-resolve@5.24.5/node_modules/enhanced-resolve/lib/Resolver.js:1132:5
+│  at eval (eval at create (/Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/tapable@2.3.3/node_modules/tapable/lib/HookCodeFactory.js:31:10),
+│  <anonymous>:15:1)
+│  at /Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/enhanced-resolve@5.24.5/node_modules/enhanced-resolve/lib/Resolver.js:1132:5
+│  at eval (eval at create (/Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/tapable@2.3.3/node_modules/tapable/lib/HookCodeFactory.js:31:10),
+│  <anonymous>:15:1)
+│  at /Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/enhanced-resolve@5.24.5/node_modules/enhanced-resolve/lib/FileExistsPlugin.js:50:14
+│  at SyncAsyncFileSystemDecorator.stat
+│  (/Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/enhanced-resolve@5.24.5/node_modules/enhanced-resolve/lib/SyncAsyncFileSystemDecorator.js:66:34)
+│  at /Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/enhanced-resolve@5.24.5/node_modules/enhanced-resolve/lib/FileExistsPlugin.js:33:8
+│  at Hook.eval [as callAsync] (eval at create
+│  (/Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/tapable@2.3.3/node_modules/tapable/lib/HookCodeFactory.js:31:10),
+│  <anonymous>:7:1)
+│  at Resolver.doResolve (/Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/enhanced-resolve@5.24.5/node_modules/enhanced-resolve/lib/Resolver.js:1129:16)
+│  at /Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/enhanced-resolve@5.24.5/node_modules/enhanced-resolve/lib/NextPlugin.js:30:14
+│  at Hook.eval [as callAsync] (eval at create
+│  (/Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/tapable@2.3.3/node_modules/tapable/lib/HookCodeFactory.js:31:10),
+│  <anonymous>:7:1)
+│  at Resolver.doResolve (/Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/enhanced-resolve@5.24.5/node_modules/enhanced-resolve/lib/Resolver.js:1129:16)
+│  at /Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/enhanced-resolve@5.24.5/node_modules/enhanced-resolve/lib/AppendPlugin.js:40:14
+│  at _next1 (eval at create (/Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/tapable@2.3.3/node_modules/tapable/lib/HookCodeFactory.js:31:10),
+│  <anonymous>:8:1)
+│  at eval (eval at create (/Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/tapable@2.3.3/node_modules/tapable/lib/HookCodeFactory.js:31:10),
+│  <anonymous>:31:1)
+│  at /Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/enhanced-resolve@5.24.5/node_modules/enhanced-resolve/lib/Resolver.js:1132:5
+│  at eval (eval at create (/Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/tapable@2.3.3/node_modules/tapable/lib/HookCodeFactory.js:31:10),
+│  <anonymous>:15:1)
+│  at /Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/enhanced-resolve@5.24.5/node_modules/enhanced-resolve/lib/Resolver.js:1132:5
+│  at eval (eval at create (/Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/tapable@2.3.3/node_modules/tapable/lib/HookCodeFactory.js:31:10),
+│  <anonymous>:15:1)
+│  at /Users/wenchengkai/CodexFile/hero
+│  ui-改造/node_modules/.pnpm/enhanced-resolve@5.24.5/node_modules/enhanced-resolve/lib/FileExistsPlugin.js:50:14
+│
+■  Vite Pre-transform error: Can't resolve '@rain-classroom/heroui-theme'
+│  in './.storybook'
+│  Plugin: @tailwindcss/vite:generate:serve
+│  File: ./.storybook/globals.css
+│  Vite hmr update
+│  /@id/__x00__virtual:/@storybook/builder-vite/vite-app.js
+│  Vite hmr update
+│  /@id/__x00__virtual:/@storybook/builder-vite/project-annotations.js,
+│  /.storybook/components/docs-container.tsx, /.storybook/globals.css
+│  Vite hmr update /.storybook/components/docs-container.tsx,
+│  /.storybook/globals.css
+│  Vite hmr update /.storybook/components/docs-container.tsx,
+│  /.storybook/globals.css
+│  Vite hmr update
+│  /@id/__x00__virtual:/@storybook/builder-vite/vite-app.js
+│  Vite hmr update
+│  /@id/__x00__virtual:/@storybook/builder-vite/project-annotations.js,
+│  /.storybook/components/docs-container.tsx, /.storybook/globals.css
+Error: Can't resolve '@rain-classroom/heroui-theme' in '/Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app'
+    [2m[at finishWithoutResolve (/Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/enhanced-resolve@5.24.5/node_modules/enhanced-resolve/lib/Resolver.js:952:18)][0m
+    [2m[at /Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/enhanced-resolve@5.24.5/node_modules/enhanced-resolve/lib/Resolver.js:1048:13][0m
+    [2m[at /Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/enhanced-resolve@5.24.5/node_modules/enhanced-resolve/lib/Resolver.js:1132:5][0m
+    [2m[at eval (eval at create (/Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/tapable@2.3.3/node_modules/tapable/lib/HookCodeFactory.js:31:10), <anonymous>:15:1)][0m
+    [2m[at /Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/enhanced-resolve@5.24.5/node_modules/enhanced-resolve/lib/Resolver.js:1132:5][0m
+    [2m[at eval (eval at create (/Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/tapable@2.3.3/node_modules/tapable/lib/HookCodeFactory.js:31:10), <anonymous>:27:1)][0m
+    [2m[at /Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/enhanced-resolve@5.24.5/node_modules/enhanced-resolve/lib/DescriptionFilePlugin.js:94:43][0m
+    [2m[at /Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/enhanced-resolve@5.24.5/node_modules/enhanced-resolve/lib/Resolver.js:1132:5][0m
+    [2m[at eval (eval at create (/Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/tapable@2.3.3/node_modules/tapable/lib/HookCodeFactory.js:31:10), <anonymous>:15:1)][0m
+    [2m[at /Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/enhanced-resolve@5.24.5/node_modules/enhanced-resolve/lib/Resolver.js:1132:5][0m {
+  details: "resolve '@rain-classroom/heroui-theme' in '/Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/package.json (relative path: ./src/app)\n' +
+    '    resolve as module\n' +
+    "      /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app/node_modules doesn't exist or is not a directory\n" +
+    "      /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/node_modules\n' +
+    '        single file module\n' +
+    '          using description file: /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/package.json (relative path: ./node_modules/@rain-classroom/heroui-theme)\n' +
+    '            no extension\n' +
+    "              /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/node_modules/@rain-classroom/heroui-theme doesn't exist\n" +
+    '            .css\n' +
+    "              /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/node_modules/@rain-classroom/heroui-theme.css doesn't exist\n" +
+    "        /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/node_modules/@rain-classroom/heroui-theme doesn't exist\n" +
+    "      /Users/wenchengkai/CodexFile/hero ui-改造/apps/node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in /Users/wenchengkai/CodexFile/hero ui-改造/node_modules\n' +
+    '        single file module\n' +
+    '          using description file: /Users/wenchengkai/CodexFile/hero ui-改造/package.json (relative path: ./node_modules/@rain-classroom/heroui-theme)\n' +
+    '            no extension\n' +
+    "              /Users/wenchengkai/CodexFile/hero ui-改造/node_modules/@rain-classroom/heroui-theme doesn't exist\n" +
+    '            .css\n' +
+    "              /Users/wenchengkai/CodexFile/hero ui-改造/node_modules/@rain-classroom/heroui-theme.css doesn't exist\n" +
+    "        /Users/wenchengkai/CodexFile/hero ui-改造/node_modules/@rain-classroom/heroui-theme doesn't exist\n" +
+    "      /Users/wenchengkai/CodexFile/node_modules doesn't exist or is not a directory\n" +
+    "      /Users/wenchengkai/node_modules doesn't exist or is not a directory\n" +
+    "      /Users/node_modules doesn't exist or is not a directory\n" +
+    "      /node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in /Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/next@16.3.5_@babel+core@7.29.6_@opentelemetry+api@1.9.1_@types+node@25.0.3_babel-plugin_7e80b6e3601f4234967d333b0f1bb4cd/node_modules/next/dist/bin/node_modules\n' +
+    '        single file module\n' +
+    '          using description file: /Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/next@16.3.5_@babel+core@7.29.6_@opentelemetry+api@1.9.1_@types+node@25.0.3_babel-plugin_7e80b6e3601f4234967d333b0f1bb4cd/node_modules/next/package.json (relative path: ./dist/bin/node_modules/@rain-classroom/heroui-theme)\n' +
+    '            no extension\n' +
+    "              /Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/next@16.3.5_@babel+core@7.29.6_@opentelemetry+api@1.9.1_@types+node@25.0.3_babel-plugin_7e80b6e3601f4234967d333b0f1bb4cd/node_modules/next/dist/bin/node_modules/@rain-classroom/heroui-theme doesn't exist\n" +
+    '            .css\n' +
+    "              /Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/next@16.3.5_@babel+core@7.29.6_@opentelemetry+api@1.9.1_@types+node@25.0.3_babel-plugin_7e80b6e3601f4234967d333b0f1bb4cd/node_modules/next/dist/bin/node_modules/@rain-classroom/heroui-theme.css doesn't exist\n" +
+    "        /Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/next@16.3.5_@babel+core@7.29.6_@opentelemetry+api@1.9.1_@types+node@25.0.3_babel-plugin_7e80b6e3601f4234967d333b0f1bb4cd/node_modules/next/dist/bin/node_modules/@rain-classroom/heroui-theme doesn't exist\n" +
+    '      looking for modules in /Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/next@16.3.5_@babel+core@7.29.6_@opentelemetry+api@1.9.1_@types+node@25.0.3_babel-plugin_7e80b6e3601f4234967d333b0f1bb4cd/node_modules/next/dist/node_modules\n' +
+    '        single file module\n' +
+    '          using description file: /Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/next@16.3.5_@babel+core@7.29.6_@opentelemetry+api@1.9.1_@types+node@25.0.3_babel-plugin_7e80b6e3601f4234967d333b0f1bb4cd/node_modules/next/package.json (relative path: ./dist/node_modules/@rain-classroom/heroui-theme)\n' +
+    '            no extension\n' +
+    "              /Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/next@16.3.5_@babel+core@7.29.6_@opentelemetry+api@1.9.1_@types+node@25.0.3_babel-plugin_7e80b6e3601f4234967d333b0f1bb4cd/node_modules/next/dist/node_modules/@rain-classroom/heroui-theme doesn't exist\n" +
+    '            .css\n' +
+    "              /Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/next@16.3.5_@babel+core@7.29.6_@opentelemetry+api@1.9.1_@types+node@25.0.3_babel-plugin_7e80b6e3601f4234967d333b0f1bb4cd/node_modules/next/dist/node_modules/@rain-classroom/heroui-theme.css doesn't exist\n" +
+    "        /Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/next@16.3.5_@babel+core@7.29.6_@opentelemetry+api@1.9.1_@types+node@25.0.3_babel-plugin_7e80b6e3601f4234967d333b0f1bb4cd/node_modules/next/dist/node_modules/@rain-classroom/heroui-theme doesn't exist\n" +
+    '      looking for modules in /Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/next@16.3.5_@babel+core@7.29.6_@opentelemetry+api@1.9.1_@types+node@25.0.3_babel-plugin_7e80b6e3601f4234967d333b0f1bb4cd/node_modules/next/node_modules\n' +
+    '        single file module\n' +
+    '          using description file: /Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/next@16.3.5_@babel+core@7.29.6_@opentelemetry+api@1.9.1_@types+node@25.0.3_babel-plugin_7e80b6e3601f4234967d333b0f1bb4cd/node_modules/next/package.json (relative path: ./node_modules/@rain-classroom/heroui-theme)\n' +
+    '            no extension\n' +
+    "              /Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/next@16.3.5_@babel+core@7.29.6_@opentelemetry+api@1.9.1_@types+node@25.0.3_babel-plugin_7e80b6e3601f4234967d333b0f1bb4cd/node_modules/next/node_modules/@rain-classroom/heroui-theme doesn't exist\n" +
+    '            .css\n' +
+    "              /Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/next@16.3.5_@babel+core@7.29.6_@opentelemetry+api@1.9.1_@types+node@25.0.3_babel-plugin_7e80b6e3601f4234967d333b0f1bb4cd/node_modules/next/node_modules/@rain-classroom/heroui-theme.css doesn't exist\n" +
+    "        /Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/next@16.3.5_@babel+core@7.29.6_@opentelemetry+api@1.9.1_@types+node@25.0.3_babel-plugin_7e80b6e3601f4234967d333b0f1bb4cd/node_modules/next/node_modules/@rain-classroom/heroui-theme doesn't exist\n" +
+    '      looking for modules in /Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/next@16.3.5_@babel+core@7.29.6_@opentelemetry+api@1.9.1_@types+node@25.0.3_babel-plugin_7e80b6e3601f4234967d333b0f1bb4cd/node_modules\n' +
+    '        single file module\n' +
+    '          using description file: /Users/wenchengkai/CodexFile/hero ui-改造/package.json (relative path: ./node_modules/.pnpm/next@16.3.5_@babel+core@7.29.6_@opentelemetry+api@1.9.1_@types+node@25.0.3_babel-plugin_7e80b6e3601f4234967d333b0f1bb4cd/node_modules/@rain-classroom/heroui-theme)\n' +
+    '            no extension\n' +
+    "              /Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/next@16.3.5_@babel+core@7.29.6_@opentelemetry+api@1.9.1_@types+node@25.0.3_babel-plugin_7e80b6e3601f4234967d333b0f1bb4cd/node_modules/@rain-classroom/heroui-theme doesn't exist\n" +
+    '            .css\n' +
+    "              /Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/next@16.3.5_@babel+core@7.29.6_@opentelemetry+api@1.9.1_@types+node@25.0.3_babel-plugin_7e80b6e3601f4234967d333b0f1bb4cd/node_modules/@rain-classroom/heroui-theme.css doesn't exist\n" +
+    "        /Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/next@16.3.5_@babel+core@7.29.6_@opentelemetry+api@1.9.1_@types+node@25.0.3_babel-plugin_7e80b6e3601f4234967d333b0f1bb4cd/node_modules/@rain-classroom/heroui-theme doesn't exist\n" +
+    '      looking for modules in /Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/node_modules\n' +
+    '        single file module\n' +
+    '          using description file: /Users/wenchengkai/CodexFile/hero ui-改造/package.json (relative path: ./node_modules/.pnpm/node_modules/@rain-classroom/heroui-theme)\n' +
+    '            no extension\n' +
+    "              /Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/node_modules/@rain-classroom/heroui-theme doesn't exist\n" +
+    '            .css\n' +
+    "              /Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/node_modules/@rain-classroom/heroui-theme.css doesn't exist\n" +
+    "        /Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/node_modules/@rain-classroom/heroui-theme doesn't exist"
+}
+✓ Compiled in 1737ms
+[browser] ./apps/docs/src/app/global.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app/global.css:1:1: Can't resolve '@rain-classroom/heroui-theme' in '/Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app'
+    [at Input.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (/Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/@tailwindcss+postcss@4.3.3/node_modules/@tailwindcss/postcss/dist/index.js:10:7013)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/apps/docs/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./apps/docs/src/app/global.css [Client Component Browser]
+    ./apps/docs/src/app/[lang]/layout.tsx [Server Component] 
+[browser] ./apps/docs/src/app/global.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app/global.css:1:1: Can't resolve '@rain-classroom/heroui-theme' in '/Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app'
+    [at Input.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (/Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/@tailwindcss+postcss@4.3.3/node_modules/@tailwindcss/postcss/dist/index.js:10:7013)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/apps/docs/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./apps/docs/src/app/global.css [Client Component Browser]
+    ./apps/docs/src/app/[lang]/layout.tsx [Server Component] 
+[browser] ./apps/docs/src/app/global.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app/global.css:1:1: Can't resolve '@rain-classroom/heroui-theme' in '/Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app'
+    [at Input.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (/Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/@tailwindcss+postcss@4.3.3/node_modules/@tailwindcss/postcss/dist/index.js:10:7013)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/apps/docs/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./apps/docs/src/app/global.css [Client Component Browser]
+    ./apps/docs/src/app/[lang]/layout.tsx [Server Component] 
+✓ Compiled in 849ms
+[browser] ./apps/docs/src/app/global.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app/global.css:1:1: Can't resolve '@rain-classroom/heroui-theme' in '/Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app'
+    [at Input.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (/Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/@tailwindcss+postcss@4.3.3/node_modules/@tailwindcss/postcss/dist/index.js:10:7013)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/apps/docs/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./apps/docs/src/app/global.css [Client Component Browser]
+    ./apps/docs/src/app/[lang]/layout.tsx [Server Component] 
+✓ Compiled in 352ms
+[browser] ./apps/docs/src/app/global.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app/global.css:1:1: Can't resolve '@rain-classroom/heroui-theme' in '/Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app'
+    [at Input.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (/Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/@tailwindcss+postcss@4.3.3/node_modules/@tailwindcss/postcss/dist/index.js:10:7013)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/apps/docs/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./apps/docs/src/app/global.css [Client Component Browser]
+    ./apps/docs/src/app/[lang]/layout.tsx [Server Component] 
+│  Vite hmr update /.storybook/globals.css
+[browser] ./apps/docs/src/app/global.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app/global.css:1:1: Can't resolve '@rain-classroom/heroui-theme' in '/Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app'
+    [at Input.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (/Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/@tailwindcss+postcss@4.3.3/node_modules/@tailwindcss/postcss/dist/index.js:10:7013)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/apps/docs/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./apps/docs/src/app/global.css [Client Component Browser]
+    ./apps/docs/src/app/[lang]/layout.tsx [Server Component] 
+[browser] ./apps/docs/src/app/global.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app/global.css:1:1: Can't resolve '@rain-classroom/heroui-theme' in '/Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app'
+    [at Input.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (/Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/@tailwindcss+postcss@4.3.3/node_modules/@tailwindcss/postcss/dist/index.js:10:7013)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/apps/docs/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./apps/docs/src/app/global.css [Client Component Browser]
+    ./apps/docs/src/app/[lang]/layout.tsx [Server Component] 
+[browser] ./apps/docs/src/app/global.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app/global.css:1:1: Can't resolve '@rain-classroom/heroui-theme' in '/Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app'
+    [at Input.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (/Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/@tailwindcss+postcss@4.3.3/node_modules/@tailwindcss/postcss/dist/index.js:10:7013)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/apps/docs/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./apps/docs/src/app/global.css [Client Component Browser]
+    ./apps/docs/src/app/[lang]/layout.tsx [Server Component] 
+[browser] ./apps/docs/src/app/global.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app/global.css:1:1: Can't resolve '@rain-classroom/heroui-theme' in '/Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app'
+    [at Input.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (/Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/@tailwindcss+postcss@4.3.3/node_modules/@tailwindcss/postcss/dist/index.js:10:7013)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/apps/docs/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./apps/docs/src/app/global.css [Client Component Browser]
+    ./apps/docs/src/app/[lang]/layout.tsx [Server Component] 
+[browser] ./apps/docs/src/app/global.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app/global.css:1:1: Can't resolve '@rain-classroom/heroui-theme' in '/Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app'
+    [at Input.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (/Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/@tailwindcss+postcss@4.3.3/node_modules/@tailwindcss/postcss/dist/index.js:10:7013)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/apps/docs/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./apps/docs/src/app/global.css [Client Component Browser]
+    ./apps/docs/src/app/[lang]/layout.tsx [Server Component] 
+[browser] ./apps/docs/src/app/global.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app/global.css:1:1: Can't resolve '@rain-classroom/heroui-theme' in '/Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app'
+    [at Input.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (/Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/@tailwindcss+postcss@4.3.3/node_modules/@tailwindcss/postcss/dist/index.js:10:7013)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/apps/docs/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./apps/docs/src/app/global.css [Client Component Browser]
+    ./apps/docs/src/app/[lang]/layout.tsx [Server Component] 
+[browser] ./apps/docs/src/app/global.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app/global.css:1:1: Can't resolve '@rain-classroom/heroui-theme' in '/Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app'
+    [at Input.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (/Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/@tailwindcss+postcss@4.3.3/node_modules/@tailwindcss/postcss/dist/index.js:10:7013)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/apps/docs/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./apps/docs/src/app/global.css [Client Component Browser]
+    ./apps/docs/src/app/[lang]/layout.tsx [Server Component] 
+ ELIFECYCLE  Command failed.
+[browser] ./apps/docs/src/app/global.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app/global.css:1:1: Can't resolve '@rain-classroom/heroui-theme' in '/Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app'
+    [at Input.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (/Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/@tailwindcss+postcss@4.3.3/node_modules/@tailwindcss/postcss/dist/index.js:10:7013)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/apps/docs/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./apps/docs/src/app/global.css [Client Component Browser]
+    ./apps/docs/src/app/[lang]/layout.tsx [Server Component] 
+[browser] ./apps/docs/src/app/global.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app/global.css:1:1: Can't resolve '@rain-classroom/heroui-theme' in '/Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app'
+    [at Input.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (/Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/@tailwindcss+postcss@4.3.3/node_modules/@tailwindcss/postcss/dist/index.js:10:7013)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/apps/docs/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./apps/docs/src/app/global.css [Client Component Browser]
+    ./apps/docs/src/app/[lang]/layout.tsx [Server Component] 
+[browser] ./apps/docs/src/app/global.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app/global.css:1:1: Can't resolve '@rain-classroom/heroui-theme' in '/Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app'
+    [at Input.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (/Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/@tailwindcss+postcss@4.3.3/node_modules/@tailwindcss/postcss/dist/index.js:10:7013)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/apps/docs/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./apps/docs/src/app/global.css [Client Component Browser]
+    ./apps/docs/src/app/[lang]/layout.tsx [Server Component] 
+[browser] ./apps/docs/src/app/global.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app/global.css:1:1: Can't resolve '@rain-classroom/heroui-theme' in '/Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app'
+    [at Input.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (/Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/@tailwindcss+postcss@4.3.3/node_modules/@tailwindcss/postcss/dist/index.js:10:7013)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/apps/docs/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./apps/docs/src/app/global.css [Client Component Browser]
+    ./apps/docs/src/app/[lang]/layout.tsx [Server Component] 
+[browser] ./apps/docs/src/app/global.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app/global.css:1:1: Can't resolve '@rain-classroom/heroui-theme' in '/Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app'
+    [at Input.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (/Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/@tailwindcss+postcss@4.3.3/node_modules/@tailwindcss/postcss/dist/index.js:10:7013)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/apps/docs/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./apps/docs/src/app/global.css [Client Component Browser]
+    ./apps/docs/src/app/[lang]/layout.tsx [Server Component] 
+[browser] ./apps/docs/src/app/global.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app/global.css:1:1: Can't resolve '@rain-classroom/heroui-theme' in '/Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app'
+    [at Input.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (/Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/@tailwindcss+postcss@4.3.3/node_modules/@tailwindcss/postcss/dist/index.js:10:7013)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/apps/docs/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./apps/docs/src/app/global.css [Client Component Browser]
+    ./apps/docs/src/app/[lang]/layout.tsx [Server Component] 
+│  Vite page reload storybook-static/iframe.html
+│  Vite page reload storybook-static/index.html
+│  Vite page reload storybook-static/index.html
+│  Vite page reload storybook-static/iframe.html
+[browser] ./apps/docs/src/app/global.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app/global.css:1:1: Can't resolve '@rain-classroom/heroui-theme' in '/Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app'
+    [at Input.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (/Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/@tailwindcss+postcss@4.3.3/node_modules/@tailwindcss/postcss/dist/index.js:10:7013)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/apps/docs/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./apps/docs/src/app/global.css [Client Component Browser]
+    ./apps/docs/src/app/[lang]/layout.tsx [Server Component] 
+[browser] ./apps/docs/src/app/global.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app/global.css:1:1: Can't resolve '@rain-classroom/heroui-theme' in '/Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app'
+    [at Input.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (/Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/@tailwindcss+postcss@4.3.3/node_modules/@tailwindcss/postcss/dist/index.js:10:7013)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/apps/docs/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./apps/docs/src/app/global.css [Client Component Browser]
+    ./apps/docs/src/app/[lang]/layout.tsx [Server Component] 
+✓ Compiled in 1635ms
+[browser] ./apps/docs/src/app/global.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app/global.css:1:1: Can't resolve '@rain-classroom/heroui-theme' in '/Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app'
+    [at Input.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (/Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/@tailwindcss+postcss@4.3.3/node_modules/@tailwindcss/postcss/dist/index.js:10:7013)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/apps/docs/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./apps/docs/src/app/global.css [Client Component Browser]
+    ./apps/docs/src/app/[lang]/layout.tsx [Server Component] 
+✓ Compiled in 1996ms
+[browser] ./apps/docs/src/app/global.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app/global.css:1:1: Can't resolve '@rain-classroom/heroui-theme' in '/Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/app'
+    [at Input.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (/Users/wenchengkai/CodexFile/hero ui-改造/node_modules/.pnpm/@tailwindcss+postcss@4.3.3/node_modules/@tailwindcss/postcss/dist/index.js:10:7013)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/apps/docs/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./apps/docs/src/app/global.css [Client Component Browser]
+    ./apps/docs/src/app/[lang]/layout.tsx [Server Component] 
+[MDX] closing dev server
+[?25h

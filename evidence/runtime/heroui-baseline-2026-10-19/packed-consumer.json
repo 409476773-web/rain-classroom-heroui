@@ -1,0 +1,356 @@
+{
+  "scope": "Packed distributions with existing frozen third-party dependencies linked; not a fresh external install",
+  "imports": [
+    {
+      "name": ".",
+      "exports": 538
+    },
+    {
+      "name": "./accordion",
+      "exports": 9
+    },
+    {
+      "name": "./alert",
+      "exports": 7
+    },
+    {
+      "name": "./alert-dialog",
+      "exports": 13
+    },
+    {
+      "name": "./autocomplete",
+      "exports": 9
+    },
+    {
+      "name": "./avatar",
+      "exports": 6
+    },
+    {
+      "name": "./avatar-group",
+      "exports": 6
+    },
+    {
+      "name": "./badge",
+      "exports": 5
+    },
+    {
+      "name": "./breadcrumbs",
+      "exports": 4
+    },
+    {
+      "name": "./button",
+      "exports": 4
+    },
+    {
+      "name": "./button-group",
+      "exports": 6
+    },
+    {
+      "name": "./calendar",
+      "exports": 15
+    },
+    {
+      "name": "./calendar-year-picker",
+      "exports": 11
+    },
+    {
+      "name": "./card",
+      "exports": 8
+    },
+    {
+      "name": "./checkbox",
+      "exports": 6
+    },
+    {
+      "name": "./checkbox-group",
+      "exports": 2
+    },
+    {
+      "name": "./chip",
+      "exports": 4
+    },
+    {
+      "name": "./close-button",
+      "exports": 3
+    },
+    {
+      "name": "./color-area",
+      "exports": 4
+    },
+    {
+      "name": "./color-field",
+      "exports": 3
+    },
+    {
+      "name": "./color-input-group",
+      "exports": 6
+    },
+    {
+      "name": "./color-picker",
+      "exports": 5
+    },
+    {
+      "name": "./color-slider",
+      "exports": 6
+    },
+    {
+      "name": "./color-swatch",
+      "exports": 3
+    },
+    {
+      "name": "./color-swatch-picker",
+      "exports": 6
+    },
+    {
+      "name": "./combo-box",
+      "exports": 8
+    },
+    {
+      "name": "./date-field",
+      "exports": 3
+    },
+    {
+      "name": "./date-input-group",
+      "exports": 8
+    },
+    {
+      "name": "./date-picker",
+      "exports": 6
+    },
+    {
+      "name": "./date-range-picker",
+      "exports": 7
+    },
+    {
+      "name": "./description",
+      "exports": 3
+    },
+    {
+      "name": "./disclosure",
+      "exports": 8
+    },
+    {
+      "name": "./disclosure-group",
+      "exports": 4
+    },
+    {
+      "name": "./drawer",
+      "exports": 13
+    },
+    {
+      "name": "./dropdown",
+      "exports": 11
+    },
+    {
+      "name": "./empty-state",
+      "exports": 3
+    },
+    {
+      "name": "./error-message",
+      "exports": 3
+    },
+    {
+      "name": "./field-error",
+      "exports": 3
+    },
+    {
+      "name": "./fieldset",
+      "exports": 6
+    },
+    {
+      "name": "./form",
+      "exports": 2
+    },
+    {
+      "name": "./header",
+      "exports": 3
+    },
+    {
+      "name": "./input",
+      "exports": 3
+    },
+    {
+      "name": "./input-group",
+      "exports": 7
+    },
+    {
+      "name": "./input-otp",
+      "exports": 9
+    },
+    {
+      "name": "./kbd",
+      "exports": 7
+    },
+    {
+      "name": "./label",
+      "exports": 3
+    },
+    {
+      "name": "./link",
+      "exports": 4
+    },
+    {
+      "name": "./list-box",
+      "exports": 3
+    },
+    {
+      "name": "./list-box-item",
+      "exports": 4
+    },
+    {
+      "name": "./list-box-section",
+      "exports": 3
+    },
+    {
+      "name": "./menu",
+      "exports": 3
+    },
+    {
+      "name": "./menu-item",
+      "exports": 5
+    },
+    {
+      "name": "./menu-section",
+      "exports": 3
+    },
+    {
+      "name": "./meter",
+      "exports": 6
+    },
+    {
+      "name": "./modal",
+      "exports": 13
+    },
+    {
+      "name": "./number-field",
+      "exports": 7
+    },
+    {
+      "name": "./pagination",
+      "exports": 12
+    },
+    {
+      "name": "./popover",
+      "exports": 8
+    },
+    {
+      "name": "./progress-bar",
+      "exports": 6
+    },
+    {
+      "name": "./progress-circle",
+      "exports": 6
+    },
+    {
+      "name": "./rac",
+      "exports": 16
+    },
+    {
+      "name": "./radio",
+      "exports": 6
+    },
+    {
+      "name": "./radio-group",
+      "exports": 3
+    },
+    {
+      "name": "./range-calendar",
+      "exports": 15
+    },
+    {
+      "name": "./scroll-shadow",
+      "exports": 4
+    },
+    {
+      "name": "./search-field",
+      "exports": 7
+    },
+    {
+      "name": "./select",
+      "exports": 8
+    },
+    {
+      "name": "./separator",
+      "exports": 3
+    },
+    {
+      "name": "./skeleton",
+      "exports": 3
+    },
+    {
+      "name": "./slider",
+      "exports": 8
+    },
+    {
+      "name": "./spinner",
+      "exports": 3
+    },
+    {
+      "name": "./surface",
+      "exports": 4
+    },
+    {
+      "name": "./switch",
+      "exports": 7
+    },
+    {
+      "name": "./switch-group",
+      "exports": 3
+    },
+    {
+      "name": "./table",
+      "exports": 17
+    },
+    {
+      "name": "./tabs",
+      "exports": 9
+    },
+    {
+      "name": "./tag",
+      "exports": 4
+    },
+    {
+      "name": "./tag-group",
+      "exports": 5
+    },
+    {
+      "name": "./textarea",
+      "exports": 3
+    },
+    {
+      "name": "./textfield",
+      "exports": 4
+    },
+    {
+      "name": "./time-field",
+      "exports": 3
+    },
+    {
+      "name": "./toast",
+      "exports": 17
+    },
+    {
+      "name": "./toggle-button",
+      "exports": 3
+    },
+    {
+      "name": "./toggle-button-group",
+      "exports": 6
+    },
+    {
+      "name": "./toolbar",
+      "exports": 3
+    },
+    {
+      "name": "./tooltip",
+      "exports": 6
+    },
+    {
+      "name": "./typography",
+      "exports": 7
+    }
+  ],
+  "failed": [],
+  "ssr": "<div class=\"card card--default\" data-slot=\"card\"><button data-slot=\"button\" class=\"button button--md button--primary\" data-rac=\"\" type=\"button\" tabindex=\"0\" data-react-aria-pressable=\"true\" id=\"react-aria-_R_0_\">Packed HeroUI</button></div>",
+  "passed": true
+}

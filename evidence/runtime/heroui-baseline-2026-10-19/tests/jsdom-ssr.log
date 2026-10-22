@@ -1,0 +1,404 @@
+Command: pnpm --filter @heroui/react exec vitest run --project react-jsdom --maxWorkers=1 --reporter=default --reporter=json '--outputFile=/Users/wenchengkai/CodexFile/hero ui-改造/evidence/runtime/heroui-baseline-2026-10-19/tests/jsdom-ssr.json'
+Started: 2026-10-19T08:54:42.211055+00:00
+
+
+ RUN  v4.1.11 /Users/wenchengkai/CodexFile/hero ui-改造/packages/react
+
+ ✓ |react-jsdom| tests/components/toast/toast.test.tsx (31 tests) 1180ms
+ ✓ |react-jsdom| tests/components/scroll-shadow/scroll-shadow.test.tsx (14 tests) 774ms
+ ✓ |react-jsdom| tests/components/calendar/calendar.test.tsx (14 tests) 4626ms
+     ✓ renders a grid with an accessible name  352ms
+       ✓ exposes aria-selected and data-selected on the selected day  471ms
+       ✓ calls onChange when selecting a new day  636ms
+       ✓ supports ArrowRight to move focus to the next day  486ms
+       ✓ supports isDisabled to block day selection  423ms
+       ✓ supports selecting a year and closing the picker  554ms
+       ✓ exposes data-selected on the focused year  316ms
+       ✓ supports Escape dismiss for the year picker  366ms
+ ✓ |react-jsdom| tests/components/range-calendar/range-calendar.test.tsx (11 tests) 2065ms
+     ✓ renders a multi-selectable grid with an accessible name  338ms
+       ✓ supports selecting a year and closing the picker  349ms
+stderr | tests/components/select/select.test.tsx > Select > clear shortcut > clears the selection with Backspace
+An update to $c8bb816105474884$var$SelectInner inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to ForwardRef(Button) inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to ForwardRef(Button) inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to $c8bb816105474884$var$SelectInner inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to $c8bb816105474884$var$SelectInner inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+stderr | tests/components/select/select.test.tsx > Select > clear shortcut > clears the selection with Delete
+An update to $c8bb816105474884$var$SelectInner inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to ForwardRef(Button) inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to ForwardRef(Button) inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to $c8bb816105474884$var$SelectInner inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to $c8bb816105474884$var$SelectInner inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+stderr | tests/components/select/select.test.tsx > Select > clear shortcut > does not clear when no clear button is composed
+An update to $c8bb816105474884$var$SelectInner inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to ForwardRef(Button) inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to ForwardRef(Button) inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to $c8bb816105474884$var$SelectInner inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to $c8bb816105474884$var$SelectInner inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+stderr | tests/components/select/select.test.tsx > Select > clear shortcut > leaves other keys to the select
+An update to $c8bb816105474884$var$SelectInner inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to ForwardRef(Button) inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to ForwardRef(Button) inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to $c8bb816105474884$var$SelectInner inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to $c8bb816105474884$var$SelectInner inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+ ✓ |react-jsdom| tests/components/select/select.test.tsx (17 tests) 799ms
+ ✓ |react-jsdom| tests/components/table/table.test.tsx (9 tests) 708ms
+ ✓ |react-jsdom| tests/components/date-field/date-field.test.tsx (12 tests) 397ms
+ ✓ |react-jsdom| tests/components/time-field/time-field.test.tsx (11 tests) 357ms
+ ✓ |react-jsdom| tests/components/slider/slider.test.tsx (13 tests) 266ms
+ ✓ |react-jsdom| tests/components/autocomplete/autocomplete.test.tsx (6 tests) 440ms
+ ✓ |react-jsdom| tests/components/number-field/number-field.test.tsx (13 tests) 368ms
+ ✓ |react-jsdom| tests/components/color-field/color-field.test.tsx (12 tests) 291ms
+ ✓ |react-jsdom| tests/components/avatar-group/avatar-group.test.tsx (10 tests) 67ms
+stderr | tests/components/tag-group/tag-group.test.tsx > TagGroup > supports removing a focused tag with the keyboard
+An update to $3df3ddf5bafbc7b1$var$TagGroupInner inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to Component inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to Component inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to $3df3ddf5bafbc7b1$var$TagGroupInner inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to $3df3ddf5bafbc7b1$var$TagGroupInner inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+ ✓ |react-jsdom| tests/components/tag-group/tag-group.test.tsx (10 tests) 307ms
+ ✓ |react-jsdom| tests/components/toggle-button-group/toggle-button-group.test.tsx (10 tests) 227ms
+ ✓ |react-jsdom| tests/components/accordion/accordion.test.tsx (10 tests) 394ms
+ ✓ |react-jsdom| tests/components/textfield/textfield.test.tsx (12 tests) 228ms
+ ✓ |react-jsdom| tests/components/switch/switch.test.tsx (12 tests) 274ms
+ ✓ |react-jsdom| tests/components/pagination/pagination.test.tsx (11 tests) 189ms
+ ✓ |react-jsdom| tests/components/checkbox/checkbox.test.tsx (11 tests) 241ms
+ ✓ |react-jsdom| tests/components/checkbox-group/checkbox-group.test.tsx (7 tests) 243ms
+ ✓ |react-jsdom| tests/components/drawer/drawer.test.tsx (7 tests) 268ms
+ ✓ |react-jsdom| tests/components/toggle-button/toggle-button.test.tsx (12 tests) 152ms
+ ✓ |react-jsdom| tests/components/dropdown/dropdown.test.tsx (8 tests) 1459ms
+       ✓ supports opening a Drawer from an item without leaving the popover behind  306ms
+       ✓ keeps a controlled dropdown closed once the AlertDialog holds focus  381ms
+ ✓ |react-jsdom| tests/components/date-range-picker/date-range-picker.test.tsx (3 tests) 515ms
+ ✓ |react-jsdom| tests/components/button/button.test.tsx (12 tests) 167ms
+ ✓ |react-jsdom| tests/components/radio-group/radio-group.test.tsx (6 tests) 230ms
+ ✓ |react-jsdom| tests/components/search-field/search-field.test.tsx (9 tests) 208ms
+ ✓ |react-jsdom| tests/components/tabs/tabs.test.tsx (7 tests) 284ms
+ ✓ |react-jsdom| tests/components/input-otp/input-otp.test.tsx (7 tests) 228ms
+ ✓ |react-jsdom| tests/components/disclosure/disclosure.test.tsx (7 tests) 191ms
+ ✓ |react-jsdom| tests/components/date-picker/date-picker.test.tsx (3 tests) 587ms
+     ✓ supports opening and closing the calendar popover  357ms
+ ✓ |react-jsdom| tests/components/link/link.test.tsx (10 tests) 136ms
+ ✓ |react-jsdom| tests/components/radio/radio.test.tsx (6 tests) 252ms
+stderr | tests/components/button-group/button-group.test.tsx > ButtonGroup > renders Separator with data-slot
+Received `true` for a non-boolean attribute `__button_group_child`.
+
+If you want to write it to the DOM, pass a string instead: __button_group_child="true" or __button_group_child={value.toString()}.
+
+ ✓ |react-jsdom| tests/components/button-group/button-group.test.tsx (8 tests) 120ms
+ ✓ |react-jsdom| tests/components/menu/menu.test.tsx (4 tests) 514ms
+ ✓ |react-jsdom| tests/components/tooltip/tooltip.test.tsx (5 tests) 275ms
+ ✓ |react-jsdom| tests/components/color-picker/color-picker.test.tsx (3 tests) 247ms
+ ✓ |react-jsdom| tests/components/alert-dialog/alert-dialog.test.tsx (4 tests) 225ms
+ ✓ |react-jsdom| tests/components/disclosure-group/disclosure-group.test.tsx (6 tests) 169ms
+ ✓ |react-jsdom| tests/components/close-button/close-button.test.tsx (10 tests) 131ms
+ ✓ |react-jsdom| tests/components/combo-box/combo-box.test.tsx (6 tests) 357ms
+ ✓ |react-jsdom| tests/components/input-group/input-group.test.tsx (8 tests) 127ms
+ ✓ |react-jsdom| tests/components/alert/alert.test.tsx (9 tests) 34ms
+ ✓ |react-jsdom| tests/components/toolbar/toolbar.test.tsx (7 tests) 129ms
+ ✓ |react-jsdom| tests/components/breadcrumbs/breadcrumbs.test.tsx (7 tests) 136ms
+ ✓ |react-jsdom| tests/components/list-box/list-box.test.tsx (3 tests) 131ms
+ ✓ |react-jsdom| tests/components/progress-bar/progress-bar.test.tsx (6 tests) 95ms
+ ✓ |react-jsdom| tests/components/progress-circle/progress-circle.test.tsx (5 tests) 77ms
+ ✓ |react-jsdom| tests/components/date-range-picker/date-range-picker.ssr.test.tsx (1 test) 69ms
+ ✓ |react-jsdom| tests/components/range-calendar/range-calendar.ssr.test.tsx (2 tests) 166ms
+ ✓ |react-jsdom| tests/components/modal/modal.test.tsx (3 tests) 227ms
+ ✓ |react-jsdom| tests/components/popover/popover.test.tsx (3 tests) 223ms
+ ✓ |react-jsdom| tests/components/meter/meter.test.tsx (6 tests) 77ms
+ ✓ |react-jsdom| tests/components/switch-group/switch-group.test.tsx (5 tests) 152ms
+ ✓ |react-jsdom| tests/components/card/card.test.tsx (5 tests) 29ms
+ ✓ |react-jsdom| tests/components/color-slider/color-slider.test.tsx (4 tests) 170ms
+ ✓ |react-jsdom| tests/components/calendar/calendar.ssr.test.tsx (2 tests) 163ms
+ ✓ |react-jsdom| tests/components/typography/typography.test.tsx (7 tests) 77ms
+ ✓ |react-jsdom| tests/components/error-message/error-message.test.tsx (3 tests) 110ms
+ ✓ |react-jsdom| tests/components/date-picker/date-picker.ssr.test.tsx (1 test) 70ms
+ ✓ |react-jsdom| tests/components/color-swatch-picker/color-swatch-picker.test.tsx (4 tests) 141ms
+ ✓ |react-jsdom| tests/components/fieldset/fieldset.test.tsx (5 tests) 98ms
+ ✓ |react-jsdom| tests/components/autocomplete/autocomplete.ssr.test.tsx (2 tests) 161ms
+ ✓ |react-jsdom| tests/components/color-area/color-area.test.tsx (4 tests) 155ms
+ ✓ |react-jsdom| tests/components/form/form.test.tsx (3 tests) 104ms
+ ✓ |react-jsdom| tests/components/date-field/date-field.ssr.test.tsx (2 tests) 83ms
+ ✓ |react-jsdom| tests/components/time-field/time-field.ssr.test.tsx (2 tests) 72ms
+ ✓ |react-jsdom| tests/components/textarea/textarea.test.tsx (5 tests) 95ms
+ ✓ |react-jsdom| tests/components/tag/tag.test.tsx (3 tests) 117ms
+ ✓ |react-jsdom| tests/components/label/label.test.tsx (5 tests) 92ms
+ ✓ |react-jsdom| tests/components/badge/badge.test.tsx (6 tests) 28ms
+ ✓ |react-jsdom| tests/components/scroll-shadow/scroll-shadow.ssr.test.tsx (4 tests) 31ms
+ ✓ |react-jsdom| tests/components/input/input.test.tsx (5 tests) 97ms
+ ✓ |react-jsdom| tests/components/field-error/field-error.test.tsx (3 tests) 40ms
+ ✓ |react-jsdom| tests/components/avatar/avatar.test.tsx (5 tests) 30ms
+ ✓ |react-jsdom| tests/components/spinner/spinner.test.tsx (5 tests) 86ms
+ ✓ |react-jsdom| tests/components/description/description.test.tsx (3 tests) 87ms
+ ✓ |react-jsdom| tests/components/separator/separator.test.tsx (5 tests) 71ms
+ ✓ |react-jsdom| tests/components/kbd/kbd.test.tsx (5 tests) 30ms
+ ✓ |react-jsdom| tests/components/disclosure-group/disclosure-group.ssr.test.tsx (1 test) 31ms
+ ✓ |react-jsdom| tests/components/chip/chip.test.tsx (5 tests) 34ms
+ ✓ |react-jsdom| tests/components/color-picker/color-picker.ssr.test.tsx (1 test) 39ms
+ ✓ |react-jsdom| tests/components/accordion/accordion.ssr.test.tsx (1 test) 34ms
+ ✓ |react-jsdom| tests/components/header/header.test.tsx (3 tests) 48ms
+ ✓ |react-jsdom| tests/components/color-swatch/color-swatch.test.tsx (4 tests) 77ms
+ ✓ |react-jsdom| tests/components/surface/surface.test.tsx (4 tests) 26ms
+ ✓ |react-jsdom| tests/components/empty-state/empty-state.test.tsx (4 tests) 21ms
+ ✓ |react-jsdom| tests/components/tabs/tabs.ssr.test.tsx (1 test) 102ms
+ ✓ |react-jsdom| tests/components/skeleton/skeleton.test.tsx (3 tests) 65ms
+ ✓ |react-jsdom| tests/components/rac/rac.test.tsx (1 test) 2ms
+ ✓ |react-jsdom| tests/components/input-otp/input-otp.ssr.test.tsx (1 test) 83ms
+ ✓ |react-jsdom| tests/components/disclosure/disclosure.ssr.test.tsx (1 test) 33ms
+ ✓ |react-jsdom| tests/components/textfield/textfield.ssr.test.tsx (1 test) 29ms
+ ✓ |react-jsdom| tests/components/search-field/search-field.ssr.test.tsx (1 test) 36ms
+ ✓ |react-jsdom| tests/components/tooltip/tooltip.ssr.test.tsx (2 tests) 88ms
+ ✓ |react-jsdom| tests/components/number-field/number-field.ssr.test.tsx (1 test) 43ms
+ ✓ |react-jsdom| tests/components/color-field/color-field.ssr.test.tsx (1 test) 34ms
+ ✓ |react-jsdom| tests/components/form/form.ssr.test.tsx (1 test) 30ms
+ ✓ |react-jsdom| tests/components/checkbox/checkbox.ssr.test.tsx (1 test) 45ms
+ ✓ |react-jsdom| tests/components/slider/slider.ssr.test.tsx (1 test) 73ms
+ ✓ |react-jsdom| tests/components/switch/switch.ssr.test.tsx (1 test) 52ms
+ ✓ |react-jsdom| tests/components/select/select.ssr.test.tsx (3 tests) 152ms
+ ✓ |react-jsdom| tests/components/spinner/spinner.ssr.test.tsx (2 tests) 26ms
+ ✓ |react-jsdom| tests/components/button/button.ssr.test.tsx (2 tests) 28ms
+ ✓ |react-jsdom| tests/components/skeleton/skeleton.ssr.test.tsx (2 tests) 70ms
+ ✓ |react-jsdom| tests/components/alert-dialog/alert-dialog.ssr.test.tsx (2 tests) 94ms
+ ✓ |react-jsdom| tests/components/combo-box/combo-box.ssr.test.tsx (2 tests) 66ms
+ ✓ |react-jsdom| tests/components/dropdown/dropdown.ssr.test.tsx (2 tests) 253ms
+ ✓ |react-jsdom| tests/components/popover/popover.ssr.test.tsx (2 tests) 100ms
+ ✓ |react-jsdom| tests/components/drawer/drawer.ssr.test.tsx (2 tests) 99ms
+ ✓ |react-jsdom| tests/components/modal/modal.ssr.test.tsx (2 tests) 107ms
+ ✓ |react-jsdom| tests/components/menu/menu.ssr.test.tsx (1 test) 33ms
+
+ Test Files  113 passed (113)
+      Tests  624 passed (624)
+   Start at  16:54:44
+   Duration  137.05s (transform 4.18s, setup 15.39s, import 28.26s, tests 27.09s, environment 53.06s)
+
+JSON report written to /Users/wenchengkai/CodexFile/hero ui-改造/evidence/runtime/heroui-baseline-2026-10-19/tests/jsdom-ssr.json

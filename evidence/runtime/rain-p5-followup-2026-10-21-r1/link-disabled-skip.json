@@ -1,0 +1,130 @@
+{
+  "active": {
+    "class": "link button button--md button--tertiary gap-0 px-3 py-0.5 no-underline",
+    "label": null,
+    "role": null,
+    "tag": "A"
+  },
+  "nodes": [
+    {
+      "checked": false,
+      "class": "",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "presentation",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(15, 85, 223)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "9px",
+        "opacity": "1",
+        "outline": "rgb(15, 85, 223) none 3px",
+        "radius": "0px",
+        "width": "9px"
+      },
+      "tag": "svg",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "link",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "link",
+      "selected": null,
+      "state": {
+        "disabled": "true",
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(15, 85, 223)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "24px",
+        "opacity": "0.5",
+        "outline": "rgb(15, 85, 223) none 3px",
+        "radius": "12px",
+        "width": "117.664px"
+      },
+      "tag": "SPAN",
+      "text": "Call to action",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "presentation",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(15, 85, 223)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "9px",
+        "opacity": "1",
+        "outline": "rgb(15, 85, 223) none 3px",
+        "radius": "0px",
+        "width": "9px"
+      },
+      "tag": "svg",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "presentation",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "9px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "8px"
+      },
+      "tag": "svg",
+      "text": "",
+      "value": ""
+    }
+  ],
+  "rain": "light",
+  "text": "Call to action\nCall to action\nHeroUI",
+  "theme": "light",
+  "url": "http://127.0.0.1:6006/iframe.html?id=components-navigation-link--default&viewMode=story&globals=heroui-theme%3Arain-light"
+}

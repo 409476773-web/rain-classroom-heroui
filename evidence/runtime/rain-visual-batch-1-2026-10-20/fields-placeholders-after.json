@@ -1,0 +1,146 @@
+[
+  {
+    "disabled": false,
+    "foreground": "rgb(20, 35, 60)",
+    "invalid": null,
+    "label": "练习名称空值提示",
+    "placeholder": "rgb(160, 172, 197)",
+    "readOnly": false
+  },
+  {
+    "disabled": false,
+    "foreground": "rgb(20, 35, 60)",
+    "invalid": null,
+    "label": "练习名称已输入",
+    "placeholder": "rgb(160, 172, 197)",
+    "readOnly": false
+  },
+  {
+    "disabled": true,
+    "foreground": "rgb(20, 35, 60)",
+    "invalid": null,
+    "label": "练习名称禁用提示",
+    "placeholder": "rgb(160, 172, 197)",
+    "readOnly": false
+  },
+  {
+    "disabled": false,
+    "foreground": "rgb(20, 35, 60)",
+    "invalid": "true",
+    "label": "练习名称错误提示",
+    "placeholder": "rgb(160, 172, 197)",
+    "readOnly": false
+  },
+  {
+    "disabled": false,
+    "foreground": "rgb(20, 35, 60)",
+    "invalid": null,
+    "label": "反馈空值提示",
+    "placeholder": "rgb(160, 172, 197)",
+    "readOnly": false
+  },
+  {
+    "disabled": false,
+    "foreground": "rgb(20, 35, 60)",
+    "invalid": "true",
+    "label": "反馈错误提示",
+    "placeholder": "rgb(160, 172, 197)",
+    "readOnly": false
+  },
+  {
+    "disabled": false,
+    "foreground": "rgb(20, 35, 60)",
+    "invalid": null,
+    "label": "学生搜索默认提示",
+    "placeholder": "rgb(160, 172, 197)",
+    "readOnly": false
+  },
+  {
+    "disabled": false,
+    "foreground": "rgb(20, 35, 60)",
+    "invalid": null,
+    "label": "学生搜索次要提示",
+    "placeholder": "rgb(160, 172, 197)",
+    "readOnly": false
+  },
+  {
+    "disabled": true,
+    "foreground": "rgb(20, 35, 60)",
+    "invalid": null,
+    "label": "学生搜索禁用提示",
+    "placeholder": "rgb(160, 172, 197)",
+    "readOnly": false
+  },
+  {
+    "disabled": false,
+    "foreground": "rgb(20, 35, 60)",
+    "invalid": "true",
+    "label": "学生搜索错误提示",
+    "placeholder": "rgb(160, 172, 197)",
+    "readOnly": false
+  },
+  {
+    "disabled": false,
+    "foreground": "rgb(20, 35, 60)",
+    "invalid": null,
+    "label": "学生搜索只读内容",
+    "placeholder": "rgb(160, 172, 197)",
+    "readOnly": true
+  },
+  {
+    "disabled": false,
+    "foreground": "rgb(20, 35, 60)",
+    "invalid": null,
+    "label": "分数默认提示",
+    "placeholder": "rgb(160, 172, 197)",
+    "readOnly": false
+  },
+  {
+    "disabled": false,
+    "foreground": "rgb(20, 35, 60)",
+    "invalid": null,
+    "label": "分数次要提示",
+    "placeholder": "rgb(160, 172, 197)",
+    "readOnly": false
+  },
+  {
+    "disabled": true,
+    "foreground": "rgb(20, 35, 60)",
+    "invalid": null,
+    "label": "分数禁用提示",
+    "placeholder": "rgb(160, 172, 197)",
+    "readOnly": false
+  },
+  {
+    "disabled": false,
+    "foreground": "rgb(20, 35, 60)",
+    "invalid": "true",
+    "label": "分数错误提示",
+    "placeholder": "rgb(160, 172, 197)",
+    "readOnly": false
+  },
+  {
+    "disabled": false,
+    "foreground": "rgb(20, 35, 60)",
+    "invalid": null,
+    "label": "分数只读内容",
+    "placeholder": "rgb(160, 172, 197)",
+    "readOnly": true
+  },
+  {
+    "disabled": false,
+    "foreground": "rgb(20, 35, 60)",
+    "invalid": null,
+    "label": "金额空值与固定单位",
+    "placeholder": "rgb(160, 172, 197)",
+    "readOnly": false
+  },
+  {
+    "disabled": false,
+    "foreground": "rgb(20, 35, 60)",
+    "invalid": null,
+    "label": "网址已输入与固定前后缀",
+    "placeholder": "rgb(160, 172, 197)",
+    "readOnly": false
+  }
+]

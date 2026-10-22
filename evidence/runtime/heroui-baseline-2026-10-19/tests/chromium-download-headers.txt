@@ -1,0 +1,28 @@
+HTTP/2 307 
+date: Mon, 19 Oct 2026 08:58:02 GMT
+content-type: text/html
+content-length: 0
+location: https://storage.googleapis.com/chrome-for-testing-public/153.0.8010.12/mac-arm64/chrome-headless-shell-mac-arm64.zip
+x-azure-ref: 20261019T085802Z-r1b9b47f47f6gtjxhC1SG1tks000000003v0000000002ks0
+x-cache: CONFIG_NOCACHE
+
+HTTP/2 200 
+content-type: application/zip
+x-guploader-uploadid: AP6rU83iSsBgU4kNkVt_71ZzC_vhcWLwhNjWecNpmBXZqa4XNLKQHiKZcYU2UfICnzqjR9Hr2xog_NI
+expires: Mon, 19 Oct 2026 09:58:06 GMT
+date: Mon, 19 Oct 2026 08:58:06 GMT
+cache-control: public, max-age=3600
+last-modified: Tue, 25 Aug 2026 23:07:02 GMT
+etag: "75ec375d8d1e6aeb6e6e2991627a87f7"
+x-goog-generation: 1787699221973647
+x-goog-metageneration: 1
+x-goog-stored-content-encoding: identity
+x-goog-stored-content-length: 98831293
+x-goog-hash: crc32c=OzRuZg==
+x-goog-hash: md5=dew3XY0eautubimRYnqH9w==
+x-goog-storage-class: STANDARD
+accept-ranges: bytes
+content-length: 98831293
+server: UploadServer
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+

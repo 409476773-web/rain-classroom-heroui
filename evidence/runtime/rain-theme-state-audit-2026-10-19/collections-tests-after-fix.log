@@ -1,0 +1,11 @@
+✔ 93 collection state fixtures keep original light/dark unchanged after import and theme removal (2935.015083ms)
+✔ Rain collection states retain spacing, type scale, disabled opacity, focus geometry and motion (807.732709ms)
+✔ soft status text stays readable on all four Rain surfaces in normal and hover fills (576.506417ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4807.806708

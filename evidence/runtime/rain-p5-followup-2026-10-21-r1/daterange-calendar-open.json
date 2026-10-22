@@ -1,0 +1,1464 @@
+{
+  "active": {
+    "class": "range-calendar__cell",
+    "label": "已选择今天，即 选定的范围：2026/10/21星期三 至 2026/10/26星期一, 2026年10月21日星期三",
+    "role": "button",
+    "tag": "DIV"
+  },
+  "nodes": [
+    {
+      "checked": false,
+      "class": "date-input-group date-input-group--full-width date-input-group--primary",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "group",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgb(255, 255, 255)",
+        "border": "rgba(0, 0, 0, 0)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "6px",
+        "width": "320px"
+      },
+      "tag": "DIV",
+      "text": "2026/10/21 - 2026/10/26",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "date-input-group__input",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "presentation",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "40px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "114.453px"
+      },
+      "tag": "DIV",
+      "text": "2026/10/21",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "date-input-group__segment",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "年, 开始日期, ",
+      "role": "spinbutton",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "24px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "6px",
+        "width": "42.4062px"
+      },
+      "tag": "SPAN",
+      "text": "2026",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "date-input-group__segment",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "月, 开始日期, ",
+      "role": "spinbutton",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "24px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "6px",
+        "width": "20.0234px"
+      },
+      "tag": "SPAN",
+      "text": "10",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "date-input-group__segment",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "日, 开始日期, ",
+      "role": "spinbutton",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "24px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "6px",
+        "width": "20.0234px"
+      },
+      "tag": "SPAN",
+      "text": "21",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "auto",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "auto"
+      },
+      "tag": "INPUT",
+      "text": "",
+      "value": "2026-10-21"
+    },
+    {
+      "checked": false,
+      "class": "date-input-group__input",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "presentation",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "40px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "153.07px"
+      },
+      "tag": "DIV",
+      "text": "2026/10/26",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "date-input-group__segment",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "年, 结束日期, ",
+      "role": "spinbutton",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "24px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "6px",
+        "width": "42.4062px"
+      },
+      "tag": "SPAN",
+      "text": "2026",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "date-input-group__segment",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "月, 结束日期, ",
+      "role": "spinbutton",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "24px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "6px",
+        "width": "20.0234px"
+      },
+      "tag": "SPAN",
+      "text": "10",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "date-input-group__segment",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "日, 结束日期, ",
+      "role": "spinbutton",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "24px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "6px",
+        "width": "23.2031px"
+      },
+      "tag": "SPAN",
+      "text": "26",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "auto",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "auto"
+      },
+      "tag": "INPUT",
+      "text": "",
+      "value": "2026-10-26"
+    },
+    {
+      "checked": false,
+      "class": "date-range-picker__trigger",
+      "disabled": false,
+      "expanded": "true",
+      "focus": null,
+      "invalid": null,
+      "name": "日历",
+      "role": null,
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(160, 172, 197)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "24px",
+        "opacity": "1",
+        "outline": "rgb(160, 172, 197) none 3px",
+        "radius": "6px",
+        "width": "24px"
+      },
+      "tag": "BUTTON",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "presentation",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(160, 172, 197)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "14px",
+        "opacity": "1",
+        "outline": "rgb(160, 172, 197) none 3px",
+        "radius": "0px",
+        "width": "14px"
+      },
+      "tag": "svg",
+      "text": "",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "date-range-picker__popover",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": null,
+      "role": "dialog",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgb(255, 255, 255)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "292px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "16px",
+        "width": "276px"
+      },
+      "tag": "DIV",
+      "text": "Selected range, 2026年10月2026年10月周一周二周三周四周五周六周日2829301234567891011121314151617181920212223242526272829303111900年1901年1902年1903年1904",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "range-calendar",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "Selected range, 2026年10月",
+      "role": "application",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "268px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "252px"
+      },
+      "tag": "DIV",
+      "text": "Selected range, 2026年10月2026年10月周一周二周三周四周五周六周日2829301234567891011121314151617181920212223242526272829303111900年1901年1902年1903年1904",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "range-calendar__cell",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "2026年9月28日星期一",
+      "role": "button",
+      "selected": null,
+      "state": {
+        "disabled": "true",
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(86, 104, 143)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "0.5",
+        "outline": "rgb(86, 104, 143) none 3px",
+        "radius": "24px",
+        "width": "36px"
+      },
+      "tag": "DIV",
+      "text": "28",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "range-calendar__cell",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "2026年9月29日星期二",
+      "role": "button",
+      "selected": null,
+      "state": {
+        "disabled": "true",
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(86, 104, 143)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "0.5",
+        "outline": "rgb(86, 104, 143) none 3px",
+        "radius": "24px",
+        "width": "36px"
+      },
+      "tag": "DIV",
+      "text": "29",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "range-calendar__cell",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "2026年9月30日星期三",
+      "role": "button",
+      "selected": null,
+      "state": {
+        "disabled": "true",
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(86, 104, 143)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "0.5",
+        "outline": "rgb(86, 104, 143) none 3px",
+        "radius": "24px",
+        "width": "36px"
+      },
+      "tag": "DIV",
+      "text": "30",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "range-calendar__cell",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "2026年10月1日星期四",
+      "role": "button",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "24px",
+        "width": "36px"
+      },
+      "tag": "DIV",
+      "text": "1",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "range-calendar__cell",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "2026年10月2日星期五",
+      "role": "button",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "24px",
+        "width": "36px"
+      },
+      "tag": "DIV",
+      "text": "2",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "range-calendar__cell",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "2026年10月3日星期六",
+      "role": "button",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "24px",
+        "width": "36px"
+      },
+      "tag": "DIV",
+      "text": "3",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "range-calendar__cell",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "2026年10月4日星期日",
+      "role": "button",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "24px",
+        "width": "36px"
+      },
+      "tag": "DIV",
+      "text": "4",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "range-calendar__cell",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "2026年10月5日星期一",
+      "role": "button",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "24px",
+        "width": "36px"
+      },
+      "tag": "DIV",
+      "text": "5",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "range-calendar__cell",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "2026年10月6日星期二",
+      "role": "button",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "24px",
+        "width": "36px"
+      },
+      "tag": "DIV",
+      "text": "6",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "range-calendar__cell",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "2026年10月7日星期三",
+      "role": "button",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "24px",
+        "width": "36px"
+      },
+      "tag": "DIV",
+      "text": "7",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "range-calendar__cell",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "2026年10月8日星期四",
+      "role": "button",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "24px",
+        "width": "36px"
+      },
+      "tag": "DIV",
+      "text": "8",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "range-calendar__cell",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "2026年10月9日星期五",
+      "role": "button",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "24px",
+        "width": "36px"
+      },
+      "tag": "DIV",
+      "text": "9",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "range-calendar__cell",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "2026年10月10日星期六",
+      "role": "button",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "24px",
+        "width": "36px"
+      },
+      "tag": "DIV",
+      "text": "10",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "range-calendar__cell",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "2026年10月11日星期日",
+      "role": "button",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "24px",
+        "width": "36px"
+      },
+      "tag": "DIV",
+      "text": "11",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "range-calendar__cell",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "2026年10月12日星期一",
+      "role": "button",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "24px",
+        "width": "36px"
+      },
+      "tag": "DIV",
+      "text": "12",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "range-calendar__cell",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "2026年10月13日星期二",
+      "role": "button",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "24px",
+        "width": "36px"
+      },
+      "tag": "DIV",
+      "text": "13",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "range-calendar__cell",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "2026年10月14日星期三",
+      "role": "button",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "24px",
+        "width": "36px"
+      },
+      "tag": "DIV",
+      "text": "14",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "range-calendar__cell",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "2026年10月15日星期四",
+      "role": "button",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "24px",
+        "width": "36px"
+      },
+      "tag": "DIV",
+      "text": "15",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "range-calendar__cell",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "2026年10月16日星期五",
+      "role": "button",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "24px",
+        "width": "36px"
+      },
+      "tag": "DIV",
+      "text": "16",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "range-calendar__cell",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "2026年10月17日星期六",
+      "role": "button",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "24px",
+        "width": "36px"
+      },
+      "tag": "DIV",
+      "text": "17",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "range-calendar__cell",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "2026年10月18日星期日",
+      "role": "button",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "24px",
+        "width": "36px"
+      },
+      "tag": "DIV",
+      "text": "18",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "range-calendar__cell",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "2026年10月19日星期一",
+      "role": "button",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "24px",
+        "width": "36px"
+      },
+      "tag": "DIV",
+      "text": "19",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "range-calendar__cell",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "2026年10月20日星期二",
+      "role": "button",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "24px",
+        "width": "36px"
+      },
+      "tag": "DIV",
+      "text": "20",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "range-calendar__cell",
+      "disabled": false,
+      "expanded": null,
+      "focus": "true",
+      "invalid": null,
+      "name": "已选择今天，即 选定的范围：2026/10/21星期三 至 2026/10/26星期一, 2026年10月21日星期三",
+      "role": "button",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": "true"
+      },
+      "style": {
+        "background": "rgb(234, 242, 255)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(0, 95, 204) none 1px",
+        "radius": "24px 0px 0px 24px",
+        "width": "36px"
+      },
+      "tag": "DIV",
+      "text": "21",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "range-calendar__cell",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "已选择 2026年10月22日星期四",
+      "role": "button",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": "true"
+      },
+      "style": {
+        "background": "rgb(234, 242, 255)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "36px"
+      },
+      "tag": "DIV",
+      "text": "22",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "range-calendar__cell",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "已选择 2026年10月23日星期五",
+      "role": "button",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": "true"
+      },
+      "style": {
+        "background": "rgb(234, 242, 255)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "36px"
+      },
+      "tag": "DIV",
+      "text": "23",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "range-calendar__cell",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "已选择 2026年10月24日星期六",
+      "role": "button",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": "true"
+      },
+      "style": {
+        "background": "rgb(234, 242, 255)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px",
+        "width": "36px"
+      },
+      "tag": "DIV",
+      "text": "24",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "range-calendar__cell",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "已选择 2026年10月25日星期日",
+      "role": "button",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": "true"
+      },
+      "style": {
+        "background": "rgb(234, 242, 255)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "0px 8px 8px 0px",
+        "width": "36px"
+      },
+      "tag": "DIV",
+      "text": "25",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "range-calendar__cell",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "已选择 选定的范围：2026/10/21星期三 至 2026/10/26星期一, 2026年10月26日星期一",
+      "role": "button",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": "true"
+      },
+      "style": {
+        "background": "rgb(234, 242, 255)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "8px 24px 24px 8px",
+        "width": "36px"
+      },
+      "tag": "DIV",
+      "text": "26",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "range-calendar__cell",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "2026年10月27日星期二",
+      "role": "button",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "24px",
+        "width": "36px"
+      },
+      "tag": "DIV",
+      "text": "27",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "range-calendar__cell",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "2026年10月28日星期三",
+      "role": "button",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "24px",
+        "width": "36px"
+      },
+      "tag": "DIV",
+      "text": "28",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "range-calendar__cell",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "2026年10月29日星期四",
+      "role": "button",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "24px",
+        "width": "36px"
+      },
+      "tag": "DIV",
+      "text": "29",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "range-calendar__cell",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "2026年10月30日星期五",
+      "role": "button",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "24px",
+        "width": "36px"
+      },
+      "tag": "DIV",
+      "text": "30",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "range-calendar__cell",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "2026年10月31日星期六",
+      "role": "button",
+      "selected": null,
+      "state": {
+        "disabled": null,
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(20, 35, 60)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "1",
+        "outline": "rgb(20, 35, 60) none 3px",
+        "radius": "24px",
+        "width": "36px"
+      },
+      "tag": "DIV",
+      "text": "31",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "class": "range-calendar__cell",
+      "disabled": false,
+      "expanded": null,
+      "focus": null,
+      "invalid": null,
+      "name": "2026年11月1日星期日",
+      "role": "button",
+      "selected": null,
+      "state": {
+        "disabled": "true",
+        "selected": null
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(16, 63, 183, 0.16)",
+        "color": "rgb(86, 104, 143)",
+        "font": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "height": "36px",
+        "opacity": "0.5",
+        "outline": "rgb(86, 104, 143) none 3px",
+        "radius": "24px",
+        "width": "36px"
+      },
+      "tag": "DIV",
+      "text": "1",
+      "value": ""
+    }
+  ],
+  "rain": "light",
+  "text": "Trip dates\n2026\n/\n10\n/\n21\n-\n2026\n/\n10\n/\n26\nSelect your check-in and check-out dates.\nCurrent value: 2026-10-21 -> 2026-10-26\nSelected range, 2026年10月\n2026年10月\n周一\n周二\n周三\n周四\n周五\n周六\n周日\n28\n29\n30\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n1\n1900年\n1901年\n1902年\n1903年\n1904年\n1905年\n1906年\n1907年\n1908年\n1909年\n1910年\n1911年\n1912年\n1913年\n1914年\n1915年\n1916年\n1917年\n1918年\n1919年\n1920年\n1921年\n1922年\n1923年\n1924年\n1925年\n1926年\n1927年\n1928年\n1929年\n1930年\n1931年\n1932年\n1933年\n1934年\n1935年\n1936年\n1937年\n1938年\n1939年\n1940年\n1941年\n1942年\n1943年\n1944年\n1945年\n1946年\n1947年\n1948年\n1949年\n1950年\n1951年\n1952年\n1953年\n1954年\n1955年\n1956年\n1957年\n1958年\n1959年\n1960年\n1961年\n1962年\n1963年\n1964年\n1965年\n1966年\n1967年\n1968年\n1969年\n1970年\n1971年\n1972年\n1973年\n1974年\n1975年\n1976年\n1977年\n1978年\n1979年\n1980年\n1981年\n1982年\n1983年\n1984年\n1985年\n1986年\n1987年\n1988年\n1989年\n1990年\n1991年\n1992年\n1993年\n1994年\n1995年\n1996年\n1997年\n1998年\n1999年\n2000年\n2001年\n2002年\n2003年\n2004年\n2005年\n2006年\n2007年\n2008年\n2009年\n2010年\n2011年\n2012年\n2013年\n2014年\n2015年\n2016年\n2017年\n2018年\n2019年\n2020年\n2021年\n2022年\n2023年\n2024年\n2025年\n2026年\n2027年\n2028年\n2029年\n2030年\n2031年\n2032年\n2033年\n2034年\n2035年\n2036年\n2037年\n2038年\n2039年\n2040年\n2041年\n2042年\n2043年\n2044年\n2045年\n2046年\n2047年\n2048年\n2049年\n2050年\n2051年\n2052年\n2053年\n2054年\n2055年\n2056年\n2057年\n2058年\n2059年\n2060年\n2061年\n2062年\n2063年\n2064年\n2065年\n2066年\n2067年\n2068年\n2069年\n2070年\n2071年\n2072年\n2073年\n2074年\n2075年\n2076年\n2077年\n2078年\n2079年\n2080年\n2081年\n2082年\n2083年\n2084年\n2085年\n2086年\n2087年\n2088年\n2089年\n2090年\n2091年\n2092年\n2093年\n2094年\n2095年\n2096年\n2097年\n2098年\n2099年",
+  "theme": "light",
+  "url": "http://127.0.0.1:6006/iframe.html?id=components-date-and-time-daterangepicker--controlled&viewMode=story&globals=heroui-theme%3Arain-light"
+}

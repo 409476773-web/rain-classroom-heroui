@@ -1,0 +1,32 @@
+[
+  {
+    "disabled": null,
+    "error": [],
+    "groupRadius": null,
+    "invalid": null,
+    "name": "review-calendar-default",
+    "opacity": "1"
+  },
+  {
+    "disabled": "true",
+    "error": [],
+    "groupRadius": null,
+    "invalid": null,
+    "name": "review-calendar-disabled",
+    "opacity": "1"
+  },
+  {
+    "disabled": null,
+    "error": [
+      {
+        "color": "rgb(181, 42, 54)",
+        "display": "block",
+        "text": "日期需要人工复核，错误状态不改变示例值。"
+      }
+    ],
+    "groupRadius": null,
+    "invalid": "true",
+    "name": "review-calendar-invalid",
+    "opacity": "1"
+  }
+]

@@ -59,7 +59,7 @@ const thumb = tv({
 });
 
 export function HomeThemeSwitch({...props}: Omit<SwitchProps, "children">) {
-  const {setTheme, theme} = useTheme();
+  const {forcedTheme, setTheme, theme} = useTheme();
   const isMounted = useIsMounted();
 
   if (!isMounted) {
@@ -67,7 +67,7 @@ export function HomeThemeSwitch({...props}: Omit<SwitchProps, "children">) {
     return <div className="h-13 w-[84px] rounded-full bg-[#C6BCBB]/50 backdrop-blur-[54.3px]" />;
   }
 
-  const isSelected = theme === "dark";
+  const isSelected = (forcedTheme ?? theme) === "dark";
 
   const handleChange = (isSelected: boolean) => {
     setTheme(isSelected ? "dark" : "light");
@@ -78,6 +78,7 @@ export function HomeThemeSwitch({...props}: Omit<SwitchProps, "children">) {
       {...props}
       aria-label="Theme switch"
       className={composeTailwindRenderProps(props.className, wrapper())}
+      isDisabled={Boolean(forcedTheme) || props.isDisabled}
       isSelected={isSelected}
       onChange={handleChange}
     >

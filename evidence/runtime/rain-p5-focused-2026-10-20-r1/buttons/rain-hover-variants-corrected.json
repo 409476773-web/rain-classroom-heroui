@@ -1,0 +1,218 @@
+[
+  {
+    "label": "主要按钮",
+    "node": {
+      "attrs": {
+        "data-hovered": "true",
+        "data-rac": "",
+        "data-react-aria-pressable": "true",
+        "data-slot": "button"
+      },
+      "clientWidth": 88,
+      "cls": "button button--md button--primary",
+      "name": "主要按钮",
+      "placeholder": null,
+      "rect": {
+        "height": 40,
+        "width": 88,
+        "x": 40,
+        "y": 298
+      },
+      "scrollWidth": 88,
+      "style": {
+        "backgroundColor": "rgb(15, 82, 220)",
+        "borderBottomLeftRadius": "10px",
+        "borderBottomRightRadius": "10px",
+        "borderBottomWidth": "0px",
+        "borderTopLeftRadius": "10px",
+        "borderTopRightRadius": "10px",
+        "borderTopWidth": "0px",
+        "boxShadow": "none",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "gap": "8px",
+        "height": "40px",
+        "lineHeight": "20px",
+        "opacity": "1",
+        "outline": "rgb(255, 255, 255) none 3px",
+        "outlineOffset": "0px",
+        "overflow": "visible",
+        "paddingBottom": "0px",
+        "paddingLeft": "16px",
+        "paddingRight": "16px",
+        "paddingTop": "0px",
+        "pointerEvents": "auto",
+        "textOverflow": "clip",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionDuration": "0.25s, 0.1s, 0.1s",
+        "whiteSpace": "nowrap"
+      },
+      "tag": "BUTTON",
+      "value": ""
+    }
+  },
+  {
+    "label": "次要按钮",
+    "node": {
+      "attrs": {
+        "data-hovered": "true",
+        "data-rac": "",
+        "data-react-aria-pressable": "true",
+        "data-slot": "button"
+      },
+      "clientWidth": 88,
+      "cls": "button button--md button--secondary",
+      "name": "次要按钮",
+      "placeholder": null,
+      "rect": {
+        "height": 40,
+        "width": 88,
+        "x": 140,
+        "y": 298
+      },
+      "scrollWidth": 88,
+      "style": {
+        "backgroundColor": "oklab(0.933436 -0.00367155 -0.0124125)",
+        "borderBottomLeftRadius": "10px",
+        "borderBottomRightRadius": "10px",
+        "borderBottomWidth": "0px",
+        "borderTopLeftRadius": "10px",
+        "borderTopRightRadius": "10px",
+        "borderTopWidth": "0px",
+        "boxShadow": "none",
+        "color": "rgb(15, 85, 223)",
+        "fontFamily": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "gap": "8px",
+        "height": "40px",
+        "lineHeight": "20px",
+        "opacity": "1",
+        "outline": "rgb(15, 85, 223) none 3px",
+        "outlineOffset": "0px",
+        "overflow": "visible",
+        "paddingBottom": "0px",
+        "paddingLeft": "16px",
+        "paddingRight": "16px",
+        "paddingTop": "0px",
+        "pointerEvents": "auto",
+        "textOverflow": "clip",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionDuration": "0.25s, 0.1s, 0.1s",
+        "whiteSpace": "nowrap"
+      },
+      "tag": "BUTTON",
+      "value": ""
+    }
+  },
+  {
+    "label": "第三按钮",
+    "node": {
+      "attrs": {
+        "data-hovered": "true",
+        "data-rac": "",
+        "data-react-aria-pressable": "true",
+        "data-slot": "button"
+      },
+      "clientWidth": 88,
+      "cls": "button button--md button--tertiary",
+      "name": "第三按钮",
+      "placeholder": null,
+      "rect": {
+        "height": 40,
+        "width": 88,
+        "x": 240,
+        "y": 298
+      },
+      "scrollWidth": 88,
+      "style": {
+        "backgroundColor": "oklab(0.933436 -0.00367155 -0.0124125)",
+        "borderBottomLeftRadius": "10px",
+        "borderBottomRightRadius": "10px",
+        "borderBottomWidth": "0px",
+        "borderTopLeftRadius": "10px",
+        "borderTopRightRadius": "10px",
+        "borderTopWidth": "0px",
+        "boxShadow": "none",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "gap": "8px",
+        "height": "40px",
+        "lineHeight": "20px",
+        "opacity": "1",
+        "outline": "rgb(0, 0, 0) none 3px",
+        "outlineOffset": "0px",
+        "overflow": "visible",
+        "paddingBottom": "0px",
+        "paddingLeft": "16px",
+        "paddingRight": "16px",
+        "paddingTop": "0px",
+        "pointerEvents": "auto",
+        "textOverflow": "clip",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionDuration": "0.25s, 0.1s, 0.1s",
+        "whiteSpace": "nowrap"
+      },
+      "tag": "BUTTON",
+      "value": ""
+    }
+  },
+  {
+    "label": "危险按钮",
+    "node": {
+      "attrs": {
+        "data-hovered": "true",
+        "data-rac": "",
+        "data-react-aria-pressable": "true",
+        "data-slot": "button"
+      },
+      "clientWidth": 88,
+      "cls": "button button--md button--danger",
+      "name": "危险按钮",
+      "placeholder": null,
+      "rect": {
+        "height": 40,
+        "width": 88,
+        "x": 340,
+        "y": 298
+      },
+      "scrollWidth": 88,
+      "style": {
+        "backgroundColor": "oklab(0.48579 0.145052 0.0530953)",
+        "borderBottomLeftRadius": "10px",
+        "borderBottomRightRadius": "10px",
+        "borderBottomWidth": "0px",
+        "borderTopLeftRadius": "10px",
+        "borderTopRightRadius": "10px",
+        "borderTopWidth": "0px",
+        "boxShadow": "none",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "gap": "8px",
+        "height": "40px",
+        "lineHeight": "20px",
+        "opacity": "1",
+        "outline": "rgb(255, 255, 255) none 3px",
+        "outlineOffset": "0px",
+        "overflow": "visible",
+        "paddingBottom": "0px",
+        "paddingLeft": "16px",
+        "paddingRight": "16px",
+        "paddingTop": "0px",
+        "pointerEvents": "auto",
+        "textOverflow": "clip",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionDuration": "0.25s, 0.1s, 0.1s",
+        "whiteSpace": "nowrap"
+      },
+      "tag": "BUTTON",
+      "value": ""
+    }
+  }
+]

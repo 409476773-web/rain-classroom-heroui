@@ -1,0 +1,22 @@
+{
+  "deliveryEmpty": {
+    "active": "feedback",
+    "dialogs": 0,
+    "validation": "请填写反馈"
+  },
+  "deliveryOpen": {
+    "buttonBackground": "rgb(21, 97, 248)",
+    "buttonRadius": "10px",
+    "dialogBackground": "rgb(255, 255, 255)",
+    "dialogRadius": "16px",
+    "dialogText": "反馈预览论点清楚，请补充观察数据。返回编辑",
+    "fontFamily": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+    "inputPlaceholder": "rgb(160, 172, 197)",
+    "theme": "light"
+  },
+  "deliveryClosed": {
+    "active": "预览反馈",
+    "dialogs": 0,
+    "feedback": "论点清楚，请补充观察数据。"
+  }
+}

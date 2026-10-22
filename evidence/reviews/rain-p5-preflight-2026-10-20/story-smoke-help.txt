@@ -1,0 +1,4 @@
+Usage: node scripts/rain/story-smoke.mjs --output <new-directory> [--concurrency <1|2|3>] [--plan]
+The output parent must exist. Existing output paths are rejected. Default concurrency: 1.
+--help and --plan do not fetch pages, load Playwright, or create scan output.
+STORYBOOK_URL keeps its existing meaning (default http://127.0.0.1:6006).

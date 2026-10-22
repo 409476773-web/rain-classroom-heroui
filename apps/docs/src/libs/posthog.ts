@@ -3,7 +3,7 @@ import {PostHog} from "posthog-node";
 import {env} from "~env";
 
 export const getPostHogClient = () => {
-  if (!env.NEXT_PUBLIC_POSTHOG_KEY) {
+  if (env.NEXT_PUBLIC_LOCAL_PREVIEW || !env.NEXT_PUBLIC_POSTHOG_KEY) {
     return null;
   }
 

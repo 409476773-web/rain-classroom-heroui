@@ -1,0 +1,101 @@
+[
+  {
+    "id": "components-theme-state-review--buttons",
+    "rootRain": "light",
+    "visibleErrorPanels": 0,
+    "hiddenErrorTemplates": 1,
+    "font": {
+      "control": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+      "root": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif"
+    },
+    "sidebar": "300"
+  },
+  {
+    "id": "components-theme-state-review--fields",
+    "rootRain": "light",
+    "visibleErrorPanels": 0,
+    "hiddenErrorTemplates": 1,
+    "font": {
+      "control": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+      "root": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif"
+    },
+    "sidebar": "300"
+  },
+  {
+    "id": "components-forms-inputgroup--invalid",
+    "rootRain": "light",
+    "visibleErrorPanels": 0,
+    "hiddenErrorTemplates": 1,
+    "font": {
+      "control": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+      "root": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif"
+    },
+    "sidebar": "300"
+  },
+  {
+    "id": "components-forms-inputgroup--disabled",
+    "rootRain": "light",
+    "visibleErrorPanels": 0,
+    "hiddenErrorTemplates": 1,
+    "font": {
+      "control": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+      "root": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif"
+    },
+    "sidebar": "300"
+  },
+  {
+    "id": "components-theme-state-review--selections",
+    "rootRain": "light",
+    "visibleErrorPanels": 0,
+    "hiddenErrorTemplates": 1,
+    "font": {
+      "control": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+      "root": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif"
+    },
+    "sidebar": "300"
+  },
+  {
+    "id": "components-theme-state-review--layouts",
+    "rootRain": "light",
+    "visibleErrorPanels": 0,
+    "hiddenErrorTemplates": 1,
+    "font": {
+      "control": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+      "root": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif"
+    },
+    "sidebar": "300"
+  },
+  {
+    "id": "components-data-display-table--default",
+    "rootRain": "light",
+    "visibleErrorPanels": 0,
+    "hiddenErrorTemplates": 1,
+    "font": {
+      "control": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+      "root": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif"
+    },
+    "sidebar": "300"
+  },
+  {
+    "id": "components-data-display-table--secondary-variant",
+    "rootRain": "light",
+    "visibleErrorPanels": 0,
+    "hiddenErrorTemplates": 1,
+    "font": {
+      "control": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+      "root": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif"
+    },
+    "sidebar": "300"
+  },
+  {
+    "id": "components-navigation-tabs--default",
+    "rootRain": "light",
+    "visibleErrorPanels": 0,
+    "hiddenErrorTemplates": 1,
+    "font": {
+      "control": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+      "root": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif"
+    },
+    "sidebar": "300"
+  }
+]

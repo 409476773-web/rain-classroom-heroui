@@ -1,0 +1,217 @@
+{
+  "scope": "51 selected stories with bounded interactions or passive observations; two additional previous Fields/Layouts nodes sampled for contrast; three release pages",
+  "stories": {
+    "components-navigation-accordion--default": [
+      "accordion-first-closed.json",
+      "accordion-two-open.json"
+    ],
+    "components-feedback-alert--default": [
+      "alert-statuses.json"
+    ],
+    "components-overlays-alertdialog--default": [
+      "alertdialog-cancel-restores.json",
+      "alertdialog-escape-retained.json",
+      "alertdialog-open.json",
+      "alertdialog-shift-tab-wrap.json",
+      "alertdialog-tab-first.json",
+      "alertdialog-tab-wrap.json"
+    ],
+    "components-pickers-autocomplete--with-disabled-options": [
+      "autocomplete-cleared.json",
+      "autocomplete-empty.json",
+      "autocomplete-escape-settled.json",
+      "autocomplete-escape.json",
+      "autocomplete-open.json",
+      "autocomplete-original-dark-escape-settled.json",
+      "autocomplete-original-light-escape-settled.json",
+      "autocomplete-rain-escape-final.json",
+      "autocomplete-selected-settled.json",
+      "autocomplete-selected.json",
+      "autocomplete-skips-cat.json"
+    ],
+    "components-media-avatar--with-colors": [
+      "avatar-colors.json"
+    ],
+    "components-media-avatar--fallback": [
+      "avatar-fallback.json"
+    ],
+    "components-media-avatargroup--max": [
+      "avatargroup-max.json"
+    ],
+    "components-navigation-breadcrumbs--disabled": [
+      "breadcrumbs-disabled.json"
+    ],
+    "components-forms-checkboxgroup--validation": [
+      "checkboxgroup-corrected.json",
+      "checkboxgroup-multiple.json",
+      "checkboxgroup-required-empty.json"
+    ],
+    "components-forms-checkboxgroup--disabled": [
+      "checkboxgroup-disabled.json"
+    ],
+    "components-colors-colorarea--disabled": [
+      "colorarea-disabled.json"
+    ],
+    "components-colors-colorfield--disabled": [
+      "colorfield-disabled.json"
+    ],
+    "components-colors-colorfield--invalid": [
+      "colorfield-invalid.json"
+    ],
+    "components-colors-colorpicker--width-fields": [
+      "colorpicker-channel-keyboard.json",
+      "colorpicker-escape.json",
+      "colorpicker-rgb-edit.json"
+    ],
+    "components-colors-colorslider--alpha-channel": [
+      "colorslider-alpha-one.json",
+      "colorslider-alpha-zero.json"
+    ],
+    "components-colors-colorslider--disabled": [
+      "colorslider-disabled.json"
+    ],
+    "components-colors-colorswatchpicker--disabled": [
+      "colorswatchpicker-disabled.json"
+    ],
+    "components-colors-colorswatchpicker--controlled": [
+      "colorswatchpicker-keyboard.json"
+    ],
+    "components-pickers-combobox--with-disabled-options": [
+      "combobox-escape-settled.json",
+      "combobox-escape.json",
+      "combobox-selected.json"
+    ],
+    "components-date-and-time-datefield--disabled": [
+      "datefield-disabled.json"
+    ],
+    "components-date-and-time-datefield--with-validation": [
+      "datefield-empty.json",
+      "datefield-past-invalid.json",
+      "datefield-today-corrected.json"
+    ],
+    "components-date-and-time-daterangepicker--controlled": [
+      "daterange-calendar-open.json",
+      "daterange-end-edited.json",
+      "daterange-escape.json",
+      "daterange-initial.json"
+    ],
+    "components-navigation-disclosure--default": [
+      "disclosure-closed.json",
+      "disclosure-open.json"
+    ],
+    "components-navigation-disclosure--disabled": [
+      "disclosure-disabled.json"
+    ],
+    "components-navigation-disclosuregroup--default": [
+      "disclosuregroup-single-switch.json"
+    ],
+    "components-collections-dropdown--with-disabled-items": [
+      "dropdown-disabled-end.json",
+      "dropdown-disabled-open.json",
+      "dropdown-end-active-details.json",
+      "dropdown-escape.json"
+    ],
+    "components-navigation-link--default": [
+      "link-disabled-skip.json"
+    ],
+    "components-feedback-meter--custom-value": [
+      "meter-custom-value.json"
+    ],
+    "components-forms-inputotp--with-validation": [
+      "otp-corrected-flags.json",
+      "otp-edited-clears-error.json",
+      "otp-edited-details.json",
+      "otp-error-flags.json",
+      "otp-invalid-details.json",
+      "otp-invalid.json",
+      "otp-navigation-delete.json",
+      "otp-original-light-same-fixture-limit.json"
+    ],
+    "components-forms-inputotp--disabled": [
+      "otp-disabled.json"
+    ],
+    "components-navigation-pagination--controlled": [
+      "pagination-first.json",
+      "pagination-last.json",
+      "pagination-next.json"
+    ],
+    "components-overlays-popover--with-arrow": [
+      "popover-escape-after.json",
+      "popover-escape-before.json",
+      "popover-open-before.json"
+    ],
+    "components-feedback-progressbar--colors": [
+      "progressbar-colors.json"
+    ],
+    "components-feedback-progressbar--indeterminate": [
+      "progressbar-indeterminate.json"
+    ],
+    "components-feedback-progresscircle--colors": [
+      "progresscircle-colors.json"
+    ],
+    "components-feedback-progresscircle--indeterminate": [
+      "progresscircle-indeterminate.json"
+    ],
+    "components-forms-radiogroup--validation": [
+      "radiogroup-corrected-arrow.json",
+      "radiogroup-required-empty.json"
+    ],
+    "components-forms-radiogroup--disabled": [
+      "radiogroup-disabled-selected.json"
+    ],
+    "components-feedback-skeleton--default": [
+      "skeleton-default.json"
+    ],
+    "components-controls-slider--disabled": [
+      "slider-disabled.json"
+    ],
+    "components-controls-slider--range": [
+      "slider-range-meets-end.json",
+      "slider-range-stepped.json"
+    ],
+    "components-controls-slider--vertical": [
+      "slider-vertical-up.json"
+    ],
+    "components-feedback-spinner--colors": [
+      "spinner-colors.json"
+    ],
+    "components-controls-switch--controlled": [
+      "switch-controlled-before.json",
+      "switch-controlled-space-off.json",
+      "switch-controlled-space-on.json"
+    ],
+    "components-controls-switch--disabled-default-selected": [
+      "switch-disabled-selected.json"
+    ],
+    "components-controls-switch--invalid": [
+      "switch-invalid-focus.json"
+    ],
+    "components-controls-switchgroup--default": [
+      "switchgroup-independent.json"
+    ],
+    "components-date-and-time-timefield--disabled": [
+      "timefield-disabled.json"
+    ],
+    "components-date-and-time-timefield--with-validation": [
+      "timefield-eight-invalid.json",
+      "timefield-nine-valid.json"
+    ],
+    "components-layout-toolbar--default": [
+      "toolbar-bold-right.json",
+      "toolbar-end.json"
+    ],
+    "components-overlays-tooltip--with-trigger": [
+      "tooltip-escape.json"
+    ]
+  },
+  "contrastStories": [
+    "components-theme-state-review--fields",
+    "components-theme-state-review--layouts"
+  ],
+  "releasePages": [
+    "/cn/docs/react/releases/v3-0-0-alpha-34",
+    "/en/docs/react/releases/v3-0-0-alpha-34",
+    "/cn/docs/react/releases/v3-0-4"
+  ],
+  "notAFullStorySweep": true
+}

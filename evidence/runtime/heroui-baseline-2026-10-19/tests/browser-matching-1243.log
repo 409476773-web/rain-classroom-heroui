@@ -1,0 +1,30 @@
+Command: pnpm --filter @heroui/react exec vitest run --project react-browser --maxWorkers=1 --browser.fileParallelism=false --reporter=default --reporter=json '--outputFile=/Users/wenchengkai/CodexFile/hero ui-改造/evidence/runtime/heroui-baseline-2026-10-19/tests/browser-matching-1243.json'
+Browser: Google Chrome for Testing 153.0.8010.12
+
+
+ RUN  v4.1.11 /Users/wenchengkai/CodexFile/hero ui-改造/packages/react
+
+ ✓ |react-browser (chromium)| tests/components/select/select.browser.test.tsx (8 tests) 1739ms
+     ✓ opens the listbox, shows options, and restores focus to the trigger after Escape  329ms
+       ✓ supports opening with the keyboard and rings the focused option  311ms
+       ✓ supports selecting with the mouse without ringing the trigger  421ms
+ ✓ |react-browser (chromium)| tests/components/dropdown/dropdown.browser.test.tsx (3 tests) 975ms
+       ✓ paints a Modal above the popover that is still closing behind it  314ms
+       ✓ keeps a popover opened inside a Modal clickable above that Modal  432ms
+ ✓ |react-browser (chromium)| tests/components/scroll-shadow/scroll-shadow.browser.test.tsx (17 tests) 637ms
+ ✓ |react-browser (chromium)| tests/components/accordion/accordion.browser.test.tsx (5 tests) 452ms
+ ✓ |react-browser (chromium)| tests/components/modal/modal.browser.test.tsx (2 tests) 182ms
+ ✓ |react-browser (chromium)| tests/components/alert-dialog/alert-dialog.browser.test.tsx (2 tests) 183ms
+ ✓ |react-browser (chromium)| tests/components/autocomplete/autocomplete.browser.test.tsx (1 test) 103ms
+ ✓ |react-browser (chromium)| tests/components/toast/toast.browser.test.tsx (1 test) 97ms
+ ✓ |react-browser (chromium)| tests/components/popover/popover.browser.test.tsx (1 test) 72ms
+ ✓ |react-browser (chromium)| tests/components/drawer/drawer.browser.test.tsx (1 test) 75ms
+ ✓ |react-browser (chromium)| tests/components/tag/tag.browser.test.tsx (5 tests) 40ms
+ ✓ |react-browser (chromium)| tests/components/tooltip/tooltip.browser.test.tsx (1 test) 14ms
+
+ Test Files  12 passed (12)
+      Tests  47 passed (47)
+   Start at  17:08:28
+   Duration  8.18s (transform 0ms, setup 105ms, import 1.45s, tests 4.57s, environment 0ms)
+
+JSON report written to /Users/wenchengkai/CodexFile/hero ui-改造/evidence/runtime/heroui-baseline-2026-10-19/tests/browser-matching-1243.json

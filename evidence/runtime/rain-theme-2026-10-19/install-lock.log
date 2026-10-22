@@ -1,0 +1,75 @@
+Scope: all 8 workspace projects
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Progress: resolved 16, reused 0, downloaded 0, added 0
+Progress: resolved 19, reused 0, downloaded 0, added 0
+Progress: resolved 20, reused 0, downloaded 0, added 0
+Progress: resolved 23, reused 0, downloaded 0, added 0
+Progress: resolved 24, reused 0, downloaded 0, added 0
+Progress: resolved 27, reused 0, downloaded 0, added 0
+Progress: resolved 34, reused 0, downloaded 0, added 0
+Progress: resolved 39, reused 0, downloaded 0, added 0
+ WARN  deprecated eslint@9.39.2: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+Progress: resolved 45, reused 0, downloaded 0, added 0
+ WARN  Request took 11042ms: https://registry.npmjs.org/@react-types%2Fcolor
+ WARN  Request took 11143ms: https://registry.npmjs.org/@react-aria%2Futils
+ WARN  Request took 11429ms: https://registry.npmjs.org/@types%2Ffs-extra
+Progress: resolved 54, reused 0, downloaded 0, added 0
+ WARN  Request took 12553ms: https://registry.npmjs.org/@react-stately%2Fdata
+Progress: resolved 64, reused 0, downloaded 0, added 0
+Progress: resolved 67, reused 0, downloaded 0, added 0
+Progress: resolved 70, reused 0, downloaded 0, added 0
+ WARN  Request took 14976ms: https://registry.npmjs.org/react-scan
+Progress: resolved 74, reused 0, downloaded 0, added 0
+Progress: resolved 77, reused 0, downloaded 0, added 0
+Progress: resolved 78, reused 0, downloaded 0, added 0
+ WARN  Request took 19087ms: https://registry.npmjs.org/@react-aria%2Fssr
+Progress: resolved 80, reused 0, downloaded 0, added 0
+Progress: resolved 81, reused 0, downloaded 0, added 0
+Progress: resolved 82, reused 0, downloaded 0, added 0
+Progress: resolved 85, reused 0, downloaded 0, added 0
+ WARN  Request took 13938ms: https://registry.npmjs.org/@next%2Feslint-plugin-next
+Progress: resolved 91, reused 0, downloaded 0, added 0
+ WARN  Request took 24211ms: https://registry.npmjs.org/tailwind-variants
+ WARN  Request took 24273ms: https://registry.npmjs.org/@storybook%2Faddon-a11y
+Progress: resolved 97, reused 0, downloaded 0, added 0
+Progress: resolved 98, reused 0, downloaded 0, added 0
+Progress: resolved 105, reused 0, downloaded 0, added 0
+ WARN  Request took 18271ms: https://registry.npmjs.org/@rollup%2Fplugin-commonjs
+Progress: resolved 112, reused 0, downloaded 0, added 0
+Progress: resolved 113, reused 0, downloaded 0, added 0
+ WARN  Request took 29257ms: https://registry.npmjs.org/react-aria
+Progress: resolved 115, reused 0, downloaded 0, added 0
+Progress: resolved 119, reused 0, downloaded 0, added 0
+ WARN  Request took 31335ms: https://registry.npmjs.org/@react-stately%2Futils
+Progress: resolved 122, reused 0, downloaded 0, added 0
+ WARN  Request took 22150ms: https://registry.npmjs.org/@typescript-eslint%2Feslint-plugin
+ WARN  Request took 32046ms: https://registry.npmjs.org/culori
+ WARN  Request took 19843ms: https://registry.npmjs.org/husky
+ WARN  Request took 21850ms: https://registry.npmjs.org/eslint-config-next
+Progress: resolved 125, reused 0, downloaded 0, added 0
+ WARN  Request took 22445ms: https://registry.npmjs.org/parcel
+Progress: resolved 126, reused 0, downloaded 0, added 0
+ WARN  Request took 15262ms: https://registry.npmjs.org/@react-aria%2Foverlays
+Progress: resolved 127, reused 0, downloaded 0, added 0
+ WARN  Request took 26617ms: https://registry.npmjs.org/eslint-plugin-storybook
+Progress: resolved 128, reused 0, downloaded 0, added 0
+ WARN  Request took 41385ms: https://registry.npmjs.org/@storybook%2Ficons
+Progress: resolved 129, reused 0, downloaded 0, added 0
+ WARN  Request took 16232ms: https://registry.npmjs.org/next
+Progress: resolved 130, reused 0, downloaded 0, added 0
+ WARN  Request took 42426ms: https://registry.npmjs.org/@react-types%2Fshared
+ WARN  Request took 35673ms: https://registry.npmjs.org/playwright
+Progress: resolved 132, reused 0, downloaded 0, added 0
+ WARN  Request took 43813ms: https://registry.npmjs.org/@iconify%2Freact
+Progress: resolved 133, reused 0, downloaded 0, added 0
+ WARN  Request took 50554ms: https://registry.npmjs.org/@storybook%2Faddon-docs
+Progress: resolved 134, reused 0, downloaded 0, added 0
+ WARN  Request took 42580ms: https://registry.npmjs.org/@typescript-eslint%2Fparser
+Progress: resolved 135, reused 0, downloaded 0, added 0
+ WARN  Request took 55150ms: https://registry.npmjs.org/@storybook%2Freact-vite
+Progress: resolved 136, reused 0, downloaded 0, added 0
+ WARN  Request took 61112ms: https://registry.npmjs.org/@storybook%2Freact
+Progress: resolved 137, reused 0, downloaded 0, added 0
+ WARN  Request took 64898ms: https://registry.npmjs.org/storybook
+Progress: resolved 138, reused 0, downloaded 0, added 0
+ WARN  GET https://registry.npmjs.org/eslint-plugin-sort-keys-fix error (ERR_SOCKET_TIMEOUT). Will retry in 10 seconds. 2 retries left.

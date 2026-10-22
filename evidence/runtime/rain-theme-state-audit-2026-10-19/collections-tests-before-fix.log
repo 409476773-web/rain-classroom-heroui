@@ -1,0 +1,77 @@
+✔ 93 collection state fixtures keep original light/dark unchanged after import and theme removal (6152.966958ms)
+✔ Rain collection states retain spacing, type scale, disabled opacity, focus geometry and motion (899.903292ms)
+✖ soft status text stays readable on all four Rain surfaces in normal and hover fills (597.279167ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 2
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 9265.20175
+
+✖ failing tests:
+
+test at scripts/rain/collection-state.test.mjs:286:1
+✖ soft status text stays readable on all four Rain surfaces in normal and hover fills (597.279167ms)
+  AssertionError [ERR_ASSERTION]: Normal-sized soft status text must reach 4.5:1 after compositing its actual parent surface
+  + actual - expected
+  
+  + [
+  +   {
+  +     contrast: 4.481,
+  +     id: 'contrast-background-success-normal'
+  +   },
+  +   {
+  +     contrast: 4.193,
+  +     id: 'contrast-background-success-hover'
+  +   },
+  +   {
+  +     contrast: 4.293,
+  +     id: 'contrast-background-warning-normal'
+  +   },
+  +   {
+  +     contrast: 4.004,
+  +     id: 'contrast-background-warning-hover'
+  +   },
+  +   {
+  +     contrast: 4.342,
+  +     id: 'contrast-surface-warning-hover'
+  +   },
+  +   {
+  +     contrast: 4.436,
+  +     id: 'contrast-surface-secondary-success-hover'
+  +   },
+  +   {
+  +     contrast: 4.237,
+  +     id: 'contrast-surface-secondary-warning-hover'
+  +   },
+  +   {
+  +     contrast: 4.405,
+  +     id: 'contrast-surface-tertiary-success-normal'
+  +   },
+  +   {
+  +     contrast: 4.129,
+  +     id: 'contrast-surface-tertiary-success-hover'
+  +   },
+  +   {
+  +     contrast: 4.217,
+  +     id: 'contrast-surface-tertiary-warning-normal'
+  +   },
+  +   {
+  +     contrast: 3.937,
+  +     id: 'contrast-surface-tertiary-warning-hover'
+  +   }
+  + ]
+  - []
+  
+      at TestContext.<anonymous> (file:///Users/wenchengkai/CodexFile/hero%20ui-%E6%94%B9%E9%80%A0/scripts/rain/collection-state.test.mjs:301:12)
+      at async Test.run (node:internal/test_runner/test:1113:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: [ { id: 'contrast-background-success-normal', contrast: 4.481 }, { id: 'contrast-background-success-hover', contrast: 4.193 }, { id: 'contrast-background-warning-normal', contrast: 4.293 }, { id: 'contrast-background-warning-hover', contrast: 4.004 }, { id: 'contrast-surface-warning-hover', contrast: 4.342 }, { id: 'contrast-surface-secondary-success-hover', contrast: 4.436 }, { id: 'contrast-surface-secondary-warning-hover', contrast: 4.237 }, { id: 'contrast-surface-tertiary-success-normal', contrast: 4.405 }, { id: 'contrast-surface-tertiary-success-hover', contrast: 4.129 }, { id: 'contrast-surface-tertiary-warning-normal', contrast: 4.217 }, { id: 'contrast-surface-tertiary-warning-hover', contrast: 3.937 } ],
+    expected: [],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

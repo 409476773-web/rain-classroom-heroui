@@ -1,0 +1,17 @@
+{
+  "hoverFocus": {
+    "background": "rgb(15, 82, 220)",
+    "focusVisible": "true",
+    "hovered": "true",
+    "radius": "10px",
+    "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(242, 244, 255) 0px 0px 0px 2px, rgb(61, 123, 255) 0px 0px 0px 4px, rgba(0, 0, 0, 0) 0px 0px 0px 0px"
+  },
+  "disabledSkipLabel": "未选中切换",
+  "toggledAttributes": {
+    "checked": null,
+    "pressed": "true",
+    "selected": "true"
+  },
+  "rtlActiveLabel": "第二项",
+  "disabledButtonEnabled": false
+}

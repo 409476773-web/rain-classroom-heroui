@@ -1,0 +1,42 @@
+[
+  {
+    "disabled": false,
+    "foreground": "rgb(20, 35, 60)",
+    "label": "分数默认提示",
+    "placeholder": "oklab(0.256788 -0.00885402 -0.0509422 / 0.5)",
+    "readOnly": false,
+    "role": null
+  },
+  {
+    "disabled": false,
+    "foreground": "rgb(20, 35, 60)",
+    "label": "分数次要提示",
+    "placeholder": "oklab(0.256788 -0.00885402 -0.0509422 / 0.5)",
+    "readOnly": false,
+    "role": null
+  },
+  {
+    "disabled": true,
+    "foreground": "rgb(20, 35, 60)",
+    "label": "分数禁用提示",
+    "placeholder": "oklab(0.256788 -0.00885402 -0.0509422 / 0.5)",
+    "readOnly": false,
+    "role": null
+  },
+  {
+    "disabled": false,
+    "foreground": "rgb(20, 35, 60)",
+    "label": "分数错误提示",
+    "placeholder": "oklab(0.256788 -0.00885402 -0.0509422 / 0.5)",
+    "readOnly": false,
+    "role": null
+  },
+  {
+    "disabled": false,
+    "foreground": "rgb(20, 35, 60)",
+    "label": "分数只读内容",
+    "placeholder": "oklab(0.256788 -0.00885402 -0.0509422 / 0.5)",
+    "readOnly": true,
+    "role": null
+  }
+]

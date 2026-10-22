@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "rain-tabs-title-table-2026-10-20",
+  "upstreamCommit": "e385ac202b2cdb94b1bf6fa76d32c31c8259cc5e",
+  "baseVersion": "3.2.6",
+  "deliveryDirectory": "delivery/rain-heroui-local-2026-10-20-r2",
+  "baseDeliveryDirectory": "delivery/rain-heroui-local-2026-10-20",
+  "baseManifestSha256": "e6caf600201e77a5324436a2a0788c24efa16349b8a62ba881c9f1dc8d2f0bc5",
+  "artifactVersions": {
+    "@heroui/react": "3.2.6-rain.1",
+    "@heroui/styles": "3.2.6-rain.1",
+    "@rain-classroom/heroui-theme": "0.1.2"
+  },
+  "themeSourceSha256": "2349702bace822f597b8954e6dc312f7a70a69ed7b65e5c2cee25e672c3e69c6",
+  "lockfileSha256": "1ea1be22f0b2304dc81d10f8f4bdb2562f9a4444b77c5cb68928305c69dac815",
+  "sources": [
+    {
+      "file": "packages/react/src/components/tabs/tabs.tsx",
+      "sha256": "57f77ccefe0fb3af69d8d00c48b9518f5f268d07599b1f687c27dc090a1b7eb5",
+      "upstreamSha256": "e3db8ced47e18943ed6ddf38da9155db04ddf4a6a371dc0c65737e957b96de37",
+      "packageName": "@heroui/react",
+      "packageDirectory": "react",
+      "jsModule": "components/tabs/tabs.js"
+    },
+    {
+      "file": "packages/styles/src/components/tabs/tabs.styles.ts",
+      "sha256": "5e5297e111e4260f0b7c71ad47a3bee65b439c4e72e181458e26720475b4a010",
+      "upstreamSha256": "c052f62e55843d46b0ee21d5a691d1ec40b7f9afded098f8c9f6cca12a6ceecd",
+      "packageName": "@heroui/styles",
+      "packageDirectory": "styles",
+      "jsModule": "components/tabs/tabs.styles.js"
+    }
+  ],
+  "buildInputs": [
+    {
+      "file": "packages/react/rollup.config.mjs",
+      "sha256": "3a348ccc5ffe8ddd3f96422484eaa883d7dd1d1abc44006f4f4c6085746e16c9"
+    },
+    {
+      "file": "packages/styles/rollup.config.mjs",
+      "sha256": "7e3ce650022c873a0519b1d1e50c94afaf6abbfd6a73a93ff320694298ef77cb"
+    },
+    {
+      "file": "packages/standard/tsconfig/base.json",
+      "sha256": "e9a464e8f57374a5ac8ad025bc28929395d33ed7a7f7240b2f59d3f01ac7ca21"
+    },
+    {
+      "file": "packages/standard/tsconfig/react.json",
+      "sha256": "9431bb7e8c81865cd224029072f8732378e4d57d70f7e29134d0d271a8aaa4e5"
+    },
+    {
+      "file": "packages/styles/tsconfig.json",
+      "sha256": "93d2c6de3c642686f0d0eff2b077cb1e2c8f2e84a7ed9aac839ca50606e4fc35"
+    }
+  ]
+}

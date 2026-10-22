@@ -1,0 +1,184 @@
+{
+  "active": {
+    "class": "calendar-year-picker__year-cell",
+    "text": "2026年",
+    "year": "2026"
+  },
+  "grids": [
+    {
+      "columns": "78.6641px 78.6641px 78.6641px",
+      "hidden": "false",
+      "open": "true",
+      "parent": "calendar",
+      "rect": {
+        "bottom": 480,
+        "height": 208,
+        "left": 104,
+        "right": 356,
+        "top": 272,
+        "width": 252,
+        "x": 104,
+        "y": 272
+      }
+    },
+    {
+      "columns": "78.6641px 78.6641px 78.6641px",
+      "hidden": "true",
+      "open": null,
+      "parent": "range-calendar",
+      "rect": {
+        "bottom": 500,
+        "height": 228,
+        "left": 664,
+        "right": 916,
+        "top": 272,
+        "width": 252,
+        "x": 664,
+        "y": 272
+      }
+    }
+  ],
+  "theme": "light",
+  "years": [
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "height": "32px",
+      "lineHeight": "20px",
+      "outline": "none",
+      "padding": "0px 10px",
+      "parent": "calendar",
+      "radius": "24px",
+      "selected": null,
+      "tabIndex": "-1",
+      "year": "2024"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "height": "32px",
+      "lineHeight": "20px",
+      "outline": "none",
+      "padding": "0px 10px",
+      "parent": "calendar",
+      "radius": "24px",
+      "selected": null,
+      "tabIndex": "-1",
+      "year": "2025"
+    },
+    {
+      "background": "rgb(21, 97, 248)",
+      "color": "rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "height": "32px",
+      "lineHeight": "20px",
+      "outline": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(242, 244, 255) 0px 0px 0px 2px, rgb(61, 123, 255) 0px 0px 0px 4px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+      "padding": "0px 10px",
+      "parent": "calendar",
+      "radius": "24px",
+      "selected": null,
+      "tabIndex": "0",
+      "year": "2026"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "height": "32px",
+      "lineHeight": "20px",
+      "outline": "none",
+      "padding": "0px 10px",
+      "parent": "calendar",
+      "radius": "24px",
+      "selected": null,
+      "tabIndex": "-1",
+      "year": "2027"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "height": "32px",
+      "lineHeight": "20px",
+      "outline": "none",
+      "padding": "0px 10px",
+      "parent": "calendar",
+      "radius": "24px",
+      "selected": null,
+      "tabIndex": "-1",
+      "year": "2028"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "height": "32px",
+      "lineHeight": "20px",
+      "outline": "none",
+      "padding": "0px 10px",
+      "parent": "calendar",
+      "radius": "24px",
+      "selected": null,
+      "tabIndex": "-1",
+      "year": "2029"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "height": "32px",
+      "lineHeight": "20px",
+      "outline": "none",
+      "padding": "0px 10px",
+      "parent": "calendar",
+      "radius": "24px",
+      "selected": null,
+      "tabIndex": "-1",
+      "year": "2030"
+    },
+    {
+      "background": "rgb(21, 97, 248)",
+      "color": "rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "height": "32px",
+      "lineHeight": "20px",
+      "outline": "none",
+      "padding": "0px 10px",
+      "parent": "range-calendar",
+      "radius": "24px",
+      "selected": null,
+      "tabIndex": "-1",
+      "year": "2026"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "height": "32px",
+      "lineHeight": "20px",
+      "outline": "none",
+      "padding": "0px 10px",
+      "parent": "range-calendar",
+      "radius": "24px",
+      "selected": null,
+      "tabIndex": "-1",
+      "year": "2027"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "height": "32px",
+      "lineHeight": "20px",
+      "outline": "none",
+      "padding": "0px 10px",
+      "parent": "range-calendar",
+      "radius": "24px",
+      "selected": null,
+      "tabIndex": "-1",
+      "year": "2028"
+    }
+  ]
+}

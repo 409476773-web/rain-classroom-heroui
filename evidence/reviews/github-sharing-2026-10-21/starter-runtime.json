@@ -1,0 +1,36 @@
+{
+  "active": {
+    "role": "tab",
+    "text": "课堂练习完整批改记录与学生作答反馈分析详细报告（虚构示例）"
+  },
+  "bodyColor": "rgb(20, 35, 60)",
+  "bodyFont": "\"PingFang SC\", \"Microsoft YaHei\", ui-sans-serif, sans-serif",
+  "buttons": [
+    {
+      "radius": "10px",
+      "text": "预览反馈"
+    }
+  ],
+  "input": {
+    "radius": "6px",
+    "value": "观察记录完整，建议补充试行前后的对照数据。"
+  },
+  "rain": "light",
+  "tabs": [
+    {
+      "disabled": null,
+      "selected": "true",
+      "text": "课堂练习完整批改记录与学生作答反馈分析详细报告（虚构示例）"
+    },
+    {
+      "disabled": null,
+      "selected": "false",
+      "text": "作答列表"
+    },
+    {
+      "disabled": "true",
+      "selected": "false",
+      "text": "暂不可用的历次课堂练习批改记录与完整反馈汇总"
+    }
+  ]
+}

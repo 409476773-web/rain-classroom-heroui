@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-10-20T15:20:05.225575+00:00",
+  "original23InputsUnchanged": true,
+  "files": {
+    "evidence/runtime/rain-theme-state-audit-2026-10-19/story-smoke.json": "97647afa744accd22e219a6974904ef6518fffb0417d883f448c44a2bd67f60b",
+    "packages/rain-theme/index.css": "2349702bace822f597b8954e6dc312f7a70a69ed7b65e5c2cee25e672c3e69c6",
+    "pnpm-lock.yaml": "1ea1be22f0b2304dc81d10f8f4bdb2562f9a4444b77c5cb68928305c69dac815",
+    "packages/react/src/components/tabs/tabs.tsx": "57f77ccefe0fb3af69d8d00c48b9518f5f268d07599b1f687c27dc090a1b7eb5",
+    "packages/styles/src/components/tabs/tabs.styles.ts": "5e5297e111e4260f0b7c71ad47a3bee65b439c4e72e181458e26720475b4a010",
+    "apps/docs/src/components/rain-examples/grading-panel/grading-panel.tsx": "c80b5753f567b6e2e3fc090c6962841c73bd3c7b033b7f7c8500d3a2b45fe351",
+    "apps/docs/src/components/rain-examples/grading-panel/grading-panel.model.ts": "e704f13d535c97c0c4fe121e71d05f5e63a6f7a58b8750574312dfa36415e8a9",
+    "apps/docs/src/components/rain-examples/grading-panel/grading-panel.styles.ts": "d1542ed0cb004647eb2428ceab4ec27c38a52caf771dc495e27c2730fafd6c52",
+    "delivery/rain-heroui-local-2026-10-20-r2/manifest.json": "af0a809b1087f890d51771b806da21f82dae2675ae91c3d68e83ab8757cd828b",
+    "delivery/rain-heroui-local-2026-10-20-r2/report.json": "e45b9f2b630d9c94ffe166758665d6be30b087dd3af92d3bb3a981389cb448bf",
+    "delivery/rain-heroui-local-2026-10-20-r2/packages/heroui-react-3.2.6-rain.1.tgz": "838cc882f5e227e01a655332a46b8b0d462c4a9df86eab24bedbf9b8e5357cc4",
+    "delivery/rain-heroui-local-2026-10-20-r2/packages/heroui-styles-3.2.6-rain.1.tgz": "057877bc6f650327f018fdcdc02fcc0a343be34a01fab0fb6ab0583c4e6ad4d2",
+    "delivery/rain-heroui-local-2026-10-20-r2/packages/rain-classroom-heroui-theme-0.1.2.tgz": "5d097da6470587dcab8b4e0fb2c26f026499b2e6b54435009d158924d3243d01",
+    "packages/storybook/.storybook/stories/rain-state-review-buttons.stories.tsx": "a713086a8c6821a5bfa3f649be6377155c898a3835e3554013b4c24044c095a7",
+    "packages/storybook/.storybook/stories/rain-state-review-fields.stories.tsx": "e011dc6fe7b882ea47ef01c1641683a0ae77f500d8eac25dfc548828bf16332e",
+    "packages/storybook/.storybook/stories/rain-state-review-selections.stories.tsx": "6891ce22b4dbc20c3998afd63f335fa204a9018a063c93a9ef7d4bf087613aff",
+    "packages/storybook/.storybook/stories/rain-state-review-layouts.stories.tsx": "a6df91efd86e511c81daba710b5d48c3f3fd91b1ef4391df91c5594e6a9d326a",
+    "packages/storybook/.storybook/addons/theme/preview-theme.ts": "bdfcc5248b38e73c458eba62c93740e6bebf04c2327826f44359c740bd239575",
+    "packages/react/src/components/input-group/input-group.stories.tsx": "5535b679be55abb203f96deb7c2dec6e7d6bb22aa864cd7db45fdb8a0a5f5cca",
+    "packages/react/src/components/table/table.stories.tsx": "1e1a68f16786847c53b54e3047194fbbe93b2c698f7647e3f104aca6eac75026",
+    "packages/react/src/components/tabs/tabs.stories.tsx": "d6662f80406c430ff316899a13c2554d9d50a4c836a80ef45ee7572bb0150be2",
+    "docs/rain/inventory.json": "1999b77ad1f64e02adb98cb74e92e2324b42e96fb389c855206a501607b5f8b3",
+    "docs/rain/local-patch.json": "522d6da4532f0078b5f4ed00ac3885c967f5171589b64091efaafbc9d6eaf471"
+  },
+  "implementationChanges": {
+    "packages/storybook/.storybook/globals.css": "49cd02d4a6e36b5bd6db4b55243e8b79ce2df06e07d270c5ba272cca15407a72"
+  },
+  "newCssBlock": "\n/* The preview head hardcodes Inter on this host, blocking Rain inheritance. */\n:root[data-rain-theme=\"light\"] #storybook-root {\n  font-family: var(--font-sans);\n}\n",
+  "note": "Only this block was added to an already dirty Storybook globals.css; other existing changes are retained"
+}

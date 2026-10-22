@@ -8,12 +8,14 @@ import {
 } from "../../addons/theme/constants";
 import {themes} from "../../styles/theme";
 
+import {getBaseTheme} from "./preview-theme";
+
 // Register addon to hook into the manager lifecycle properly
 addons.register("heroui-theme-manager", (api) => {
   let lastTheme = DEFAULT_THEME;
 
   const updateManagerTheme = (theme: string) => {
-    const selectedTheme = themes[theme as keyof typeof themes] || themes.light;
+    const selectedTheme = themes[getBaseTheme(theme)];
 
     // Get current config to preserve other settings
     const currentConfig = (addons as any).getConfig?.() || {};

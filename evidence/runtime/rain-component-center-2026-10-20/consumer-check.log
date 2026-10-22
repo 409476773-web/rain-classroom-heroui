@@ -1,0 +1,5 @@
+
+> heroui@3.2.6 local:consumer:check /Users/wenchengkai/CodexFile/hero ui-改造
+> node scripts/rain/verify-consumer.mjs evidence/runtime/rain-consumer-2026-10-20
+
+本地包消费检查通过；证据：/Users/wenchengkai/CodexFile/hero ui-改造/evidence/runtime/rain-consumer-2026-10-20

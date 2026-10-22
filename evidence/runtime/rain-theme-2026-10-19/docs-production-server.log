@@ -1,0 +1,13 @@
+
+> @heroui/docs@0.0.0 start /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs
+> next start --hostname 127.0.0.1 --port 3100
+
+▲ Next.js 16.3.5
+- Local:         http://127.0.0.1:3100
+- Network:       http://127.0.0.1:3100
+✓ Ready in 141ms
+✓ Running next.config.ts took 59ms
+[MDX] generated files in 16.83900000000017ms
+/Users/wenchengkai/CodexFile/hero ui-改造/apps/docs:
+ ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL  @heroui/docs@0.0.0 start: `next start --hostname 127.0.0.1 --port 3100`
+Exit status 143

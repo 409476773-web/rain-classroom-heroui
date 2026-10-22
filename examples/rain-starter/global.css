@@ -1,0 +1,10 @@
+@import "@heroui/styles";
+@import "@rain-classroom/heroui-theme";
+
+@source "./App.tsx";
+@source "./App.styles.ts";
+
+body {
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}

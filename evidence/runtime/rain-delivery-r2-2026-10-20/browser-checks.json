@@ -1,0 +1,166 @@
+{
+  "url": "http://127.0.0.1:6008/",
+  "tabs": [
+    {
+      "disabled": null,
+      "label": {
+        "height": 20,
+        "overflow": "hidden",
+        "scrollWidth": 406,
+        "textOverflow": "ellipsis",
+        "title": "课堂练习完整批改记录与学生作答反馈分析详细报告（虚构示例）",
+        "whiteSpace": "nowrap",
+        "width": 149
+      },
+      "name": "课堂练习完整批改记录与学生作答反馈分析详细报告（虚构示例）",
+      "selected": "true",
+      "tabHeight": 32
+    },
+    {
+      "disabled": null,
+      "label": {
+        "height": 20,
+        "overflow": "hidden",
+        "scrollWidth": 56,
+        "textOverflow": "ellipsis",
+        "title": null,
+        "whiteSpace": "nowrap",
+        "width": 56
+      },
+      "name": "作答列表",
+      "selected": "false",
+      "tabHeight": 32
+    },
+    {
+      "disabled": "true",
+      "label": {
+        "height": 20,
+        "overflow": "hidden",
+        "scrollWidth": 308,
+        "textOverflow": "ellipsis",
+        "title": null,
+        "whiteSpace": "nowrap",
+        "width": 149
+      },
+      "name": "暂不可用的历次课堂练习批改记录与完整反馈汇总",
+      "selected": "false",
+      "tabHeight": 32
+    }
+  ],
+  "table": {
+    "ancestors": [
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "className": "table__scroll-container"
+      },
+      {
+        "background": "rgb(235, 239, 255)",
+        "className": "table-root table-root--primary w-full"
+      }
+    ],
+    "background": "rgba(0, 0, 0, 0)",
+    "cells": [
+      {
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(20, 35, 60)",
+        "text": "林同学"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(20, 35, 60)",
+        "text": "已批改"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(20, 35, 60)",
+        "text": "18 分"
+      }
+    ],
+    "className": "table__content",
+    "headers": [
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(116, 133, 168)",
+        "text": "学生"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(116, 133, 168)",
+        "text": "批改状态"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(116, 133, 168)",
+        "text": "得分"
+      }
+    ]
+  },
+  "keyboardFirst": "true",
+  "disabledHover": {
+    "disabled": "true",
+    "labelTitle": "暂不可用的历次课堂练习批改记录与完整反馈汇总",
+    "selected": "false"
+  },
+  "keyboardSkipsDisabled": "true",
+  "emptySubmit": {
+    "error": true,
+    "dialogs": 0,
+    "input": {
+      "focused": true,
+      "invalid": "true",
+      "placeholderColor": "rgb(160, 172, 197)"
+    }
+  },
+  "modal": {
+    "background": "rgb(255, 255, 255)",
+    "buttons": [
+      {
+        "label": "关闭预览",
+        "radius": "12px",
+        "text": ""
+      },
+      {
+        "label": null,
+        "radius": "10px",
+        "text": "返回编辑"
+      }
+    ],
+    "color": "rgb(0, 0, 0)",
+    "focusedName": null,
+    "outsideRoot": true,
+    "radius": "16px",
+    "text": "反馈预览论点清楚，请补充观察数据。返回编辑",
+    "theme": "light"
+  },
+  "close": {
+    "dialogs": 0,
+    "buttonFocused": true,
+    "value": "论点清楚，请补充观察数据。",
+    "button": {
+      "background": "rgb(21, 97, 248)",
+      "radius": "10px"
+    }
+  },
+  "formAfterFix": {
+    "empty": {
+      "errorVisible": true,
+      "focused": true,
+      "dialogs": 0
+    },
+    "modalOpen": true,
+    "close": {
+      "dialogs": 0,
+      "errorCount": 0,
+      "input": {
+        "invalid": null,
+        "value": "论点清楚，请补充观察数据。"
+      },
+      "buttonFocused": true
+    },
+    "whitespace": {
+      "dialogs": 0,
+      "errorVisible": true
+    },
+    "enterOpensModal": true
+  }
+}

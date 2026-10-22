@@ -1,0 +1,91 @@
+{
+  "scope": "Assertions against current browser evidence; not another browser or component test run",
+  "checks": [
+    {
+      "name": "nine named entries have no visible Storybook error panel",
+      "status": "pass"
+    },
+    {
+      "name": "Rain host and representative controls inherit confirmed font",
+      "status": "pass"
+    },
+    {
+      "name": "18 original Light/Dark restoration pairs, 377 selected nodes",
+      "status": "pass"
+    },
+    {
+      "name": "all 18 actual placeholders use the confirmed light prompt color",
+      "status": "pass"
+    },
+    {
+      "name": "persistent affixes use supporting text color",
+      "status": "pass"
+    },
+    {
+      "name": "number steps and bounds",
+      "status": "pass"
+    },
+    {
+      "name": "Escape and actual clear button return empty search and input focus",
+      "status": "pass"
+    },
+    {
+      "name": "selected ListBox hover fill",
+      "status": "pass"
+    },
+    {
+      "name": "actual list labels keep foreground or danger colors",
+      "status": "pass"
+    },
+    {
+      "name": "Select skips disabled item and restores focus after Enter/Escape",
+      "status": "pass"
+    },
+    {
+      "name": "both tables select exactly three available rows",
+      "status": "pass"
+    },
+    {
+      "name": "primary sort order matches original",
+      "status": "pass"
+    },
+    {
+      "name": "primary sortable Member hover foreground",
+      "status": "pass"
+    },
+    {
+      "name": "secondary sort order matches original",
+      "status": "pass"
+    },
+    {
+      "name": "secondary sortable Member hover foreground",
+      "status": "pass"
+    },
+    {
+      "name": "320px table scrolls 704px content to right edge and returns",
+      "status": "pass"
+    },
+    {
+      "name": "short Tabs labels have no unnecessary title",
+      "status": "pass"
+    },
+    {
+      "name": "specified docs Tabs use same Rain wrapping and fonts",
+      "status": "pass"
+    },
+    {
+      "name": "actual held button exposes pressed and releases",
+      "status": "pass"
+    }
+  ],
+  "checkCount": 19,
+  "consoleLevels": {
+    "warn": 49
+  },
+  "consoleMessages": {
+    "Calling `setConfig({ enableShortcuts: ... })` is deprecated. Please call `setConfig({ ui: { enableShortcuts: ... } })` instead.": 25,
+    "The 'ariaLabel' prop on 'PopoverProvider' will become mandatory in Storybook 11. Provide a concise, accessible label describing the popover's purpose.": 24
+  },
+  "comparison": "style-comparison-final.json",
+  "visibleErrors": "entry-health.json"
+}

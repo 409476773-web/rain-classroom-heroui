@@ -2,7 +2,16 @@ import type {NextRequest} from "next/server";
 
 import {NextResponse} from "next/server";
 
+import {env} from "~env";
+
 export async function POST(request: NextRequest) {
+  if (env.NEXT_PUBLIC_LOCAL_PREVIEW) {
+    return NextResponse.json(
+      {error: "Subscriptions are disabled in local preview."},
+      {status: 503},
+    );
+  }
+
   try {
     const {email} = await request.json();
 

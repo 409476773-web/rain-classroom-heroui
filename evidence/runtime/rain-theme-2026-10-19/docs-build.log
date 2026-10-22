@@ -1,0 +1,377 @@
+
+> heroui@3.2.6 build:docs /Users/wenchengkai/CodexFile/hero ui-改造
+> dotenv -- turbo build --filter=@heroui/docs
+
+• turbo 2.10.13
+
+   • Packages in scope: @heroui/docs
+   • Running build in 1 package
+   • Remote caching disabled
+
+@heroui/styles:build: cache hit, replaying logs ed22c081485b0b21
+@heroui/styles:build: 
+@heroui/styles:build: > @heroui/styles@3.2.6 build /Users/wenchengkai/CodexFile/hero ui-改造/packages/styles
+@heroui/styles:build: > node scripts/build.mjs --tsc
+@heroui/styles:build: 
+@heroui/styles:build: 🧹 Cleaning dist directory...
+@heroui/styles:build: 📦 Building with Rollup...
+@heroui/styles:build: 
+@heroui/styles:build: src/index.ts, src/components/accordion/index.ts, src/components/alert/index.ts, src/components/alert-dialog/index.ts, src/components/autocomplete/index.ts, src/components/avatar/index.ts, src/components/avatar-group/index.ts, src/components/badge/index.ts, src/components/breadcrumbs/index.ts, src/components/button/index.ts, src/components/button-group/index.ts, src/components/calendar/index.ts, src/components/calendar-year-picker/index.ts, src/components/card/index.ts, src/components/checkbox/index.ts, src/components/checkbox-group/index.ts, src/components/chip/index.ts, src/components/close-button/index.ts, src/components/color-area/index.ts, src/components/color-field/index.ts, src/components/color-input-group/index.ts, src/components/color-picker/index.ts, src/components/color-slider/index.ts, src/components/color-swatch/index.ts, src/components/color-swatch-picker/index.ts, src/components/combo-box/index.ts, src/components/date-field/index.ts, src/components/date-input-group/index.ts, src/components/date-picker/index.ts, src/components/date-range-picker/index.ts, src/components/description/index.ts, src/components/disclosure/index.ts, src/components/disclosure-group/index.ts, src/components/drawer/index.ts, src/components/dropdown/index.ts, src/components/empty-state/index.ts, src/components/error-message/index.ts, src/components/field-error/index.ts, src/components/fieldset/index.ts, src/components/header/index.ts, src/components/input/index.ts, src/components/input-group/index.ts, src/components/input-otp/index.ts, src/components/kbd/index.ts, src/components/label/index.ts, src/components/link/index.ts, src/components/list-box/index.ts, src/components/list-box-item/index.ts, src/components/list-box-section/index.ts, src/components/menu/index.ts, src/components/menu-item/index.ts, src/components/menu-section/index.ts, src/components/meter/index.ts, src/components/modal/index.ts, src/components/number-field/index.ts, src/components/pagination/index.ts, src/components/popover/index.ts, src/components/progress-bar/index.ts, src/components/progress-circle/index.ts, src/components/radio/index.ts, src/components/radio-group/index.ts, src/components/range-calendar/index.ts, src/components/scroll-shadow/index.ts, src/components/search-field/index.ts, src/components/select/index.ts, src/components/separator/index.ts, src/components/skeleton/index.ts, src/components/slider/index.ts, src/components/spinner/index.ts, src/components/surface/index.ts, src/components/switch/index.ts, src/components/switch-group/index.ts, src/components/table/index.ts, src/components/tabs/index.ts, src/components/tag/index.ts, src/components/tag-group/index.ts, src/components/textarea/index.ts, src/components/textfield/index.ts, src/components/time-field/index.ts, src/components/toast/index.ts, src/components/toggle-button/index.ts, src/components/toggle-button-group/index.ts, src/components/toolbar/index.ts, src/components/tooltip/index.ts, src/components/typography/index.ts → dist...
+@heroui/styles:build: (!) [plugin typescript] @rollup/plugin-typescript TS5069: Option 'declarationMap' cannot be specified without specifying option 'declaration' or option 'composite'.
+@heroui/styles:build: (!) [plugin typescript] @rollup/plugin-typescript: outputToFilesystem option is defaulting to true.
+@heroui/styles:build: created dist in 799ms
+@heroui/styles:build: 📝 Generating TypeScript declarations...
+@heroui/styles:build: ✅ TypeScript declarations generated
+@heroui/styles:build: 🎨 Copying CSS files...
+@heroui/styles:build: Copying CSS files to dist...
+@heroui/styles:build: ✓ Copied: index.css
+@heroui/styles:build: ✓ Copied: base/base.css
+@heroui/styles:build: ✓ Copied: base/scrollbar.css
+@heroui/styles:build: ✓ Copied: components/accordion.css
+@heroui/styles:build: ✓ Copied: components/alert-dialog.css
+@heroui/styles:build: ✓ Copied: components/alert.css
+@heroui/styles:build: ✓ Copied: components/autocomplete.css
+@heroui/styles:build: ✓ Copied: components/avatar-group.css
+@heroui/styles:build: ✓ Copied: components/avatar.css
+@heroui/styles:build: ✓ Copied: components/badge.css
+@heroui/styles:build: ✓ Copied: components/breadcrumbs.css
+@heroui/styles:build: ✓ Copied: components/button-group.css
+@heroui/styles:build: ✓ Copied: components/button.css
+@heroui/styles:build: ✓ Copied: components/calendar-year-picker.css
+@heroui/styles:build: ✓ Copied: components/calendar.css
+@heroui/styles:build: ✓ Copied: components/card.css
+@heroui/styles:build: ✓ Copied: components/checkbox-group.css
+@heroui/styles:build: ✓ Copied: components/checkbox.css
+@heroui/styles:build: ✓ Copied: components/chip.css
+@heroui/styles:build: ✓ Copied: components/close-button.css
+@heroui/styles:build: ✓ Copied: components/color-area.css
+@heroui/styles:build: ✓ Copied: components/color-field.css
+@heroui/styles:build: ✓ Copied: components/color-input-group.css
+@heroui/styles:build: ✓ Copied: components/color-picker.css
+@heroui/styles:build: ✓ Copied: components/color-slider.css
+@heroui/styles:build: ✓ Copied: components/color-swatch-picker.css
+@heroui/styles:build: ✓ Copied: components/color-swatch.css
+@heroui/styles:build: ✓ Copied: components/combo-box.css
+@heroui/styles:build: ✓ Copied: components/date-field.css
+@heroui/styles:build: ✓ Copied: components/date-input-group.css
+@heroui/styles:build: ✓ Copied: components/date-picker.css
+@heroui/styles:build: ✓ Copied: components/date-range-picker.css
+@heroui/styles:build: ✓ Copied: components/description.css
+@heroui/styles:build: ✓ Copied: components/disclosure-group.css
+@heroui/styles:build: ✓ Copied: components/disclosure.css
+@heroui/styles:build: ✓ Copied: components/drawer.css
+@heroui/styles:build: ✓ Copied: components/dropdown.css
+@heroui/styles:build: ✓ Copied: components/empty-state.css
+@heroui/styles:build: ✓ Copied: components/error-message.css
+@heroui/styles:build: ✓ Copied: components/field-error.css
+@heroui/styles:build: ✓ Copied: components/fieldset.css
+@heroui/styles:build: ✓ Copied: components/header.css
+@heroui/styles:build: ✓ Copied: components/index.css
+@heroui/styles:build: ✓ Copied: components/input-group.css
+@heroui/styles:build: ✓ Copied: components/input-otp.css
+@heroui/styles:build: ✓ Copied: components/input.css
+@heroui/styles:build: ✓ Copied: components/kbd.css
+@heroui/styles:build: ✓ Copied: components/label.css
+@heroui/styles:build: ✓ Copied: components/link.css
+@heroui/styles:build: ✓ Copied: components/list-box-item.css
+@heroui/styles:build: ✓ Copied: components/list-box-section.css
+@heroui/styles:build: ✓ Copied: components/list-box.css
+@heroui/styles:build: ✓ Copied: components/menu-item.css
+@heroui/styles:build: ✓ Copied: components/menu-section.css
+@heroui/styles:build: ✓ Copied: components/menu.css
+@heroui/styles:build: ✓ Copied: components/meter.css
+@heroui/styles:build: ✓ Copied: components/modal.css
+@heroui/styles:build: ✓ Copied: components/number-field.css
+@heroui/styles:build: ✓ Copied: components/pagination.css
+@heroui/styles:build: ✓ Copied: components/popover.css
+@heroui/styles:build: ✓ Copied: components/progress-bar.css
+@heroui/styles:build: ✓ Copied: components/progress-circle.css
+@heroui/styles:build: ✓ Copied: components/radio-group.css
+@heroui/styles:build: ✓ Copied: components/radio.css
+@heroui/styles:build: ✓ Copied: components/range-calendar.css
+@heroui/styles:build: ✓ Copied: components/scroll-shadow.css
+@heroui/styles:build: ✓ Copied: components/search-field.css
+@heroui/styles:build: ✓ Copied: components/select.css
+@heroui/styles:build: ✓ Copied: components/separator.css
+@heroui/styles:build: ✓ Copied: components/skeleton.css
+@heroui/styles:build: ✓ Copied: components/slider.css
+@heroui/styles:build: ✓ Copied: components/spinner.css
+@heroui/styles:build: ✓ Copied: components/surface.css
+@heroui/styles:build: ✓ Copied: components/switch-group.css
+@heroui/styles:build: ✓ Copied: components/switch.css
+@heroui/styles:build: ✓ Copied: components/table.css
+@heroui/styles:build: ✓ Copied: components/tabs.css
+@heroui/styles:build: ✓ Copied: components/tag-group.css
+@heroui/styles:build: ✓ Copied: components/tag.css
+@heroui/styles:build: ✓ Copied: components/textarea.css
+@heroui/styles:build: ✓ Copied: components/textfield.css
+@heroui/styles:build: ✓ Copied: components/time-field.css
+@heroui/styles:build: ✓ Copied: components/toast.css
+@heroui/styles:build: ✓ Copied: components/toggle-button-group.css
+@heroui/styles:build: ✓ Copied: components/toggle-button.css
+@heroui/styles:build: ✓ Copied: components/toolbar.css
+@heroui/styles:build: ✓ Copied: components/tooltip.css
+@heroui/styles:build: ✓ Copied: components/typography.css
+@heroui/styles:build: ✓ Copied: themes/default/components/index.css
+@heroui/styles:build: ✓ Copied: themes/default/index.css
+@heroui/styles:build: ✓ Copied: themes/default/variables.css
+@heroui/styles:build: ✓ Copied: themes/shared/theme.css
+@heroui/styles:build: ✓ Copied: utilities/index.css
+@heroui/styles:build: ✓ Copied: variants/index.css
+@heroui/styles:build: ✅ CSS files copied successfully!
+@heroui/styles:build: 🗜️  Minifying CSS...
+@heroui/styles:build: npm warn Unknown env config "npm-globalconfig". This will stop working in the next major version of npm.
+@heroui/styles:build: npm warn Unknown env config "verify-deps-before-run". This will stop working in the next major version of npm.
+@heroui/styles:build: npm warn Unknown env config "auto-install-peers". This will stop working in the next major version of npm.
+@heroui/styles:build: npm warn Unknown env config "_jsr-registry". This will stop working in the next major version of npm.
+@heroui/styles:build: npm warn Unknown env config "enable-pre-post-scripts". This will stop working in the next major version of npm.
+@heroui/styles:build: npm warn Unknown env config "lockfile". This will stop working in the next major version of npm.
+@heroui/styles:build: npm warn Unknown env config "overrides". This will stop working in the next major version of npm.
+@heroui/styles:build: ≈ tailwindcss v4.3.3
+@heroui/styles:build: 
+@heroui/styles:build: Done in 168ms
+@heroui/styles:build: ✨ Build completed successfully!
+@heroui/react:build: cache hit, replaying logs 01aecd98293c8b8f
+@heroui/react:build: 
+@heroui/react:build: > @heroui/react@3.2.6 build /Users/wenchengkai/CodexFile/hero ui-改造/packages/react
+@heroui/react:build: > node scripts/build.mjs --tsc
+@heroui/react:build: 
+@heroui/react:build: 🧹 Cleaning dist directory...
+@heroui/react:build: 📦 Building with Rollup...
+@heroui/react:build: 
+@heroui/react:build: src/index.ts, src/components/accordion/index.ts, src/components/alert/index.ts, src/components/alert-dialog/index.ts, src/components/autocomplete/index.ts, src/components/avatar/index.ts, src/components/avatar-group/index.ts, src/components/badge/index.ts, src/components/breadcrumbs/index.ts, src/components/button/index.ts, src/components/button-group/index.ts, src/components/calendar/index.ts, src/components/calendar-year-picker/index.ts, src/components/card/index.ts, src/components/checkbox/index.ts, src/components/checkbox-group/index.ts, src/components/chip/index.ts, src/components/close-button/index.ts, src/components/color-area/index.ts, src/components/color-field/index.ts, src/components/color-input-group/index.ts, src/components/color-picker/index.ts, src/components/color-slider/index.ts, src/components/color-swatch/index.ts, src/components/color-swatch-picker/index.ts, src/components/combo-box/index.ts, src/components/date-field/index.ts, src/components/date-input-group/index.ts, src/components/date-picker/index.ts, src/components/date-range-picker/index.ts, src/components/description/index.ts, src/components/disclosure/index.ts, src/components/disclosure-group/index.ts, src/components/drawer/index.ts, src/components/dropdown/index.ts, src/components/empty-state/index.ts, src/components/error-message/index.ts, src/components/field-error/index.ts, src/components/fieldset/index.ts, src/components/form/index.ts, src/components/header/index.ts, src/components/input/index.ts, src/components/input-group/index.ts, src/components/input-otp/index.ts, src/components/kbd/index.ts, src/components/label/index.ts, src/components/link/index.ts, src/components/list-box/index.ts, src/components/list-box-item/index.ts, src/components/list-box-section/index.ts, src/components/menu/index.ts, src/components/menu-item/index.ts, src/components/menu-section/index.ts, src/components/meter/index.ts, src/components/modal/index.ts, src/components/number-field/index.ts, src/components/pagination/index.ts, src/components/popover/index.ts, src/components/progress-bar/index.ts, src/components/progress-circle/index.ts, src/components/rac/index.ts, src/components/radio/index.ts, src/components/radio-group/index.ts, src/components/range-calendar/index.ts, src/components/scroll-shadow/index.ts, src/components/search-field/index.ts, src/components/select/index.ts, src/components/separator/index.ts, src/components/skeleton/index.ts, src/components/slider/index.ts, src/components/spinner/index.ts, src/components/surface/index.ts, src/components/switch/index.ts, src/components/switch-group/index.ts, src/components/table/index.ts, src/components/tabs/index.ts, src/components/tag/index.ts, src/components/tag-group/index.ts, src/components/textarea/index.ts, src/components/textfield/index.ts, src/components/time-field/index.ts, src/components/toast/index.ts, src/components/toggle-button/index.ts, src/components/toggle-button-group/index.ts, src/components/toolbar/index.ts, src/components/tooltip/index.ts, src/components/typography/index.ts → dist...
+@heroui/react:build: created dist in 1.2s
+@heroui/react:build: 🎨 Creating styles export...
+@heroui/react:build: ✅ Styles export created successfully
+@heroui/react:build: 🔧 Adding directives to files...
+@heroui/react:build: ✅ Added "use client" to 88 files (from .tsx)
+@heroui/react:build: ✅ Added "use strict" to 105 files (from .ts)
+@heroui/react:build: 📝 Generating TypeScript declarations...
+@heroui/react:build: Running tsc with tsconfig.build.json...
+@heroui/react:build: ✅ TypeScript declarations generated successfully
+@heroui/react:build: ✅ TypeScript declarations generated
+@heroui/react:build: 📊 Counting components...
+@heroui/react:build: ✅ Found 86 components
+@heroui/react:build:    Note: Component exports will be generated during 'pnpm pack' via clean-package
+@heroui/react:build: 📊 Measuring bundle sizes...
+@heroui/react:build: 
+@heroui/react:build: 📦 Bundle Size Report
+@heroui/react:build: ══════════════════════════════════════════════════
+@heroui/react:build: Total across 204 files: 480.63kb (75.56kb gzipped)
+@heroui/react:build: ──────────────────────────────────────────────────
+@heroui/react:build: 
+@heroui/react:build: 📄 Entry:
+@heroui/react:build:   index.js: 18.57kb (3.69kb gzipped)
+@heroui/react:build:   utils/ (10 files): 12.68kb (4.20kb gzipped)
+@heroui/react:build:   hooks/ (10 files): 21.70kb (6.09kb gzipped)
+@heroui/react:build: 
+@heroui/react:build: 🎨 CSS:
+@heroui/react:build:   styles.css: 0.07kb (0.09kb gzipped)
+@heroui/react:build: 
+@heroui/react:build: 🧩 Components (own modules only — excludes shared utils/hooks):
+@heroui/react:build:   toast (4 files): 43.23kb (11.15kb gzipped)
+@heroui/react:build:   calendar-year-picker (4 files): 18.13kb (3.92kb gzipped)
+@heroui/react:build:   drawer (3 files): 15.16kb (3.13kb gzipped)
+@heroui/react:build:   calendar (4 files): 16.40kb (2.99kb gzipped)
+@heroui/react:build:   range-calendar (2 files): 15.35kb (2.79kb gzipped)
+@heroui/react:build:   select (2 files): 9.39kb (2.35kb gzipped)
+@heroui/react:build:   scroll-shadow (3 files): 7.96kb (2.28kb gzipped)
+@heroui/react:build:   color-slider (2 files): 8.08kb (2.11kb gzipped)
+@heroui/react:build:   autocomplete (2 files): 9.67kb (2.01kb gzipped)
+@heroui/react:build:   tabs (2 files): 9.09kb (2.01kb gzipped)
+@heroui/react:build:   table (2 files): 11.81kb (1.83kb gzipped)
+@heroui/react:build:   tooltip (2 files): 6.29kb (1.76kb gzipped)
+@heroui/react:build:   combo-box (2 files): 7.20kb (1.55kb gzipped)
+@heroui/react:build:   alert-dialog (2 files): 10.31kb (1.53kb gzipped)
+@heroui/react:build:   modal (2 files): 9.29kb (1.46kb gzipped)
+@heroui/react:build:   date-range-picker (2 files): 7.01kb (1.44kb gzipped)
+@heroui/react:build:   color-swatch-picker (2 files): 5.84kb (1.38kb gzipped)
+@heroui/react:build:   date-picker (2 files): 5.90kb (1.36kb gzipped)
+@heroui/react:build:   fieldset (2 files): 5.24kb (1.36kb gzipped)
+@heroui/react:build:   pagination (2 files): 8.43kb (1.35kb gzipped)
+@heroui/react:build:   accordion (2 files): 6.88kb (1.30kb gzipped)
+@heroui/react:build:   checkbox (2 files): 5.20kb (1.29kb gzipped)
+@heroui/react:build:   slider (2 files): 6.37kb (1.28kb gzipped)
+@heroui/react:build:   input-otp (2 files): 5.40kb (1.22kb gzipped)
+@heroui/react:build:   avatar-group (3 files): 4.06kb (1.17kb gzipped)
+@heroui/react:build:   spinner (2 files): 3.56kb (1.13kb gzipped)
+@heroui/react:build:   menu-item (2 files): 4.33kb (1.12kb gzipped)
+@heroui/react:build:   progress-circle (2 files): 4.94kb (1.09kb gzipped)
+@heroui/react:build:   disclosure (2 files): 5.88kb (1.07kb gzipped)
+@heroui/react:build:   popover (2 files): 5.40kb (1.07kb gzipped)
+@heroui/react:build:   dropdown (2 files): 6.27kb (1.05kb gzipped)
+@heroui/react:build:   date-input-group (2 files): 5.72kb (1.02kb gzipped)
+@heroui/react:build:   disclosure-group (3 files): 3.58kb (1.01kb gzipped)
+@heroui/react:build:   button-group (2 files): 3.45kb (0.98kb gzipped)
+@heroui/react:build:   input-group (2 files): 4.76kb (0.98kb gzipped)
+@heroui/react:build:   kbd (3 files): 3.49kb (0.98kb gzipped)
+@heroui/react:build:   avatar (2 files): 3.73kb (0.95kb gzipped)
+@heroui/react:build:   radio (2 files): 3.84kb (0.95kb gzipped)
+@heroui/react:build:   switch (2 files): 4.25kb (0.95kb gzipped)
+@heroui/react:build:   alert (2 files): 4.89kb (0.93kb gzipped)
+@heroui/react:build:   search-field (2 files): 4.89kb (0.93kb gzipped)
+@heroui/react:build:   tag (2 files): 3.31kb (0.93kb gzipped)
+@heroui/react:build:   list-box-item (2 files): 3.00kb (0.89kb gzipped)
+@heroui/react:build:   number-field (2 files): 5.08kb (0.89kb gzipped)
+@heroui/react:build:   progress-bar (2 files): 3.91kb (0.87kb gzipped)
+@heroui/react:build:   toggle-button-group (2 files): 3.28kb (0.86kb gzipped)
+@heroui/react:build:   breadcrumbs (2 files): 3.08kb (0.83kb gzipped)
+@heroui/react:build:   card (2 files): 4.63kb (0.83kb gzipped)
+@heroui/react:build:   meter (2 files): 3.56kb (0.83kb gzipped)
+@heroui/react:build:   color-picker (2 files): 3.46kb (0.79kb gzipped)
+@heroui/react:build:   color-input-group (2 files): 3.87kb (0.77kb gzipped)
+@heroui/react:build:   badge (2 files): 2.97kb (0.74kb gzipped)
+@heroui/react:build:   button (2 files): 2.12kb (0.72kb gzipped)
+@heroui/react:build:   color-area (2 files): 2.66kb (0.70kb gzipped)
+@heroui/react:build:   link (2 files): 2.41kb (0.70kb gzipped)
+@heroui/react:build:   typography (2 files): 2.00kb (0.68kb gzipped)
+@heroui/react:build:   chip (2 files): 2.33kb (0.64kb gzipped)
+@heroui/react:build:   date-field (2 files): 1.76kb (0.62kb gzipped)
+@heroui/react:build:   tag-group (2 files): 2.35kb (0.62kb gzipped)
+@heroui/react:build:   time-field (2 files): 1.76kb (0.62kb gzipped)
+@heroui/react:build:   color-field (2 files): 1.66kb (0.59kb gzipped)
+@heroui/react:build:   toolbar (2 files): 1.66kb (0.58kb gzipped)
+@heroui/react:build:   textfield (2 files): 1.78kb (0.56kb gzipped)
+@heroui/react:build:   toggle-button (2 files): 1.51kb (0.55kb gzipped)
+@heroui/react:build:   close-button (2 files): 1.38kb (0.51kb gzipped)
+@heroui/react:build:   input (2 files): 1.33kb (0.49kb gzipped)
+@heroui/react:build:   checkbox-group (2 files): 1.15kb (0.48kb gzipped)
+@heroui/react:build:   radio-group (2 files): 1.24kb (0.48kb gzipped)
+@heroui/react:build:   skeleton (2 files): 1.19kb (0.48kb gzipped)
+@heroui/react:build:   color-swatch (2 files): 1.25kb (0.47kb gzipped)
+@heroui/react:build:   list-box (2 files): 1.30kb (0.47kb gzipped)
+@heroui/react:build:   surface (2 files): 1.45kb (0.47kb gzipped)
+@heroui/react:build:   menu (2 files): 1.19kb (0.45kb gzipped)
+@heroui/react:build:   switch-group (2 files): 1.17kb (0.44kb gzipped)
+@heroui/react:build:   textarea (2 files): 1.19kb (0.44kb gzipped)
+@heroui/react:build:   separator (2 files): 1.24kb (0.42kb gzipped)
+@heroui/react:build:   error-message (2 files): 1.07kb (0.41kb gzipped)
+@heroui/react:build:   field-error (2 files): 1.08kb (0.41kb gzipped)
+@heroui/react:build:   description (2 files): 1.05kb (0.40kb gzipped)
+@heroui/react:build:   list-box-section (2 files): 1.03kb (0.39kb gzipped)
+@heroui/react:build:   menu-section (2 files): 0.99kb (0.38kb gzipped)
+@heroui/react:build:   empty-state (2 files): 0.91kb (0.36kb gzipped)
+@heroui/react:build:   label (2 files): 0.92kb (0.36kb gzipped)
+@heroui/react:build:   header (2 files): 0.80kb (0.31kb gzipped)
+@heroui/react:build:   form (2 files): 0.59kb (0.25kb gzipped)
+@heroui/react:build:   rac (1 file): 0.34kb (0.23kb gzipped)
+@heroui/react:build: ══════════════════════════════════════════════════
+@heroui/react:build: 
+@heroui/react:build: 💾 Size report saved to: /Users/wenchengkai/CodexFile/hero ui-改造/packages/react/bundle-sizes.json
+@heroui/react:build: ✨ Build completed successfully!
+@heroui/docs:build: cache miss, executing 6f344bafed787c10
+@heroui/docs:build: 
+@heroui/docs:build: > @heroui/docs@0.0.0 prebuild /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs
+@heroui/docs:build: > node scripts/build-skills.mjs && node scripts/build-theme-presets.mjs
+@heroui/docs:build: 
+@heroui/docs:build: Building skill tarballs...
+@heroui/docs:build: Source: /Users/wenchengkai/CodexFile/hero ui-改造/skills
+@heroui/docs:build: Output: /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/public/skills
+@heroui/docs:build: 
+@heroui/docs:build: ✓ Built heroui-react.tar.gz (11.1KB)
+@heroui/docs:build: ✓ Built heroui-native.tar.gz (10.5KB)
+@heroui/docs:build: ✓ Built heroui-migration.tar.gz (7.6KB)
+@heroui/docs:build: 
+@heroui/docs:build: ✓ All skill tarballs built successfully
+@heroui/docs:build: ✓ Generated 10 theme presets → /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs/src/styles/theme-presets.css
+@heroui/docs:build: 
+@heroui/docs:build: > @heroui/docs@0.0.0 build /Users/wenchengkai/CodexFile/hero ui-改造/apps/docs
+@heroui/docs:build: > next build
+@heroui/docs:build: 
+@heroui/docs:build: ▲ Next.js 16.3.5 (Turbopack)
+@heroui/docs:build: - Environments: .env.local
+@heroui/docs:build: ✓ Running next.config.ts took 58ms
+@heroui/docs:build: [MDX] generated files in 18.755915999999957ms
+@heroui/docs:build: Warning: total number of custom routes exceeds 1000, this can reduce performance. Route counts:
+@heroui/docs:build: headers: 17
+@heroui/docs:build: rewrites: 2
+@heroui/docs:build: redirects: 1107
+@heroui/docs:build: See more info: https://nextjs.org/docs/messages/max-custom-routes-reached
+@heroui/docs:build: - Experiments (use with caution):
+@heroui/docs:build:   · optimizePackageImports
+@heroui/docs:build: 
+@heroui/docs:build:   Creating an optimized production build ...
+@heroui/docs:build: ✓ Compiled successfully in 26.7s
+@heroui/docs:build:   Skipping validation of types
+@heroui/docs:build:   Finished TypeScript config validation in 4ms ...
+@heroui/docs:build:   Collecting page data using 11 workers ...
+@heroui/docs:build:   Generating static pages using 11 workers (0/537) ...
+@heroui/docs:build:   Generating static pages using 11 workers (134/537) 
+@heroui/docs:build:   Generating static pages using 11 workers (268/537) 
+@heroui/docs:build:   Generating static pages using 11 workers (402/537) 
+@heroui/docs:build: ✓ Generating static pages using 11 workers (537/537) in 27.8s
+@heroui/docs:build:   Finalizing page optimization ...
+@heroui/docs:build: 
+@heroui/docs:build: Route (app)
+@heroui/docs:build: ┌ ○ /_not-found
+@heroui/docs:build: ├ ƒ /.well-known/agent-skills/index.json
+@heroui/docs:build: ├ ƒ /.well-known/api-catalog
+@heroui/docs:build: ├ ƒ /.well-known/jwks.json
+@heroui/docs:build: ├ ƒ /.well-known/mcp
+@heroui/docs:build: ├ ƒ /.well-known/mcp/server-card.json
+@heroui/docs:build: ├ ƒ /.well-known/oauth-authorization-server
+@heroui/docs:build: ├ ƒ /.well-known/oauth-protected-resource
+@heroui/docs:build: ├ ƒ /.well-known/openapi/[api]
+@heroui/docs:build: ├ ƒ /.well-known/openid-configuration
+@heroui/docs:build: ├   /[lang]
+@heroui/docs:build: │ ├ ● /en
+@heroui/docs:build: │ └ ● /cn
+@heroui/docs:build: ├ ƒ /[lang]/about
+@heroui/docs:build: ├ ƒ /[lang]/blog
+@heroui/docs:build: ├ ƒ /[lang]/blog/[slug]
+@heroui/docs:build: ├ ƒ /[lang]/contact
+@heroui/docs:build: ├ ƒ /[lang]/docs/[[...slug]]
+@heroui/docs:build: ├ ƒ /[lang]/privacy
+@heroui/docs:build: ├ ƒ /[lang]/showcase
+@heroui/docs:build: ├   /[lang]/showcase/[id]
+@heroui/docs:build: │ ├ ● /en/showcase/apple-iphone-disclosure
+@heroui/docs:build: │ ├ ● /en/showcase/apple-iphone-camera-zoom
+@heroui/docs:build: │ ├ ● /cn/showcase/apple-iphone-disclosure
+@heroui/docs:build: │ └ ● /cn/showcase/apple-iphone-camera-zoom
+@heroui/docs:build: ├ ƒ /[lang]/themes
+@heroui/docs:build: ├ ƒ /agent-markdown
+@heroui/docs:build: ├ ƒ /api/agent
+@heroui/docs:build: ├ ƒ /api/agent/[...path]
+@heroui/docs:build: ├ ƒ /api/agent/health
+@heroui/docs:build: ├ ƒ /api/agent/page
+@heroui/docs:build: ├ ƒ /api/agent/search
+@heroui/docs:build: ├ ƒ /api/changelog
+@heroui/docs:build: ├ ƒ /api/newsletter
+@heroui/docs:build: ├ ƒ /api/search
+@heroui/docs:build: ├ ○ /docs/native-showcase/components/[[...slug]]
+@heroui/docs:build: ├ ○ /docs/native-showcase/privacy-policy
+@heroui/docs:build: ├ ƒ /install
+@heroui/docs:build: ├ ○ /llms-components.txt
+@heroui/docs:build: ├ ○ /llms-full.txt
+@heroui/docs:build: ├ ○ /llms-patterns.txt
+@heroui/docs:build: ├ ○ /llms-raw.mdx/[...slug]
+@heroui/docs:build: ├ ○ /llms.mdx/[...slug]
+@heroui/docs:build: ├ ○ /llms.txt
+@heroui/docs:build: ├ ○ /manifest.webmanifest
+@heroui/docs:build: ├ ○ /native/llms-components.txt
+@heroui/docs:build: ├ ○ /native/llms-full.txt
+@heroui/docs:build: ├ ○ /native/llms-patterns.txt
+@heroui/docs:build: ├ ○ /native/llms.txt
+@heroui/docs:build: ├ ○ /og/[...slug]
+@heroui/docs:build: ├ ƒ /openapi.json
+@heroui/docs:build: ├ ○ /react/llms-components.txt
+@heroui/docs:build: ├ ○ /react/llms-full.txt
+@heroui/docs:build: ├ ○ /react/llms-patterns.txt
+@heroui/docs:build: ├ ○ /react/llms.txt
+@heroui/docs:build: ├ ○ /robots.txt
+@heroui/docs:build: ├ ○ /rss.xml
+@heroui/docs:build: ├ ○ /sitemap.xml
+@heroui/docs:build: └ ƒ /skills/[skill]
+@heroui/docs:build: 
+@heroui/docs:build: 
+@heroui/docs:build: ƒ Proxy (Middleware)
+@heroui/docs:build: 
+@heroui/docs:build: ○  (Static)   prerendered as static content
+@heroui/docs:build: ●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+@heroui/docs:build: ƒ  (Dynamic)  server-rendered on demand
+@heroui/docs:build: 
+
+ Tasks:    3 successful, 3 total
+Cached:    2 cached, 3 total
+  Time:    1m10.757s 
+

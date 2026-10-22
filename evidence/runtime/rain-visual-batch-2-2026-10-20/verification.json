@@ -1,0 +1,17 @@
+{
+  "version": "3.2.6",
+  "heavyTests": "not_run",
+  "fullStorySweep": "not_run",
+  "productionBuild": "not_run",
+  "catalogTests": {
+    "passed": 11,
+    "failed": 0
+  },
+  "storybookTypes": "passed",
+  "docsTypes": "passed",
+  "focusedLint": "passed",
+  "catalogFreshness": "passed",
+  "thirdPartyLockSha256": "2e172182190ee50f4044d94d2635e265c8a79f3b28ad4ae1005cb9448e9a1f9b",
+  "controlledUpstreamSourceDiff": [],
+  "knownIssue": "Year panel keyboard focus restoration also reproduced in HeroUI original light; not fixed"
+}

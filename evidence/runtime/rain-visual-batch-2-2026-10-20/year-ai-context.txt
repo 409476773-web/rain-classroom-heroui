@@ -1,0 +1,15 @@
+使用本地雨课堂 HeroUI 库：HeroUI 3.2.6，固定提交 e385ac202b2cdb94b1bf6fa76d32c31c8259cc5e。
+项目根目录：/Users/wenchengkai/CodexFile/hero ui-改造/
+先读取 AGENTS.md、docs/rain/ai/index.md 与 docs/rain/ai/usage-rules.md。
+本次组件：CalendarYearPicker
+使用说明：上游进行中；通过 Calendar 公开部件组合使用。年份面板关闭后的键盘焦点恢复存在已知限制，尚未完成稳定性和全部状态验收。
+公开导入：import {CalendarYearPicker} from "@heroui/react";
+组件入口：packages/react/src/components/calendar-year-picker/index.ts
+组件实现：packages/react/src/components/calendar-year-picker/calendar-year-picker.tsx
+样式：packages/styles/components/calendar-year-picker.css
+可用组合部件：CalendarYearPicker.Trigger, CalendarYearPicker.TriggerHeading, CalendarYearPicker.TriggerIndicator, CalendarYearPicker.Grid, CalendarYearPicker.GridBody, CalendarYearPicker.Cell
+Story: packages/storybook/.storybook/stories/rain-state-review-calendar.stories.tsx → components-theme-state-review--calendar-navigation（组合引用）
+主题唯一入口：packages/rain-theme/index.css；页面不硬编码品牌色、字体或圆角。
+优先在业务层组合，保持基础组件的键盘、焦点、错误与禁用机制。
+课堂练习批改页已审核，改造时保留其已确认行为；本轮暂不运行新重测试。
+请先根据以上资料确认 API，再处理我随后描述的业务需求。

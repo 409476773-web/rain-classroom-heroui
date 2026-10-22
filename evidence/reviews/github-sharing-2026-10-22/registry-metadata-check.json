@@ -1,0 +1,66 @@
+[
+  {
+    "name": "@internationalized/date",
+    "version": "3.12.4",
+    "published": false,
+    "status": 504
+  },
+  {
+    "name": "@react-aria/ssr",
+    "version": "3.10.1",
+    "published": "unverified",
+    "error": "TimeoutError"
+  },
+  {
+    "name": "@react-aria/utils",
+    "version": "3.34.1",
+    "published": "unverified",
+    "error": "TimeoutError"
+  },
+  {
+    "name": "react",
+    "version": "19.3.0",
+    "published": "unverified",
+    "error": "TimeoutError"
+  },
+  {
+    "name": "react-aria",
+    "version": "3.52.1",
+    "published": "unverified",
+    "error": "TimeoutError"
+  },
+  {
+    "name": "react-aria-components",
+    "version": "1.21.1",
+    "published": "unverified",
+    "error": "TimeoutError"
+  },
+  {
+    "name": "react-dom",
+    "version": "19.3.0",
+    "published": "unverified",
+    "error": "TimeoutError"
+  },
+  {
+    "name": "tailwind-variants",
+    "version": "3.3.1",
+    "published": "unverified",
+    "error": "TimeoutError"
+  },
+  {
+    "name": "tailwindcss",
+    "version": "4.3.3",
+    "published": true
+  },
+  {
+    "name": "@tailwindcss/vite",
+    "version": "4.3.3",
+    "published": "unverified",
+    "error": "TimeoutError"
+  },
+  {
+    "name": "vite",
+    "version": "7.3.5",
+    "published": true
+  }
+]

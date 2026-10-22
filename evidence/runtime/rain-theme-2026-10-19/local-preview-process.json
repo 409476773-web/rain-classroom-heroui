@@ -1,0 +1,9 @@
+{
+  "pid": 32645,
+  "log": "/Users/wenchengkai/CodexFile/hero ui-\u6539\u9020/evidence/runtime/rain-theme-2026-10-19/local-preview-final.log",
+  "command": "node scripts/rain/preview.mjs",
+  "ports": [
+    3100,
+    6006
+  ]
+}

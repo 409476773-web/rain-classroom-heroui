@@ -1,0 +1,464 @@
+Browser tab: 26, Title: "Components / Theme / State Review - 表格、标签页与卡片 ⋅ Storybook", URL: "http://127.0.0.1:6006/?path=/story/components-theme-state-review--layouts&globals=heroui-theme:rain-light".
+1 AXWebArea Components / Theme / State Review - 表格、标签页与卡片 ⋅ Storybook, URL: 127.0.0.1:6006/?path=/story/components-theme-state-review--layouts&globals=heroui-theme:rain-light
+	2 container
+		3 container
+			4 container Storybook, ID: storybook-sidebar-region
+				5 heading Storybook, Value: 1, ID: global-site-h1
+					6 text Storybook
+				7 image
+				8 container
+					9 link Description: Skip to content, Value: 127.0.0.1:6006/?path=/story/components-theme-state-review--layouts&globals=heroui-theme:rain-light#storybook-preview-wrapper
+					10 link Description: HeroUI, Value: 127.0.0.1:6006/
+					11 switch (collapsed) Description: Settings, Value: 0, ID: react-aria5668969406-:r1:, Secondary Actions: Expand
+						12 image
+					13 container storybook-checklist-widget
+						14 container
+							15 button Open onboarding guide
+								16 image
+								17 text Get started
+							18 button (expanded) Description: Collapse onboarding guide, ID: checklist-module-collapse-toggle, Secondary Actions: Collapse
+								19 image
+							20 pop up button (collapsed) Description: 39% completed, ID: react-aria5668969406-:r1c:, Secondary Actions: Expand
+								21 text 39%
+						22 content list
+							23 container
+								24 button Open onboarding guide for See what's new
+									25 image
+									219 text See what's new
+								26 button Go
+							27 button Open onboarding guide for Change a story with Controls
+								28 image
+								220 text Change a story with Controls
+							29 button Open onboarding guide for Publish your Storybook for feedback
+								30 image
+								221 text Publish your Storybook for feedback
+					31 text Search for components
+					32 combo box (collapsed) Search for components, Secondary Actions: Expand
+						33 image
+						34 search text field (settable) Search for components, ID: storybook-explorer-searchfield
+						35 pop up button (collapsed) Description: Tag filters, ID: react-aria5668969406-:r1f:, Secondary Actions: Expand
+							36 image
+					37 button Create a new story
+						38 image
+					39 container Stories, ID: storybook-explorer-tree
+						40 heading Stories, Value: 2, ID: storybook-explorer-tree-heading
+							41 text Stories
+						42 container
+							43 link Description: Welcome, Value: 127.0.0.1:6006/?path=/docs/welcome--docs, ID: welcome--docs
+							44 button (collapsed) Color System, ID: color-system, Secondary Actions: Expand
+								45 image
+								46 image
+								47 text Color System
+							48 button (collapsed) Components Demo, ID: components-demo, Secondary Actions: Expand
+								49 image
+								50 image
+								51 text Components Demo
+							52 button (collapsed) Colors Demo, ID: colors-demo, Secondary Actions: Expand
+								53 image
+								54 image
+								55 text Colors Demo
+							56 button (expanded) Components, ID: components, Secondary Actions: Collapse
+								57 image
+								58 image
+								59 text Components
+							60 button Change status: New
+								61 image
+							62 button (collapsed) Business, ID: components-business, Secondary Actions: Expand
+								63 image
+								64 image
+								65 text Business
+							66 button Change status: New
+								67 image
+							68 button (collapsed) Buttons, ID: components-buttons, Secondary Actions: Expand
+								69 image
+								70 image
+								71 text Buttons
+							72 button (collapsed) Collections, ID: components-collections, Secondary Actions: Expand
+								73 image
+								74 image
+								75 text Collections
+							76 button (collapsed) Colors, ID: components-colors, Secondary Actions: Expand
+								77 image
+								78 image
+								79 text Colors
+							80 button (collapsed) Controls, ID: components-controls, Secondary Actions: Expand
+								81 image
+								82 image
+								83 text Controls
+							84 button (collapsed) Data Display, ID: components-data-display, Secondary Actions: Expand
+								85 image
+								86 image
+								87 text Data Display
+							88 button (collapsed) Date and Time, ID: components-date-and-time, Secondary Actions: Expand
+								89 image
+								90 image
+								91 text Date and Time
+							92 button (collapsed) Feedback, ID: components-feedback, Secondary Actions: Expand
+								93 image
+								94 image
+								95 text Feedback
+							96 button (collapsed) Forms, ID: components-forms, Secondary Actions: Expand
+								97 image
+								98 image
+								99 text Forms
+							100 button (collapsed) Layout, ID: components-layout, Secondary Actions: Expand
+								101 image
+								102 image
+								103 text Layout
+							104 button (collapsed) Media, ID: components-media, Secondary Actions: Expand
+								105 image
+								106 image
+								107 text Media
+							108 button (collapsed) Navigation, ID: components-navigation, Secondary Actions: Expand
+								109 image
+								110 image
+								111 text Navigation
+							112 button (collapsed) Overlays, ID: components-overlays, Secondary Actions: Expand
+								113 image
+								114 image
+								115 text Overlays
+							116 button (collapsed) Pickers, ID: components-pickers, Secondary Actions: Expand
+								117 image
+								118 image
+								119 text Pickers
+							120 button (expanded) Theme, ID: components-theme, Secondary Actions: Collapse
+								121 image
+								122 image
+								123 text Theme
+							124 button Change status: New
+								125 image
+							126 button (collapsed) Brand Comparison, ID: components-theme-brand-comparison, Secondary Actions: Expand
+								127 image
+								128 image
+								129 text Brand Comparison
+							130 button Change status: New
+								131 image
+							132 button (expanded) State Review, ID: components-theme-state-review, Secondary Actions: Collapse
+								133 image
+								134 image
+								135 text State Review
+							136 button Change status: New
+								137 image
+							138 link Description: Docs, Value: 127.0.0.1:6006/?path=/docs/components-theme-state-review--docs, ID: components-theme-state-review--docs
+							139 link Description: 按钮与按钮组, Value: 127.0.0.1:6006/?path=/story/components-theme-state-review--buttons, ID: components-theme-state-review--buttons
+							140 button Change status: New
+								141 image
+							142 link Description: 日历与年份入口, Value: 127.0.0.1:6006/?path=/story/components-theme-state-review--calendar-navigation, ID: components-theme-state-review--calendar-navigation
+							143 button Change status: New
+								144 image
+							145 link Description: 输入提示与表单状态, Value: 127.0.0.1:6006/?path=/story/components-theme-state-review--fields, ID: components-theme-state-review--fields
+							146 button Change status: New
+								147 image
+							148 link Description: 表格、标签页与卡片, Value: 127.0.0.1:6006/?path=/story/components-theme-state-review--layouts, ID: components-theme-state-review--layouts
+							149 link Description: Skip to content, Value: 127.0.0.1:6006/?path=/story/components-theme-state-review--layouts&globals=heroui-theme:rain-light#storybook-preview-wrapper
+							150 button Change status: New
+								151 image
+							152 link Description: 菜单状态, Value: 127.0.0.1:6006/?path=/story/components-theme-state-review--menu, ID: components-theme-state-review--menu
+							153 button Change status: New
+								154 image
+							155 link Description: 浮层与长中文, Value: 127.0.0.1:6006/?path=/story/components-theme-state-review--overlays, ID: components-theme-state-review--overlays
+							156 button Change status: New
+								157 image
+							158 link Description: 错误提示状态, Value: 127.0.0.1:6006/?path=/story/components-theme-state-review--error-messages, ID: components-theme-state-review--error-messages
+							159 button Change status: New
+								160 image
+							161 link Description: 列表选中与浮层状态, Value: 127.0.0.1:6006/?path=/story/components-theme-state-review--selections, ID: components-theme-state-review--selections
+							162 button Change status: New
+								163 image
+							164 button (collapsed) Typography, ID: components-typography, Secondary Actions: Expand
+								165 image
+								166 image
+								167 text Typography
+							168 button (collapsed) Utilities, ID: components-utilities, Secondary Actions: Expand
+								169 image
+								170 image
+								171 text Utilities
+			172 splitter Description: Sidebar resize handle, Value: 300
+			173 container Toolbar
+				174 heading Toolbar, Value: 2, ID: sb-preview-toolbar-title
+					175 text Toolbar
+				176 toolbar
+					177 button Reload story
+						178 image
+					222 switch Description: Grid visibility, Value: 0
+						223 image
+					224 pop up button (collapsed) Description: Preview background, ID: select-vrfpvistr3, Secondary Actions: Expand
+						225 image
+					179 switch Description: Measure tool, Value: 0
+						180 image
+					181 switch Description: Outline tool, Value: 0
+						182 image
+					183 pop up button (collapsed) Description: Viewport size, ID: select-a2sg396klsv, Secondary Actions: Expand
+						184 image
+					185 pop up button (collapsed) Description: Vision filter, ID: select-tfp4ndeirhb, Secondary Actions: Expand
+						186 image
+					226 pop up button (collapsed) Description: Internationalization locale Auto, ID: select-pdorw5s52k8, Secondary Actions: Expand
+						227 image
+						228 text Auto
+					229 pop up button (collapsed) Description: HeroUI or Rain Classroom theme for components 雨课堂 Light, ID: select-orgbp3fi7ec, Secondary Actions: Expand
+						230 image
+						231 text 雨课堂 Light
+					232 pop up button (collapsed) Description: Reduce motion for components Motion On, ID: select-pmqeixyzzf, Secondary Actions: Expand
+						233 image
+						234 text Motion On
+					235 pop up button (collapsed) Description: Enable React Strict Mode Strict Mode On, ID: select-75lkiuj70g2, Secondary Actions: Expand
+						236 image
+						237 text Strict Mode On
+					238 pop up button (collapsed) Description: Enable React Scan to detect performance issues React Scan Off, ID: select-5ow782ckoz5, Secondary Actions: Expand
+						239 image
+						240 text React Scan Off
+					187 button Open in isolation mode
+						188 image
+					189 switch (collapsed) Description: Change zoom level, Value: 0, ID: react-aria5668969406-:rc:, Secondary Actions: Expand
+					190 button Enter full screen
+						191 image
+					192 button Open in editor
+						193 image
+			194 container Main preview area
+				195 heading Main preview area, Value: 2, ID: main-preview-heading
+					196 text Main preview area
+				241 container storybook-preview-wrapper
+					242 link Description: Skip to sidebar, Value: 127.0.0.1:6006/?path=/story/components-theme-state-review--layouts&globals=heroui-theme:rain-light#components-theme-state-review--layouts
+					243 container storybook-preview-iframe
+						244 AXWebArea components-theme-state-review--layouts, URL: 127.0.0.1:6006/iframe.html?id=components-theme-state-review--layouts&viewMode=story&globals=heroui-theme%3Arain-light
+							431 container 表格、标签页与卡片状态检查
+								432 container
+									433 heading 表格、标签页与卡片, Value: 1
+										434 text 表格、标签页与卡片
+									435 text 使用顶部主题菜单进行对照。每类提供宽容器与固定 320px 窄容器，无需改变浏览器视口； 窄表格通过原版滚动容器横向查看完整列，标签页沿用原版滚动与方向键行为。
+								436 container 表格：长中文、行选择与禁用行
+									437 heading 表格：长中文、行选择与禁用行, Value: 2, ID: layout-tables-heading
+										438 text 表格：长中文、行选择与禁用行
+									439 text 使用 Tab、方向键和空格检查焦点与行选择。第三行禁用，不参与选择；初始选中第一行。
+									440 text 宽容器 · primary
+									441 table Description: 宽容器表格, ID: react-aria4113354311-_r_3m_
+										442 row 宽容器表格：全选可用作答 学生示例 长中文作答片段 待确认的反馈内容
+											443 cell react-aria4113354311-_r_3m_-selection
+												444 checkbox (settable, integer) Description: 宽容器表格：全选可用作答, Value: 2
+											445 cell react-aria4113354311-_r_3m_-student
+												446 text 学生示例
+											447 cell react-aria4113354311-_r_3m_-answer
+												448 text 长中文作答片段
+											449 cell react-aria4113354311-_r_3m_-feedback
+												450 text 待确认的反馈内容
+										451 container
+											452 row (selected) 林同学（虚构）, ID: react-aria4113354311-_r_4m_
+												453 cell react-aria4113354311-_r_4p_
+													454 checkbox (settable, integer) 选择林同学（虚构） 林同学（虚构）, Value: 1, ID: react-aria4113354311-_r_4o_
+												455 cell react-aria4113354311-_r_3m_-s01-student
+													456 text 林同学（虚构）
+												457 cell react-aria4113354311-_r_4t_
+													458 text 从校园食堂的排队现象出发，解释高峰时段窗口供给与同学选择之间的关系。
+												459 cell react-aria4113354311-_r_4u_
+													460 text 观点清楚，可继续补充观察时间和可比较的数据。
+											461 row (selectable) 陈同学（虚构）, ID: react-aria4113354311-_r_4v_
+												462 cell react-aria4113354311-_r_52_
+													463 checkbox (settable, integer) 选择陈同学（虚构） 陈同学（虚构）, Value: 0, ID: react-aria4113354311-_r_51_
+												464 cell react-aria4113354311-_r_3m_-s02-student
+													465 text 陈同学（虚构）
+												466 cell react-aria4113354311-_r_56_
+													467 text 比较两个窗口在不同时间段的出餐数量，提出通过预点餐减少现场等待的方案。
+												468 cell react-aria4113354311-_r_57_
+													469 text 需要区分等待时间、取餐时间与窗口实际处理能力。
+											470 row (selectable, disabled) 周同学（禁用）, ID: react-aria4113354311-_r_58_
+												471 cell (disabled) react-aria4113354311-_r_5b_
+													472 checkbox (disabled, settable, integer) 选择周同学（禁用） 周同学（禁用）, Value: 0, ID: react-aria4113354311-_r_5a_
+												473 cell (disabled) react-aria4113354311-_r_3m_-s03-student
+													474 text 周同学（禁用）
+												475 cell (disabled) react-aria4113354311-_r_5f_
+													476 text 这条固定作答仅用于观察禁用行的文字、透明度和焦点跳过情况。
+												477 cell (disabled) react-aria4113354311-_r_5g_
+													478 text 禁用样本，不参与本页选择。
+											479 row (selectable) 许同学（虚构）, ID: react-aria4113354311-_r_5h_
+												480 cell react-aria4113354311-_r_5k_
+													481 checkbox (settable, integer) 选择许同学（虚构） 许同学（虚构）, Value: 0, ID: react-aria4113354311-_r_5j_
+												482 cell react-aria4113354311-_r_3m_-s04-student
+													483 text 许同学（虚构）
+												484 cell react-aria4113354311-_r_5o_
+													485 text 建议对比试行方案前后一周同一时段的平均等待时间，同时记录用餐人数的变化。
+												486 cell react-aria4113354311-_r_5p_
+													487 text 对照条件较完整，可补充样本量与异常情况说明。
+									488 container
+										489 text 宽容器表格 已选： 林同学（虚构） 。仅保留本页选择。
+									490 text 固定窄容器 · 320px · secondary
+									491 table Description: 窄容器表格, ID: react-aria4113354311-_r_3p_
+										492 row 窄容器表格：全选可用作答 学生示例 长中文作答片段 待确认的反馈内容
+											493 cell react-aria4113354311-_r_3p_-selection
+												494 checkbox (settable, integer) Description: 窄容器表格：全选可用作答, Value: 2
+											495 cell react-aria4113354311-_r_3p_-student
+												496 text 学生示例
+											497 cell react-aria4113354311-_r_3p_-answer
+												498 text 长中文作答片段
+											499 cell react-aria4113354311-_r_3p_-feedback
+												500 text 待确认的反馈内容
+										501 container
+											502 row (selected) 林同学（虚构）, ID: react-aria4113354311-_r_60_
+												503 cell react-aria4113354311-_r_63_
+													504 checkbox (settable, integer) 选择林同学（虚构） 林同学（虚构）, Value: 1, ID: react-aria4113354311-_r_62_
+												505 cell react-aria4113354311-_r_3p_-s01-student
+													506 text 林同学（虚构）
+												507 cell react-aria4113354311-_r_67_
+													508 text 从校园食堂的排队现象出发，解释高峰时段窗口供给与同学选择之间的关系。
+												509 cell react-aria4113354311-_r_68_
+													510 text 观点清楚，可继续补充观察时间和可比较的数据。
+											511 row (selectable) 陈同学（虚构）, ID: react-aria4113354311-_r_69_
+												512 cell react-aria4113354311-_r_6c_
+													513 checkbox (settable, integer) 选择陈同学（虚构） 陈同学（虚构）, Value: 0, ID: react-aria4113354311-_r_6b_
+												514 cell react-aria4113354311-_r_3p_-s02-student
+													515 text 陈同学（虚构）
+												516 cell react-aria4113354311-_r_6g_
+													517 text 比较两个窗口在不同时间段的出餐数量，提出通过预点餐减少现场等待的方案。
+												518 cell react-aria4113354311-_r_6h_
+													519 text 需要区分等待时间、取餐时间与窗口实际处理能力。
+											520 row (selectable, disabled) 周同学（禁用）, ID: react-aria4113354311-_r_6i_
+												521 cell (disabled) react-aria4113354311-_r_6l_
+													522 checkbox (disabled, settable, integer) 选择周同学（禁用） 周同学（禁用）, Value: 0, ID: react-aria4113354311-_r_6k_
+												523 cell (disabled) react-aria4113354311-_r_3p_-s03-student
+													524 text 周同学（禁用）
+												525 cell (disabled) react-aria4113354311-_r_6p_
+													526 text 这条固定作答仅用于观察禁用行的文字、透明度和焦点跳过情况。
+												527 cell (disabled) react-aria4113354311-_r_6q_
+													528 text 禁用样本，不参与本页选择。
+											529 row (selectable) 许同学（虚构）, ID: react-aria4113354311-_r_6r_
+												530 cell react-aria4113354311-_r_6u_
+													531 checkbox (settable, integer) 选择许同学（虚构） 许同学（虚构）, Value: 0, ID: react-aria4113354311-_r_6t_
+												532 cell react-aria4113354311-_r_3p_-s04-student
+													533 text 许同学（虚构）
+												534 cell react-aria4113354311-_r_72_
+													535 text 建议对比试行方案前后一周同一时段的平均等待时间，同时记录用餐人数的变化。
+												536 cell react-aria4113354311-_r_73_
+													537 text 对照条件较完整，可补充样本量与异常情况说明。
+									538 container
+										539 text 窄容器表格 已选： 林同学（虚构） 。仅保留本页选择。
+								540 container 标签页：长标题、选中与禁用
+									541 heading 标签页：长标题、选中与禁用, Value: 2, ID: layout-tabs-heading
+										542 text 标签页：长标题、选中与禁用
+									543 text 检查选中提示与悬停，使用方向键移动；“已归档练习与历史成绩”保持禁用，窄容器保留原版溢出导航。
+									544 text 宽容器 · primary
+									545 tab group Description: 宽容器练习标签, ID: react-aria4113354311-_r_3t_
+										546 tab (selected, settable, boolean) 课堂练习作答与逐题批改记录, ID: react-aria4113354311-_r_3t_-tab-responses, Value: 1
+课堂练习作答与逐题批改记录
+										547 tab (selectable, settable, boolean) 按知识点汇总的学习情况与反馈, Value: 0, ID: react-aria4113354311-_r_3t_-tab-analysis
+										548 tab (selectable, disabled, settable, boolean) 已归档练习与历史成绩（禁用）, Value: 0, ID: react-aria4113354311-_r_3t_-tab-archived
+										549 tab (selectable, settable, boolean) 需要优先关注的疑难问题整理, Value: 0, ID: react-aria4113354311-_r_3t_-tab-questions
+									550 container Description: 课堂练习作答与逐题批改记录, ID: react-aria4113354311-_r_3t_-tabpanel-responses
+										551 text 作答列表与批改进度均为固定示例。观察长中文标题、换行后的正文和切换时的键盘焦点。
+									552 container
+										553 text 当前标签： 课堂练习作答与逐题批改记录
+									554 text 固定窄容器 · 320px · secondary
+									555 container
+										556 tab group Description: 窄容器练习标签, ID: react-aria4113354311-_r_41_
+											557 tab (selected, settable, boolean) 课堂练习作答与逐题批改记录, ID: react-aria4113354311-_r_41_-tab-responses, Value: 1
+课堂练习作答与逐题批改记录
+											558 tab (selectable, settable, boolean) 按知识点汇总的学习情况与反馈, Value: 0, ID: react-aria4113354311-_r_41_-tab-analysis
+											559 tab (selectable, disabled, settable, boolean) 已归档练习与历史成绩（禁用）, Value: 0, ID: react-aria4113354311-_r_41_-tab-archived
+											560 tab (selectable, settable, boolean) 需要优先关注的疑难问题整理, Value: 0, ID: react-aria4113354311-_r_41_-tab-questions
+										561 button Scroll tabs right
+									562 container Description: 课堂练习作答与逐题批改记录, ID: react-aria4113354311-_r_41_-tabpanel-responses
+										563 text 作答列表与批改进度均为固定示例。观察长中文标题、换行后的正文和切换时的键盘焦点。
+									564 container
+										565 text 当前标签： 课堂练习作答与逐题批改记录
+								566 container 卡片：长标题、正文与内部按钮
+									567 heading 卡片：长标题、正文与内部按钮, Value: 2, ID: layout-cards-heading
+										568 text 卡片：长标题、正文与内部按钮
+									569 text 仅观察卡片承载的中文与操作布局；焦点、悬停和禁用由原版内部按钮表达。
+									570 text 宽容器 · default
+									571 container 宽容器卡片
+										572 heading 从真实观察到可以检验的改进方案：一份包含长中文标题与完整反馈内容的课堂练习示例, Value: 3
+											573 text 从真实观察到可以检验的改进方案：一份包含长中文标题与完整反馈内容的课堂练习示例
+										574 text 固定虚构内容，用于检查标题、描述、正文和操作区在不同宽度下的阅读与换行。
+										575 text 建议先说明观察到的现象，再提出可以验证的解释。记录同一时段的到达人数、出餐数量与平均等待时间， 并在方案试行前后保留一致的对照条件。这里的正文不会被省略，按钮只更新当前页的动作次数。
+										576 button 记录一次页内操作, ID: react-aria4113354311-_r_44_
+										577 button 重置次数, ID: react-aria4113354311-_r_46_
+										578 button (disabled) 禁用的内部按钮, ID: react-aria4113354311-_r_48_
+									579 container
+										580 text 宽容器卡片 动作次数： 0 。状态属于内部按钮，Card 不增加悬停、禁用或错误状态。
+									581 text 固定窄容器 · 320px · secondary
+									582 container 窄容器卡片
+										583 heading 从真实观察到可以检验的改进方案：一份包含长中文标题与完整反馈内容的课堂练习示例, Value: 3
+											584 text 从真实观察到可以检验的改进方案：一份包含长中文标题与完整反馈内容的课堂练习示例
+										585 text 固定虚构内容，用于检查标题、描述、正文和操作区在不同宽度下的阅读与换行。
+										586 text 建议先说明观察到的现象，再提出可以验证的解释。记录同一时段的到达人数、出餐数量与平均等待时间， 并在方案试行前后保留一致的对照条件。这里的正文不会被省略，按钮只更新当前页的动作次数。
+										587 button 记录一次页内操作, ID: react-aria4113354311-_r_4a_
+										588 button 重置次数, ID: react-aria4113354311-_r_4c_
+										589 button (disabled) 禁用的内部按钮, ID: react-aria4113354311-_r_4e_
+									590 container
+										591 text 窄容器卡片 动作次数： 0 。状态属于内部按钮，Card 不增加悬停、禁用或错误状态。
+							406 container react-scan-toolbar-root
+								407 image
+								408 container react-scan-toolbar
+									409 container
+										410 button icon-close, Help: Close
+											411 image icon-close
+										412 container
+											413 text History
+											414 button Clear all events
+												415 image
+											416 text No Events
+											417 container
+												418 button
+													419 image
+												420 text Scanning for slowdowns .. You don't need to keep this panel open for React Scan to record slowdowns Enable audio alerts to hear a delightful ding every time a large slowdown is recorded
+												421 button Enable audio alerts
+									422 button icon-inspect, Help: Inspect element, ID: react-scan-inspect-element
+										423 image icon-inspect
+									424 button Description: Notifications, ID: react-scan-notifications
+									425 container
+										426 checkbox (settable, integer) Description: Outline Re-renders, Value: 0
+									427 text 120 FPS
+							428 image
+			203 splitter Description: Addon panel resize handle, Value: 104
+			204 container Addon panel, ID: storybook-panel-region
+				205 heading Addon panel, Value: 2, ID: storybook-panel-heading
+					206 text Addon panel
+				207 container storybook-panel-root
+					208 button Move addon panel to right
+						209 image
+					210 button Hide addon panel
+						211 image
+					212 tab group Description: Available addons, ID: react-aria5668969406-:rl:
+						213 tab (selectable, settable, boolean) Controls, Value: 0, ID: react-aria5668969406-:rl:-tab-addon-controls
+						214 tab (selectable, settable, boolean) Actions, Value: 0, ID: react-aria5668969406-:rl:-tab-storybook/actions/panel
+						215 tab (selectable, settable, boolean) Interactions, Value: 0, ID: react-aria5668969406-:rl:-tab-storybook/interactions/panel
+						216 tab (selected, settable, boolean) Accessibility 1, Value: 1, ID: react-aria5668969406-:rl:-tab-storybook/a11y/panel
+					429 container Description: Accessibility 1, ID: react-aria5668969406-:rl:-tabpanel-storybook/a11y/panel
+						592 container
+							593 button Highlight elements with accessibility test results
+								594 image
+							595 button (expanded) Description: Collapse all results, Secondary Actions: Collapse
+								596 image
+							597 button Rerun accessibility scan
+								598 image
+							599 tab group react-aria5668969406-:r4m:
+								600 tab (selectable, settable, boolean) Violations 0, Value: 0, ID: react-aria5668969406-:r4m:-tab-violations
+								601 tab (selectable, settable, boolean) Passes 34, Value: 0, ID: react-aria5668969406-:r4m:-tab-passes
+								602 tab (selected, settable, boolean) Inconclusive 1, Value: 1, ID: react-aria5668969406-:r4m:-tab-incomplete
+							603 container Description: Inconclusive 1, ID: react-aria5668969406-:r4m:-tabpanel-incomplete
+								604 container
+									605 container
+										606 text Color contrast color-contrast Serious 1
+										607 button (expanded) Description: Collapse details for: Color contrast, Secondary Actions: Collapse
+											608 image
+									609 container details:incomplete.color-contrast
+										610 container
+											611 text The color contrast between text and its background meets WCAG AA contrast ratio.
+											612 link Description: Learn how to resolve this violation, Value: dequeuniversity.com/rules/axe/4.12/color-contrast?application=axeAPI
+										613 tab group incomplete
+											614 tab (selected, settable, boolean) ID: incomplete.color-contrast.1, 1. <div data-slot="tabs-tab" class="tabs__tab" data-rac="" tabindex="0" data-collection="react-aria4113354311..." data-key="responses" data-react-aria-pres...="true" id="react-aria4113354311..." aria-selected="true" aria-controls="react-aria4113354311..." role="tab" data-selected="true">, Value: 1
+1
+.
+<div data-slot="tabs-tab" class="tabs__tab" data-rac="" tabindex="0" data-collection="react-aria4113354311..." data-key="responses" data-react-aria-pres...="true" id="react-aria4113354311..." aria-selected="true" aria-controls="react-aria4113354311..." role="tab" data-selected="true">
+										615 container radix-:r4t:-content-incomplete.color-contrast.1
+											616 text Element's background color could not be determined because it is overlapped by another element.
+											617 button Jump to element
+												618 image
+												619 text Jump to element
+											620 button Copy link
+												621 image
+												622 text Copy link
+											623 container
+												624 text /* element */ < div data-slot = " tabs-tab " class = " tabs__tab " data-rac = " " tabindex = " 0 " data-collection = " react-aria4113354311... " data-key = " responses " data-react-aria-pres... = " true " id = " react-aria4113354311... " aria-selected = " true " aria-controls = " react-aria4113354311... " role = " tab " data-selected = " true " >
+											625 container
+												626 text /* selector */ #react-aria4113354311-_r_3t_-tab-responses
+
+The focused UI element is 1 AXWebArea Components / Theme / State Review - 表格、标签页与卡片 ⋅ Storybook, URL: 127.0.0.1:6006/?path=/story/components-theme-state-review--layouts&globals=heroui-theme:rain-light

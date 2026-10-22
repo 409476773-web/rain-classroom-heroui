@@ -1,0 +1,54 @@
+{
+  "count": 43,
+  "labels": [
+    {
+      "maxInlineSize": "196px",
+      "text": "网页",
+      "textOverflow": "ellipsis",
+      "whiteSpace": "nowrap"
+    },
+    {
+      "maxInlineSize": "196px",
+      "text": "移动端",
+      "textOverflow": "ellipsis",
+      "whiteSpace": "nowrap"
+    },
+    {
+      "maxInlineSize": "196px",
+      "text": "网页",
+      "textOverflow": "ellipsis",
+      "whiteSpace": "nowrap"
+    },
+    {
+      "maxInlineSize": "196px",
+      "text": "移动端",
+      "textOverflow": "ellipsis",
+      "whiteSpace": "nowrap"
+    },
+    {
+      "maxInlineSize": "196px",
+      "text": "概览",
+      "textOverflow": "ellipsis",
+      "whiteSpace": "nowrap"
+    },
+    {
+      "maxInlineSize": "196px",
+      "text": "分析",
+      "textOverflow": "ellipsis",
+      "whiteSpace": "nowrap"
+    },
+    {
+      "maxInlineSize": "196px",
+      "text": "报告",
+      "textOverflow": "ellipsis",
+      "whiteSpace": "nowrap"
+    },
+    {
+      "maxInlineSize": "196px",
+      "text": "账户",
+      "textOverflow": "ellipsis",
+      "whiteSpace": "nowrap"
+    }
+  ],
+  "theme": "light"
+}

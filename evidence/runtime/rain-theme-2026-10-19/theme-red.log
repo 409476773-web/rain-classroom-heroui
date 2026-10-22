@@ -1,0 +1,53 @@
+✔ import is inert in original light and dark; removing the brand restores exact computed styles (1492.291458ms)
+✖ Rain changes brand roles, font identity and container/field radii without changing geometry or motion (391.979291ms)
+✖ body-level overlay inherits Rain colors/radii and native keyboard focus remains usable (175.23625ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 1
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2325.994
+
+✖ failing tests:
+
+test at scripts/rain/theme.test.mjs:87:1
+✖ Rain changes brand roles, font identity and container/field radii without changing geometry or motion (391.979291ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'oklch(0.6204 0.195 253.83)'
+  - 'rgb(21, 97, 248)'
+  
+      at TestContext.<anonymous> (file:///Users/wenchengkai/CodexFile/hero%20ui-%E6%94%B9%E9%80%A0/scripts/rain/theme.test.mjs:94:12)
+      at async Test.run (node:internal/test_runner/test:1113:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'oklch(0.6204 0.195 253.83)',
+    expected: 'rgb(21, 97, 248)',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at scripts/rain/theme.test.mjs:109:1
+✖ body-level overlay inherits Rain colors/radii and native keyboard focus remains usable (175.23625ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'oklch(0.2103 0.0059 285.89)'
+  - 'rgb(20, 35, 60)'
+  
+      at TestContext.<anonymous> (file:///Users/wenchengkai/CodexFile/hero%20ui-%E6%94%B9%E9%80%A0/scripts/rain/theme.test.mjs:125:12)
+      at runNextTicks (node:internal/process/task_queues:64:5)
+      at process.processImmediate (node:internal/timers:472:9)
+      at async Test.run (node:internal/test_runner/test:1113:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'oklch(0.2103 0.0059 285.89)',
+    expected: 'rgb(20, 35, 60)',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

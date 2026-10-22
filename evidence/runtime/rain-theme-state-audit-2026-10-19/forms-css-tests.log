@@ -1,0 +1,11 @@
+✔ 168 form CSS state fixtures leave original light/dark unchanged after import and switching back (3739.4625ms)
+✔ Rain form states retain dimensions, disabled behavior, focus/error geometry, pseudo-element shapes and motion (993.23625ms)
+✔ InputGroup native focus applies the correct Rain normal/error ring without changing the original focus mechanism (2425.816708ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 7449.900125

@@ -1,0 +1,45 @@
+[
+  {
+    "url": "http://127.0.0.1:3100/cn/docs/react/getting-started",
+    "status": 200,
+    "bytes": 615968,
+    "seconds": 12.38,
+    "hasTitle": true
+  },
+  {
+    "url": "http://127.0.0.1:3100/cn/docs/react/components/card",
+    "status": 200,
+    "bytes": 1304464,
+    "seconds": 12.77,
+    "hasTitle": true
+  },
+  {
+    "url": "http://127.0.0.1:3100/cn/docs/react/components/form",
+    "status": 200,
+    "bytes": 909037,
+    "seconds": 2.77,
+    "hasTitle": true
+  },
+  {
+    "url": "http://127.0.0.1:3100/cn/docs/react/components/select",
+    "status": 200,
+    "bytes": 1939726,
+    "seconds": 2.71,
+    "hasTitle": true
+  },
+  {
+    "url": "http://127.0.0.1:3100/docs/react/components/card",
+    "status": 200,
+    "bytes": 1305692,
+    "seconds": 1.62,
+    "hasTitle": true
+  },
+  {
+    "url": "http://127.0.0.1:6006/index.json",
+    "status": 200,
+    "bytes": 254192,
+    "seconds": 0.0,
+    "stories": 587,
+    "comparisonPresent": true
+  }
+]

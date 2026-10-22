@@ -1,0 +1,36 @@
+{
+  "name": "browser-matching-1243",
+  "classification": "upstream-matching-browser",
+  "actualBrowserVersion": "Google Chrome for Testing 153.0.8010.12",
+  "playwrightRevision": "1243",
+  "command": [
+    "pnpm",
+    "--filter",
+    "@heroui/react",
+    "exec",
+    "vitest",
+    "run",
+    "--project",
+    "react-browser",
+    "--maxWorkers=1",
+    "--browser.fileParallelism=false",
+    "--reporter=default",
+    "--reporter=json",
+    "--outputFile=/Users/wenchengkai/CodexFile/hero ui-改造/evidence/runtime/heroui-baseline-2026-10-19/tests/browser-matching-1243.json"
+  ],
+  "shellDisplay": "pnpm --filter @heroui/react exec vitest run --project react-browser --maxWorkers=1 --browser.fileParallelism=false --reporter=default --reporter=json '--outputFile=/Users/wenchengkai/CodexFile/hero ui-改造/evidence/runtime/heroui-baseline-2026-10-19/tests/browser-matching-1243.json'",
+  "cwd": "/Users/wenchengkai/CodexFile/hero ui-改造",
+  "startedAt": "2026-10-19T09:08:27.908174+00:00",
+  "log": "/Users/wenchengkai/CodexFile/hero ui-改造/evidence/runtime/heroui-baseline-2026-10-19/tests/browser-matching-1243.log",
+  "exitCode": 0,
+  "finishedAt": "2026-10-19T09:08:37.045077+00:00",
+  "durationSeconds": 9.14,
+  "vitestSummary": {
+    "numTotalTests": 47,
+    "numPassedTests": 47,
+    "numFailedTests": 0,
+    "numPendingTests": 0,
+    "success": true
+  },
+  "resultFiles": 12
+}

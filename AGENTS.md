@@ -1,5 +1,13 @@
 # AGENTS.md
 
+## Rain Classroom local workspace
+
+- This checkout pins HeroUI 3.2.6. Read `docs/rain/ai/index.md` and `docs/rain/ai/usage-rules.md` for Rain tasks; locate local APIs through `docs/rain/ai/components.md` or `apps/docs/src/generated/rain-catalog.json`.
+- Prefer business compositions over primitive changes. Keep brand colors, font families and radii in `packages/rain-theme/index.css`; preserve upstream geometry and interaction unless the user explicitly requests a change.
+- The grading example is user-reviewed at the current 10px button radius; see `docs/rain/grading-example.md`. Its data is fictional and page-local.
+- Current user constraint: do not start new heavy test runs, full-story sweeps or production builds. Use necessary focused checks and record unverified work explicitly. Do not infer permission to commit, push, publish or migrate another project.
+- The old Rain library is a read-only brand source. Never copy its component implementation into this checkout.
+
 Instructions for AI agents working with the HeroUI v3 repository.
 
 ## Repository Overview

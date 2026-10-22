@@ -1,0 +1,30 @@
+{
+  "archives": [
+    {
+      "file": "packages/heroui-styles-3.2.6.tgz",
+      "name": "@heroui/styles",
+      "sha256": "2815eba93b7a66edd49067850306938d954a09d0352df53ad1d015d418e47c82",
+      "version": "3.2.6"
+    },
+    {
+      "file": "packages/heroui-react-3.2.6.tgz",
+      "name": "@heroui/react",
+      "sha256": "3b32f4fbfc5c840f5efad1067d6c3bf83a1557aae44fef549c6b31336a35c123",
+      "version": "3.2.6"
+    },
+    {
+      "file": "packages/rain-classroom-heroui-theme-0.1.1.tgz",
+      "name": "@rain-classroom/heroui-theme",
+      "sha256": "06d4015254063f2488b5c63cec930fd9ed7cba92ec773887b1f39d6f23cfb758",
+      "version": "0.1.1"
+    }
+  ],
+  "createdAt": "2026-10-20T08:23:21.730Z",
+  "dependencyVerification": "Existing local third-party dependencies reused; no clean network installation.",
+  "heroUiCommit": "e385ac202b2cdb94b1bf6fa76d32c31c8259cc5e",
+  "heroUiRelease": "v3.2.6",
+  "lockfileSha256": "1ea1be22f0b2304dc81d10f8f4bdb2562f9a4444b77c5cb68928305c69dac815",
+  "privateLocalDelivery": true,
+  "themeSourceSha256": "3a681c04190cecbd82e8a096645d004438ab8e58ac109a3fc79f270432b0483d",
+  "verification": "report.json"
+}

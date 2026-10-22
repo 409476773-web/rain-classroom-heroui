@@ -1,0 +1,83 @@
+{
+  "at": "2026-10-21T00:25:10.371133+08:00",
+  "status": "bounded-work-complete-P5-overall-pending",
+  "upstream": "HeroUI 3.2.6",
+  "themeVersion": "0.1.2",
+  "selectedStories": 51,
+  "releasePreviews": 19,
+  "savedObservationAssertions": 53,
+  "esmImports": 172,
+  "jsImportsAreNotBehaviorTests": true,
+  "moduleRows": 87,
+  "issueSections": 15,
+  "localDocumentLinks": 227,
+  "sourceChanges": [
+    {
+      "path": "packages/storybook/.storybook/globals.css",
+      "sha256": "27f1b931316af40b9b0dedf25ac3a406fdbfd4aa8d2b829f4596ceddd7f341de"
+    },
+    {
+      "path": "apps/docs/content/docs/en/react/releases/v3-0-0-alpha-34.mdx",
+      "sha256": "1cb18defdfc8bf10b1d5c2323a8ab7da4f2d99dce4212110d4d91ec336f1308a"
+    },
+    {
+      "path": "apps/docs/content/docs/cn/react/releases/v3-0-0-alpha-34.mdx",
+      "sha256": "0b9738c9e6ab68fdbcccf713a771723d2744a501820a9f2ecd91db91e4aeea92"
+    },
+    {
+      "path": "apps/docs/content/docs/cn/react/releases/v3-0-4.mdx",
+      "sha256": "59c2c6e94853b1002a3a36051a1afb6780dbd8ba136ebfdc53d13153a35ff08b"
+    }
+  ],
+  "inventory": {
+    "sha256": "b897f01651f0f1e00260b256cc21b4efe11ebe38e3d15e3adfffd81caba728f8",
+    "summary": {
+      "allStoryFiles": 80,
+      "builtStories": 587,
+      "builtStorybookEntries": 660,
+      "componentStoryFiles": 68,
+      "locales": {
+        "en": {
+          "allReactDocs": 179,
+          "componentDocs": 73,
+          "demoTsxFiles": 683,
+          "registeredDemos": 681
+        },
+        "zh": {
+          "allReactDocs": 179,
+          "componentDocs": 73,
+          "demoTsxFiles": 687,
+          "registeredDemos": 681
+        }
+      },
+      "publicComponentBarrelModules": 85,
+      "referenceIssues": 9,
+      "registeredLoaderWrappers": 4,
+      "sourceModules": 87,
+      "staticStoryExports": 596,
+      "unregisteredDemoFiles": 4
+    }
+  },
+  "protectedUnchanged": 9,
+  "protectedExpectedChanges": [
+    "apps/docs/src/generated/rain-catalog.json",
+    "docs/rain/inventory.json",
+    "packages/storybook/.storybook/globals.css"
+  ],
+  "archiveFilesUnchanged": 23,
+  "notRun": [
+    "heavy test suites",
+    "full-story sweep",
+    "production builds",
+    "dependency installation",
+    "other browsers/assistive technology/real touch",
+    "commit/push/publish/migration"
+  ],
+  "knownLimits": [
+    "I01 calendar year focus",
+    "I04 low contrast retained confirmed colors",
+    "I14 upstream OTP fixture stale error text",
+    "I15 upstream Autocomplete pointer-open Escape focus",
+    "two retained React console diagnostics not attributed per entry"
+  ]
+}
